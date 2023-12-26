@@ -1,0 +1,40 @@
+# Allegro script
+#	file: D:/OneDrive/C_Library/SKILL/layer_bottom.scr
+#	start time: Thu May 28 16:53:36 2020
+#	Version: 17.4-2019 S006 (3859078) Windows SPB 64-bit Edition
+version 17.4
+
+setwindow pcb
+trapsize 1580
+generaledit
+color192 
+generaledit 
+QtSignal CVDLayerContainer CVDVisibilityOff clicked
+QtSignal CVDLayerTable VertHeader clickedCheckBox 3 1
+QtSignal CVDLayerSplitter CVDLayerTable dataChanged 3 0
+QtSignal CVDLayerTable VertHeader clickedCheckBox 5 1
+QtSignal CVDLayerSplitter CVDLayerTable dataChanged 5 0
+QtSignal CVDLayerTable VertHeader clickedCheckBox 7 1
+QtSignal CVDLayerSplitter CVDLayerTable dataChanged 7 0
+QtSignal CVDLayerSplitter CVDLayersTree itemSelectionChanged Areas "Route keepin"
+QtSignal CVDLayerTable CVDLayerTableDelegate clickedBox "Through All" "Rte KI" 1
+QtSignal CVDLayerSplitter CVDLayerTable dataChanged 0 0
+QtSignal CVDLayerSplitter CVDLayerTable selectionChanged
+QtSignal CVDLayerSplitter CVDLayersTree itemSelectionChanged Areas "Package keepin"
+QtSignal CVDLayerTable CVDLayerTableDelegate clickedBox "Through All" "Pkg KI" 1
+QtSignal CVDLayerSplitter CVDLayerTable dataChanged 0 0
+QtSignal CVDLayerSplitter CVDLayerTable selectionChanged
+QtSignal CVDLayerSplitter CVDLayersTree itemSelectionChanged Geometry "Board geometry"
+QtSignal CVDLayerTable CVDLayerTableDelegate clickedBox Cutout BrdGeo 1
+QtSignal CVDLayerSplitter CVDLayerTable dataChanged 4 0
+QtSignal CVDLayerSplitter CVDLayerTable selectionChanged
+QtSignal CVDLayerTable CVDLayerTableDelegate clickedBox Outline BrdGeo 1
+QtSignal CVDLayerSplitter CVDLayerTable dataChanged 9 0
+QtSignal CVDLayerSplitter CVDLayerTable selectionChanged
+QtSignal CVDLayerTable CVDLayerTableDelegate clickedBox Design_Outline BrdGeo 1
+QtSignal CVDLayerSplitter CVDLayerTable dataChanged 5 0
+QtSignal CVDLayerSplitter CVDLayerTable selectionChanged
+QtSignal ColorVisibilityDialog CVDApplyButton clicked
+QtSignal ColorVisibilityDialog CVDOkButton clicked
+
+#	stop time: Thu May 28 16:54:11 2020

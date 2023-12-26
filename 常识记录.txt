@@ -1,0 +1,389 @@
+Physical 物理规则，三个大子项，优先级越来越高
+
+带网格的规则是此处无效的四四
+黄色是未启用的规则
+Physical Constraint Set ：
+	Line Witdth：
+	Neck：max Length不能设置成0，否则会有drc。拉线时右键选择Neck模式
+	Differential Pair：
+	Via：
+	BB Via Stagger：盲孔间距 min=0，可以连在一起
+	Allow：
+	在Net--all layer 修改了规则，不能自动清除，选中修改的值，右键，clear
+	Net Group 创建组
+Spacing
+	Spacing Constraint Set 
+	All Layers    DEFAULT右键 最下边有一个chang all design 修改所有的间距
+
+	Net Class-Class 组之间的间距规则
+
+
+	Region 区域规则：
+	先Creat 再新建Spacing Constraint Set     Physical Constraint Set 规则
+	添加铺铜，Class选择Constraint Rsgion
+
+
+
+差分对的线内间距   primary规则
+
+
+
+
+
+
+
+1：DC-DC 是否加粗地线；
+2：电源地线是否加粗；
+3：芯片电源是否加电容；
+4：模块是否交叉；
+5:  夹缝是否有元器件；
+
+RE = 0   DE = 0 接收
+RE = 1   DE = 1 发送
+https://blog.csdn.net/Athena_min/article/details/5370363
+STM32F779xx_User_Manual.chm
+
+手势：
+https://wenku.baidu.com/view/79c3e1fb84254b35eefd34f2.html
+
+添加封装信息：
+
+交互操作：
+
+布线 Hug only，禁止drc
+	推挤，
+
+move 后不需要完成，直接点其他命令可直接完成
+
+
+
+
+更新焊盘封装：tool refresh
+替换焊盘封装：tool pad--replace，下方不做修改，全部替换，#改为引脚号，只替换一个
+
+更新dxf，勾选第二个更新选项，否则，原来布线布局会消失，结构更新的outline可以在导入的时候新建一个subclass，以方便比对
+
+设置pcb堆叠： 即设置层数及各层功能和加rf4等，cm前的图标
+
+显示远点图标：  显示孔一栏，最下边，display orign
+
+更改远点：setup change orign x 0 0
+
+
+
+更改显示亮度   
+
+
+内缩20mil   0.5mm
+
+导入网络  勾选下方4个的第二个
+
+
+移动不规则范围内的器件：move 右键 select of polygon
+
+
+package keepout区域：shape 区域，options   package out  选择层
+keepout同理
+
+更新封装  place update symbols 勾选 updata symbol padstacks from library和ignore FIXED propery
+
+refrssh ？
+
+快速交换元器件  swap：place  swap
+
+
+元器件对齐：
+
+
+模块复用：快速布局，框选第一个模块
+
+
+物理规则  设置线宽，及差分对的间距。physical  默认设置，只需设置 line width和neck   最大值设置为0为无限大
+	差分对设置前两个
+	然后给net选择设置的内容。
+
+创建power net class
+	规则复制到net
+	net  ctrl 选取电源 右键 creat   一次性全部设置net物理规则
+	
+创建差分对  net 选中 creat
+	net static phase 长度差值5milddr3
+
+设置间距规则：spacing  设置6个line  thru smd  via  shape  hole  （bb盲孔）其他默认
+
+创建区域规则：physical  和 spacing 创建区域
+	  	
+		shape 	contriant region  选层 ，physical  创建区域规则，设置线宽等
+					 spacing 设置lin smd thru等规则
+		选中画的圈，右侧，设置为刚才设置的规则
+		shape画圈
+
+创建Xnet：ANALYZE 	 model a  r4 tap 选择 creat
+
+创建等长组：电气规则：
+	选中，creat class 每个成员 创建管脚对，creat pin pare
+	选中每个成员  creat match group  
+	新创建的群组，relative delay  长度误差值   0MIL：50MIL
+	选中某一个线为基准线，选中某一个relative delay，右键，tagret - 
+
+设置规则开关：cm界面 analyze
+		打开全部的电气物理drc
+	
+	
+群组走线 ：走线 框选 右键 route spacing
+
+
+隐藏电源飞线：edit properties  find选net 点pcb中的GND，找到ratsnest-Schedule  value选power
+
+
+批量修改线宽：edit changge fine选clines  options线宽改为4.8 然后修改。
+
+更改走线层：edit changge fine选clines options选修改后的层，然后修改
+
+差分对走线：差分对过孔间距：右键，via parten  seting user自定义
+
+蛇形走线：
+	一般选第一项 3倍线宽间距
+	差分线选第三个走线
+
+显示走线长度：
+	set  usep router  allegro_dynam选on 下边两个勾
+
+设置DRC大小：
+	setup design 第一个界面
+
+
+AICC功能：走线自动转化为弧形走线，高速pcb
+	route --unsupport pro---auto CONVERTER
+
+AIDT功能：自动绕等长，空间比较大的时候使用
+
+
+批量换过孔：
+	单击过孔--replace 选择单个还是全部
+
+
+DGA扇出：
+	提前扇出，以免后期移动电阻电容
+	扇出要设置规则   physical
+	还需设置好过孔
+
+
+辅铜：
+	辅铜的时候， 右键 赋予网络，assign net 左键点焊盘，直接可以给铜加网络
+
+绘制完成后，电源可以设置为静态，以免打孔引起的铺铜变宅
+
+更改铜皮的网络：
+	选择铜皮，中间又一个鼠标的箭头，assign net 左键点焊盘，直接可以给铜加网络
+
+
+合并铜皮：
+	shape -----Megre shape 铜皮类型需要一致，全部为静态或动态
+
+镂空铜皮：挖掉一块铜皮，变压器下方不能铺铜
+	shape---Manual Void/
+	静态铜皮会弹起选项框，选否
+
+编辑铜皮轮廓
+	shape  shape edit
+	需要注意，引线不能从轮廓的中间引出，引线与原来的铜皮只能有一个交点
+
+铜皮+字连接    
+	shape---Global Dynamic Shape---最后一项
+	更改个别引脚的连接方式（优先级更高），edit ---proteri---find（pin） --左键单击引脚
+		---Dyn Themal Con Type 选择连接方式
+
+
+铜皮转换：
+	shape change 	
+
+电源铜皮分割;
+	画一个小点的地，再画一个大的区域地
+
+删除孤铜：
+	shape delete   islands
+
+铜皮换层
+	change命令
+
+网格铜皮：	
+	shape---Global Dynamic Shape--第一项  Xhatch stype
+
+
+外扩内缩铜皮轮廓：
+	find shape
+	选中铜皮，右键  expand/contract
+	阻焊 外扩00.1。。。
+
+铜皮优先级：
+	右箭头的铺铜，，选中铜皮  右键 lower/raise priority
+
+显示隐藏铜皮：
+	setup  user  display  shape  4个对勾
+
+批量修改位号尺寸：
+	change  fine （文本）
+  		option  只选 block    框选 确定
+		
+
+调整位号：翻转整个板子？
+
+删除多余的过孔：
+	quick report 
+	danling lins vias
+
+
+添加尺寸：
+	manufacture
+	dim
+	右键
+	liner di
+	选择板框的两端的线
+	Done
+	更改参数，第四步改为parm--
+	删除：也用上面的命令，delete 
+	board ge     dim  在这个class
+
+添加泪滴
+	route ？？？？
+
+使用gerber切换视图：
+
+	via界面  view
+
+
+坐标文件：贴片时候
+	导出---placement  body center
+
+
+加密pcb：
+	file properites   lock
+
+
+复用 pcb格式：
+	导出 Parameters
+	全选 导出
+	新建pcb，先设置为N层板，然后层的名称需要一样，导入Parameters
+
+
+导出封装:
+	直接导出的过孔通孔需要修改，因为导出的焊盘，包含有pcb的层叠
+	可以导出的封装，再打开，再导出
+
+
+查看pcb管教数量：
+	f4 find改为pin
+
+
+取消记忆线宽：
+	setup --  user  ---route-- --connect--no width  打钩
+	
+
+	
+
+1.0bga  过孔用10/18
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+

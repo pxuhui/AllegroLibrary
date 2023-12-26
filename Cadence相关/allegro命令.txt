@@ -1,0 +1,18 @@
+assign color     高亮颜色显示
+
+
+
+funckey ' ' iangle -90
+funckey  m   move
+funckey  w   add connect
+funckey   o    mirror
+funckey q     done
+
+
+alias Del delete
+alias ESC cancel
+
+
+http://www.edaceo.com/thread-19313-1-1.html
+
+

@@ -1,0 +1,10 @@
+Allegro小工具简单实用，支持元器件、丝印、管教、过孔等的自动对齐，多种对齐方式可选。
+
+安装方法
+
+建议Allegro版本16.3以上。16.5测试通过。
+1）解压icons.rar至目录 Cadence\SPB_16.5\share\local\pcb\icons;
+2）解压skill.rar至目录Cadence\SPB_16.5\share\local\pcb\skill;
+3）解压align.rar至目录Cadence\SPB_16.5\share\local\pcb\forms;
+4）重启Allegro,输入命令“AL”即可启动;
+ 

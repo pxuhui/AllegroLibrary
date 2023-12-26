@@ -1,0 +1,26 @@
+
+
+/****************************************************/
+;               Title : setlayer
+;    Execute Command :  L+<number>
+;             Author :  Watchtower
+;      Creation Date :  2020-05-16
+; Update :  2020-05-16
+       
+axlCmdRegister("l" 'setlayer ?cmdType "interactive")
+
+procedure(setlayer(@optional (num ""))
+let((layernum layercount)
+layernum=atoi(num)
+layercount=length(axlSubclassRoute())
+if(layernum!=nil &&layernum>0 then
+                if(layernum<=layercount  then
+                        axlSetActiveLayer(strcat("Etch/" nthelem(layernum axlSubclassRoute()) ) )
+                else
+                        nil
+                )
+        else
+                axlUIWPrint(nil "Please input number")       
+        )
+)
+)

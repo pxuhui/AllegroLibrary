@@ -1,0 +1,23 @@
+(---------------------------------------------------------------------)
+(                                                                     )
+(    CREATE SYMBOL                                                    )
+(                                                                     )
+(    Drawing          : MTG220-450-VIA.dra                            )
+(    Software Version : 23.1P001                                      )
+(    Date/Time        : Mon Dec 11 10:40:09 2023                      )
+(                                                                     )
+(---------------------------------------------------------------------)
+
+
+Create Symbol of type: PACKAGE
+    Directory = D:/OneDrive/C_Library/A_Library
+    Name      = mtg220-450-via.psm
+    User      = X
+    Machine   = X
+
+
+Create symbol started.
+ 
+
+Create symbol completed.
+

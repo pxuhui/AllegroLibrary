@@ -1,0 +1,14 @@
+\t (00:00:00) padstack_editor 23.1 P001 Windows SPB 64-bit Edition
+\t (00:00:00)     Journal start - Mon Dec 11 10:52:19 2023
+\t (00:00:00)         Host=X User=X Pid=21348 CPUs=12
+\t (00:00:00) CmdLine= d:\soft\cadence23\spb_23.1\tools\bin\padstack_editor.exe D:\OneDrive\C_Library\A_Library\pad_mtg220_450v.pad
+\t (00:00:00) 
+\d (00:00:02) QtSignal MainWindow New triggered
+\d (00:00:05) QtSignal MainWindow SaveAs triggered
+\d (00:00:07) QtFillin "pad_mtg220_450v.pad"
+\d (00:00:08) QtFillin Yes
+\d (00:00:14) QtSignal MainWindow SaveAs triggered
+\d (00:00:20) QtFillin "pad_mtg220_450v.pad"
+\d (00:00:20) QtFillin Yes
+\d (00:00:23) QtSignal MainWindow Exit triggered
+\t (00:00:23)     Journal end - Mon Dec 11 10:52:43 2023

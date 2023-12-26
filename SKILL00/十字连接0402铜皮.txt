@@ -1,0 +1,31 @@
+axlCmdRegister("RCST" `rc_shape_type)
+
+procedure(rc_shape_type()
+    prog( ()
+       
+                RCST_SymbolDbid = axlDBGetDesign()->symbols
+                RCST_LpSymbolDbidNumb = length(RCST_SymbolDbid)
+                RCST_DoneOk = 0
+                when(RCST_SymbolDbid
+                   axlMeterCreate("Set Pins To ORTHOGONAL ", "", nil)
+                   while(RCST_DoneOk<RCST_LpSymbolDbidNumb
+                    foreach(one RCST_SymbolDbid
+                 RCST_SymbolName = one->name
+                                 when(rexMatchp("[Cc]+0402+" RCST_SymbolName)
+                                 ;||rexMatchp("[Cc]+0603+" RCST_SymbolName) ;加上这句同时设置所有C0603封装。
+                                 ;when(rexMatchp("0402+" RCST_SymbolName) ;用这句设置所有0402封装包括电阻电感。
+                                 
+                                     LpSymbolPin = one->pins
+                                     axlDBAddProp(car(LpSymbolPin), list("DYN_THERMAL_CON_TYPE", "ORTHOGONAL")) ;设置两个pin的铜皮连接方式
+                             axlDBAddProp(cadr(LpSymbolPin), list("DYN_THERMAL_CON_TYPE", "ORTHOGONAL"))  
+                                )
+                                axlMeterUpdate( (100 * ++RCST_DoneOk)/RCST_LpSymbolDbidNumb
+                                sprintf(nil "Check %d of %d Symbols,Please wait a moment..." RCST_DoneOk RCST_LpSymbolDbidNumb))
+            )
+                )
+                axlMeterDestroy()
+                )
+       
+                axlMsgPut("Copper connection mode set successfully !")
+        )
+)

@@ -1,0 +1,38 @@
+(---------------------------------------------------------------------)
+(                                                                     )
+(    Refresh Padstack                                                 )
+(                                                                     )
+(    Drawing          : MTG220-450-VIA.dra                            )
+(    Software Version : 23.1P001                                      )
+(    Date/Time        : Mon Dec 11 10:51:41 2023                      )
+(                                                                     )
+(---------------------------------------------------------------------)
+
+
+Mon Dec 11 10:51:41 2023				Page     1
+
+
+------ Pad Stack Refresh Options ------
+
+Input design  = 'D:/OneDrive/C_Library/A_Library/MTG220-450-VIA.dra'
+Output design = ''
+Reset symbol text and size locations   = 'NO'
+
+
+------ Library Paths ------
+PSMPATH =  D:/OneDrive/C_Library/A_Library 
+
+PADPATH =  D:/OneDrive/C_Library/A_Library 
+
+
+------ Pad Stack Refresh Messages ------
+
+'PAD_MTG220_450V'  pad stack refresh starting.
+
+     'PAD_MTG220_450V'  pad stack refreshed successfully.
+     
+'PAD_MTG220_450'  pad stack refresh starting.
+
+     'PAD_MTG220_450'  pad stack refreshed successfully.
+     
+Completed refreshing all pad stacks successfully.

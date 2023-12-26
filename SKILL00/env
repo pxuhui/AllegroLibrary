@@ -1,0 +1,86 @@
+[Allegro Footprints]
+Dir0=D:\OneDrive\C_Library\A_Library
+[Part Library Directories]
+Dir0=D:\OneDrive\C_Library\OLB
+[Cis Browse Directories]
+Dir0=D:\OneDrive\C_Library\datasheet
+
+
+funckey e delete
+funckey h hilight
+funckey t dehilight
+funckey g define grid
+funckey tab spin
+funckey q done
+funckey c copy
+funckey d shape edit boundary
+funckey h hilight
+funckey s slide 
+funckey w add connect
+funckey v vertex
+funckey m move
+funckey " " iangle 90
+funckey z iangle 5
+funckey a iangle -5
+funckey o mirror
+funckey r Rotate
+funckey p swap components
+
+
+alias Del delete
+alias Esc cancel
+alias F7 UNRATS ALL 
+alias F8 RATS ALL
+alias F9 'settoggle no_etch_shape_display;redraw'
+alias F10 'settoggle no_shape_fill;redraw'
+
+;设置线宽
+funckey 6 Options acon_line_width 0.1524
+funckey 7 Options acon_line_width 0.1778
+funckey 8 Options acon_line_width 0.2032
+funckey 9 Options acon_line_width 0.2286
+funckey 10 Options acon_line_width 0.254
+funckey 11 Options acon_line_width 0.2794
+funckey 12 Options acon_line_width 0.3048
+funckey 13 Options acon_line_width 0.3302
+funckey 14 Options acon_line_width 0.3556
+funckey 15 Options acon_line_width 0.381
+funckey 16 Options acon_line_width 0.4064
+funckey 17 Options acon_line_width 0.4318
+funckey 18 Options acon_line_width 0.4572
+funckey 19 Options acon_line_width 0.4826
+funckey 20 Options acon_line_width 0.508
+funckey 21 Options acon_line_width 0.5334
+funckey 22 Options acon_line_width 0.5588
+funckey 23 Options acon_line_width 0.5824
+funckey 24 Options acon_line_width 0.6096
+funckey 25 Options acon_line_width 0.635
+funckey 26 Options acon_line_width 0.6604
+funckey 27 Options acon_line_width 0.6858
+funckey 28 Options acon_line_width 0.7112
+funckey 29 Options acon_line_width 0.7366
+funckey 30 Options acon_line_width 0.762
+funckey 31 Options acon_line_width 0.7874
+funckey 32 Options acon_line_width 0.8128
+funckey 33 Options acon_line_width 0.8382
+funckey 34 Options acon_line_width 0.8636
+funckey 35 Options acon_line_width 0.889
+funckey 36 Options acon_line_width 0.9144
+funckey 37 Options acon_line_width 0.9398
+funckey 38 Options acon_line_width 0.9652
+funckey 39 Options acon_line_width 0.9906
+funckey 40 Options acon_line_width 1.016
+funckey 41 Options acon_line_width 1.0414
+funckey 42 Options acon_line_width 1.0668
+funckey 43 Options acon_line_width 1.0922
+funckey 44 Options acon_line_width 1.1176
+funckey 45 Options acon_line_width 1.143
+funckey 46 Options acon_line_width 1.1684
+funckey 47 Options acon_line_width 1.1938
+funckey 48 Options acon_line_width 1.2192
+funckey 49 Options acon_line_width 1.2446
+funckey 50 Options acon_line_width 1.27
+
+
+
+

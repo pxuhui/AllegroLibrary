@@ -1,0 +1,34 @@
+
+
+新建 flash symble
+
+add ---> flash
+
+inner diameter 内圆直径
+outer diameter 外圆直径
+
+spoke width 开口
+
+file---> creat symbol
+
+做pad
+
+
+椭圆形焊盘 
+file 新flash
+
+add ---> frectangle  画出需要挖掉的范围  留出一个十字型
+
+    +++++         ++++++
+
+    +++++         ++++++
+
+creat symbol
+
+
+
+
+
+
+
+

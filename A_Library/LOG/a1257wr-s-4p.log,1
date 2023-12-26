@@ -1,0 +1,23 @@
+(---------------------------------------------------------------------)
+(                                                                     )
+(    CREATE SYMBOL                                                    )
+(                                                                     )
+(    Drawing          : A1257WR-S-4P.dra                              )
+(    Software Version : 23.1P001                                      )
+(    Date/Time        : Mon Dec 11 09:40:22 2023                      )
+(                                                                     )
+(---------------------------------------------------------------------)
+
+
+Create Symbol of type: PACKAGE
+    Directory = D:/OneDrive/C_Library/A_Library
+    Name      = a1257wr-s-4p.psm
+    User      = X
+    Machine   = X
+
+
+Create symbol started.
+ 
+
+Create symbol completed.
+
