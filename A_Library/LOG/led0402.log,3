@@ -2,16 +2,16 @@
 (                                                                     )
 (    CREATE SYMBOL                                                    )
 (                                                                     )
-(    Drawing          : SOP65P490X110-8N.dra                          )
+(    Drawing          : LED0402.dra                                   )
 (    Software Version : 23.1P001                                      )
-(    Date/Time        : Wed Dec 20 14:36:04 2023                      )
+(    Date/Time        : Thu Jan 18 16:06:27 2024                      )
 (                                                                     )
 (---------------------------------------------------------------------)
 
 
 Create Symbol of type: PACKAGE
     Directory = D:/OneDrive/C_Library/A_Library
-    Name      = sop65p490x110-8n.psm
+    Name      = led0402.psm
     User      = X
     Machine   = X
 
