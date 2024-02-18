@@ -1,399 +1,1601 @@
-\t (00:00:06) allegro 23.1 P001 Windows SPB 64-bit Edition
-\t (00:00:06)     Journal start - Thu Jan 18 16:27:51 2024
-\t (00:00:06)         Host=X User=X Pid=2136 CPUs=12
-\t (00:00:06) CmdLine= d:\soft\cadence\spb_23.1\tools\bin\allegro.exe D:\OneDrive\C_Library\A_Library\C0402.dra
-\t (00:00:06) 
-   (00:00:06) Loading axlcore.cxt 
-   (00:00:06) *Error* axlOSSlash: argument #1 should be a string (type template = "t") - nil
-   (00:00:06) function CutCancel redefined
-   (00:00:06) function CutDone redefined
-   (00:00:06) function CutOops redefined
-   (00:00:06) function ReplaceWithOldSeg redefined
-   (00:00:06) function ResetBox redefined
-   (00:00:06) function FindPointsInBox redefined
-   (00:00:06) function IsPointInBox redefined
-   (00:00:06) function Distance redefined
-   (00:00:06) function CloseEndPoint redefined
-   (00:00:06) function Is45DegreeLine redefined
-   (00:00:06) function IsSameLine redefined
-   (00:00:06) function ChangeAcc redefined
-   (00:00:06) function Greeting redefined
-   (00:00:06) function place_sym redefined
-   (00:00:06) function valor_film_info redefined
-   (00:00:06) function check_text_overlap redefined
-   (00:00:06) function biuld_form redefined
-   (00:00:06) function pform_Action redefined
-   (00:00:06) function refdes_on_pad redefined
-   (00:00:06) function barcode_overlap_atom redefined
-   (00:00:06) function refdes_overlap_component redefined
-   (00:00:06) function text_overlap_text redefined
-   (00:00:06) function text_on_pad redefined
-   (00:00:06) function text_on_testpoints redefined
-   (00:00:06) function get_bar_code_box redefined
-   (00:00:06) function getbox redefined
-   (00:00:06) function text_on_text redefined
-   (00:00:06) function unselect_object redefined
-   (00:00:06) function turn_on_layer redefined
-   (00:00:06) function init_loc_text redefined
-   (00:00:06) function add_loc_text redefined
-   (00:00:06) function location_text redefined
-   (00:00:06) function location_prv redefined
-   (00:00:06) function Quick_Grids redefined
-   (00:00:06) function gridsetform redefined
-   (00:00:06) function Grid_act redefined
-   (00:00:06) function SetCurGrid redefined
-   (00:00:06) function quicktext redefined
-   (00:00:06) function setTextSize redefined
-   (00:00:06) function _INEStartCallBk redefined
-   (00:00:06) function andylu redefined
-   (00:00:06) function CreateForm redefined
-   (00:00:06) function check_subclass_flag redefined
-   (00:00:06) function check_flag redefined
-   (00:00:06) function function_init redefined
-   (00:00:06) function Form_Action redefined
-   (00:00:06) function subdist_check_bianma_on redefined
-   (00:00:06) function subdist_check_standard_list_on redefined
-   (00:00:06) function subdist_check_mark_function redefined
-   (00:00:06) function subdist_module_check_function redefined
-   (00:00:06) function subdist_Delete_object redefined
-   (00:00:06) function testing_unselect_object redefined
-   (00:00:06) function check_testing_PCB_output redefined
-   (00:00:06) function main_check_show redefined
-   (00:00:06) function testing_bianma_check redefined
-   (00:00:06) function select_layer_flag_check redefined
-   (00:00:06) function testing_text_check redefined
-   (00:00:06) function testing_justice_list redefined
-   (00:00:06) function testing_Mech_check redefined
-   (00:00:06) function testingfind_getmax_min redefined
-   (00:00:06) function check_board_height_extract redefined
-   (00:00:06) function check_height_extract redefined
-   (00:00:06) function check_print_height redefined
-   (00:00:06) function testing_Creat_layer redefined
-   (00:00:06) function testing_Allcolor_set redefined
-   (00:00:06) function testing_turn_on_layer redefined
-   (00:00:06) function testing_Delline redefined
-   (00:00:06) function testing_HilElement redefined
-   (00:00:06) function testing_Hilight_box redefined
-   (00:00:06) function testing_calc_lt_symbol_range redefined
-   (00:00:06) function testing_line_symbolslist_calc redefined
-   (00:00:06) function calc_lt_symbol_selct_all redefined
-   (00:00:06) function testing_HilElement_line redefined
-   (00:00:06) function testing_line_symbolslist redefined
-   (00:00:06) function testing_line_symbols_high redefined
-   (00:00:06) function testing_text_lt_symbolsall redefined
-   (00:00:06) function testing_LostRef redefined
-   (00:00:06) function testing_LostPinName redefined
-   (00:00:06) function testing_Refdes_Direction redefined
-   (00:00:06) function testing_DeHLSymNetsPins redefined
-   (00:00:06) function testing_Refdes_same redefined
-   (00:00:06) function check_text_over_item redefined
-   (00:00:06) function testing_text_on_pad redefined
-   (00:00:06) function testing_text_on_testpoints redefined
-   (00:00:06) function testing_text_on_shape redefined
-   (00:00:06) function testing_text_overlap_text redefined
-   (00:00:06) function testing_text_on_text redefined
-   (00:00:06) function testing_text_overlap_line redefined
-   (00:00:06) function testing_text_on_Via redefined
-   (00:00:06) function testing_check_line_on_pad redefined
-   (00:00:06) function testing_check_text_inside_comp redefined
-   (00:00:06) function testing_check_text_in_comp redefined
-   (00:00:06) function testing_getbox redefined
-   (00:00:06) function subdist_checkitem_to_symbols redefined
-   (00:00:06) function subdist_check_mount_hole redefined
-   (00:00:06) function subdist_check_distance_on_mount redefined
-   (00:00:06) function subdist_check_distance_on_pin redefined
-   (00:00:06) function subdist_get_airgapbox redefined
-   (00:00:06) function subdist_get_clearance redefined
-   (00:00:06) function subdist_get_clearancesmall redefined
-   (00:00:06) function subdist_justice_components redefined
-   (00:00:06) function subdist_send_getbox_ver redefined
-   (00:00:06) function subdist_send_getbox_hor redefined
-   (00:00:06) function subdist_justice_send_border redefined
-   (00:00:06) function subdist_check_send_border redefined
-   (00:00:06) function drawing_outline_5mm_3r5mm redefined
-   (00:00:06) function yihan_length_width redefined
-   (00:00:06) function yihan_getbox_xy redefined
-   (00:00:06) function yihan_dispayer_num redefined
-   (00:00:06) function subdist_justice_cap redefined
-   (00:00:06) function subdist_send15mm_getbox_ver redefined
-   (00:00:06) function subdist_send15mm_getbox_hor redefined
-   (00:00:06) function subdist_getbox_xy redefined
-   (00:00:06) function subdist_check_pressfit redefined
-   (00:00:06) function subdist_check_BGA_range redefined
-   (00:00:06) function testing_check_pin_range redefined
-   (00:00:06) function subdist_check_via_on_pad redefined
-   (00:00:06) function subdist_check_thermal_on_pad redefined
-   (00:00:06) function subdist_BGAgetbox redefined
-   (00:00:06) function subdist_getbox redefined
-   (00:00:06) function subdist_pin12_getbox redefined
-   (00:00:06) function select_layer_flag_fill_list redefined
-   (00:00:06) function testing_single_fill redefined
-   (00:00:06) function creat_line_dem redefined
-   (00:00:06) function testing_diff_fill redefined
-   (00:00:06) function testing_getbox_diff redefined
-   (00:00:06) function testing_oil_fill redefined
-   (00:00:06) function testing_output_DXF_layer redefined
-   (00:00:06) function testing_search_vias_hilight redefined
-   (00:00:06) function testing_search_vias_list redefined
-   (00:00:06) function testing_move_function redefined
-   (00:00:06) function subrot_move_center redefined
-   (00:00:06) function subrot_AlignText_cancel redefined
-   (00:00:06) function subrot_AlignText_done redefined
-   (00:00:06) function subrot_AlignText_move redefined
-   (00:00:06) function sub_rotateref redefined
-   (00:00:06) function sub_GetRefIDComDir redefined
-   (00:00:06) function sub_RotateTopRef redefined
-   (00:00:06) function sub_RotateBtmRef redefined
-   (00:00:06) function generate_techfile redefined
-   (00:00:06) function shape_offset_drawing redefined
-   (00:00:06) function andylu_BuildShapePath redefined
-   (00:00:06) function andylu_AddShape redefined
-   (00:00:06) function testing_check_testpoints_ruler redefined
-   (00:00:06) function testing_check_status_ruler redefined
-   (00:00:06) function ps_DanglingForm_action redefined
-   (00:00:06) function ps_ddoCheck redefined
-   (00:00:06) function x_get_sym_bbox redefined
-   (00:00:06) function _saveSelSet redefined
-   (00:00:06) function _restoreSelSet redefined
-   (00:00:06) function findAllOfType redefined
-   (00:00:06) function ashFindAllClines redefined
-   (00:00:06) function ashFindAllClinesegs redefined
-   (00:00:06) function x_CmpPg redefined
-   (00:00:06) function x_CmpPgUseLimitTimes redefined
-   (00:00:06) function x_FormInitialization redefined
-   (00:00:06) function x_GreateFormCmpPg redefined
-   (00:00:06) function x_CmpPgFormAction redefined
-   (00:00:06) function x_CmpPgSet redefined
-   (00:00:06) function x_SetCmpPgDispaly redefined
-   (00:00:06) function x_ACmpPgInfo redefined
-   (00:00:06) function x_AutoPlmCmp redefined
-   (00:00:06) function x_AllPlm1 redefined
-   (00:00:06) function x_AllPlm2 redefined
-   (00:00:06) function x_AllPlm3 redefined
-   (00:00:06) function x_AllPlm12 redefined
-   (00:00:06) function x_CmpPgPlmCmp redefined
-   (00:00:06) function x_SglPlm redefined
-   (00:00:06) function x_SglPlmCmp redefined
-   (00:00:06) function x_SymToCursor redefined
-   (00:00:06) function x_Stoppage redefined
-   (00:00:06) function x_CmpPgLstDHilt redefined
-   (00:00:06) function x_CmpPgLstHilt redefined
-   (00:00:06) function x_CmpPgLstDehilt redefined
-   (00:00:06) function x_CmpPgLstDlt redefined
-   (00:00:06) function x_CmpPgLstDltAll redefined
-   (00:00:06) function x_CmpPgLstDltAGrp redefined
-   (00:00:06) function x_CmpPgLstDltAllGrp redefined
-   (00:00:06) function x_MvOldCmp redefined
-   (00:00:06) function x_MvFixCmp redefined
-   (00:00:06) function x_GrtGrp redefined
-   (00:00:06) function x_DelOldGrpName redefined
-   (00:00:06) function x_ExitSkill redefined
-   (00:00:06) function x_CmpPgInfo redefined
-   (00:00:06) function Check_Refdes_Direction redefined
-   (00:00:06) function Check_No_Refdes redefined
-   (00:00:06) function _saveSelSet redefined
-   (00:00:06) function _restoreSelSet redefined
-   (00:00:06) function Form_Action redefined
-   (00:00:06) function _saveSelSet redefined
-   (00:00:06) function _restoreSelSet redefined
-   (00:00:06) function findAllOfType redefined
-   (00:00:06) function skillFindAll redefined
-   (00:00:06) function ashFindAllPins redefined
-   (00:00:06) function ashFindAllVias redefined
-   (00:00:06) function ashFindAllClines redefined
-   (00:00:06) function ashFindAllClinesegs redefined
-   (00:00:06) function ashFindAllLines redefined
-   (00:00:06) function ashFindAllLinesegs redefined
-   (00:00:06) function ashFindAllDrcs redefined
-   (00:00:06) function ashFindAllText redefined
-   (00:00:06) function ashFindAllShapes redefined
-   (00:00:06) function ashFindAllShapesegs redefined
-   (00:00:06) function ashFindAllVoids redefined
-   (00:00:06) function ashFindAllVoidsegs redefined
-   (00:00:06) function ashFindAllSymbols redefined
-   (00:00:06) function ashFindAllComponents redefined
-   (00:00:06) function ashFindAllNets redefined
-   (00:00:06) function ashFindAllFigures redefined
-   (00:00:06) function CreateForm redefined
-   (00:00:06) function x_get_sym_bbox redefined
-   (00:00:06) function xFormBegin redefined
-   (00:00:06) function xFormEnd redefined
-   (00:00:06) function xCheckList redefined
-   (00:00:06) function xGroup redefined
-   (00:00:06) function xText redefined
-   (00:00:06) function xButton redefined
-   (00:00:06) function xList redefined
-   (00:00:06) function xEdit redefined
-   (00:00:06) function xInfoText redefined
-   (00:00:06) function Auto_Balance redefined
-   (00:00:06) function Balancing_Form_Action redefined
-   (00:00:06) function Balancing_Adder redefined
-   (00:00:06) function component_height redefined
-   (00:00:06) function createheightform redefined
-   (00:00:06) function heightform redefined
-   (00:00:06) function Height_Action redefined
-   (00:00:06) function do_height_extract redefined
-   (00:00:06) function do_height_print redefined
-   (00:00:06) function _saveSelSet redefined
-   (00:00:06) function _restoreSelSet redefined
-   (00:00:06) function _drcZap redefined
-   (00:00:06) function _drcFormBuild redefined
-   (00:00:06) function _drcHelp redefined
-   (00:00:06) function lfsSingleLayer redefined
-   (00:00:06) function lfsLayers redefined
-   (00:00:06) function lfsWindowExpand redefined
-   (00:00:06) function lfsDRCFilterList redefined
-   (00:00:06) function lfsDRCInitialize redefined
-   (00:00:06) function lfsMarkPoint redefined
-   (00:00:06) function _drcEnd redefined
-   (00:00:06) function _drcShow redefined
-   (00:00:06) function _drcUpdateDisp redefined
-   (00:00:06) function _drcUpdateAll redefined
-   (00:00:06) function _drcCallBack redefined
-   (00:00:06) function drc_main redefined
-   (00:00:06) function skillFindDang redefined
-   (00:00:06) function Form_Action redefined
-   (00:00:06) function _setup redefined
-   (00:00:06) function _findSize redefined
-   (00:00:06) function recheck redefined
-   (00:00:06) function _deleteXY redefined
-   (00:00:06) function _zoomin2 redefined
-   (00:00:06) function _clearForm redefined
-   (00:00:06) function _find_Clines redefined
-   (00:00:06) function _find_Lines redefined
-   (00:00:06) function _deleteAllClines redefined
-   (00:00:06) function _deleteAllLines redefined
-   (00:00:06) function _saveSelSet redefined
-   (00:00:06) function _restoreSelSet redefined
-   (00:00:06) function findAllOfType redefined
-   (00:00:06) function skillFindAll redefined
-   (00:00:06) function ashFindAllPins redefined
-   (00:00:06) function ashFindAllVias redefined
-   (00:00:06) function ashFindAllClines redefined
-   (00:00:06) function ashFindAllClinesegs redefined
-   (00:00:06) function ashFindAllLines redefined
-   (00:00:06) function ashFindAllLinesegs redefined
-   (00:00:06) function ashFindAllDrcs redefined
-   (00:00:06) function ashFindAllText redefined
-   (00:00:06) function ashFindAllShapes redefined
-   (00:00:06) function ashFindAllShapesegs redefined
-   (00:00:06) function ashFindAllVoids redefined
-   (00:00:06) function ashFindAllVoidsegs redefined
-   (00:00:06) function ashFindAllSymbols redefined
-   (00:00:06) function ashFindAllComponents redefined
-   (00:00:06) function ashFindAllNets redefined
-   (00:00:06) function ashFindAllFigures redefined
-   (00:00:06) function skillMakeDangList redefined
-   (00:00:06) function skillDeleteOneDrc redefined
-   (00:00:06) function skillDeleteDrcs redefined
-   (00:00:06) function skillDehighlightAll redefined
-   (00:00:06) function lcbMakeLineList redefined
-   (00:00:06) function lcbMakeDrc redefined
-   (00:00:06) function _createForm redefined
-   (00:00:06) function _helpButton redefined
-   (00:00:06) function jfhGetAllCompsDBid redefined
-   (00:00:06) function jfhChgAllRefdesTxtBlock redefined
-   (00:00:06) function jfhGetRefdesDBid redefined
-   (00:00:06) function jfhGetCompShadow redefined
-   (00:00:06) function jfhSplitComps redefined
-   (00:00:06) function jfhDBCreateRefdes redefined
-   (00:00:06) function jfhPlaceTopRefdes redefined
-   (00:00:06) function jfhPlaceBtmRefdes redefined
-   (00:00:06) function jfhCreateMacroFile redefined
-   (00:00:06) function jfhRefdesLocate redefined
-   (00:00:06) function jfhGetRefIDComDir redefined
-   (00:00:06) function jfhRotateTopRef redefined
-   (00:00:06) function jfhRotateBtmRef redefined
-   (00:00:06) function jfhRotateTopRefIr redefined
-   (00:00:06) function jfhRotateBtmRefIr redefined
-   (00:00:06) function jfhrotateref redefined
-   (00:00:06) function jfhrotaterefIr redefined
-   (00:00:06) function check_text_overlap redefined
-   (00:00:06) function biuld_form redefined
-   (00:00:06) function pform_Action redefined
-   (00:00:06) function refdes_on_pad redefined
-   (00:00:06) function barcode_overlap_atom redefined
-   (00:00:06) function refdes_overlap_component redefined
-   (00:00:06) function text_overlap_text redefined
-   (00:00:06) function text_on_pad redefined
-   (00:00:06) function text_on_testpoints redefined
-   (00:00:06) function get_bar_code_box redefined
-   (00:00:06) function getbox redefined
-   (00:00:06) function text_on_text redefined
-   (00:00:06) function unselect_object redefined
-   (00:00:06) function turn_on_layer redefined
-   (00:00:06) function init_loc_text redefined
-   (00:00:06) function add_loc_text redefined
-   (00:00:06) function location_text redefined
-   (00:00:06) function location_prv redefined
-   (00:00:06) function Find_Component_Routine redefined
-   (00:00:06) function _lgs_hilight_smd_main redefined
-   (00:00:06) function lgstech redefined
-   (00:00:06) function lgs_techrepfileCallback redefined
-   (00:00:06) function lgs_techrepflowCallback redefined
-   (00:00:06) function _lgs_moreinfo_callback redefined
-   (00:00:06) function lgs_call_techfile redefined
-   (00:00:06) function _lgs_setup_flow redefined
-   (00:00:06) function _lgs_setup_area_information redefined
-   (00:00:06) function _lgs_setup_information redefined
-   (00:00:06) function _lgs_setup_area redefined
-   (00:00:06) function _lgs_setup_area_unsel redefined
-   (00:00:06) function _lgs_setup_area_sel redefined
-   (00:00:06) function lgs_techrepCallback redefined
-   (00:00:06) function _lgs_del_mum_list redefined
-   (00:00:06) function _lgs_load_callback redefined
-   (00:00:06) function _lgs_write_area_drc_scr redefined
-   (00:00:06) function _lgs_line_processor redefined
-   (00:00:06) function _lgs_write_flow_drc_scr redefined
-   (00:00:06) function _lgs_default_area_drcmode_set redefined
-   (00:00:06) function _lgs_Build_Technics_Manager_Form redefined
-   (00:00:06) function _LJJ_camclear redefined
-   (00:00:06) function FindStubs redefined
-   (00:00:06) function LookUp redefined
-   (00:00:06) function AddToStubList redefined
-   (00:00:06) function CreateForm redefined
-   (00:00:06) function Stub_Find_Form_Routine redefined
-   (00:00:06) function Stub_Find_Form_Action redefined
-   (00:00:06) function find_stubs redefined
-   (00:00:06) function Form_Action redefined
-   (00:00:06) 
-   (00:00:06) errset(loadi(strcat(axlOSSlash(getShellEnvVar("FP_SKILL")),"FP_Load.il"),"fastprint"))load("loginshow.il" "www.pcbskill.com")  
-   (00:00:06)                                                                                       ^^^^
-   (00:00:06) SYNTAX ERROR found at line 180 column 87 of file allegro.ilinit
-   (00:00:06) *Error* lineread/read: syntax error encountered in input
-\t (00:00:06) Opening existing design...
-\i (00:00:06) QtSignal SPBFoldDockArea FoldAreaTabWidget currentChanged C0402
-\d (00:00:06) Design opened: D:/OneDrive/C_Library/A_Library/C0402.dra
-\i (00:00:06) trapsize 314
-\i (00:00:07) trapsize 328
-\i (00:00:07) trapsize 314
-\i (00:00:07) trapsize 319
-\i (00:00:07) quick_display 
-\i (00:00:07) trapsize 205
-\i (00:00:07) generaledit 
-\i (00:00:12) replace padstack 
-\i (00:00:12) pick grid -0.4724 0.0995
-\t (00:00:12) last pick:  0.0000 0.0000
-\i (00:00:14) setwindow form.mini
-\i (00:00:14) FORM mini newname_browse  
-\i (00:00:21) fillin "Smd22_20-A"
-\w (00:00:21) WARNING(SPMHUT-48): Scaled value has been rounded off.
-\i (00:00:22) FORM mini replace  
-\t (00:00:22) Done, updated padstack.
-\t (00:00:22) 2 out of 2 old padstack SMD22_20-A were replaced with new padstack SMD22_20-A.
-\i (00:00:24) setwindow pcb
-\i (00:00:24) prepopup 1.9348 -0.0233
-\i (00:00:24) done 
-\t (00:00:24) Performing DRC...
-\t (00:00:24) No DRC errors detected.
-\i (00:00:25) generaledit 
-\i (00:00:25) pick grid 1.8324 0.0217
-\t (00:00:25) last pick:  2.5400 0.0000
-\i (00:00:25) save 
-\i (00:00:26) fillin yes 
-\t (00:00:26) Symbol 'c0402.psm' created.
-\i (00:00:26) generaledit 
-\i (00:00:27) pick grid 1.5827 -0.0111
-\t (00:00:27) last pick:  2.5400 0.0000
-\i (00:00:28) exit 
-\t (00:00:28)     Journal end - Thu Jan 18 16:28:13 2024
+\t (00:00:07) allegro 23.1 P001 Windows SPB 64-bit Edition
+\t (00:00:07)     Journal start - Sun Feb 18 12:09:40 2024
+\t (00:00:07)         Host=X User=X Pid=2924 CPUs=12
+\t (00:00:07) CmdLine= d:\soft\cadence\spb_23.1\tools\bin\allegro.exe D:\OneDrive\C_Library\A_Library\AFC12-S06CCC-00.dra
+\t (00:00:07) 
+   (00:00:07) Loading axlcore.cxt 
+   (00:00:08) *Error* axlOSSlash: argument #1 should be a string (type template = "t") - nil
+   (00:00:08) function CutCancel redefined
+   (00:00:08) function CutDone redefined
+   (00:00:08) function CutOops redefined
+   (00:00:08) function ReplaceWithOldSeg redefined
+   (00:00:08) function ResetBox redefined
+   (00:00:08) function FindPointsInBox redefined
+   (00:00:08) function IsPointInBox redefined
+   (00:00:08) function Distance redefined
+   (00:00:08) function CloseEndPoint redefined
+   (00:00:08) function Is45DegreeLine redefined
+   (00:00:08) function IsSameLine redefined
+   (00:00:08) function ChangeAcc redefined
+   (00:00:08) function Greeting redefined
+   (00:00:08) function place_sym redefined
+   (00:00:08) function valor_film_info redefined
+   (00:00:08) function check_text_overlap redefined
+   (00:00:08) function biuld_form redefined
+   (00:00:08) function pform_Action redefined
+   (00:00:08) function refdes_on_pad redefined
+   (00:00:08) function barcode_overlap_atom redefined
+   (00:00:08) function refdes_overlap_component redefined
+   (00:00:08) function text_overlap_text redefined
+   (00:00:08) function text_on_pad redefined
+   (00:00:08) function text_on_testpoints redefined
+   (00:00:08) function get_bar_code_box redefined
+   (00:00:08) function getbox redefined
+   (00:00:08) function text_on_text redefined
+   (00:00:08) function unselect_object redefined
+   (00:00:08) function turn_on_layer redefined
+   (00:00:08) function init_loc_text redefined
+   (00:00:08) function add_loc_text redefined
+   (00:00:08) function location_text redefined
+   (00:00:08) function location_prv redefined
+   (00:00:08) function Quick_Grids redefined
+   (00:00:08) function gridsetform redefined
+   (00:00:08) function Grid_act redefined
+   (00:00:08) function SetCurGrid redefined
+   (00:00:08) function quicktext redefined
+   (00:00:08) function setTextSize redefined
+   (00:00:08) function _INEStartCallBk redefined
+   (00:00:08) function andylu redefined
+   (00:00:08) function CreateForm redefined
+   (00:00:08) function check_subclass_flag redefined
+   (00:00:08) function check_flag redefined
+   (00:00:08) function function_init redefined
+   (00:00:08) function Form_Action redefined
+   (00:00:08) function subdist_check_bianma_on redefined
+   (00:00:08) function subdist_check_standard_list_on redefined
+   (00:00:08) function subdist_check_mark_function redefined
+   (00:00:08) function subdist_module_check_function redefined
+   (00:00:08) function subdist_Delete_object redefined
+   (00:00:08) function testing_unselect_object redefined
+   (00:00:08) function check_testing_PCB_output redefined
+   (00:00:08) function main_check_show redefined
+   (00:00:08) function testing_bianma_check redefined
+   (00:00:08) function select_layer_flag_check redefined
+   (00:00:08) function testing_text_check redefined
+   (00:00:08) function testing_justice_list redefined
+   (00:00:08) function testing_Mech_check redefined
+   (00:00:08) function testingfind_getmax_min redefined
+   (00:00:08) function check_board_height_extract redefined
+   (00:00:08) function check_height_extract redefined
+   (00:00:08) function check_print_height redefined
+   (00:00:08) function testing_Creat_layer redefined
+   (00:00:08) function testing_Allcolor_set redefined
+   (00:00:08) function testing_turn_on_layer redefined
+   (00:00:08) function testing_Delline redefined
+   (00:00:08) function testing_HilElement redefined
+   (00:00:08) function testing_Hilight_box redefined
+   (00:00:08) function testing_calc_lt_symbol_range redefined
+   (00:00:08) function testing_line_symbolslist_calc redefined
+   (00:00:08) function calc_lt_symbol_selct_all redefined
+   (00:00:08) function testing_HilElement_line redefined
+   (00:00:08) function testing_line_symbolslist redefined
+   (00:00:08) function testing_line_symbols_high redefined
+   (00:00:08) function testing_text_lt_symbolsall redefined
+   (00:00:08) function testing_LostRef redefined
+   (00:00:08) function testing_LostPinName redefined
+   (00:00:08) function testing_Refdes_Direction redefined
+   (00:00:08) function testing_DeHLSymNetsPins redefined
+   (00:00:08) function testing_Refdes_same redefined
+   (00:00:08) function check_text_over_item redefined
+   (00:00:08) function testing_text_on_pad redefined
+   (00:00:08) function testing_text_on_testpoints redefined
+   (00:00:08) function testing_text_on_shape redefined
+   (00:00:08) function testing_text_overlap_text redefined
+   (00:00:08) function testing_text_on_text redefined
+   (00:00:08) function testing_text_overlap_line redefined
+   (00:00:08) function testing_text_on_Via redefined
+   (00:00:08) function testing_check_line_on_pad redefined
+   (00:00:08) function testing_check_text_inside_comp redefined
+   (00:00:08) function testing_check_text_in_comp redefined
+   (00:00:08) function testing_getbox redefined
+   (00:00:08) function subdist_checkitem_to_symbols redefined
+   (00:00:08) function subdist_check_mount_hole redefined
+   (00:00:08) function subdist_check_distance_on_mount redefined
+   (00:00:08) function subdist_check_distance_on_pin redefined
+   (00:00:08) function subdist_get_airgapbox redefined
+   (00:00:08) function subdist_get_clearance redefined
+   (00:00:08) function subdist_get_clearancesmall redefined
+   (00:00:08) function subdist_justice_components redefined
+   (00:00:08) function subdist_send_getbox_ver redefined
+   (00:00:08) function subdist_send_getbox_hor redefined
+   (00:00:08) function subdist_justice_send_border redefined
+   (00:00:08) function subdist_check_send_border redefined
+   (00:00:08) function drawing_outline_5mm_3r5mm redefined
+   (00:00:08) function yihan_length_width redefined
+   (00:00:08) function yihan_getbox_xy redefined
+   (00:00:08) function yihan_dispayer_num redefined
+   (00:00:08) function subdist_justice_cap redefined
+   (00:00:08) function subdist_send15mm_getbox_ver redefined
+   (00:00:08) function subdist_send15mm_getbox_hor redefined
+   (00:00:08) function subdist_getbox_xy redefined
+   (00:00:08) function subdist_check_pressfit redefined
+   (00:00:08) function subdist_check_BGA_range redefined
+   (00:00:08) function testing_check_pin_range redefined
+   (00:00:08) function subdist_check_via_on_pad redefined
+   (00:00:08) function subdist_check_thermal_on_pad redefined
+   (00:00:08) function subdist_BGAgetbox redefined
+   (00:00:08) function subdist_getbox redefined
+   (00:00:08) function subdist_pin12_getbox redefined
+   (00:00:08) function select_layer_flag_fill_list redefined
+   (00:00:08) function testing_single_fill redefined
+   (00:00:08) function creat_line_dem redefined
+   (00:00:08) function testing_diff_fill redefined
+   (00:00:08) function testing_getbox_diff redefined
+   (00:00:08) function testing_oil_fill redefined
+   (00:00:08) function testing_output_DXF_layer redefined
+   (00:00:08) function testing_search_vias_hilight redefined
+   (00:00:08) function testing_search_vias_list redefined
+   (00:00:08) function testing_move_function redefined
+   (00:00:08) function subrot_move_center redefined
+   (00:00:08) function subrot_AlignText_cancel redefined
+   (00:00:08) function subrot_AlignText_done redefined
+   (00:00:08) function subrot_AlignText_move redefined
+   (00:00:08) function sub_rotateref redefined
+   (00:00:08) function sub_GetRefIDComDir redefined
+   (00:00:08) function sub_RotateTopRef redefined
+   (00:00:08) function sub_RotateBtmRef redefined
+   (00:00:08) function generate_techfile redefined
+   (00:00:08) function shape_offset_drawing redefined
+   (00:00:08) function andylu_BuildShapePath redefined
+   (00:00:08) function andylu_AddShape redefined
+   (00:00:08) function testing_check_testpoints_ruler redefined
+   (00:00:08) function testing_check_status_ruler redefined
+   (00:00:08) function ps_DanglingForm_action redefined
+   (00:00:08) function ps_ddoCheck redefined
+   (00:00:08) function x_get_sym_bbox redefined
+   (00:00:08) function _saveSelSet redefined
+   (00:00:08) function _restoreSelSet redefined
+   (00:00:08) function findAllOfType redefined
+   (00:00:08) function ashFindAllClines redefined
+   (00:00:08) function ashFindAllClinesegs redefined
+   (00:00:08) function x_CmpPg redefined
+   (00:00:08) function x_CmpPgUseLimitTimes redefined
+   (00:00:08) function x_FormInitialization redefined
+   (00:00:08) function x_GreateFormCmpPg redefined
+   (00:00:08) function x_CmpPgFormAction redefined
+   (00:00:08) function x_CmpPgSet redefined
+   (00:00:08) function x_SetCmpPgDispaly redefined
+   (00:00:08) function x_ACmpPgInfo redefined
+   (00:00:08) function x_AutoPlmCmp redefined
+   (00:00:08) function x_AllPlm1 redefined
+   (00:00:08) function x_AllPlm2 redefined
+   (00:00:08) function x_AllPlm3 redefined
+   (00:00:08) function x_AllPlm12 redefined
+   (00:00:08) function x_CmpPgPlmCmp redefined
+   (00:00:08) function x_SglPlm redefined
+   (00:00:08) function x_SglPlmCmp redefined
+   (00:00:08) function x_SymToCursor redefined
+   (00:00:08) function x_Stoppage redefined
+   (00:00:08) function x_CmpPgLstDHilt redefined
+   (00:00:08) function x_CmpPgLstHilt redefined
+   (00:00:08) function x_CmpPgLstDehilt redefined
+   (00:00:08) function x_CmpPgLstDlt redefined
+   (00:00:08) function x_CmpPgLstDltAll redefined
+   (00:00:08) function x_CmpPgLstDltAGrp redefined
+   (00:00:08) function x_CmpPgLstDltAllGrp redefined
+   (00:00:08) function x_MvOldCmp redefined
+   (00:00:08) function x_MvFixCmp redefined
+   (00:00:08) function x_GrtGrp redefined
+   (00:00:08) function x_DelOldGrpName redefined
+   (00:00:08) function x_ExitSkill redefined
+   (00:00:08) function x_CmpPgInfo redefined
+   (00:00:08) function Check_Refdes_Direction redefined
+   (00:00:08) function Check_No_Refdes redefined
+   (00:00:08) function _saveSelSet redefined
+   (00:00:08) function _restoreSelSet redefined
+   (00:00:08) function Form_Action redefined
+   (00:00:08) function _saveSelSet redefined
+   (00:00:08) function _restoreSelSet redefined
+   (00:00:08) function findAllOfType redefined
+   (00:00:08) function skillFindAll redefined
+   (00:00:08) function ashFindAllPins redefined
+   (00:00:08) function ashFindAllVias redefined
+   (00:00:08) function ashFindAllClines redefined
+   (00:00:08) function ashFindAllClinesegs redefined
+   (00:00:08) function ashFindAllLines redefined
+   (00:00:08) function ashFindAllLinesegs redefined
+   (00:00:08) function ashFindAllDrcs redefined
+   (00:00:08) function ashFindAllText redefined
+   (00:00:08) function ashFindAllShapes redefined
+   (00:00:08) function ashFindAllShapesegs redefined
+   (00:00:08) function ashFindAllVoids redefined
+   (00:00:08) function ashFindAllVoidsegs redefined
+   (00:00:08) function ashFindAllSymbols redefined
+   (00:00:08) function ashFindAllComponents redefined
+   (00:00:08) function ashFindAllNets redefined
+   (00:00:08) function ashFindAllFigures redefined
+   (00:00:08) function CreateForm redefined
+   (00:00:08) function x_get_sym_bbox redefined
+   (00:00:08) function xFormBegin redefined
+   (00:00:08) function xFormEnd redefined
+   (00:00:08) function xCheckList redefined
+   (00:00:08) function xGroup redefined
+   (00:00:08) function xText redefined
+   (00:00:08) function xButton redefined
+   (00:00:08) function xList redefined
+   (00:00:08) function xEdit redefined
+   (00:00:08) function xInfoText redefined
+   (00:00:08) function Auto_Balance redefined
+   (00:00:08) function Balancing_Form_Action redefined
+   (00:00:08) function Balancing_Adder redefined
+   (00:00:08) function component_height redefined
+   (00:00:08) function createheightform redefined
+   (00:00:08) function heightform redefined
+   (00:00:08) function Height_Action redefined
+   (00:00:08) function do_height_extract redefined
+   (00:00:08) function do_height_print redefined
+   (00:00:08) function _saveSelSet redefined
+   (00:00:08) function _restoreSelSet redefined
+   (00:00:08) function _drcZap redefined
+   (00:00:08) function _drcFormBuild redefined
+   (00:00:08) function _drcHelp redefined
+   (00:00:08) function lfsSingleLayer redefined
+   (00:00:08) function lfsLayers redefined
+   (00:00:08) function lfsWindowExpand redefined
+   (00:00:08) function lfsDRCFilterList redefined
+   (00:00:08) function lfsDRCInitialize redefined
+   (00:00:08) function lfsMarkPoint redefined
+   (00:00:08) function _drcEnd redefined
+   (00:00:08) function _drcShow redefined
+   (00:00:08) function _drcUpdateDisp redefined
+   (00:00:08) function _drcUpdateAll redefined
+   (00:00:08) function _drcCallBack redefined
+   (00:00:08) function drc_main redefined
+   (00:00:08) function skillFindDang redefined
+   (00:00:08) function Form_Action redefined
+   (00:00:08) function _setup redefined
+   (00:00:08) function _findSize redefined
+   (00:00:08) function recheck redefined
+   (00:00:08) function _deleteXY redefined
+   (00:00:08) function _zoomin2 redefined
+   (00:00:08) function _clearForm redefined
+   (00:00:08) function _find_Clines redefined
+   (00:00:08) function _find_Lines redefined
+   (00:00:08) function _deleteAllClines redefined
+   (00:00:08) function _deleteAllLines redefined
+   (00:00:08) function _saveSelSet redefined
+   (00:00:08) function _restoreSelSet redefined
+   (00:00:08) function findAllOfType redefined
+   (00:00:08) function skillFindAll redefined
+   (00:00:08) function ashFindAllPins redefined
+   (00:00:08) function ashFindAllVias redefined
+   (00:00:08) function ashFindAllClines redefined
+   (00:00:08) function ashFindAllClinesegs redefined
+   (00:00:08) function ashFindAllLines redefined
+   (00:00:08) function ashFindAllLinesegs redefined
+   (00:00:08) function ashFindAllDrcs redefined
+   (00:00:08) function ashFindAllText redefined
+   (00:00:08) function ashFindAllShapes redefined
+   (00:00:08) function ashFindAllShapesegs redefined
+   (00:00:08) function ashFindAllVoids redefined
+   (00:00:08) function ashFindAllVoidsegs redefined
+   (00:00:08) function ashFindAllSymbols redefined
+   (00:00:08) function ashFindAllComponents redefined
+   (00:00:08) function ashFindAllNets redefined
+   (00:00:08) function ashFindAllFigures redefined
+   (00:00:08) function skillMakeDangList redefined
+   (00:00:08) function skillDeleteOneDrc redefined
+   (00:00:08) function skillDeleteDrcs redefined
+   (00:00:08) function skillDehighlightAll redefined
+   (00:00:08) function lcbMakeLineList redefined
+   (00:00:08) function lcbMakeDrc redefined
+   (00:00:08) function _createForm redefined
+   (00:00:08) function _helpButton redefined
+   (00:00:08) function jfhGetAllCompsDBid redefined
+   (00:00:08) function jfhChgAllRefdesTxtBlock redefined
+   (00:00:08) function jfhGetRefdesDBid redefined
+   (00:00:08) function jfhGetCompShadow redefined
+   (00:00:08) function jfhSplitComps redefined
+   (00:00:08) function jfhDBCreateRefdes redefined
+   (00:00:08) function jfhPlaceTopRefdes redefined
+   (00:00:08) function jfhPlaceBtmRefdes redefined
+   (00:00:08) function jfhCreateMacroFile redefined
+   (00:00:08) function jfhRefdesLocate redefined
+   (00:00:08) function jfhGetRefIDComDir redefined
+   (00:00:08) function jfhRotateTopRef redefined
+   (00:00:08) function jfhRotateBtmRef redefined
+   (00:00:08) function jfhRotateTopRefIr redefined
+   (00:00:08) function jfhRotateBtmRefIr redefined
+   (00:00:08) function jfhrotateref redefined
+   (00:00:08) function jfhrotaterefIr redefined
+   (00:00:08) function check_text_overlap redefined
+   (00:00:08) function biuld_form redefined
+   (00:00:08) function pform_Action redefined
+   (00:00:08) function refdes_on_pad redefined
+   (00:00:08) function barcode_overlap_atom redefined
+   (00:00:08) function refdes_overlap_component redefined
+   (00:00:08) function text_overlap_text redefined
+   (00:00:08) function text_on_pad redefined
+   (00:00:08) function text_on_testpoints redefined
+   (00:00:08) function get_bar_code_box redefined
+   (00:00:08) function getbox redefined
+   (00:00:08) function text_on_text redefined
+   (00:00:08) function unselect_object redefined
+   (00:00:08) function turn_on_layer redefined
+   (00:00:08) function init_loc_text redefined
+   (00:00:08) function add_loc_text redefined
+   (00:00:08) function location_text redefined
+   (00:00:08) function location_prv redefined
+   (00:00:08) function Find_Component_Routine redefined
+   (00:00:08) function _lgs_hilight_smd_main redefined
+   (00:00:08) function lgstech redefined
+   (00:00:08) function lgs_techrepfileCallback redefined
+   (00:00:08) function lgs_techrepflowCallback redefined
+   (00:00:08) function _lgs_moreinfo_callback redefined
+   (00:00:08) function lgs_call_techfile redefined
+   (00:00:08) function _lgs_setup_flow redefined
+   (00:00:08) function _lgs_setup_area_information redefined
+   (00:00:08) function _lgs_setup_information redefined
+   (00:00:08) function _lgs_setup_area redefined
+   (00:00:08) function _lgs_setup_area_unsel redefined
+   (00:00:08) function _lgs_setup_area_sel redefined
+   (00:00:08) function lgs_techrepCallback redefined
+   (00:00:08) function _lgs_del_mum_list redefined
+   (00:00:08) function _lgs_load_callback redefined
+   (00:00:08) function _lgs_write_area_drc_scr redefined
+   (00:00:08) function _lgs_line_processor redefined
+   (00:00:08) function _lgs_write_flow_drc_scr redefined
+   (00:00:08) function _lgs_default_area_drcmode_set redefined
+   (00:00:08) function _lgs_Build_Technics_Manager_Form redefined
+   (00:00:08) function _LJJ_camclear redefined
+   (00:00:08) function FindStubs redefined
+   (00:00:08) function LookUp redefined
+   (00:00:08) function AddToStubList redefined
+   (00:00:08) function CreateForm redefined
+   (00:00:08) function Stub_Find_Form_Routine redefined
+   (00:00:08) function Stub_Find_Form_Action redefined
+   (00:00:08) function find_stubs redefined
+   (00:00:08) function Form_Action redefined
+   (00:00:08) 
+   (00:00:08) errset(loadi(strcat(axlOSSlash(getShellEnvVar("FP_SKILL")),"FP_Load.il"),"fastprint"))load("loginshow.il" "www.pcbskill.com")  
+   (00:00:08)                                                                                       ^^^^
+   (00:00:08) SYNTAX ERROR found at line 180 column 87 of file allegro.ilinit
+   (00:00:08) *Error* lineread/read: syntax error encountered in input
+\t (00:00:11) Opening existing design...
+\i (00:00:11) QtSignal SPBFoldDockArea FoldAreaTabWidget currentChanged "AFC12-S06CCC-00"
+\d (00:00:11) Design opened: D:/OneDrive/C_Library/A_Library/AFC12-S06CCC-00.dra
+\i (00:00:11) trapsize 724
+\i (00:00:11) trapsize 755
+\i (00:00:11) trapsize 724
+\i (00:00:11) trapsize 734
+\i (00:00:11) quick_display 
+\i (00:00:11) trapsize 472
+\i (00:00:12) generaledit 
+\i (00:00:14) roam start
+\i (00:00:14) roam x -16
+\i (00:00:14) roam y -32
+\i (00:00:14) roam y -16
+\i (00:00:14) roam x -16
+\i (00:00:14) roam y -16
+\i (00:00:14) roam y -16
+\i (00:00:14) roam y -16
+\i (00:00:14) roam y -16
+\i (00:00:14) roam y -16
+\i (00:00:15) roam end
+\i (00:00:58) prepopup -4.3867 1.2642
+\i (00:00:59) pick grid -4.2169 1.9435
+\t (00:00:59) last pick:  -4.2500 2.0000
+\i (00:01:00) prepopup -4.4905 -0.9716
+\i (00:01:01) pop dyn_option_select '@:@Text edit' 
+\i (00:01:01) text edit 
+\i (00:01:03) setwindow form.textedit
+\i (00:01:03) FORM textedit str 8 
+\i (00:01:03) FORM textedit done  
+\i (00:01:03) setwindow pcb
+\i (00:01:03) pick 0.0000 0.0000
+\t (00:01:03) Pick text to edit.
+\i (00:01:03) setwindow pcb
+\i (00:01:03) generaledit 
+\i (00:01:04) prepopup 4.0662 -1.0376
+\i (00:01:05) pop dyn_option_select '@:@Text edit' 
+\i (00:01:05) text edit 
+\i (00:01:06) setwindow form.textedit
+\i (00:01:06) FORM textedit str 7 
+\i (00:01:06) FORM textedit done  
+\i (00:01:06) setwindow pcb
+\i (00:01:06) pick 0.0000 0.0000
+\t (00:01:06) Pick text to edit.
+\i (00:01:06) setwindow pcb
+\i (00:01:06) generaledit 
+\i (00:01:07) pick grid 3.7737 2.6605
+\t (00:01:07) last pick:  3.7500 2.7500
+\i (00:01:08) roam start
+\i (00:01:08) roam y -16
+\i (00:01:08) roam y -16
+\i (00:01:09) roam end
+\i (00:01:15) pick grid -0.1320 2.7454
+\t (00:01:15) last pick:  -0.2500 2.7500
+\i (00:01:17) move 
+\t (00:01:17) Select element(s) to move.
+\i (00:01:18) setwindow form.find
+\i (00:01:18) FORM find all_off  
+\i (00:01:20) FORM find pins YES 
+\i (00:01:22) setwindow pcb
+\i (00:01:22) drag_start grid 3.0190 1.5756
+\i (00:01:24) drag_stop -3.3395 2.5756
+\i (00:01:24) pick grid 0.9812 3.0850
+\t (00:01:24) last pick:  1.0000 3.0000
+\t (00:01:24) Pick new location for the element(s).
+\i (00:01:29) ipick -1.25 
+\t (00:01:29) last pick:  -0.2500 3.0000
+\i (00:01:31) pick grid 2.9907 2.7926
+\t (00:01:31) last pick:  3.0000 2.7500
+\i (00:01:32) prepopup 2.9907 2.7926
+\i (00:01:33) done 
+\i (00:01:33) generaledit 
+\i (00:01:33) pick grid 2.9435 2.9246
+\t (00:01:33) last pick:  3.0000 3.0000
+\i (00:01:34) pick grid 3.3492 2.4907
+\t (00:01:34) last pick:  3.2500 2.5000
+\i (00:01:39) show element 
+\i (00:01:40) pick grid 0.6982 1.0378
+\t (00:01:40) last pick:  0.7500 1.0000
+\i (00:03:52) setwindow text
+\i (00:03:52) close
+\i (00:03:53) setwindow pcb
+\i (00:03:53) prepopup 3.0190 1.8303
+\i (00:03:53) done 
+\i (00:03:53) generaledit 
+\i (00:03:58) add pin 
+\t (00:03:58) Using 'REW0_60H1_50.pad'.
+\i (00:04:03) pick grid 2.1228 1.2548
+\t (00:04:03) last pick:  2.0000 1.2500
+\t (00:04:03) Using 'REW0_60H1_50.pad'.
+\i (00:04:04) pick grid 3.3775 1.2265
+\t (00:04:04) last pick:  3.5000 1.2500
+\t (00:04:04) Using 'REW0_60H1_50.pad'.
+\i (00:04:05) prepopup 4.8303 2.2171
+\i (00:04:05) done 
+\t (00:04:05) Exiting from Add Pin.
+\i (00:04:05) generaledit 
+\i (00:04:06) pick grid 4.5850 2.7077
+\t (00:04:06) last pick:  4.5000 2.7500
+\i (00:04:10) pick grid 2.8775 2.8775
+\t (00:04:10) last pick:  3.0000 3.0000
+\i (00:04:10) move 
+\t (00:04:10) Select element(s) to move.
+\i (00:04:11) pick grid 2.2171 1.1794
+\t (00:04:11) last pick:  2.2500 1.2500
+\t (00:04:11) last pick:  2.0000 1.2500
+\t (00:04:11) Pick new location for the element(s).
+\i (00:04:18) pick 1.875 1.309 
+\t (00:04:18) last pick:  1.8750 1.3090
+\i (00:04:22) pick grid 3.6228 1.4529
+\t (00:04:22) last pick:  3.5000 1.5000
+\t (00:04:22) last pick:  3.5000 1.2500
+\t (00:04:22) Pick new location for the element(s).
+\i (00:04:31) pick 3.125 1.309 
+\t (00:04:31) last pick:  3.1250 1.3090
+\i (00:04:32) prepopup 4.3114 2.1416
+\i (00:04:32) done 
+\i (00:04:33) generaledit 
+\i (00:04:33) roam start
+\i (00:04:33) roam y 16
+\i (00:04:33) roam y 16
+\i (00:04:33) roam y 32
+\i (00:04:33) roam y 16
+\i (00:04:33) roam end
+\i (00:04:34) zoom out 1 
+\i (00:04:34) setwindow pcb
+\i (00:04:34) zoom out 0.5001 1.1133
+\i (00:04:34) trapsize 943
+\i (00:04:35) roam start
+\i (00:04:35) roam x -16
+\i (00:04:35) roam x -32
+\i (00:04:35) roam y 16
+\i (00:04:35) roam x -16
+\i (00:04:35) roam end
+\i (00:04:36) zoom in 1 
+\i (00:04:36) setwindow pcb
+\i (00:04:36) zoom in -5.2262 -1.1696
+\i (00:04:36) trapsize 472
+\i (00:04:37) zoom out 1 
+\i (00:04:37) setwindow pcb
+\i (00:04:37) zoom out -5.2451 -0.9054
+\i (00:04:37) trapsize 943
+\i (00:04:37) roam start
+\i (00:04:37) roam y -16
+\i (00:04:37) roam y -32
+\i (00:04:37) roam x 16
+\i (00:04:37) roam y -16
+\i (00:04:38) roam end
+\i (00:04:38) zoom in 1 
+\i (00:04:38) setwindow pcb
+\i (00:04:38) zoom in -5.3771 -1.9620
+\i (00:04:38) trapsize 472
+\i (00:04:43) show element 
+\i (00:04:44) pick grid -4.7544 -2.0658
+\t (00:04:44) last pick:  -4.7500 -2.0000
+\i (00:04:56) setwindow text
+\i (00:04:56) close
+\i (00:04:56) setwindow pcb
+\i (00:04:56) pick grid -7.4903 -0.2922
+\t (00:04:56) last pick:  -7.5000 -0.2500
+\i (00:04:56) roam start
+\i (00:04:56) roam x -16
+\i (00:04:56) roam x -16
+\i (00:04:57) roam end
+\i (00:04:57) move 
+\t (00:04:57) Select element(s) to move.
+\i (00:04:57) pick grid -4.8490 -1.4714
+\t (00:04:57) last pick:  -4.7500 -1.5000
+\t (00:04:57) last pick:  -4.3750 -1.3090
+\t (00:04:57) Pick new location for the element(s).
+\i (00:05:00) ipick -1.25 
+\t (00:05:00) last pick:  -5.6250 -1.3090
+\i (00:05:01) zoom out 1 
+\i (00:05:01) setwindow pcb
+\i (00:05:01) zoom out -5.8678 -1.6695
+\i (00:05:01) trapsize 943
+\i (00:05:01) roam start
+\i (00:05:01) roam x 16
+\i (00:05:01) roam x 64
+\i (00:05:01) roam x 32
+\i (00:05:01) roam end
+\i (00:05:02) pick grid 4.2833 -2.0658
+\t (00:05:02) last pick:  4.2500 -2.0000
+\t (00:05:02) last pick:  4.3750 -1.3090
+\t (00:05:02) Pick new location for the element(s).
+\i (00:05:04) ipick 1.25 
+\t (00:05:04) last pick:  5.6250 -1.3090
+\i (00:05:05) prepopup 7.8682 0.0663
+\i (00:05:05) done 
+\i (00:05:05) generaledit 
+\i (00:05:05) pick grid 7.8682 0.0663
+\t (00:05:05) last pick:  7.7500 0.0000
+\i (00:05:06) zoom in 1 
+\i (00:05:06) setwindow pcb
+\i (00:05:06) zoom in -5.1696 0.7078
+\i (00:05:06) trapsize 472
+\i (00:05:07) zoom in 1 
+\i (00:05:07) setwindow pcb
+\i (00:05:07) zoom in -5.1695 0.7078
+\i (00:05:07) trapsize 236
+\i (00:05:07) roam start
+\i (00:05:07) roam x -16
+\i (00:05:07) roam y -32
+\i (00:05:07) roam x -16
+\i (00:05:07) roam y -16
+\i (00:05:07) roam end
+\i (00:05:08) vertex 
+\i (00:05:08) pick grid -4.8820 0.8728
+\t (00:05:08) last pick:  -5.0000 0.7500
+\t (00:05:08) last pick:  -4.8750 0.8800
+\i (00:05:12) ipick -1.25 
+\t (00:05:12) last pick:  -6.1250 0.8800
+\t (00:05:12) No DRC errors detected.
+\i (00:05:13) zoom out 1 
+\i (00:05:13) setwindow pcb
+\i (00:05:13) zoom out -5.2971 0.8680
+\i (00:05:13) trapsize 472
+\i (00:05:13) roam start
+\i (00:05:13) roam y 16
+\i (00:05:13) roam y 16
+\i (00:05:13) roam end
+\i (00:05:14) pick grid -4.8537 -2.7169
+\t (00:05:14) last pick:  -4.7500 -2.7500
+\t (00:05:14) last pick:  -4.8750 -2.6670
+\i (00:05:17) ipick -1.25 
+\t (00:05:17) last pick:  -6.1250 -2.6670
+\t (00:05:17) No DRC errors detected.
+\i (00:05:18) zoom out 1 
+\i (00:05:18) setwindow pcb
+\i (00:05:18) zoom out -5.0612 -2.1414
+\i (00:05:18) trapsize 943
+\i (00:05:18) roam start
+\i (00:05:18) roam x 16
+\i (00:05:18) roam x 80
+\i (00:05:18) roam x 112
+\i (00:05:18) roam y 16
+\i (00:05:18) roam x 240
+\i (00:05:18) roam y 32
+\i (00:05:18) roam x 192
+\i (00:05:18) roam y 32
+\i (00:05:18) roam x 96
+\i (00:05:18) roam end
+\i (00:05:19) zoom in 1 
+\i (00:05:19) setwindow pcb
+\i (00:05:19) zoom in 5.5098 -2.8866
+\i (00:05:19) trapsize 472
+\i (00:05:19) zoom in 1 
+\i (00:05:19) setwindow pcb
+\i (00:05:19) zoom in 5.4910 -2.8772
+\i (00:05:19) trapsize 236
+\i (00:05:19) roam start
+\i (00:05:19) roam x -16
+\i (00:05:19) roam x -48
+\i (00:05:19) roam x -48
+\i (00:05:19) roam x -64
+\i (00:05:19) roam x -64
+\i (00:05:19) roam x -64
+\i (00:05:19) roam x -64
+\i (00:05:19) roam x -64
+\i (00:05:19) roam y -16
+\i (00:05:19) roam end
+\i (00:05:20) pick grid 4.8539 -2.6650
+\t (00:05:20) last pick:  4.7500 -2.7500
+\t (00:05:20) last pick:  4.8750 -2.6670
+\i (00:05:24) ipick 1.25 
+\t (00:05:24) last pick:  6.1250 -2.6670
+\t (00:05:24) No DRC errors detected.
+\i (00:05:24) zoom out 1 
+\i (00:05:24) setwindow pcb
+\i (00:05:24) zoom out 5.3963 -2.6650
+\i (00:05:24) trapsize 472
+\i (00:05:24) zoom out 1 
+\i (00:05:24) setwindow pcb
+\i (00:05:24) zoom out 5.4530 -2.6273
+\i (00:05:24) trapsize 943
+\i (00:05:25) roam start
+\i (00:05:25) roam y -16
+\i (00:05:25) roam y -16
+\i (00:05:25) roam y -16
+\i (00:05:25) roam end
+\i (00:05:25) zoom in 1 
+\i (00:05:25) setwindow pcb
+\i (00:05:25) zoom in 5.3775 0.4720
+\i (00:05:25) trapsize 472
+\i (00:05:25) zoom in 1 
+\i (00:05:25) setwindow pcb
+\i (00:05:25) zoom in 5.3587 0.5286
+\i (00:05:25) trapsize 236
+\i (00:05:26) pick grid 4.8965 0.8965
+\t (00:05:26) last pick:  5.0000 1.0000
+\t (00:05:26) last pick:  4.8750 0.8800
+\i (00:05:29) ipick 1.25 
+\t (00:05:29) last pick:  6.1250 0.8800
+\t (00:05:29) No DRC errors detected.
+\i (00:05:29) prepopup 5.4295 1.5569
+\i (00:05:30) done 
+\i (00:05:30) generaledit 
+\i (00:05:30) zoom out 1 
+\i (00:05:30) setwindow pcb
+\i (00:05:30) zoom out 5.4295 1.5569
+\i (00:05:30) trapsize 472
+\i (00:05:31) roam start
+\i (00:05:31) roam x -16
+\i (00:05:31) roam x -16
+\i (00:05:31) roam x -32
+\i (00:05:31) roam x -48
+\i (00:05:31) roam x -32
+\i (00:05:31) roam x -32
+\i (00:05:31) roam x -32
+\i (00:05:31) roam x -16
+\i (00:05:31) roam x -32
+\i (00:05:31) roam x -16
+\i (00:05:31) roam x -16
+\i (00:05:31) roam x -32
+\i (00:05:31) roam x -32
+\i (00:05:31) roam x -32
+\i (00:05:31) roam x -48
+\i (00:05:31) roam x -32
+\i (00:05:31) roam x -32
+\i (00:05:31) roam x -16
+\i (00:05:31) roam x -32
+\i (00:05:31) roam x -16
+\i (00:05:31) roam x -32
+\i (00:05:31) roam x -32
+\i (00:05:31) roam x -32
+\i (00:05:31) roam x -16
+\i (00:05:31) roam x -16
+\i (00:05:32) roam end
+\i (00:05:32) roam start
+\i (00:05:32) roam x -16
+\i (00:05:32) roam end
+\i (00:05:33) zoom in 1 
+\i (00:05:33) setwindow pcb
+\i (00:05:33) zoom in -5.3490 0.9815
+\i (00:05:33) trapsize 236
+\i (00:05:33) vertex 
+\i (00:05:34) pick grid -4.7782 0.9202
+\t (00:05:34) last pick:  -4.7500 1.0000
+\t (00:05:34) last pick:  -4.8750 0.8800
+\i (00:05:36) prepopup -6.0895 0.9107
+\i (00:05:37) pop dyn_option_select 'Snap pick to@:@Segment Vertex' 
+\t (00:05:37) last pick:  -6.1250 0.8800
+\t (00:05:37) No DRC errors detected.
+\i (00:05:38) prepopup -5.2971 1.2598
+\i (00:05:38) done 
+\i (00:05:38) generaledit 
+\i (00:05:39) pick grid -5.2027 1.3919
+\t (00:05:39) last pick:  -5.2500 1.5000
+\i (00:05:39) zoom out 1 
+\i (00:05:39) setwindow pcb
+\i (00:05:39) zoom out -4.9905 1.3824
+\i (00:05:39) trapsize 472
+\i (00:05:39) roam start
+\i (00:05:39) roam x 32
+\i (00:05:39) roam y -32
+\i (00:05:39) roam y -16
+\i (00:05:39) roam y -16
+\i (00:05:39) roam y -16
+\i (00:05:40) roam end
+\i (00:05:43) setwindow form.artformcreat
+\i (00:05:43) FORM artformcreat top_place YES 
+\i (00:05:43) setwindow pcb
+\i (00:05:43) updateport CVPane
+\i (00:05:44) roam start
+\i (00:05:44) roam x -16
+\i (00:05:44) roam x -16
+\i (00:05:44) roam x -48
+\i (00:05:44) roam x -48
+\i (00:05:44) roam x -16
+\i (00:05:44) roam end
+\i (00:05:44) zoom in 1 
+\i (00:05:44) setwindow pcb
+\i (00:05:44) zoom in -5.0377 0.3774
+\i (00:05:44) trapsize 236
+\i (00:05:45) roam start
+\i (00:05:45) roam x -16
+\i (00:05:45) roam x -32
+\i (00:05:45) roam x -16
+\i (00:05:45) roam end
+\t (00:10:11) Performing autosave...
+\t (00:10:12) Autosave successful
+\i (00:15:24) roam start
+\i (00:15:24) roam y -16
+\i (00:15:24) roam x -16
+\i (00:15:24) roam x -32
+\i (00:15:24) roam y -16
+\i (00:15:24) roam end
+\i (00:15:24) vertex 
+\i (00:15:25) pick grid -4.8584 0.2218
+\t (00:15:25) last pick:  -4.7500 0.2500
+\t (00:15:25) last pick:  -4.8750 0.2500
+\i (00:15:29) ipick -1.25 
+\t (00:15:29) last pick:  -6.1250 0.2500
+\t (00:15:29) No DRC errors detected.
+\i (00:15:30) pick grid -4.9292 0.8586
+\t (00:15:30) last pick:  -5.0000 0.7500
+\t (00:15:30) last pick:  -4.8750 0.8800
+\i (00:15:34) ipick -1.25 
+\t (00:15:34) last pick:  -6.1250 0.8800
+\t (00:15:34) No DRC errors detected.
+\i (00:15:36) pick grid -2.6461 0.8821
+\t (00:15:36) last pick:  -2.7500 1.0000
+\t (00:15:36) last pick:  -2.6261 0.8800
+\i (00:15:39) ipick -1.25 
+\t (00:15:39) last pick:  -3.8761 0.8800
+\t (00:15:39) No DRC errors detected.
+\i (00:15:39) zoom out 1 
+\i (00:15:39) setwindow pcb
+\i (00:15:39) zoom out -3.5612 0.9482
+\i (00:15:39) trapsize 472
+\i (00:15:39) zoom out 1 
+\i (00:15:39) setwindow pcb
+\i (00:15:39) zoom out -3.5613 0.9482
+\i (00:15:39) trapsize 943
+\i (00:15:40) roam start
+\i (00:15:40) roam y 32
+\i (00:15:40) roam end
+\i (00:15:40) zoom in 1 
+\i (00:15:40) setwindow pcb
+\i (00:15:40) zoom in -3.6366 -2.6601
+\i (00:15:40) trapsize 472
+\i (00:15:40) pick grid -2.9007 -2.6696
+\t (00:15:40) last pick:  -3.0000 -2.7500
+\t (00:15:40) last pick:  -2.9007 -2.6670
+\i (00:15:42) cancel 
+\i (00:15:43) generaledit 
+\i (00:15:43) zoom in 1 
+\i (00:15:43) setwindow pcb
+\i (00:15:43) zoom in -3.0328 -2.7545
+\i (00:15:43) trapsize 236
+\i (00:15:43) zoom in 1 
+\i (00:15:43) setwindow pcb
+\i (00:15:43) zoom in -3.0328 -2.7545
+\i (00:15:43) trapsize 118
+\i (00:15:44) zoom out 1 
+\i (00:15:44) setwindow pcb
+\i (00:15:44) zoom out -3.0328 -2.7545
+\i (00:15:44) trapsize 236
+\i (00:15:44) zoom out 1 
+\i (00:15:44) setwindow pcb
+\i (00:15:44) zoom out -3.0327 -2.7545
+\i (00:15:44) trapsize 472
+\i (00:15:44) roam start
+\i (00:15:44) roam y -16
+\i (00:15:44) roam y -32
+\i (00:15:44) roam y -32
+\i (00:15:44) roam x 16
+\i (00:15:44) roam y -48
+\i (00:15:44) roam y -16
+\i (00:15:44) roam y -16
+\i (00:15:44) roam y -16
+\i (00:15:44) roam x 16
+\i (00:15:44) roam y -16
+\i (00:15:44) roam y -16
+\i (00:15:44) roam y -16
+\i (00:15:45) roam end
+\i (00:15:45) zoom in 1 
+\i (00:15:45) setwindow pcb
+\i (00:15:45) zoom in -4.7357 0.1133
+\i (00:15:45) trapsize 236
+\i (00:15:46) vertex 
+\i (00:15:46) pick grid -4.8301 0.2785
+\t (00:15:46) last pick:  -4.7500 0.2500
+\t (00:15:46) last pick:  -4.8750 0.2500
+\i (00:15:49) ipick -1.25 
+\t (00:15:49) last pick:  -6.1250 0.2500
+\t (00:15:49) No DRC errors detected.
+\i (00:15:51) pick grid -4.8914 0.8964
+\t (00:15:51) last pick:  -5.0000 1.0000
+\t (00:15:51) last pick:  -4.8750 0.8800
+\i (00:15:54) ipick -1.25 
+\t (00:15:54) last pick:  -6.1250 0.8800
+\t (00:15:54) No DRC errors detected.
+\i (00:15:55) pick grid -2.5659 0.9153
+\t (00:15:55) last pick:  -2.5000 1.0000
+\t (00:15:55) last pick:  -2.6261 0.8800
+\i (00:15:58) ipick -1.25 
+\t (00:15:58) last pick:  -3.8761 0.8800
+\t (00:15:58) No DRC errors detected.
+\i (00:15:59) done 
+\i (00:15:59) generaledit 
+\i (00:15:59) done 
+\i (00:15:59) generaledit 
+\i (00:15:59) zoom out 1 
+\i (00:15:59) setwindow pcb
+\i (00:15:59) zoom out -5.1084 0.4105
+\i (00:15:59) trapsize 472
+\i (00:15:59) zoom out 1 
+\i (00:15:59) setwindow pcb
+\i (00:15:59) zoom out -5.1083 0.4106
+\i (00:15:59) trapsize 943
+\i (00:16:00) roam start
+\i (00:16:00) roam x 16
+\i (00:16:00) roam x 16
+\i (00:16:00) roam x 48
+\i (00:16:00) roam y 16
+\i (00:16:00) roam end
+\i (00:16:00) zoom in 1 
+\i (00:16:00) setwindow pcb
+\i (00:16:00) zoom in -3.1129 -1.8111
+\i (00:16:00) trapsize 472
+\i (00:16:00) zoom in 1 
+\i (00:16:00) setwindow pcb
+\i (00:16:00) zoom in -3.1129 -1.8110
+\i (00:16:00) trapsize 236
+\i (00:16:01) vertex 
+\i (00:16:02) pick grid -3.1176 -2.6978
+\t (00:16:02) last pick:  -3.0000 -2.7500
+\t (00:16:02) last pick:  -3.0964 -2.6670
+\i (00:16:05) ipick -1.25 
+\t (00:16:05) last pick:  -4.3464 -2.6670
+\t (00:16:05) No DRC errors detected.
+\i (00:16:05) done 
+\i (00:16:05) generaledit 
+\i (00:16:06) done 
+\i (00:16:06) generaledit 
+\i (00:16:06) zoom out 1 
+\i (00:16:06) setwindow pcb
+\i (00:16:06) zoom out -4.0233 -2.1647
+\i (00:16:06) trapsize 472
+\i (00:16:06) zoom out 1 
+\i (00:16:06) setwindow pcb
+\i (00:16:06) zoom out -4.0233 -2.1554
+\i (00:16:06) trapsize 943
+\i (00:16:06) roam start
+\i (00:16:06) roam x 16
+\i (00:16:06) roam x 48
+\i (00:16:06) roam x 80
+\i (00:16:06) roam y 16
+\i (00:16:06) roam x 96
+\i (00:16:06) roam y 16
+\i (00:16:06) roam x 80
+\i (00:16:06) roam y 16
+\i (00:16:06) roam end
+\i (00:16:07) zoom in 1 
+\i (00:16:07) setwindow pcb
+\i (00:16:07) zoom in 3.2644 -3.2827
+\i (00:16:07) trapsize 472
+\i (00:16:07) zoom in 1 
+\i (00:16:07) setwindow pcb
+\i (00:16:07) zoom in 3.2550 -3.2827
+\i (00:16:07) trapsize 236
+\i (00:16:07) roam start
+\i (00:16:07) roam x -16
+\i (00:16:07) roam y -16
+\i (00:16:07) roam y -32
+\i (00:16:07) roam y -48
+\i (00:16:07) roam y -32
+\i (00:16:07) roam y -16
+\i (00:16:07) roam end
+\i (00:16:07) vertex 
+\i (00:16:08) pick grid 3.1605 -2.6603
+\t (00:16:08) last pick:  3.2500 -2.7500
+\t (00:16:08) last pick:  3.1465 -2.6670
+\i (00:16:10) ipick 1.25 
+\t (00:16:10) last pick:  4.3965 -2.6670
+\t (00:16:10) No DRC errors detected.
+\i (00:16:11) done 
+\i (00:16:11) generaledit 
+\i (00:16:11) done 
+\i (00:16:11) generaledit 
+\i (00:16:11) zoom out 1 
+\i (00:16:11) setwindow pcb
+\i (00:16:11) zoom out 4.0190 -1.9858
+\i (00:16:11) trapsize 472
+\i (00:16:11) zoom out 1 
+\i (00:16:11) setwindow pcb
+\i (00:16:11) zoom out 4.0189 -1.9858
+\i (00:16:11) trapsize 943
+\i (00:16:12) roam start
+\i (00:16:12) roam y -16
+\i (00:16:12) roam x 16
+\i (00:16:12) roam y -48
+\i (00:16:12) roam x 16
+\i (00:16:12) roam y -80
+\i (00:16:12) roam x 16
+\i (00:16:12) roam y -64
+\i (00:16:12) roam x 16
+\i (00:16:12) roam y -48
+\i (00:16:12) roam y -48
+\i (00:16:12) roam end
+\i (00:16:12) zoom in 1 
+\i (00:16:12) setwindow pcb
+\i (00:16:12) zoom in 3.3211 0.7550
+\i (00:16:12) trapsize 472
+\i (00:16:12) zoom in 1 
+\i (00:16:12) setwindow pcb
+\i (00:16:12) zoom in 3.4343 0.7550
+\i (00:16:12) trapsize 236
+\i (00:16:13) roam start
+\i (00:16:13) roam x 16
+\i (00:16:13) roam x 16
+\i (00:16:13) roam x 16
+\i (00:16:13) roam end
+\i (00:16:13) vertex 
+\i (00:16:14) pick grid 4.9057 0.2079
+\t (00:16:14) last pick:  5.0000 0.2500
+\t (00:16:14) last pick:  4.8750 0.2500
+\i (00:16:17) ipick 1.25 
+\t (00:16:17) last pick:  6.1250 0.2500
+\t (00:16:17) No DRC errors detected.
+\i (00:16:18) pick grid 4.8397 0.8399
+\t (00:16:18) last pick:  4.7500 0.7500
+\t (00:16:18) last pick:  4.8750 0.8800
+\i (00:16:21) ipick 1.25 
+\t (00:16:21) last pick:  6.1250 0.8800
+\t (00:16:21) No DRC errors detected.
+\i (00:16:23) pick grid 2.5944 0.8871
+\t (00:16:23) last pick:  2.5000 1.0000
+\t (00:16:23) last pick:  2.6356 0.8800
+\i (00:16:26) ipick 1.25 
+\t (00:16:26) last pick:  3.8856 0.8800
+\t (00:16:26) No DRC errors detected.
+\i (00:16:26) done 
+\i (00:16:27) generaledit 
+\i (00:16:27) done 
+\i (00:16:27) generaledit 
+\i (00:16:27) zoom out 1 
+\i (00:16:27) setwindow pcb
+\i (00:16:27) zoom out 4.8869 0.8399
+\i (00:16:27) trapsize 472
+\i (00:16:27) zoom out 1 
+\i (00:16:27) setwindow pcb
+\i (00:16:27) zoom out 4.8869 0.8400
+\i (00:16:27) trapsize 943
+\i (00:16:27) roam start
+\i (00:16:27) roam x -16
+\i (00:16:27) roam x -32
+\i (00:16:27) roam y 16
+\i (00:16:27) roam x -48
+\i (00:16:27) roam y 16
+\i (00:16:27) roam x -80
+\i (00:16:27) roam x -64
+\i (00:16:27) roam y 16
+\i (00:16:28) roam x -48
+\i (00:16:28) roam x -16
+\i (00:16:28) roam x -16
+\i (00:16:28) roam end
+\i (00:16:28) zoom in 1 
+\i (00:16:28) setwindow pcb
+\i (00:16:28) zoom in -5.5658 -1.0374
+\i (00:16:28) trapsize 472
+\i (00:16:28) roam start
+\i (00:16:28) roam y -32
+\i (00:16:28) roam y -16
+\i (00:16:28) roam x 16
+\i (00:16:28) roam y -32
+\i (00:16:29) roam end
+\i (00:16:29) shape edit boundary 
+\i (00:16:29) pick grid -2.9905 -0.2547
+\t (00:16:29) last pick:  -3.0000 -0.2500
+\t (00:16:29) Pick the edit starting point on the shape boundary.
+\i (00:16:30) zoom in 1 
+\i (00:16:30) setwindow pcb
+\i (00:16:30) zoom in -5.9622 0.8491
+\i (00:16:30) trapsize 236
+\i (00:16:31) pick grid -5.5046 1.0095
+\t (00:16:31) last pick:  -5.5000 1.0000
+\t (00:16:31) Pick the next vertex or the closing point on the shape.
+\i (00:16:32) pick grid -6.6461 1.0095
+\t (00:16:32) last pick:  -6.7500 1.0000
+\t (00:16:32) Pick the next vertex or the closing point on the shape.
+\i (00:16:32) pick grid -6.6650 0.5850
+\t (00:16:32) last pick:  -6.7500 0.5000
+\t (00:16:32) Pick the next vertex or the closing point on the shape.
+\i (00:16:32) zoom out 1 
+\i (00:16:32) setwindow pcb
+\i (00:16:32) zoom out -6.6980 0.4387
+\i (00:16:32) trapsize 472
+\i (00:16:32) zoom out 1 
+\i (00:16:33) setwindow pcb
+\i (00:16:33) zoom out -6.6980 0.4387
+\i (00:16:33) trapsize 943
+\i (00:16:33) roam start
+\i (00:16:33) roam y 16
+\i (00:16:33) roam y 48
+\i (00:16:33) roam y 64
+\i (00:16:33) roam y 48
+\i (00:16:33) roam y 32
+\i (00:16:33) roam end
+\i (00:16:33) zoom in 1 
+\i (00:16:33) setwindow pcb
+\i (00:16:33) zoom in -6.6792 -3.2827
+\i (00:16:33) trapsize 472
+\i (00:16:33) zoom in 1 
+\i (00:16:33) setwindow pcb
+\i (00:16:33) zoom in -6.6792 -3.1129
+\i (00:16:33) trapsize 236
+\i (00:16:34) pick grid -6.6886 -2.8770
+\t (00:16:34) last pick:  -6.7500 -3.0000
+\t (00:16:34) Pick the next vertex or the closing point on the shape.
+\i (00:16:35) pick grid -5.6037 -2.9950
+\t (00:16:35) last pick:  -5.5000 -3.0000
+\t (00:16:35) Pick DONE or a start point on another shape or void boundary.
+\i (00:16:35) zoom out 1 
+\i (00:16:35) setwindow pcb
+\i (00:16:35) zoom out -5.0896 -3.0327
+\i (00:16:35) trapsize 472
+\i (00:16:35) zoom out 1 
+\i (00:16:35) setwindow pcb
+\i (00:16:35) zoom out -5.0896 -3.0327
+\i (00:16:35) trapsize 943
+\i (00:16:36) roam start
+\i (00:16:36) roam x 16
+\i (00:16:36) roam x 64
+\i (00:16:36) roam x 336
+\i (00:16:36) roam y -32
+\i (00:16:36) roam x 352
+\i (00:16:36) roam y -16
+\i (00:16:36) roam x 336
+\i (00:16:36) roam y -16
+\i (00:16:36) roam x 224
+\i (00:16:36) roam y -16
+\i (00:16:36) roam end
+\i (00:16:36) roam start
+\i (00:16:36) roam x -32
+\i (00:16:36) roam x -32
+\i (00:16:36) roam y 16
+\i (00:16:36) roam x -48
+\i (00:16:36) roam x -48
+\i (00:16:36) roam y 16
+\i (00:16:36) roam x -32
+\i (00:16:36) roam x -16
+\i (00:16:36) roam x -16
+\i (00:16:36) roam x -16
+\i (00:16:37) roam end
+\i (00:16:37) zoom in 1 
+\i (00:16:37) setwindow pcb
+\i (00:16:37) zoom in 5.2456 0.1135
+\i (00:16:37) trapsize 472
+\i (00:16:37) zoom in 1 
+\i (00:16:37) setwindow pcb
+\i (00:16:37) zoom in 5.2362 0.2268
+\i (00:16:37) trapsize 236
+\i (00:16:38) pick grid 5.5098 1.0146
+\t (00:16:38) last pick:  5.5000 1.0000
+\i (00:16:38) shape edit boundary 
+\t (00:16:38) Pick the edit starting point on the shape or void boundary.
+\t (00:16:38) Pick the edit starting point on the shape boundary.
+\t (00:16:38) Pick the next vertex or the closing point on the shape.
+\i (00:16:39) pick grid 6.6419 1.0146
+\t (00:16:39) last pick:  6.7500 1.0000
+\t (00:16:39) Pick the next vertex or the closing point on the shape.
+\i (00:16:39) zoom out 1 
+\i (00:16:39) setwindow pcb
+\i (00:16:39) zoom out 6.8259 0.0853
+\i (00:16:39) trapsize 472
+\i (00:16:39) roam start
+\i (00:16:39) roam y 16
+\i (00:16:39) roam y 16
+\i (00:16:39) roam y 32
+\i (00:16:39) roam y 32
+\i (00:16:39) roam y 32
+\i (00:16:39) roam y 32
+\i (00:16:39) roam y 16
+\i (00:16:39) roam end
+\i (00:16:40) pick grid 6.6937 -2.8772
+\t (00:16:40) last pick:  6.7500 -3.0000
+\t (00:16:40) Pick the next vertex or the closing point on the shape.
+\i (00:16:41) pick grid 5.6088 -2.9905
+\t (00:16:41) last pick:  5.5000 -3.0000
+\t (00:16:41) Pick DONE or a start point on another shape or void boundary.
+\i (00:16:41) spin 
+\t (00:16:41) Select element(s) to spin.
+\i (00:16:42) zoom out 1 
+\i (00:16:42) setwindow pcb
+\i (00:16:42) zoom out 7.1749 -2.3206
+\i (00:16:42) trapsize 943
+\i (00:16:42) zoom out 1 
+\i (00:16:42) setwindow pcb
+\i (00:16:42) zoom out 7.1749 -2.3207
+\i (00:16:42) trapsize 1887
+\i (00:16:42) roam start
+\i (00:16:42) roam y -16
+\i (00:16:42) roam y -16
+\i (00:16:42) roam y -32
+\i (00:16:42) roam end
+\i (00:16:43) zoom in 1 
+\i (00:16:43) setwindow pcb
+\i (00:16:43) zoom in 0.1182 -0.4148
+\i (00:16:43) trapsize 943
+\i (00:16:43) roam start
+\i (00:16:43) roam x -32
+\i (00:16:43) roam x -16
+\i (00:16:44) roam end
+\i (00:16:44) zoom in 1 
+\i (00:16:44) setwindow pcb
+\i (00:16:44) zoom in -0.6978 1.3777
+\i (00:16:44) trapsize 472
+\i (00:16:44) roam start
+\i (00:16:44) roam x -16
+\i (00:16:44) roam x -16
+\i (00:16:45) roam x -32
+\i (00:16:45) roam x -32
+\i (00:16:45) roam end
+\i (00:16:45) shape edit boundary 
+\i (00:16:45) pick grid 1.1982 -0.6694
+\t (00:16:45) last pick:  1.2500 -0.7500
+\t (00:16:45) Pick the edit starting point on the shape boundary.
+\i (00:16:46) roam start
+\i (00:16:46) roam x -16
+\i (00:16:46) roam x -16
+\i (00:16:46) roam x -32
+\i (00:16:46) roam end
+\i (00:16:46) roam start
+\i (00:16:46) roam x -16
+\i (00:16:46) roam x -32
+\i (00:16:46) roam x -48
+\i (00:16:46) roam x -48
+\i (00:16:46) roam end
+\i (00:16:46) zoom in 1 
+\i (00:16:46) setwindow pcb
+\i (00:16:46) zoom in -4.2640 1.9910
+\i (00:16:46) trapsize 236
+\i (00:16:46) zoom in 1 
+\i (00:16:46) setwindow pcb
+\i (00:16:46) zoom in -4.2640 2.0098
+\i (00:16:46) trapsize 118
+\i (00:16:48) pick grid -2.4880 2.2551
+\t (00:16:48) last pick:  -2.5000 2.2500
+\t (00:16:48) Pick the next vertex or the closing point on the shape.
+\i (00:16:48) pick grid -3.6271 2.2339
+\t (00:16:48) last pick:  -3.7500 2.2500
+\t (00:16:48) Pick the next vertex or the closing point on the shape.
+\i (00:16:49) pick grid -3.7097 1.1183
+\t (00:16:49) last pick:  -3.7500 1.0000
+\t (00:16:49) Pick DONE or a start point on another shape or void boundary.
+\i (00:16:49) zoom out 1 
+\i (00:16:50) setwindow pcb
+\i (00:16:50) zoom out -3.7026 1.1655
+\i (00:16:50) trapsize 236
+\i (00:16:50) zoom out 1 
+\i (00:16:50) setwindow pcb
+\i (00:16:50) zoom out -3.7026 1.1655
+\i (00:16:50) trapsize 472
+\i (00:16:50) roam start
+\i (00:16:50) roam x 32
+\i (00:16:50) roam x 16
+\i (00:16:50) roam x 32
+\i (00:16:50) roam x 48
+\i (00:16:50) roam end
+\i (00:16:50) zoom in 1 
+\i (00:16:50) setwindow pcb
+\i (00:16:50) zoom in 2.6133 2.0145
+\i (00:16:50) trapsize 236
+\i (00:16:51) pick grid 2.5001 2.2503
+\t (00:16:51) last pick:  2.5000 2.2500
+\i (00:16:51) shape edit boundary 
+\t (00:16:51) Pick the edit starting point on the shape or void boundary.
+\t (00:16:51) Pick the edit starting point on the shape boundary.
+\t (00:16:51) Pick the next vertex or the closing point on the shape.
+\i (00:16:52) pick grid 3.6274 2.2503
+\t (00:16:52) last pick:  3.7500 2.2500
+\t (00:16:52) Pick the next vertex or the closing point on the shape.
+\i (00:16:52) roam start
+\i (00:16:52) roam y 16
+\i (00:16:52) roam y 16
+\i (00:16:52) roam y 32
+\i (00:16:52) roam y 48
+\i (00:16:52) roam x 16
+\i (00:16:52) roam y 32
+\i (00:16:52) roam y 16
+\i (00:16:53) roam y 16
+\i (00:16:53) roam end
+\i (00:16:53) pick grid 3.7831 1.1228
+\t (00:16:53) last pick:  3.7500 1.0000
+\t (00:16:53) Pick DONE or a start point on another shape or void boundary.
+\i (00:16:54) done 
+\i (00:16:54) generaledit 
+\i (00:16:54) done 
+\i (00:16:54) generaledit 
+\i (00:16:54) zoom out 1 
+\i (00:16:54) setwindow pcb
+\i (00:16:54) zoom out 0.8350 1.4577
+\i (00:16:54) trapsize 472
+\i (00:16:54) zoom out 1 
+\i (00:16:54) setwindow pcb
+\i (00:16:54) zoom out 0.8351 1.4577
+\i (00:16:54) trapsize 943
+\i (00:16:55) roam start
+\i (00:16:55) roam y 16
+\i (00:16:55) roam x 16
+\i (00:16:55) roam y 16
+\i (00:16:55) roam x 32
+\i (00:16:55) roam y 16
+\i (00:16:55) roam x 16
+\i (00:16:55) roam y 16
+\i (00:16:55) roam x 16
+\i (00:16:55) roam y 16
+\i (00:16:55) roam x 16
+\i (00:16:55) roam y 32
+\i (00:16:55) roam x 16
+\i (00:16:55) roam y 16
+\i (00:16:55) roam end
+\i (00:16:55) save 
+\i (00:16:56) fillin yes 
+\t (00:16:57) Symbol 'afc12-s06ccc-00.psm' created.
+\i (00:16:57) generaledit 
+\i (00:16:58) zoom out 1 
+\i (00:16:58) setwindow pcb
+\i (00:16:58) zoom out 0.1135 -0.5469
+\i (00:16:58) trapsize 1887
+\i (00:16:58) roam start
+\i (00:16:58) roam x -16
+\i (00:16:58) roam y 16
+\i (00:16:58) roam x -32
+\i (00:16:58) roam y 32
+\i (00:16:58) roam x -32
+\i (00:16:58) roam y 16
+\i (00:16:58) roam x -32
+\i (00:16:58) roam y 16
+\i (00:16:58) roam end
+\i (00:17:02) ba 
+\i (00:17:02) generaledit 
+\i (00:17:03) zoom in 1 
+\i (00:17:03) setwindow pcb
+\i (00:17:03) zoom in 1.4343 0.3399
+\i (00:17:03) trapsize 943
+\i (00:17:05) save 
+\i (00:17:06) fillin yes 
+\t (00:17:06) Symbol 'afc12-s06ccc-00.psm' created.
+\i (00:17:06) generaledit 
+\i (01:51:55) zoom in 1 
+\i (01:51:55) setwindow pcb
+\i (01:51:55) zoom in -2.7544 1.2267
+\i (01:51:55) trapsize 472
+\i (01:51:56) zoom out 1 
+\i (01:51:56) setwindow pcb
+\i (01:51:56) zoom out -3.4902 1.9909
+\i (01:51:56) trapsize 943
+\i (01:51:56) roam start
+\i (01:51:56) roam x -16
+\i (01:51:57) roam end
+\i (01:52:34) step pkg map 
+\i (01:52:35) fillin yes 
+\i (01:52:38) setwindow form.pkgmap3d
+\i (01:52:38) FORM pkgmap3d stplist AFC12-S06CCC-00.STEP 
+\i (01:52:41) FORM pkgmap3d save_current  
+\i (01:52:41) FORM pkgmap3d done  
+\i (01:52:41) setwindow pcb
+\i (01:52:41) generaledit 
+\i (01:52:43) 3d 
+\i (01:52:45) generaledit 
+\i (01:52:45) QtSignal pcb3dViewer pcb3dViewerCanvas keyPressEvent 16777248 33554432 false 1
+\i (01:52:45) QtSignal pcb3dViewer pcb3dViewerCanvas CanvasMousePressEvent 882 321 882 366 4 4 33554432 +
+\i (01:52:45) QtSignal "367.768" "-70.3909" "319.655"
+\i (01:52:45) QtSignal pcb3dViewer pcb3dViewerCanvas CanvasRotateEvent "367.768" "-70.3909" "319.655" +
+\i (01:52:45) QtSignal "368.205" "-72.5751" "316.445" "2391.62" "-2283.32" "2188.74" "252.382" "-231.198" +
+\i (01:52:45) QtSignal "264.027" "-0.385759" "0.384467" "0.838675"
+\i (01:52:45) QtSignal pcb3dViewer pcb3dViewerCanvas CanvasRotateEvent "364.16" "-68.6509" "313.097" +
+\i (01:52:45) QtSignal "364.637" "-69.1258" "312.061" "2367.5" "-2259.29" "2240.18" "252.382" "-231.198" +
+\i (01:52:45) QtSignal "264.027" "-0.396263" "0.394542" "0.829043"
+\i (01:52:45) QtSignal pcb3dViewer pcb3dViewerCanvas CanvasRotateEvent "364.014" "-68.5285" "311.49" +
+\i (01:52:45) QtSignal "361.416" "-78.1498" "304.397" "2463.09" "-1752.4" "2564.2" "252.382" "-231.198" +
+\i (01:52:45) QtSignal "264.027" "-0.476039" "0.450351" "0.755362"
+\i (01:52:45) QtSignal pcb3dViewer pcb3dViewerCanvas CanvasRotateEvent "342.891" "-63.3494" "288.043" +
+\i (01:52:45) QtSignal "341.951" "-65.8395" "287.3" "2508.29" "-1626.98" "2599.57" "252.382" "-231.198" +
+\i (01:52:45) QtSignal "264.027" "-0.487252" "0.457313" "0.743942"
+\i (01:52:45) QtSignal pcb3dViewer pcb3dViewerCanvas CanvasRotateEvent "337.334" "-62.8348" "282.589" +
+\i (01:52:45) QtSignal "334.783" "-77.2031" "276.467" "2574.94" "-883.173" "2847.19" "252.382" "-231.198" +
+\i (01:52:45) QtSignal "264.027" "-0.584394" "0.487732" "0.648538"
+\i (01:52:45) QtSignal pcb3dViewer pcb3dViewerCanvas CanvasRotateEvent "310.493" "-66.3681" "253.381" +
+\i (01:52:45) QtSignal "310.76" "-69.6825" "252.304" "2558.72" "-717.03" "2897.82" "252.382" "-231.198" +
+\i (01:52:45) QtSignal "264.027" "-0.607538" "0.492829" "0.622911"
+\i (01:52:45) QtSignal pcb3dViewer pcb3dViewerCanvas CanvasRotateEvent "305.998" "-68.4988" "247.089" +
+\i (01:52:45) QtSignal "307.13" "-72.4491" "245.369" "2497.56" "-519.07" "2978.51" "252.382" "-231.198" +
+\i (01:52:45) QtSignal "264.027" "-0.641662" "0.497774" "0.583516"
+\i (01:52:46) QtSignal pcb3dViewer pcb3dViewerCanvas CanvasRotateEvent "302.174" "-71.5763" "239.771" +
+\i (01:52:46) QtSignal "302.697" "-74.9407" "238.982" "2468.66" "-350.875" "3014.64" "252.382" "-231.198" +
+\i (01:52:46) QtSignal "264.027" "-0.663951" "0.49926" "0.556695"
+\i (01:52:46) QtSignal pcb3dViewer pcb3dViewerCanvas CanvasRotateEvent "298.348" "-74.5169" "233.807" +
+\i (01:52:46) QtSignal "298.348" "-74.5169" "233.807" "2468.66" "-350.875" "3014.64" "252.382" "-231.198" +
+\i (01:52:46) QtSignal "264.027" "-0.663951" "0.49926" "0.556695"
+\i (01:52:46) QtSignal pcb3dViewer pcb3dViewerCanvas CanvasRotateEvent "298.348" "-74.5168" "233.807" +
+\i (01:52:46) QtSignal "298.291" "-81.7179" "233.54" "2459.71" "8.43143" 3014 "252.382" "-231.198" +
+\i (01:52:46) QtSignal "264.027" "-0.697592" "0.496392" "0.516682"
+\i (01:52:46) QtSignal pcb3dViewer pcb3dViewerCanvas CanvasRotateEvent "288.554" "-81.8497" "221.979" +
+\i (01:52:46) QtSignal "288.554" "-81.8497" "221.979" "2459.71" "8.43143" 3014 "252.382" "-231.198" +
+\i (01:52:46) QtSignal "264.027" "-0.697592" "0.496392" "0.516682"
+\i (01:52:46) QtSignal pcb3dViewer pcb3dViewerCanvas CanvasRotateEvent "288.554" "-81.8497" "221.979" +
+\i (01:52:46) QtSignal "288.982" "-83.5326" "221.782" "2437.67" "92.354" 3023 "252.382" "-231.198" +
+\i (01:52:46) QtSignal "264.027" "-0.70849" "0.49487" "0.503136"
+\i (01:52:46) QtSignal pcb3dViewer pcb3dViewerCanvas CanvasRotateEvent "286.993" "-83.7769" "219.324" +
+\i (01:52:46) QtSignal "289.198" "-86.6789" "217.918" "2324.24" "236.631" "3089.02" "252.382" "-231.198" +
+\i (01:52:46) QtSignal "264.027" "-0.740184" "0.488612" "0.461937"
+\i (01:52:46) QtSignal pcb3dViewer pcb3dViewerCanvas CanvasRotateEvent "286.818" "-87.0853" "214.906" +
+\i (01:52:46) QtSignal "286.918" "-89.8208" "215.285" "2317.63" "372.775" "3067.96" "252.382" "-231.198" +
+\i (01:52:46) QtSignal "264.027" "-0.750496" "0.485704" "0.44816"
+\i (01:52:46) QtSignal pcb3dViewer pcb3dViewerCanvas CanvasRotateEvent "283.561" "-90.664" "210.791" +
+\i (01:52:46) QtSignal "284.27" "-95.0428" "211.212" "2278.05" "589.967" "3041.52" "252.382" "-231.198" +
+\i (01:52:46) QtSignal "264.027" "-0.770968" "0.477886" "0.420991"
+\i (01:52:46) QtSignal pcb3dViewer pcb3dViewerCanvas CanvasRotateEvent "279.292" "-96.6885" "204.633" +
+\i (01:52:46) QtSignal "279.292" "-96.6885" "204.633" "2278.05" "589.967" "3041.52" "252.382" "-231.198" +
+\i (01:52:46) QtSignal "264.027" "-0.770968" "0.477886" "0.420991"
+\i (01:52:46) QtSignal pcb3dViewer pcb3dViewerCanvas CanvasRotateEvent "279.292" "-96.6885" "204.633" +
+\i (01:52:46) QtSignal "280.244" "-97.2788" "204.113" "2230.18" "619.32" "3067.06" "252.382" "-231.198" +
+\i (01:52:46) QtSignal "264.027" "-0.780853" "0.473759" "0.407212"
+\i (01:52:46) QtSignal pcb3dViewer pcb3dViewerCanvas CanvasRotateEvent "280.073" "-97.3502" "203.875" +
+\i (01:52:46) QtSignal "281.316" "-100.615" "203.989" "2165.69" "781.153" "3058.03" "252.382" "-231.198" +
+\i (01:52:46) QtSignal "264.027" "-0.800233" "0.464045" "0.379855"
+\i (01:52:46) QtSignal pcb3dViewer pcb3dViewerCanvas CanvasRotateEvent "278.156" "-102.059" "199.587" +
+\i (01:52:46) QtSignal "278.825" "-103.668" "199.711" "2131.66" "861.166" "3050.98" "252.382" "-231.198" +
+\i (01:52:46) QtSignal "264.027" "-0.809636" "0.458721" "0.366149"
+\i (01:52:46) QtSignal pcb3dViewer pcb3dViewerCanvas CanvasMouseReleaseEvent 841 362 841 407 4 0 +
+\i (01:52:46) QtSignal 0 "277.325" "-104.482" "197.54"
+\i (01:52:47) QtSignal pcb3dViewer pcb3dViewerCanvas CanvasMousePressEvent 818 306 818 351 4 4 0 +
+\i (01:52:47) QtSignal "214.253" "-96.4348" "236.917"
+\i (01:52:47) QtSignal pcb3dViewer pcb3dViewerCanvas CanvasPanEvent "214.253" "-96.4348" "236.917" +
+\i (01:52:47) QtSignal "215.253" "-97.0014" "236.464"
+\i (01:52:47) QtSignal pcb3dViewer pcb3dViewerCanvas CanvasPanEvent "214.25" "-96.4332" "236.918" +
+\i (01:52:47) QtSignal "215.251" "-96.9999" "236.466"
+\i (01:52:47) QtSignal pcb3dViewer pcb3dViewerCanvas CanvasPanEvent "214.248" "-96.4317" "236.919" +
+\i (01:52:47) QtSignal "217.248" "-98.1316" "235.562"
+\i (01:52:47) QtSignal pcb3dViewer pcb3dViewerCanvas CanvasPanEvent "214.24" "-96.4271" "236.923" +
+\i (01:52:47) QtSignal "233.242" "-107.193" "228.329"
+\i (01:52:47) QtSignal pcb3dViewer pcb3dViewerCanvas CanvasPanEvent "214.189" "-96.3982" "236.946" +
+\i (01:52:47) QtSignal "216.189" "-97.5315" "236.041"
+\i (01:52:47) QtSignal pcb3dViewer pcb3dViewerCanvas CanvasPanEvent "214.183" "-96.3952" "236.948" +
+\i (01:52:47) QtSignal "216.183" "-97.5284" "236.044"
+\i (01:52:47) QtSignal pcb3dViewer pcb3dViewerCanvas CanvasPanEvent "214.178" "-96.392" "236.951" +
+\i (01:52:47) QtSignal "228.179" "-104.325" "230.619"
+\i (01:52:47) QtSignal pcb3dViewer pcb3dViewerCanvas CanvasPanEvent "214.14" "-96.3707" "236.968" +
+\i (01:52:47) QtSignal "215.14" "-96.9374" "236.516"
+\i (01:52:47) QtSignal pcb3dViewer pcb3dViewerCanvas CanvasPanEvent "214.138" "-96.3692" "236.969" +
+\i (01:52:47) QtSignal "228.446" "-103.272" "230.026"
+\i (01:52:47) QtSignal pcb3dViewer pcb3dViewerCanvas CanvasPanEvent "214.099" "-96.3493" "236.987" +
+\i (01:52:47) QtSignal "216.407" "-96.4528" "235.472"
+\i (01:52:47) QtSignal pcb3dViewer pcb3dViewerCanvas CanvasPanEvent "214.094" "-96.3477" "236.99" +
+\i (01:52:47) QtSignal "222.095" "-100.881" "233.372"
+\i (01:52:47) QtSignal pcb3dViewer pcb3dViewerCanvas CanvasPanEvent "214.072" "-96.3355" 237 "216.072" +
+\i (01:52:47) QtSignal "-97.4688" "236.095"
+\i (01:52:47) QtSignal pcb3dViewer pcb3dViewerCanvas CanvasPanEvent "214.067" "-96.3325" "237.002" +
+\i (01:52:47) QtSignal "225.682" "-100.506" "230.805"
+\i (01:52:47) QtSignal pcb3dViewer pcb3dViewerCanvas CanvasMouseReleaseEvent 822 386 822 431 4 0 +
+\i (01:52:47) QtSignal 0 "214.036" "-96.3186" "237.017"
+\i (01:52:47) QtSignal pcb3dViewer pcb3dViewerCanvas keyPressEvent 16777248 33554432 false 1
+\i (01:52:47) QtSignal pcb3dViewer pcb3dViewerCanvas CanvasMousePressEvent 810 246 810 291 4 4 33554432 +
+\i (01:52:47) QtSignal "-26.2744" "-74.8156" "171.917"
+\i (01:52:48) QtSignal pcb3dViewer pcb3dViewerCanvas CanvasRotateEvent "-26.2744" "-74.8156" "171.917" +
+\i (01:52:48) QtSignal "-24.1766" "-76.0042" "170.968" "1944.27" "961.14" "3135.3" "79.2272" "-243.171" +
+\i (01:52:48) QtSignal "166.763" "-0.827699" "0.447656" "0.338407"
+\i (01:52:48) QtSignal pcb3dViewer pcb3dViewerCanvas CanvasRotateEvent "-27.1018" "-77.7962" "166.475" +
+\i (01:52:48) QtSignal "-25.2794" "-80.0361" "166.239" "1851.84" 1072 "3144.87" "79.2272" "-243.171" +
+\i (01:52:48) QtSignal "166.763" "-0.844902" "0.435539" "0.310558"
+\i (01:52:48) QtSignal pcb3dViewer pcb3dViewerCanvas CanvasRotateEvent "-28.9925" "-82.6057" "160.269" +
+\i (01:52:48) QtSignal "-12.5735" "-91.0695" "154.234" "980.83" "1445.05" "3341.35" "79.2272" "-243.171" +
+\i (01:52:48) QtSignal "166.763" "-0.939879" "0.328871" "0.0920407"
+\i (01:52:48) QtSignal pcb3dViewer pcb3dViewerCanvas CanvasRotateEvent "-25.8624" "-105.994" "123.66" +
+\i (01:52:48) QtSignal "-24.6448" "-106.42" "123.541" "919.888" "1466.07" "3346.82" "79.2272" "-243.171" +
+\i (01:52:48) QtSignal "166.763" "-0.94398" "0.320873" "0.0770804"
+\i (01:52:48) QtSignal pcb3dViewer pcb3dViewerCanvas CanvasRotateEvent "-25.2134" "-107.529" "121.467" +
+\i (01:52:48) QtSignal "-23.9905" "-107.945" "121.367" "858.69" "1486.56" "3351.32" "79.2272" "-243.171" +
+\i (01:52:48) QtSignal "166.763" "-0.947795" "0.312777" "0.0620966"
+\i (01:52:48) QtSignal pcb3dViewer pcb3dViewerCanvas CanvasRotateEvent "-24.5142" "-109.057" "119.309" +
+\i (01:52:48) QtSignal "-23.2863" "-109.462" "119.229" "797.255" "1506.54" "3354.85" "79.2272" "-243.171" +
+\i (01:52:48) QtSignal "166.763" "-0.95132" "0.304585" "0.0470939"
+\i (01:52:48) QtSignal pcb3dViewer pcb3dViewerCanvas CanvasRotateEvent "-23.7659" "-110.576" "117.188" +
+\i (01:52:48) QtSignal "-22.5334" "-110.971" "117.127" "735.601" "1525.97" "3357.41" "79.2272" "-243.171" +
+\i (01:52:48) QtSignal "166.763" "-0.954556" "0.296301" "0.0320768"
+\i (01:52:48) QtSignal pcb3dViewer pcb3dViewerCanvas CanvasRotateEvent "-22.9694" "-112.087" "115.104" +
+\i (01:52:48) QtSignal "-21.7327" "-112.471" "115.062" "673.747" "1544.87" 3359 "79.2272" "-243.171" +
+\i (01:52:48) QtSignal "166.763" "-0.957501" "0.287927" "0.01705"
+\i (01:52:48) QtSignal pcb3dViewer pcb3dViewerCanvas CanvasRotateEvent "-22.1257" "-113.588" "113.057" +
+\i (01:52:48) QtSignal "-16.5422" "-112.935" "111.651" "393.411" "1507.12" "3419.26" "79.2272" "-243.171" +
+\i (01:52:48) QtSignal "166.763" "-0.965766" "0.255612" "-0.0442637"
+\i (01:52:48) QtSignal pcb3dViewer pcb3dViewerCanvas CanvasRotateEvent "-16.9874" "-115.238" "107.212" +
+\i (01:52:48) QtSignal "-16.9874" "-115.238" "107.212" "393.411" "1507.12" "3419.26" "79.2272" "-243.171" +
+\i (01:52:48) QtSignal "166.763" "-0.965766" "0.255612" "-0.0442637"
+\i (01:52:48) QtSignal pcb3dViewer pcb3dViewerCanvas CanvasRotateEvent "-16.9874" "-115.238" "107.212" +
+\i (01:52:48) QtSignal "-15.7363" "-115.569" "107.269" "330.884" "1523.39" "3415.9" "79.2272" "-243.171" +
+\i (01:52:48) QtSignal "166.763" "-0.967098" "0.247333" "-0.05957"
+\i (01:52:48) QtSignal pcb3dViewer pcb3dViewerCanvas CanvasRotateEvent "-15.9054" "-116.62" "105.326" +
+\i (01:52:48) QtSignal "-13.0817" "-116.168" "104.861" "189.728" "1499.49" "3436.6" "79.2272" "-243.171" +
+\i (01:52:48) QtSignal "166.763" "-0.968728" "0.231067" "-0.09041"
+\i (01:52:48) QtSignal pcb3dViewer pcb3dViewerCanvas CanvasRotateEvent "-13.1536" "-117.256" "102.779" +
+\i (01:52:48) QtSignal "-10.6436" "-117.855" "103.013" "64.3386" "1528.32" "3422.92" "79.2272" "-243.171" +
+\i (01:52:48) QtSignal "166.763" "-0.969178" "0.214519" "-0.12114"
+\i (01:52:48) QtSignal pcb3dViewer pcb3dViewerCanvas CanvasRotateEvent "-10.6984" "-119.87" "99.2707" +
+\i (01:52:48) QtSignal "-0.0148544" "-119.885" "99.3276" "-467.061" "1511.56" "3385.99" "79.2272" +
+\i (01:52:48) QtSignal "-243.171" "166.763" "-0.957991" "0.150099" "-0.244383"
+\i (01:52:48) QtSignal pcb3dViewer pcb3dViewerCanvas CanvasRotateEvent "1.1977" "-125.177" "89.206" +
+\i (01:52:48) QtSignal "1.1977" "-125.177" "89.206" "-467.061" "1511.56" "3385.99" "79.2272" "-243.171" +
+\i (01:52:48) QtSignal "166.763" "-0.957991" "0.150099" "-0.244383"
+\i (01:52:48) QtSignal pcb3dViewer pcb3dViewerCanvas CanvasRotateEvent "1.1977" "-125.177" "89.206" +
+\i (01:52:48) QtSignal "2.75777" "-124.246" "88.9633" "-544.786" "1464.59" "3397.1" "79.2272" "-243.171" +
+\i (01:52:48) QtSignal "166.763" "-0.955199" "0.142081" "-0.259631"
+\i (01:52:48) QtSignal pcb3dViewer pcb3dViewerCanvas CanvasRotateEvent "2.75741" "-124.17" "89.08" +
+\i (01:52:48) QtSignal "12.9729" "-124.507" "91.2315" "-1047" "1464.89" "3257.9" "79.2272" "-243.171" +
+\i (01:52:48) QtSignal "166.763" "-0.921887" "0.0787184" "-0.379378"
+\i (01:52:48) QtSignal pcb3dViewer pcb3dViewerCanvas CanvasRotateEvent "15.9412" "-129.885" "81.1075" +
+\i (01:52:48) QtSignal "15.9412" "-129.885" "81.1075" "-1047" "1464.89" "3257.9" "79.2272" "-243.171" +
+\i (01:52:48) QtSignal "166.763" "-0.921887" "0.0787184" "-0.379378"
+\i (01:52:48) QtSignal pcb3dViewer pcb3dViewerCanvas CanvasRotateEvent "15.9412" "-129.885" "81.1075" +
+\i (01:52:48) QtSignal "17.1355" "-129.987" "81.599" "-1106.47" "1469.72" "3232.88" "79.2272" "-243.171" +
+\i (01:52:48) QtSignal "166.763" "-0.916444" "0.0706646" "-0.393874"
+\i (01:52:48) QtSignal pcb3dViewer pcb3dViewerCanvas CanvasRotateEvent "17.6714" "-130.78" "80.1717" +
+\i (01:52:48) QtSignal "32.5423" "-129.586" "85.2557" "-1816.59" "1373.86" "2911.22" "79.2272" "-243.171" +
+\i (01:52:48) QtSignal "166.763" "-0.82821" "-0.0204793" "-0.560043"
+\i (01:52:48) QtSignal pcb3dViewer pcb3dViewerCanvas CanvasRotateEvent "38.48" "-135.244" "75.0253" +
+\i (01:52:48) QtSignal "38.48" "-135.244" "75.0253" "-1816.59" "1373.86" "2911.22" "79.2272" "-243.171" +
+\i (01:52:48) QtSignal "166.763" "-0.82821" "-0.0204793" "-0.560044"
+\i (01:52:48) QtSignal pcb3dViewer pcb3dViewerCanvas CanvasRotateEvent "38.48" "-135.244" "75.0253" +
+\i (01:52:48) QtSignal "41.6989" "-135.164" "77.202" "-1974.66" "1367.67" "2798.81" "79.2272" "-243.171" +
+\i (01:52:48) QtSignal "166.763" "-0.800309" "-0.0432815" "-0.598024"
+\i (01:52:48) QtSignal pcb3dViewer pcb3dViewerCanvas CanvasRotateEvent "43.9039" "-136.966" "74.2004" +
+\i (01:52:48) QtSignal "51.1617" "-136.574" "79.6237" "-2320.9" "1336.11" "2509.03" "79.2272" "-243.171" +
+\i (01:52:48) QtSignal "166.763" "-0.726819" "-0.095918" "-0.680099"
+\i (01:52:48) QtSignal pcb3dViewer pcb3dViewerCanvas CanvasRotateEvent "56.303" "-140.256" "73.8819" +
+\i (01:52:48) QtSignal "56.303" "-140.256" "73.8819" "-2320.9" "1336.11" "2509.03" "79.2272" "-243.171" +
+\i (01:52:48) QtSignal "166.763" "-0.726819" "-0.095918" "-0.680099"
+\i (01:52:48) QtSignal pcb3dViewer pcb3dViewerCanvas CanvasRotateEvent "56.303" "-140.256" "73.8818" +
+\i (01:52:48) QtSignal "57.2446" "-140.132" "74.7629" "-2367.55" "1329.67" "2464.67" "79.2272" "-243.171" +
+\i (01:52:48) QtSignal "166.763" "-0.715408" "-0.103339" "-0.691023"
+\i (01:52:48) QtSignal pcb3dViewer pcb3dViewerCanvas CanvasRotateEvent "58.028" "-140.642" "74.0129" +
+\i (01:52:48) QtSignal "62.3652" "-141.138" "78.9711" "-2574.23" "1348.04" "2208.37" "79.2272" "-243.171" +
+\i (01:52:48) QtSignal "166.763" "-0.655514" "-0.141289" "-0.741848"
+\i (01:52:48) QtSignal pcb3dViewer pcb3dViewerCanvas CanvasRotateEvent "67.4743" "-144.408" "74.513" +
+\i (01:52:48) QtSignal "68.0116" "-145.381" "75.97" "-2600.27" "1396.11" "2135.01" "79.2272" "-243.171" +
+\i (01:52:48) QtSignal "166.763" "-0.642997" "-0.149029" "-0.751229"
+\i (01:52:49) QtSignal pcb3dViewer pcb3dViewerCanvas CanvasRotateEvent "70.2594" "-146.762" "74.2593" +
+\i (01:52:49) QtSignal "72.9354" "-148.283" "79.1688" "-2725.72" "1466.73" "1884.17" "79.2272" "-243.171" +
+\i (01:52:49) QtSignal "166.763" "-0.591655" "-0.181649" "-0.785461"
+\i (01:52:49) QtSignal pcb3dViewer pcb3dViewerCanvas CanvasRotateEvent "78.721" "-151.964" "75.1276" +
+\i (01:52:49) QtSignal "78.721" "-151.964" "75.1276" "-2725.72" "1466.73" "1884.17" "79.2272" "-243.171" +
+\i (01:52:49) QtSignal "166.763" "-0.591655" "-0.181649" "-0.785461"
+\i (01:52:49) QtSignal pcb3dViewer pcb3dViewerCanvas CanvasRotateEvent "78.721" "-151.964" "75.1276" +
+\i (01:52:49) QtSignal "80.66" "-152.384" "78.7123" "-2818.26" "1484.99" "1702.66" "79.2272" "-243.171" +
+\i (01:52:49) QtSignal "166.763" "-0.551502" "-0.206331" "-0.808253"
+\i (01:52:49) QtSignal pcb3dViewer pcb3dViewerCanvas CanvasRotateEvent "84.2595" "-154.607" "76.6055" +
+\i (01:52:49) QtSignal "86.0253" "-154.92" "80.2893" "-2902.02" "1497.91" "1516.49" "79.2272" "-243.171" +
+\i (01:52:49) QtSignal "166.763" "-0.51011" "-0.231229" "-0.828445"
+\i (01:52:49) QtSignal pcb3dViewer pcb3dViewerCanvas CanvasRotateEvent "89.5605" "-157.057" "78.5038" +
+\i (01:52:49) QtSignal "90.2213" "-156.757" "79.5771" "-2934.57" "1482.68" "1462.69" "79.2272" "-243.171" +
+\i (01:52:49) QtSignal "166.763" "-0.495996" "-0.239391" "-0.834673"
+\i (01:52:49) QtSignal pcb3dViewer pcb3dViewerCanvas CanvasRotateEvent "90.8797" "-157.138" "79.2865" +
+\i (01:52:49) QtSignal "91.5223" "-156.828" "80.3679" "-2966.19" "1466.93" "1408.49" "79.2272" "-243.171" +
+\i (01:52:49) QtSignal "166.763" "-0.481731" "-0.247481" "-0.840647"
+\i (01:52:49) QtSignal pcb3dViewer pcb3dViewerCanvas CanvasRotateEvent "92.169" "-157.194" "80.097" +
+\i (01:52:49) QtSignal "93.4795" "-159.225" "86.1084" "-3020.17" "1561.33" "1104.04" "79.2272" "-243.171" +
+\i (01:52:49) QtSignal "166.763" "-0.424441" "-0.282125" "-0.860381"
+\i (01:52:49) QtSignal pcb3dViewer pcb3dViewerCanvas CanvasRotateEvent "100.472" "-163.406" "83.4483" +
+\i (01:52:49) QtSignal "100.472" "-163.406" "83.4483" "-3020.17" "1561.33" "1104.04" "79.2272" "-243.171" +
+\i (01:52:49) QtSignal "166.763" "-0.424441" "-0.282125" "-0.860381"
+\i (01:52:49) QtSignal pcb3dViewer pcb3dViewerCanvas CanvasRotateEvent "100.472" "-163.406" "83.4483" +
+\i (01:52:49) QtSignal "101.022" "-163.041" "84.563" "-3047.15" "1542.8" "1048.23" "79.2272" "-243.171" +
+\i (01:52:49) QtSignal "166.763" "-0.409784" "-0.290578" "-0.864663"
+\i (01:52:49) QtSignal pcb3dViewer pcb3dViewerCanvas CanvasRotateEvent "101.592" "-163.369" "84.3965" +
+\i (01:52:49) QtSignal "102.654" "-162.616" "86.6369" "-3098.26" "1504.12" "935.838" "79.2272" "-243.171" +
+\i (01:52:49) QtSignal "166.763" "-0.3801" "-0.307215" "-0.872435"
+\i (01:52:49) QtSignal pcb3dViewer pcb3dViewerCanvas CanvasRotateEvent "103.73" "-163.22" "86.355" +
+\i (01:52:49) QtSignal "104.223" "-162.822" "87.4853" "-3122.37" "1483.98" "879.28" "79.2272" "-243.171" +
+\i (01:52:49) QtSignal "166.763" "-0.365082" "-0.315395" "-0.875923"
+\i (01:52:49) QtSignal pcb3dViewer pcb3dViewerCanvas CanvasRotateEvent "104.748" "-163.108" "87.3633" +
+\i (01:52:49) QtSignal "106.167" "-161.882" "90.7677" "-3188.81" "1420.43" "708.371" "79.2272" "-243.171" +
+\i (01:52:49) QtSignal "166.763" "-0.31938" "-0.339348" "-0.884782"
+\i (01:52:49) QtSignal pcb3dViewer pcb3dViewerCanvas CanvasRotateEvent "107.588" "-162.627" "90.4922" +
+\i (01:52:49) QtSignal "108.002" "-162.187" "91.6385" "-3208.97" "1398.22" "651.049" "79.2272" "-243.171" +
+\i (01:52:49) QtSignal "166.763" "-0.303945" "-0.347129" "-0.887198"
+\i (01:52:49) QtSignal pcb3dViewer pcb3dViewerCanvas CanvasRotateEvent "108.462" "-162.419" "91.5665" +
+\i (01:52:49) QtSignal "109.249" "-161.52" "93.8653" "-3246.29" "1352.31" "535.979" "79.2272" "-243.171" +
+\i (01:52:49) QtSignal "166.763" "-0.272802" "-0.36237" "-0.891216"
+\i (01:52:49) QtSignal pcb3dViewer pcb3dViewerCanvas CanvasRotateEvent "110.097" "-161.934" "93.756" +
+\i (01:52:49) QtSignal "111.864" "-159.587" "99.529" "-3321.77" "1229.17" "246.643" "79.2272" "-243.171" +
+\i (01:52:49) QtSignal "166.763" "-0.193575" "-0.398504" "-0.896506"
+\i (01:52:49) QtSignal pcb3dViewer pcb3dViewerCanvas CanvasRotateEvent "113.506" "-160.336" "99.4193" +
+\i (01:52:49) QtSignal "113.506" "-160.336" "99.4193" "-3321.77" "1229.17" "246.643" "79.2272" "-243.171" +
+\i (01:52:49) QtSignal "166.763" "-0.193574" "-0.398504" "-0.896506"
+\i (01:52:49) QtSignal pcb3dViewer pcb3dViewerCanvas CanvasRotateEvent "113.506" "-160.336" "99.4193" +
+\i (01:52:49) QtSignal "113.757" "-159.82" "100.581" "-3333.77" "1203.16" "188.633" "79.2272" "-243.171" +
+\i (01:52:49) QtSignal "166.763" "-0.177533" "-0.405376" "-0.896746"
+\i (01:52:49) QtSignal pcb3dViewer pcb3dViewerCanvas CanvasRotateEvent "114.068" "-159.953" "100.576" +
+\i (01:52:49) QtSignal "114.749" "-158.356" "101.164" "-3366.7" "1123.02" "159.235" "79.2272" "-243.171" +
+\i (01:52:49) QtSignal "166.763" "-0.161333" "-0.411871" "-0.896847"
+\i (01:52:49) QtSignal pcb3dViewer pcb3dViewerCanvas CanvasRotateEvent "113.245" "-157.729" "101.181" +
+\i (01:52:49) QtSignal "113.675" "-156.649" "100.608" "-3387.61" "1068.9" "187.853" "79.2272" "-243.171" +
+\i (01:52:49) QtSignal "166.763" "-0.161333" "-0.411871" "-0.896847"
+\i (01:52:49) QtSignal pcb3dViewer pcb3dViewerCanvas CanvasRotateEvent "111.84" "-155.937" "100.612" +
+\i (01:52:49) QtSignal "112.657" "-153.76" "99.4648" "-3426.26" "959.471" "245.06" "79.2272" "-243.171" +
+\i (01:52:49) QtSignal "166.763" "-0.161333" "-0.41187" "-0.896847"
+\i (01:52:50) QtSignal pcb3dViewer pcb3dViewerCanvas CanvasRotateEvent "108.869" "-152.394" "99.5188" +
+\i (01:52:50) QtSignal "120.055" "-118.743" "83.4971" "-3489.68" "-806.477" "995.332" "79.2272" +
+\i (01:52:50) QtSignal "-243.171" "166.763" "-0.144553" "-0.409281" "-0.900885"
+\i (01:52:50) QtSignal pcb3dViewer pcb3dViewerCanvas CanvasRotateEvent "41.5602" "-111.274" "94.1902" +
+\i (01:52:50) QtSignal "40.672" "-107.775" "92.7431" "-3440.48" "-980.242" "1066.38" "79.2272" "-243.171" +
+\i (01:52:50) QtSignal "166.763" "-0.144553" "-0.409281" "-0.900885"
+\i (01:52:50) QtSignal pcb3dViewer pcb3dViewerCanvas CanvasRotateEvent "32.7521" "-109.228" "94.674" +
+\i (01:52:50) QtSignal "32.7521" "-109.228" "94.674" "-3440.48" "-980.242" "1066.38" "79.2272" "-243.171" +
+\i (01:52:50) QtSignal "166.763" "-0.144553" "-0.409281" "-0.900885"
+\i (01:52:50) QtSignal pcb3dViewer pcb3dViewerCanvas CanvasRotateEvent "32.7521" "-109.228" "94.674" +
+\i (01:52:50) QtSignal "30.9472" "-103.456" "92.3413" "-3337.13" "-1265.13" "1179.22" "79.2272" +
+\i (01:52:50) QtSignal "-243.171" "166.763" "-0.144553" "-0.409281" "-0.900885"
+\i (01:52:50) QtSignal pcb3dViewer pcb3dViewerCanvas CanvasRotateEvent "17.4969" "-106.867" "96.0491" +
+\i (01:52:50) QtSignal "13.0126" "-99.9678" "87.882" "-3072.91" "-1594.5" "1573.49" "79.2272" "-243.171" +
+\i (01:52:50) QtSignal "166.763" "-0.204368" "-0.435772" "-0.876548"
+\i (01:52:50) QtSignal pcb3dViewer pcb3dViewerCanvas CanvasRotateEvent "-10.1393" "-108.748" "95.6451" +
+\i (01:52:50) QtSignal "-23.0107" "-100.084" "75.1253" "-2263.74" "-1920.92" "2498.42" "79.2272" +
+\i (01:52:50) QtSignal "-243.171" "166.763" "-0.355666" "-0.551726" "-0.754387"
+\i (01:52:50) QtSignal pcb3dViewer pcb3dViewerCanvas CanvasRotateEvent "-68.4754" "-128.391" "100.934" +
+\i (01:52:50) QtSignal "-68.4754" "-128.391" "100.934" "-2263.74" "-1920.92" "2498.42" "79.2272" +
+\i (01:52:50) QtSignal "-243.171" "166.763" "-0.355666" "-0.551726" "-0.754387"
+\i (01:52:50) QtSignal pcb3dViewer pcb3dViewerCanvas CanvasRotateEvent "-68.4754" "-128.391" "100.934" +
+\i (01:52:50) QtSignal "-68.4754" "-128.391" "100.934" "-2263.74" "-1920.92" "2498.42" "79.2272" +
+\i (01:52:50) QtSignal "-243.171" "166.763" "-0.355666" "-0.551726" "-0.754387"
+\i (01:52:50) QtSignal pcb3dViewer pcb3dViewerCanvas CanvasRotateEvent "-68.4754" "-128.391" "100.934" +
+\i (01:52:50) QtSignal "-68.4754" "-128.391" "100.934" "-2263.74" "-1920.92" "2498.42" "79.2272" +
+\i (01:52:50) QtSignal "-243.171" "166.763" "-0.355666" "-0.551726" "-0.754387"
+\i (01:52:50) QtSignal pcb3dViewer pcb3dViewerCanvas CanvasRotateEvent "-68.4754" "-128.391" "100.934" +
+\i (01:52:50) QtSignal "-80.6552" "-126.651" "89.9479" "-1605.84" "-1961.15" "2986.35" "79.2272" +
+\i (01:52:50) QtSignal "-243.171" "166.763" "-0.432097" "-0.632008" "-0.643318"
+\i (01:52:50) QtSignal pcb3dViewer pcb3dViewerCanvas CanvasRotateEvent "-103.15" "-147.079" "116.319" +
+\i (01:52:50) QtSignal "-103.71" "-147.898" "115.485" "-1577.63" "-1920" "3027.54" "79.2272" "-243.171" +
+\i (01:52:50) QtSignal "166.763" "-0.439965" "-0.64" "-0.629945"
+\i (01:52:50) QtSignal pcb3dViewer pcb3dViewerCanvas CanvasRotateEvent "-104.118" "-148.312" "116.178" +
+\i (01:52:50) QtSignal "-108.857" "-148.384" "113.391" "-1336.84" "-1911.58" "3158.77" "79.2272" +
+\i (01:52:50) QtSignal "-243.171" "166.763" "-0.460589" "-0.664466" "-0.588509"
+\i (01:52:50) QtSignal pcb3dViewer pcb3dViewerCanvas CanvasRotateEvent "-114.695" "-154.897" "124.207" +
+\i (01:52:50) QtSignal "-124.971" "-162.907" "114.877" "-796.978" "-1473.99" "3551.77" "79.2272" +
+\i (01:52:50) QtSignal "-243.171" "166.763" "-0.521122" "-0.749887" "-0.407556"
+\i (01:52:50) QtSignal pcb3dViewer pcb3dViewerCanvas CanvasRotateEvent "-133.326" "-174.207" "136.82" +
+\i (01:52:50) QtSignal "-133.326" "-174.207" "136.82" "-796.978" "-1473.99" "3551.77" "79.2272" +
+\i (01:52:50) QtSignal "-243.171" "166.763" "-0.521122" "-0.749887" "-0.407556"
+\i (01:52:50) QtSignal pcb3dViewer pcb3dViewerCanvas CanvasRotateEvent "-133.326" "-174.207" "136.82" +
+\i (01:52:50) QtSignal "-139.503" "-178.553" "133.641" "-484.213" "-1249.56" "3689.64" "79.2272" +
+\i (01:52:50) QtSignal "-243.171" "166.763" "-0.539968" "-0.782552" "-0.309914"
+\i (01:52:50) QtSignal pcb3dViewer pcb3dViewerCanvas CanvasRotateEvent "-142.67" "-183.719" "148.258" +
+\i (01:52:50) QtSignal "-142.67" "-183.719" "148.258" "-484.213" "-1249.56" "3689.64" "79.2272" +
+\i (01:52:50) QtSignal "-243.171" "166.763" "-0.539968" "-0.782552" "-0.309914"
+\i (01:52:50) QtSignal pcb3dViewer pcb3dViewerCanvas CanvasMouseReleaseEvent 891 312 891 357 4 0 +
+\i (01:52:50) QtSignal 33554432 "-142.67" "-183.719" "148.258"
+\i (01:52:51) QtSignal pcb3dViewer pcb3dViewer closed
+\i (01:52:52) save 
+\i (01:52:53) fillin yes 
+\t (01:52:53) Symbol 'afc12-s06ccc-00.psm' created.
+\i (01:52:53) generaledit 
+\i (01:52:54) pick grid 8.6607 2.5003
+\t (01:52:54) last pick:  8.7500 2.5000
+\i (01:52:56) exit 
+\t (01:52:56)     Journal end - Sun Feb 18 14:02:29 2024

@@ -2,19 +2,19 @@
 (                                                                     )
 (    Refresh Padstack                                                 )
 (                                                                     )
-(    Drawing          : MTG220-450-VIA.dra                            )
+(    Drawing          : TPYEC-16P.dra                                 )
 (    Software Version : 23.1P001                                      )
-(    Date/Time        : Mon Dec 11 10:51:41 2023                      )
+(    Date/Time        : Sun Jan 28 17:15:28 2024                      )
 (                                                                     )
 (---------------------------------------------------------------------)
 
 
-Mon Dec 11 10:51:41 2023				Page     1
+Sun Jan 28 17:15:28 2024				Page     1
 
 
 ------ Pad Stack Refresh Options ------
 
-Input design  = 'D:/OneDrive/C_Library/A_Library/MTG220-450-VIA.dra'
+Input design  = 'D:/OneDrive/C_Library/A_Library/TPYEC-16P.dra'
 Output design = ''
 Reset symbol text and size locations   = 'NO'
 
@@ -27,12 +27,40 @@ PADPATH =  D:/OneDrive/C_Library/A_Library
 
 ------ Pad Stack Refresh Messages ------
 
-'PAD_MTG220_450V'  pad stack refresh starting.
+'PROW0_6H1_50-DW1_1H2_0'  pad stack refresh starting.
 
-     'PAD_MTG220_450V'  pad stack refreshed successfully.
+     'PROW0_6H1_50-DW1_1H2_0'  pad stack refreshed successfully.
      
-'PAD_MTG220_450'  pad stack refresh starting.
+'MC0_70'  pad stack refresh starting.
 
-     'PAD_MTG220_450'  pad stack refreshed successfully.
+     'MC0_70'  pad stack refreshed successfully.
      
-Completed refreshing all pad stacks successfully.
+'REW0_30H1_10'  pad stack refresh starting.
+
+     'REW0_30H1_10'  pad stack refreshed successfully.
+     
+'REW0_55H1_10'  pad stack refresh starting.
+
+     'REW0_55H1_10'  pad stack refreshed successfully.
+     
+'REW1_00H3_00'  pad stack refresh starting.
+
+     'REW1_00H3_00'  pad stack refreshed successfully.
+     
+'MC1_50'  pad stack refresh starting.
+
+     'MC1_50'  pad stack refreshed successfully.
+     
+'PC1_7D0_9'  pad stack refresh starting.
+
+     'PC1_7D0_9'  pad stack refreshed successfully.
+     
+'ROW2_50H1_00'  pad stack refresh starting.
+
+     'ROW2_50H1_00'  pad stack refreshed successfully.
+     
+WARNING(SPMHNI-253): Unable to find pad stack, 'PAD3_10D2_30', in directory search path.
+
+WARNING(SPMHNI-253): Unable to find pad stack, 'B80_25', in directory search path.
+
+WARNING(SPMHNI-286): Completed refreshing all pad stacks successfully. Warnings detected.

@@ -27,8 +27,7 @@
   (GlobalState
     (FileView
       (Path "Design Resources")
-      (Path "Design Resources" ".\others.olb")
-      (Select "Design Resources" ".\others.olb" "PTH"))
+      (Path "Design Resources" ".\others.olb"))
     (HierarchyView)
     (Doc
       (Type "COrCapturePMDoc")
@@ -38,7 +37,7 @@
     (Doc
       (Type "COrPrmBrowserDoc")
       (Frame
-        (Placement "44 0 1 -1 -1 -1 -1 5 1393 28 687"))
+        (Placement "44 0 1 -1 -1 -1 -1 5 1188 28 664"))
       (Path "D:\ONEDRIVE\C_LIBRARY\OLB\OTHERS.OLB")
       (Package "AS14-TTL")
       (PartType "1")))

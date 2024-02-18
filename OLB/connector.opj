@@ -16,13 +16,12 @@
   (GlobalState
     (FileView
       (Path "Design Resources")
-      (Path "Design Resources" ".\connector.olb")
-      (Select "Design Resources" ".\connector.olb" "XB-DIN-G-4P-W"))
+      (Path "Design Resources" ".\connector.olb"))
     (HierarchyView)
     (Doc
       (Type "COrCapturePMDoc")
       (Frame
-        (Placement "44 0 1 -1 -1 -1 -1 0 1384 0 633"))
+        (Placement "44 0 1 -1 -1 -1 -1 0 1286 0 632"))
       (Tab 0)))
   (Folder "PSpice Resources"
     (Folder "Simulation Profiles")
