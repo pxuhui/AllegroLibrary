@@ -4,7 +4,7 @@
 (                                                                     )
 (    Drawing          : TPYEC-16P.dra                                 )
 (    Software Version : 23.1P001                                      )
-(    Date/Time        : Sun Jan 28 16:05:13 2024                      )
+(    Date/Time        : Sun Jan 28 16:05:34 2024                      )
 (                                                                     )
 (---------------------------------------------------------------------)
 
@@ -20,7 +20,7 @@
  ========= check standalone text              0:00:00
  ========= check standalone rectangles        0:00:00
 
- ..... Total number of DRC errors  2
+ ..... Total number of DRC errors  0
 
  ..... DRC update completed, total CPU time   0:00:00
  *************************************************************************

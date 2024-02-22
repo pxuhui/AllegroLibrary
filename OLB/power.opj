@@ -28,7 +28,7 @@
     (Doc
       (Type "COrPrmBrowserDoc")
       (Frame
-        (Placement "44 0 1 -1 -1 -1 -1 5 1599 28 662"))
+        (Placement "44 0 1 -1 -1 -1 -1 5 1393 28 662"))
       (Path "D:\ONEDRIVE\C_LIBRARY\OLB\POWER.OLB")
       (Package "URB2412YMD-20WR3")
       (PartType "1")))
