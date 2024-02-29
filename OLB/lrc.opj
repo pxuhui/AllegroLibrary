@@ -17,7 +17,7 @@
     (FileView
       (Path "Design Resources")
       (Path "Design Resources" ".\lrc.olb")
-      (Select "Design Resources" ".\lrc.olb" "CAP"))
+      (Select "Design Resources" ".\lrc.olb"))
     (HierarchyView)
     (Doc
       (Type "COrCapturePMDoc")

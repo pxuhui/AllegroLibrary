@@ -16,7 +16,8 @@
   (GlobalState
     (FileView
       (Path "Design Resources")
-      (Path "Design Resources" ".\connector.olb"))
+      (Path "Design Resources" ".\connector.olb")
+      (Select "Design Resources" ".\connector.olb" "XT30UPB-M"))
     (HierarchyView)
     (Doc
       (Type "COrCapturePMDoc")

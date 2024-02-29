@@ -1,0 +1,46 @@
+(---------------------------------------------------------------------)
+(                                                                     )
+(    CREATE SYMBOL                                                    )
+(                                                                     )
+(    Drawing          : PG-TDSON-8-STENCIL.dra                        )
+(    Software Version : 23.1S002                                      )
+(    Date/Time        : Wed Feb 28 10:59:21 2024                      )
+(                                                                     )
+(---------------------------------------------------------------------)
+
+
+Create Symbol of type: SHAPE
+    Directory = D:/OneDrive/C_Library/A_Library
+    Name      = pg-tdson-8-stencil.ssm
+    User      = X
+    Machine   = X
+
+
+Create symbol started.
+ 
+ ERROR(SPMHCS-2): Shape symbol cannot have multiple shapes. 2524263800 
+SHAPE                 2270266996088
+1)  mask              = 40
+2)  class             = 6 = ETCH
+3)  subclass          = 0 = TOP
+4)  branch_link       = 2270266996040
+5)  branch_ptr        = 2270266996040
+6)  symbol_ins_link   = 0
+7)  symbol_ins_ptr    = 0
+8)  first_connection  = 0
+9)  first_void        = 0
+10) first_outline_seg = 2270266996232
+11) first_patch_set   = 0
+12) shape_fill        = 1 - SHAPE_FILLED
+13) first_text        = 0
+14) first_relation    = 0
+15) extents.min       = (15550 26490) uu: (1.5550 2.6490)
+16) extents.max       = (22550 34490) uu: (2.2550 3.4490)
+17) prev_branch_item  = 2270266996040
+18) unique_id         = 0
+19) dynamic_mask      = 0
+
+ ERROR(SPMHCS-2): Shape symbol cannot have multiple shapes. 
+
+ERROR(SPMHA1-291): Create symbol has been aborted.
+
