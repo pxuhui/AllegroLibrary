@@ -17,7 +17,7 @@
     (FileView
       (Path "Design Resources")
       (Path "Design Resources" ".\connector.olb")
-      (Select "Design Resources" ".\connector.olb" "XT30UPB-M"))
+      (Select "Design Resources" ".\connector.olb" "XB-DIN-G-4P-W"))
     (HierarchyView)
     (Doc
       (Type "COrCapturePMDoc")

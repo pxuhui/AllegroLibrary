@@ -27,13 +27,13 @@
   (GlobalState
     (FileView
       (Path "Design Resources")
-      (Path "Design Resources" ".\bright_sound.olb")
-      (Select "Design Resources" ".\bright_sound.olb"))
+      (Path "Design Resources" "D:\OneDrive\C_Library\OLB\bright_sound.olb")
+      (Select "Design Resources" "D:\OneDrive\C_Library\OLB\bright_sound.olb"))
     (HierarchyView)
     (Doc
       (Type "COrCapturePMDoc")
       (Frame
-        (Placement "44 0 1 -1 -1 -1 -1 0 200 0 665"))
+        (Placement "44 0 1 -1 -1 -1 -1 0 200 0 613"))
       (Tab 0)))
   (MPSSessionName "X")
   (ISPCBBASICLICENSE "false"))

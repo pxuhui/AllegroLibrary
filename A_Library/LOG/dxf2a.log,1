@@ -20,28 +20,33 @@ NOTE: Replacing illegal character $ with X in A$C3a17dd25.
 NOTE: Replacing illegal character $ with X in A$Cb3dabc77.
 NOTE: Replacing illegal character * with X in *D42.
 NOTE: Replacing illegal character * with X in *D43.
-NOTE: Replacing illegal character * with X in *D44.
 NOTE: Replacing illegal character * with X in *D45.
+NOTE: Replacing illegal character * with X in *D46.
 done.
-NOTE: Ignoring unsupported element MTEXT on line 19306.
-NOTE: Ignoring unsupported element MTEXT on line 19870.
-NOTE: Ignoring unsupported element MTEXT on line 20050.
-NOTE: Ignoring unsupported element MTEXT on line 20134.
-NOTE: Ignoring unsupported element MTEXT on line 20218.
-NOTE: Ignoring unsupported element MTEXT on line 20302.
-NOTE: Ignoring unsupported element MTEXT on line 20386.
-NOTE: Ignoring unsupported element MTEXT on line 20470.
-NOTE: Ignoring unsupported element MTEXT on line 20674.
-NOTE: Ignoring unsupported element MTEXT on line 20758.
-NOTE: Ignoring unsupported element MTEXT on line 20842.
-NOTE: Ignoring unsupported element MTEXT on line 20926.
-NOTE: Ignoring unsupported element MTEXT on line 21010.
-NOTE: Ignoring unsupported element MTEXT on line 21718.
-NOTE: Ignoring unsupported element VIEWPORT on line 21940.
-NOTE: Ignoring unsupported element VIEWPORT on line 22048.
-Layer conversion file: D:/git/AP30/Power/CAD/pg-tdson-8_l.cnv
-DXF file: D:/git/AP30/Power/CAD/pg-tdson-8.dxf
-BRD file: D:/OneDrive/C_Library/A_Library/#Taaaadn05820.dra
+NOTE: Ignoring unsupported element MTEXT on line 19408.
+NOTE: Ignoring unsupported element MTEXT on line 19972.
+NOTE: Ignoring unsupported element MTEXT on line 20152.
+NOTE: Ignoring unsupported element MTEXT on line 20236.
+NOTE: Ignoring unsupported element MTEXT on line 20320.
+NOTE: Ignoring unsupported element MTEXT on line 20404.
+NOTE: Ignoring unsupported element MTEXT on line 20488.
+NOTE: Ignoring unsupported element MTEXT on line 20572.
+NOTE: Ignoring unsupported element MTEXT on line 20776.
+NOTE: Ignoring unsupported element MTEXT on line 20860.
+NOTE: Ignoring unsupported element MTEXT on line 20944.
+NOTE: Ignoring unsupported element MTEXT on line 21028.
+NOTE: Ignoring unsupported element MTEXT on line 21112.
+NOTE: Ignoring unsupported element MTEXT on line 21820.
+NOTE: Ignoring unsupported element HATCH on line 30036.
+NOTE: Ignoring unsupported element MTEXT on line 31386.
+NOTE: Ignoring unsupported element MTEXT on line 31438.
+NOTE: Ignoring unsupported element MTEXT on line 31490.
+NOTE: Ignoring unsupported element MTEXT on line 31542.
+NOTE: Ignoring unsupported element VIEWPORT on line 31594.
+NOTE: Ignoring unsupported element VIEWPORT on line 31702.
+Layer conversion file: D:/OneDrive/C_Library/cad/CAD_Standard_l.cnv
+DXF file: D:/OneDrive/C_Library/cad/CAD_Standard.dxf
+BRD file: D:/OneDrive/C_Library/A_Library/#Taaaaaf01808.dra
 Update existing design?: YES
 Use default text?: NO
 DXF units: MILLIMETERS

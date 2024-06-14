@@ -1,0 +1,23 @@
+(---------------------------------------------------------------------)
+(                                                                     )
+(    CREATE SYMBOL                                                    )
+(                                                                     )
+(    Drawing          : XH-04A.dra                                    )
+(    Software Version : 23.1S003                                      )
+(    Date/Time        : Mon Apr 29 14:15:21 2024                      )
+(                                                                     )
+(---------------------------------------------------------------------)
+
+
+Create Symbol of type: PACKAGE
+    Directory = D:/git/AllegroLibrary/A_Library
+    Name      = xh-04a.psm
+    User      = X
+    Machine   = X
+
+
+Create symbol started.
+ 
+
+Create symbol completed.
+

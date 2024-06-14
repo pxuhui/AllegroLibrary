@@ -23,7 +23,7 @@
     (Doc
       (Type "COrCapturePMDoc")
       (Frame
-        (Placement "44 0 1 -1 -1 -1 -1 0 298 0 616"))
+        (Placement "44 0 1 -1 -1 -1 -1 0 270 0 637"))
       (Tab 0)))
   (Folder "PSpice Resources"
     (Folder "Simulation Profiles")
