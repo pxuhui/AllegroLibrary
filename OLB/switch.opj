@@ -17,13 +17,20 @@
     (FileView
       (Path "Design Resources")
       (Path "Design Resources" ".\switch.olb")
-      (Select "Design Resources" ".\switch.olb"))
+      (Select "Design Resources" ".\switch.olb" "TS5A3160DBVR"))
     (HierarchyView)
     (Doc
       (Type "COrCapturePMDoc")
       (Frame
         (Placement "44 2 3 -1 -1 0 0 0 200 0 342"))
-      (Tab 0)))
+      (Tab 0))
+    (Doc
+      (Type "COrPrmBrowserDoc")
+      (Frame
+        (Placement "44 0 1 -1 -1 -1 -1 5 1393 28 659"))
+      (Path "D:\GIT\ALLEGROLIBRARY\OLB\SWITCH.OLB")
+      (Package "TS5A3160DBVR")
+      (PartType "1")))
   (MPSSessionName "X")
   (ISPCBBASICLICENSE "false")
   (Folder "PSpice Resources"

@@ -3,10 +3,8 @@
 
 #CLASS!            SUBCLASS!                 DXF_LAYER!
 
-BOARD GEOMETRY!
-                   SILKSCREEN_TOP!           Connector!
-
 PACKAGE GEOMETRY!
+                   ASSEMBLY_TOP!             Connector!
                    SILKSCREEN_TOP!           Design_Outline!
 
 #END

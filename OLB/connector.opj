@@ -17,13 +17,27 @@
     (FileView
       (Path "Design Resources")
       (Path "Design Resources" ".\connector.olb")
-      (Select "Design Resources" ".\connector.olb" "XB-DIN-G-4P-W"))
+      (Select "Design Resources" ".\connector.olb" "CON 1X5"))
     (HierarchyView)
     (Doc
       (Type "COrCapturePMDoc")
       (Frame
         (Placement "44 0 1 -1 -1 -1 -1 0 1286 0 632"))
-      (Tab 0)))
+      (Tab 0))
+    (Doc
+      (Type "COrPrmBrowserDoc")
+      (Frame
+        (Placement "44 0 1 -1 -1 -1 -1 5 1599 28 659"))
+      (Path "D:\GIT\ALLEGROLIBRARY\OLB\CONNECTOR.OLB")
+      (Package "CON 1X6")
+      (PartType "1"))
+    (Doc
+      (Type "COrPrmBrowserDoc")
+      (Frame
+        (Placement "44 0 1 -1 -1 -1 -1 5 1599 28 659"))
+      (Path "D:\GIT\ALLEGROLIBRARY\OLB\CONNECTOR.OLB")
+      (Package "CON 1X5")
+      (PartType "1")))
   (Folder "PSpice Resources"
     (Folder "Simulation Profiles")
     (Folder "Model Libraries"

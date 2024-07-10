@@ -1,0 +1,23 @@
+(---------------------------------------------------------------------)
+(                                                                     )
+(    CREATE SYMBOL                                                    )
+(                                                                     )
+(    Drawing          : VQFN-HR-3.dra                                 )
+(    Software Version : 23.1S004                                      )
+(    Date/Time        : Thu Jun 20 18:19:40 2024                      )
+(                                                                     )
+(---------------------------------------------------------------------)
+
+
+Create Symbol of type: SHAPE
+    Directory = D:/git/AllegroLibrary/A_Library
+    Name      = vqfn-hr-3.ssm
+    User      = X
+    Machine   = X
+
+
+Create symbol started.
+ 
+
+Create symbol completed.
+

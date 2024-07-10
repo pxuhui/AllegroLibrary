@@ -17,12 +17,12 @@
     (FileView
       (Path "Design Resources")
       (Path "Design Resources" ".\micr_ic.olb")
-      (Select "Design Resources" ".\micr_ic.olb" "74LVC245APW"))
+      (Select "Design Resources" ".\micr_ic.olb"))
     (HierarchyView)
     (Doc
       (Type "COrCapturePMDoc")
       (Frame
-        (Placement "44 0 1 -1 -1 -1 -1 0 252 0 637"))
+        (Placement "44 0 1 -1 -1 -1 -1 0 200 0 613"))
       (Tab 0)))
   (ISPCBBASICLICENSE "false")
   (Folder "PSpice Resources"

@@ -6,26 +6,32 @@ Dir0=D:\OneDrive\C_Library\OLB
 Dir0=D:\OneDrive\C_Library\datasheet
 
 
-funckey e delete
-funckey h hilight
-funckey t dehilight
-funckey g define grid
-funckey tab spin
-funckey q done
+ 
+
+
+funckey a iangle -5
 funckey c copy
 funckey d shape edit boundary
+funckey e delete
+funckey f Finish
 funckey h hilight
-funckey s slide 
-funckey w add connect
-funckey v vertex
+funckey g define grid
 funckey m move
-funckey " " iangle 90
-funckey z iangle 5
-funckey a iangle -5
+funckey nc rats component
+funckey nm Neck Mode
+funckey nn rats net
 funckey o mirror
-funckey r Rotate
 funckey p swap components
+funckey q done
+funckey r Rotate
+funckey s slide 
+funckey t toggle
+funckey v vertex
+funckey w add connect
+funckey z iangle 5
 
+funckey tab spin
+funckey " " iangle 90
 
 alias Del delete
 alias Esc cancel
@@ -33,6 +39,8 @@ alias F7 UNRATS ALL
 alias F8 RATS ALL
 alias F9 'settoggle no_etch_shape_display;redraw'
 alias F10 'settoggle no_shape_fill;redraw'
+
+
 
 ;设置线宽
 funckey 6 Options acon_line_width 0.1524
