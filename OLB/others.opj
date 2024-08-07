@@ -27,7 +27,8 @@
   (GlobalState
     (FileView
       (Path "Design Resources")
-      (Path "Design Resources" ".\others.olb"))
+      (Path "Design Resources" ".\others.olb")
+      (Select "Design Resources" ".\others.olb" "A39C-TTL"))
     (HierarchyView)
     (Doc
       (Type "COrCapturePMDoc")
@@ -37,8 +38,15 @@
     (Doc
       (Type "COrPrmBrowserDoc")
       (Frame
-        (Placement "44 0 1 -1 -1 -1 -1 5 1188 28 664"))
-      (Path "D:\ONEDRIVE\C_LIBRARY\OLB\OTHERS.OLB")
-      (Package "AS14-TTL")
+        (Placement "44 0 1 -1 -1 -1 -1 5 1393 28 659"))
+      (Path "D:\GIT\ALLEGROLIBRARY\OLB\OTHERS.OLB")
+      (Package "TP")
+      (PartType "1"))
+    (Doc
+      (Type "COrPrmBrowserDoc")
+      (Frame
+        (Placement "44 0 1 -1 -1 -1 -1 5 1393 28 659"))
+      (Path "D:\GIT\ALLEGROLIBRARY\OLB\OTHERS.OLB")
+      (Package "A39C-TTL")
       (PartType "1")))
   (MPSSessionName "X"))
