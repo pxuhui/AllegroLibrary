@@ -79,13 +79,15 @@ NOTE: Ignoring unsupported element HATCH on line 48588.
 NOTE: Ignoring unsupported element HATCH on line 48738.
 NOTE: Ignoring unsupported element HATCH on line 48888.
 NOTE: Ignoring unsupported element HATCH on line 49038.
-NOTE: Ignoring unsupported element VIEWPORT on line 60574.
-NOTE: Ignoring unsupported element VIEWPORT on line 60682.
+NOTE: Ignoring unsupported element MTEXT on line 60608.
+NOTE: Ignoring unsupported element MTEXT on line 61262.
+NOTE: Ignoring unsupported element VIEWPORT on line 63006.
+NOTE: Ignoring unsupported element VIEWPORT on line 63114.
 Layer conversion file: D:/git/AllegroLibrary/cad/CAD_Standard_l.cnv
 DXF file: D:/git/AllegroLibrary/cad/CAD_Standard.dxf
-BRD file: D:/git/AllegroLibrary/A_Library/#Taaaaar05564.dra
+BRD file: D:/git/AllegroLibrary/A_Library/#Taaaaam04708.dra
 Update existing design?: YES
-Use default text?: YES
+Use default text?: NO
 DXF units: MILLIMETERS
 Design units: MILLIMETERS
 Design precision: 4

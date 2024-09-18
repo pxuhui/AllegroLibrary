@@ -1,0 +1,1 @@
+route_keepout_pad   1:加載密碼sylar   命令是route_keepout_pad

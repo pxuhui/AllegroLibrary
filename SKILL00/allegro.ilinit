@@ -31,8 +31,9 @@ load("cut.il" "www.pcbskill.com")
 load("align_text.il" "deargds")
 load("place_symbols.il")
 load("c2s.il")
-
 load("db_add_chinese_eng.ile" "db")
+load("ALIPIN.il")
+load("route_keepout_pad.il" "sylar")
 
 
 

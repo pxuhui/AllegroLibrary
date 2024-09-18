@@ -1,0 +1,23 @@
+(---------------------------------------------------------------------)
+(                                                                     )
+(    CREATE SYMBOL                                                    )
+(                                                                     )
+(    Drawing          : ZX-HY2_0-4PZZ.dra                             )
+(    Software Version : 23.1S005                                      )
+(    Date/Time        : Thu Sep 12 10:27:46 2024                      )
+(                                                                     )
+(---------------------------------------------------------------------)
+
+
+Create Symbol of type: PACKAGE
+    Directory = D:/git/AllegroLibrary/A_Library
+    Name      = zx-hy2_0-4pzz.psm
+    User      = X
+    Machine   = X
+
+
+Create symbol started.
+ 
+
+Create symbol completed.
+

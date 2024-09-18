@@ -15,6 +15,27 @@ funckey d shape edit boundary
 funckey e delete
 funckey f Finish
 funckey h hilight
+
+funckey ui "ix 0.5"
+funckey uii "ix 1.0"
+funckey uiii "ix 1.5"
+funckey uiiii "ix 2.0"
+
+funckey i "ix -0.5"
+funckey ii "ix -1.0"
+funckey iii "ix -1.5"
+funckey iiii "ix -2.0"
+
+funckey j "iy -0.5"
+funckey jj "iy -1.0"
+funckey jjj "iy -1.5"
+funckey jjjj "iy -2.0"
+
+funckey uj "iy 0.5"
+funckey ujj "iy 1.0"
+funckey ujjj "iy 1.5"
+funckey ujjjj "iy 2.0"
+
 funckey g define grid
 funckey m move
 funckey nc rats component
@@ -39,6 +60,7 @@ alias F7 UNRATS ALL
 alias F8 RATS ALL
 alias F9 'settoggle no_etch_shape_display;redraw'
 alias F10 'settoggle no_shape_fill;redraw'
+
 
 
 

@@ -22,7 +22,7 @@
     (Doc
       (Type "COrCapturePMDoc")
       (Frame
-        (Placement "44 0 1 -1 -1 -1 -1 0 230 0 505"))
+        (Placement "44 0 1 -1 -1 -1 -1 0 200 0 637"))
       (Tab 0)))
   (ISPCBBASICLICENSE "false")
   (Folder "PSpice Resources"

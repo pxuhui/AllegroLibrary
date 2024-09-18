@@ -17,7 +17,7 @@
     (FileView
       (Path "Design Resources")
       (Path "Design Resources" ".\switch.olb")
-      (Select "Design Resources" ".\switch.olb" "TS5A3160DBVR"))
+      (Select "Design Resources" ".\switch.olb"))
     (HierarchyView)
     (Doc
       (Type "COrCapturePMDoc")
