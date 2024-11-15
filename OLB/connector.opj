@@ -17,62 +17,13 @@
     (FileView
       (Path "Design Resources")
       (Path "Design Resources" ".\connector.olb")
-      (Select "Design Resources" ".\connector.olb"))
+      (Select "Design Resources" ".\connector.olb" "XT90PB-M"))
     (HierarchyView)
     (Doc
       (Type "COrCapturePMDoc")
       (Frame
         (Placement "44 0 1 -1 -1 -1 -1 0 1384 0 627"))
-      (Tab 0))
-    (Doc
-      (Type "COrPrmBrowserDoc")
-      (Frame
-        (Placement "44 0 1 -1 -1 -1 -1 5 1599 28 659"))
-      (Path "D:\GIT\ALLEGROLIBRARY\OLB\CONNECTOR.OLB")
-      (Package "HY-3")
-      (PartType "1"))
-    (Doc
-      (Type "COrPrmBrowserDoc")
-      (Frame
-        (Placement "44 0 1 -1 -1 -1 -1 5 1599 28 659"))
-      (Path "D:\GIT\ALLEGROLIBRARY\OLB\CONNECTOR.OLB")
-      (Package "HY-2")
-      (PartType "1"))
-    (Doc
-      (Type "COrPrmBrowserDoc")
-      (Frame
-        (Placement "44 0 1 -1 -1 -1 -1 5 1599 28 659"))
-      (Path "D:\GIT\ALLEGROLIBRARY\OLB\CONNECTOR.OLB")
-      (Package "HY-4")
-      (PartType "1"))
-    (Doc
-      (Type "COrPrmBrowserDoc")
-      (Frame
-        (Placement "44 0 1 -1 -1 -1 -1 5 1599 28 659"))
-      (Path "D:\GIT\ALLEGROLIBRARY\OLB\CONNECTOR.OLB")
-      (Package "XH-4")
-      (PartType "1"))
-    (Doc
-      (Type "COrPrmBrowserDoc")
-      (Frame
-        (Placement "44 0 1 -1 -1 -1 -1 5 1599 28 659"))
-      (Path "D:\GIT\ALLEGROLIBRARY\OLB\CONNECTOR.OLB")
-      (Package "HY-5")
-      (PartType "1"))
-    (Doc
-      (Type "COrPrmBrowserDoc")
-      (Frame
-        (Placement "44 0 1 -1 -1 -1 -1 5 1599 28 659"))
-      (Path "D:\GIT\ALLEGROLIBRARY\OLB\CONNECTOR.OLB")
-      (Package "HY-6")
-      (PartType "1"))
-    (Doc
-      (Type "COrPrmBrowserDoc")
-      (Frame
-        (Placement "44 0 1 -1 -1 -1 -1 5 1599 28 659"))
-      (Path "D:\GIT\ALLEGROLIBRARY\OLB\CONNECTOR.OLB")
-      (Package "HY-7")
-      (PartType "1")))
+      (Tab 0)))
   (Folder "PSpice Resources"
     (Folder "Simulation Profiles")
     (Folder "Model Libraries"

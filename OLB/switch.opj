@@ -27,9 +27,37 @@
     (Doc
       (Type "COrPrmBrowserDoc")
       (Frame
-        (Placement "44 0 1 -1 -1 -1 -1 5 1393 28 659"))
+        (Placement "44 0 1 -1 -1 -1 -1 5 1321 28 659"))
       (Path "D:\GIT\ALLEGROLIBRARY\OLB\SWITCH.OLB")
       (Package "TS5A3160DBVR")
+      (PartType "1"))
+    (Doc
+      (Type "COrPrmBrowserDoc")
+      (Frame
+        (Placement "44 0 1 -1 -1 -8 -31 5 1321 28 659"))
+      (Path "D:\GIT\ALLEGROLIBRARY\OLB\SWITCH.OLB")
+      (Package "G2RL-1-DCXX")
+      (PartType "1"))
+    (Doc
+      (Type "COrPrmBrowserDoc")
+      (Frame
+        (Placement "44 0 1 -1 -1 -8 -31 5 1321 28 659"))
+      (Path "D:\GIT\ALLEGROLIBRARY\OLB\SWITCH.OLB")
+      (Package "G2RL-2-DCXX")
+      (PartType "1"))
+    (Doc
+      (Type "COrPrmBrowserDoc")
+      (Frame
+        (Placement "44 0 1 -1 -1 -8 -31 5 1321 28 659"))
+      (Path "D:\GIT\ALLEGROLIBRARY\OLB\SWITCH.OLB")
+      (Package "G5RL-1-E DCXX")
+      (PartType "1"))
+    (Doc
+      (Type "COrPrmBrowserDoc")
+      (Frame
+        (Placement "44 0 1 -1 -1 -8 -31 5 1321 28 659"))
+      (Path "D:\GIT\ALLEGROLIBRARY\OLB\SWITCH.OLB")
+      (Package "G9EJ-1-E")
       (PartType "1")))
   (MPSSessionName "X")
   (ISPCBBASICLICENSE "false")
