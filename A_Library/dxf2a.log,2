@@ -1,0 +1,98 @@
+Reading Layer Conversion File 
+Reading DXF file...
+NOTE: Replacing illegal character * with X in *Model_Space.
+NOTE: Replacing illegal character * with X in *Paper_Space.
+NOTE: Replacing illegal character * with X in *Paper_Space0.
+NOTE: Replacing illegal character $ with X in A$C386dcc91.
+NOTE: Replacing illegal character $ with X in A$Caa292ce7.
+NOTE: Replacing illegal character $ with X in A$C7f7e383b.
+NOTE: Replacing illegal character $ with X in A$C30ba007e.
+NOTE: Replacing illegal character $ with X in A$Cef7d3e36.
+NOTE: Replacing illegal character $ with X in A$C8166d28f.
+NOTE: Replacing illegal character $ with X in A$C69563dbc.
+NOTE: Replacing illegal character $ with X in A$C5385260b.
+NOTE: Replacing illegal character $ with X in A$C0dde9263.
+NOTE: Replacing illegal character $ with X in A$Ceb053601.
+NOTE: Replacing illegal character $ with X in A$Ce48fd3bc.
+NOTE: Replacing illegal character $ with X in A$C67e8ef46.
+NOTE: Replacing illegal character $ with X in A$C5c60d00e.
+NOTE: Replacing illegal character $ with X in A$C3a17dd25.
+NOTE: Replacing illegal character $ with X in A$Cb3dabc77.
+NOTE: Replacing illegal character * with X in *D42.
+NOTE: Replacing illegal character * with X in *D43.
+NOTE: Replacing illegal character * with X in *D44.
+NOTE: Replacing illegal character * with X in *D45.
+NOTE: Replacing illegal character * with X in *D46.
+NOTE: Replacing illegal character * with X in *D47.
+NOTE: Replacing illegal character * with X in *D48.
+NOTE: Replacing illegal character * with X in *D49.
+NOTE: Replacing illegal character * with X in *D50.
+NOTE: Replacing illegal character * with X in *D51.
+NOTE: Replacing illegal character * with X in *D52.
+NOTE: Replacing illegal character * with X in *D53.
+NOTE: Replacing illegal character * with X in *D54.
+NOTE: Replacing illegal character $ with X in A$Cf8065795.
+NOTE: Replacing illegal character * with X in *D42.
+NOTE: Replacing illegal character * with X in *D43.
+NOTE: Replacing illegal character * with X in *D44.
+NOTE: Replacing illegal character * with X in *D45.
+NOTE: Replacing illegal character * with X in *D46.
+NOTE: Replacing illegal character * with X in *D47.
+NOTE: Replacing illegal character * with X in *D48.
+NOTE: Replacing illegal character * with X in *D49.
+NOTE: Replacing illegal character * with X in *D50.
+NOTE: Replacing illegal character * with X in *D51.
+NOTE: Replacing illegal character * with X in *D52.
+NOTE: Replacing illegal character * with X in *D53.
+NOTE: Replacing illegal character * with X in *D54.
+NOTE: Replacing illegal character $ with X in A$C9af69abb.
+NOTE: Replacing illegal character $ with X in A$Cefbfcc89.
+NOTE: Replacing illegal character $ with X in A$Cc1a6b484.
+NOTE: Replacing illegal character $ with X in A$Cdac433b9.
+NOTE: Replacing illegal character $ with X in A$Cb6e87de0.
+done.
+NOTE: Ignoring unsupported element MTEXT on line 30146.
+NOTE: Ignoring unsupported element MTEXT on line 30710.
+NOTE: Ignoring unsupported element MTEXT on line 30890.
+NOTE: Ignoring unsupported element MTEXT on line 30974.
+NOTE: Ignoring unsupported element MTEXT on line 31058.
+NOTE: Ignoring unsupported element MTEXT on line 31142.
+NOTE: Ignoring unsupported element MTEXT on line 31226.
+NOTE: Ignoring unsupported element MTEXT on line 31310.
+NOTE: Ignoring unsupported element MTEXT on line 31514.
+NOTE: Ignoring unsupported element MTEXT on line 31598.
+NOTE: Ignoring unsupported element MTEXT on line 31682.
+NOTE: Ignoring unsupported element MTEXT on line 31766.
+NOTE: Ignoring unsupported element MTEXT on line 31850.
+NOTE: Ignoring unsupported element MTEXT on line 32558.
+NOTE: Ignoring unsupported element HATCH on line 40774.
+NOTE: Ignoring unsupported element MTEXT on line 41900.
+NOTE: Ignoring unsupported element MTEXT on line 41952.
+NOTE: Ignoring unsupported element MTEXT on line 42004.
+NOTE: Ignoring unsupported element MTEXT on line 42056.
+NOTE: Ignoring unsupported element HATCH on line 42342.
+NOTE: Ignoring unsupported element HATCH on line 42884.
+NOTE: Ignoring unsupported element MTEXT on line 44128.
+NOTE: Ignoring unsupported element MTEXT on line 44180.
+NOTE: Ignoring unsupported element MTEXT on line 44232.
+NOTE: Ignoring unsupported element MTEXT on line 44284.
+NOTE: Ignoring unsupported element HATCH on line 44362.
+NOTE: Ignoring unsupported element HATCH on line 45120.
+NOTE: Ignoring unsupported element HATCH on line 46504.
+NOTE: Ignoring unsupported element HATCH on line 49312.
+NOTE: Ignoring unsupported element HATCH on line 49462.
+NOTE: Ignoring unsupported element HATCH on line 49612.
+NOTE: Ignoring unsupported element HATCH on line 49762.
+NOTE: Ignoring unsupported element MTEXT on line 61332.
+NOTE: Ignoring unsupported element MTEXT on line 61986.
+NOTE: Ignoring unsupported element VIEWPORT on line 68620.
+NOTE: Ignoring unsupported element VIEWPORT on line 68728.
+Layer conversion file: C:/myFile/AllegroLibrary/cad/CAD_Standard_l.cnv
+DXF file: C:/myFile/AllegroLibrary/cad/CAD_Standard.dxf
+BRD file: C:/myFile/AllegroLibrary/A_Library/#Taaaaaf12148.dra
+Update existing design?: YES
+Use default text?: NO
+DXF units: MILLIMETERS
+Design units: MILLIMETERS
+Design precision: 4
+dxf2a complete.

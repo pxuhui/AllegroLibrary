@@ -1,13 +1,13 @@
 [Allegro Footprints]
-Dir0=D:\OneDrive\C_Library\A_Library
+Dir0=C:\myFile\AllegroLibrary\A_Library
 [Part Library Directories]
-Dir0=D:\OneDrive\C_Library\OLB
+Dir0=C:\myFile\AllegroLibrary\OLB
 [Cis Browse Directories]
-Dir0=D:\OneDrive\C_Library\datasheet
+Dir0=C:\myFile\AllegroLibrary\datasheet
 
 
  
-
+funckey F2 xprobe toggle
 
 funckey a iangle -5
 funckey c copy
@@ -47,6 +47,7 @@ funckey q done
 funckey r Rotate
 funckey s slide 
 funckey t toggle
+funckey fd flip dynamic
 funckey v vertex
 funckey w add connect
 funckey z iangle 5

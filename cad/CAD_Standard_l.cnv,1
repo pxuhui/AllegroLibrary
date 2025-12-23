@@ -3,8 +3,10 @@
 
 #CLASS!            SUBCLASS!                 DXF_LAYER!
 
+ETCH!
+                   TOP!                      Design_Outline!
+
 PACKAGE GEOMETRY!
                    ASSEMBLY_TOP!             Connector!
-                   SILKSCREEN_TOP!           Design_Outline!
 
 #END

@@ -22,9 +22,51 @@
     (Doc
       (Type "COrCapturePMDoc")
       (Frame
-        (Placement "44 0 1 -1 -1 -1 -1 0 200 0 616"))
-      (Tab 0)))
-  (MPSSessionName "X")
+        (Placement "44 0 1 -1 -1 -1 -1 0 200 0 636"))
+      (Tab 0))
+    (Doc
+      (Type "COrPrmBrowserDoc")
+      (Frame
+        (Placement "44 0 1 -1 -1 -8 -31 5 1393 28 682"))
+      (Path "C:\MYFILE\ALLEGROLIBRARY\OLB\LRC.OLB")
+      (Package "CAP")
+      (PartType "1"))
+    (Doc
+      (Type "COrPrmBrowserDoc")
+      (Frame
+        (Placement "44 0 1 -1 -1 -8 -31 5 1393 28 682"))
+      (Path "C:\MYFILE\ALLEGROLIBRARY\OLB\LRC.OLB")
+      (Package "CAP NP")
+      (PartType "1"))
+    (Doc
+      (Type "COrPrmBrowserDoc")
+      (Frame
+        (Placement "44 0 1 -1 -1 -1 -1 5 1393 28 682"))
+      (Path "C:\MYFILE\ALLEGROLIBRARY\OLB\LRC.OLB")
+      (Package "CAP POL")
+      (PartType "1"))
+    (Doc
+      (Type "COrPrmBrowserDoc")
+      (Frame
+        (Placement "44 0 1 -1 -1 -8 -31 5 1393 28 682"))
+      (Path "C:\MYFILE\ALLEGROLIBRARY\OLB\LRC.OLB")
+      (Package "R")
+      (PartType "1"))
+    (Doc
+      (Type "COrPrmBrowserDoc")
+      (Frame
+        (Placement "44 0 1 -1 -1 -1 -1 5 1393 28 682"))
+      (Path "C:\MYFILE\ALLEGROLIBRARY\OLB\LRC.OLB")
+      (Package "FUSE")
+      (PartType "1"))
+    (Doc
+      (Type "COrPrmBrowserDoc")
+      (Frame
+        (Placement "44 0 1 -1 -1 -8 -31 5 1393 28 682"))
+      (Path "C:\MYFILE\ALLEGROLIBRARY\OLB\LRC.OLB")
+      (Package "FB")
+      (PartType "1")))
+  (MPSSessionName "pxuhu")
   (ISPCBBASICLICENSE "false")
   (Folder "PSpice Resources"
     (Folder "Simulation Profiles")

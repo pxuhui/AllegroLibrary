@@ -1,0 +1,11 @@
+# Allegro script
+#	file: C:/myFile/AllegroLibrary/SKILL00/pad_connect_change.scr
+#	start time: Fri Jul  4 10:44:24 2025
+#	Version: 24.1-2024 P001 (4234998) Windows SPB 64-bit Edition
+version 24.1
+
+setwindow pcb
+trapsize 1804
+generaledit
+
+#	stop time: Fri Jul  4 10:44:44 2025

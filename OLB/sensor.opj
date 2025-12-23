@@ -15,12 +15,13 @@
   (GlobalState
     (FileView
       (Path "Design Resources")
-      (Path "Design Resources" ".\sensor.olb"))
+      (Path "Design Resources" ".\sensor.olb")
+      (Select "Design Resources" ".\sensor.olb"))
     (HierarchyView)
     (Doc
       (Type "COrCapturePMDoc")
       (Frame
-        (Placement "44 0 1 -1 -1 -1 -1 0 1590 0 633"))
+        (Placement "44 0 1 -1 -1 -1 -1 0 1590 0 616"))
       (Tab 0)))
   (Folder "PSpice Resources"
     (Folder "Simulation Profiles")
@@ -31,4 +32,4 @@
     (Folder "Include Files"
       (Sort User)))
   (Folder "Logs")
-  (MPSSessionName "X"))
+  (MPSSessionName "pxuhu"))

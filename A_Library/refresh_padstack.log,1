@@ -1,0 +1,62 @@
+(---------------------------------------------------------------------)
+(                                                                     )
+(    Refresh Padstack                                                 )
+(                                                                     )
+(    Drawing          : LCB40PB-M.dra                                 )
+(    Software Version : 24.1P001                                      )
+(    Date/Time        : Tue Jul  1 16:39:55 2025                      )
+(                                                                     )
+(---------------------------------------------------------------------)
+
+
+Tue Jul  1 16:39:55 2025				Page     1
+
+
+------ Pad Stack Refresh Options ------
+
+Input design  = 'C:/myFile/AllegroLibrary/A_Library/LCB40PB-M.dra'
+Output design = ''
+Reset symbol text and size locations   = 'NO'
+
+
+------ Library Paths ------
+PSMPATH =  C:/myFile/AllegroLibrary/A_Library 
+
+PADPATH =  C:/myFile/AllegroLibrary/A_Library 
+
+
+------ Pad Stack Refresh Messages ------
+
+'MC1_70'  pad stack refresh starting.
+
+     'MC1_70'  pad stack refreshed successfully.
+     
+'PC4_20D5_20'  pad stack refresh starting.
+
+     'PC4_20D5_20'  pad stack refreshed successfully.
+     
+'REW1_15H1_45'  pad stack refresh starting.
+
+     'REW1_15H1_45'  pad stack refreshed successfully.
+     
+'PS1_20D0_80'  pad stack refresh starting.
+
+     'PS1_20D0_80'  pad stack refreshed successfully.
+     
+'REW1_30H5_00'  pad stack refresh starting.
+
+     'REW1_30H5_00'  pad stack refreshed successfully.
+     
+'PS2_2D1_6'  pad stack refresh starting.
+
+     'PS2_2D1_6'  pad stack refreshed successfully.
+     
+'PC1_7D0_9'  pad stack refresh starting.
+
+     'PC1_7D0_9'  pad stack refreshed successfully.
+     
+'PS1_7D0_9'  pad stack refresh starting.
+
+     'PS1_7D0_9'  pad stack refreshed successfully.
+     
+Completed refreshing all pad stacks successfully.

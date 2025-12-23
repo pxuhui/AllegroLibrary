@@ -28,11 +28,11 @@
     (FileView
       (Path "Design Resources")
       (Path "Design Resources" ".\others.olb")
-      (Select "Design Resources" ".\others.olb" "TP"))
+      (Select "Design Resources" ".\others.olb" "JY901S"))
     (HierarchyView)
     (Doc
       (Type "COrCapturePMDoc")
       (Frame
-        (Placement "44 0 1 -1 -1 -1 -1 0 1384 0 705"))
+        (Placement "44 0 1 -1 -1 -1 -1 0 1384 0 627"))
       (Tab 0)))
-  (MPSSessionName "X"))
+  (MPSSessionName "pxuhu"))

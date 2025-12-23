@@ -1,0 +1,37 @@
+# Allegro script
+#	file: C:/myFile/AllegroLibrary/SKILL00/pad_connect_change.scr
+#	start time: Fri Jul  4 10:41:31 2025
+#	Version: 24.1-2024 P001 (4234998) Windows SPB 64-bit Edition
+version 24.1
+
+setwindow pcb
+trapsize 1804
+generaledit
+prepopup 52.1408 74.3830
+pop dyn_option_select '@:@Property edit' 
+property edit 
+setwindow form.editprop1
+FORM editprop1 properties Dyn_Thermal_Con_Type 
+FORM editprop1 properties Dyn_Fixed_Therm_Width_Array 
+setwindow pcb
+prepopup 34.0301 70.5949
+done 
+generaledit 
+prepopup 29.3762 81.6706
+pick grid 27.5002 81.8870
+fillin "C:/myFile/AllegroLibrary/SKILL00/pad_connect_change.scr"
+fillin "menu_cancel"
+roam start
+roam y 16
+roam y 48
+roam y 32
+roam x 32
+roam y 32
+roam x 16
+roam y 32
+roam y 16
+roam x 16
+roam y 16
+roam end
+
+#	stop time: Fri Jul  4 10:44:13 2025

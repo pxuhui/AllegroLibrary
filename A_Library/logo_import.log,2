@@ -1,0 +1,22 @@
+(---------------------------------------------------------------------)
+(                                                                     )
+(    Logo Import Log File                                             )
+(                                                                     )
+(    Drawing          : Logo-15.dra                                   )
+(    Software Version : 24.1P001                                      )
+(    Date/Time        : Tue Sep 16 18:34:08 2025                      )
+(                                                                     )
+(---------------------------------------------------------------------)
+
+
+Logo File: C:/Users/pxuhu/Desktop/000.bmp
+Logo to be added on:  BOARD GEOMETRY/SILKSCREEN_TOP
+
+BMP file converted to DXF file.
+Module created for the logo to be imported.
+Conversion Profile created for intermediate DXF File.
+DXF Design added to the Module Definition Database.
+Error creating Module instance from Module definition Database containing Logo.
+
+
+Logo Import Failed

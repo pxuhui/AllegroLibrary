@@ -16,8 +16,7 @@
   (GlobalState
     (FileView
       (Path "Design Resources")
-      (Path "Design Resources" ".\connector.olb")
-      (Select "Design Resources" ".\connector.olb" "XT90PB-M"))
+      (Path "Design Resources" ".\connector.olb"))
     (HierarchyView)
     (Doc
       (Type "COrCapturePMDoc")
@@ -33,4 +32,5 @@
     (Folder "Include Files"
       (Sort User)))
   (Folder "Logs")
-  (MPSSessionName "X"))
+  (MPSSessionName "pxuhu")
+  (ISPCBBASICLICENSE "false"))

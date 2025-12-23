@@ -25,7 +25,7 @@ define main function
 
 defun( Quick_Grids ()
 	   GridsZoomListmil = '(1 5 10 20 25 50 100)
-	   GridsZoomListmm = '(0.0254 0.1 0.25 0.5 1 2 2.5)
+	   GridsZoomListmm = '(0.025 0.1 0.25 0.5 1 2 2.5)
        curdsn_unit = axlGetParam("paramDesign")->units
 		gridsetform()
 	   )

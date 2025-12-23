@@ -1,0 +1,2103 @@
+\t (00:00:02) allegro 24.1 P001 (4234998) [9/4/2024] Windows SPB 64-bit Edition
+\t (00:00:02)     Journal start - Tue Dec 16 12:20:03 2025
+\t (00:00:02)         Host=X User=pxuhu Pid=6896 CPUs=12
+\t (00:00:02) CmdLine= c:\cadence\spb_24.1\tools\bin\allegro.exe C:\myFile\AllegroLibrary\A_Library\EPF800R48S070NPDI.dra
+\t (00:00:02) 
+\t (00:00:02) Loading axlcore.cxt 
+\e (00:00:02) *Error* axlOSSlash: argument #1 should be a string (type template = "t") - nil
+\t (00:00:02) function CutCancel redefined
+\t (00:00:02) function CutDone redefined
+\t (00:00:02) function CutOops redefined
+\t (00:00:02) function ReplaceWithOldSeg redefined
+\t (00:00:02) function ResetBox redefined
+\t (00:00:02) function FindPointsInBox redefined
+\t (00:00:02) function IsPointInBox redefined
+\t (00:00:02) function Distance redefined
+\t (00:00:02) function CloseEndPoint redefined
+\t (00:00:02) function Is45DegreeLine redefined
+\t (00:00:02) function IsSameLine redefined
+\t (00:00:02) function ChangeAcc redefined
+\t (00:00:02) function Greeting redefined
+\t (00:00:02) function place_sym redefined
+\e (00:00:02) *Error* procedure: illegal formal list - kkkkl
+\e (00:00:02) *Error* load: error while loading file - "pad_connect_modifier.il" at line 69
+\w (00:00:03) *WARNING* defstruct: Redefining Structure struOblTh.
+\t (00:00:03) function quick_danglings redefined
+\t (00:00:03) function ps_DanglingForm_action redefined
+\t (00:00:03) function ps_ddoCheck redefined
+\t (00:00:03) function _INEStartCallBk redefined
+\t (00:00:03) function Auto_Balance redefined
+\t (00:00:03) function Balancing_Form_Action redefined
+\t (00:00:03) function Balancing_Adder redefined
+\t (00:00:03) function Balancing_Del redefined
+\t (00:00:03) function check_text_overlap redefined
+\t (00:00:03) function biuld_form redefined
+\t (00:00:03) function pform_Action redefined
+\t (00:00:03) function refdes_on_pad redefined
+\t (00:00:03) function barcode_overlap_atom redefined
+\t (00:00:03) function refdes_overlap_component redefined
+\t (00:00:03) function text_overlap_text redefined
+\t (00:00:03) function text_on_pad redefined
+\t (00:00:03) function text_on_testpoints redefined
+\t (00:00:03) function get_bar_code_box redefined
+\t (00:00:03) function getbox redefined
+\t (00:00:03) function text_on_text redefined
+\t (00:00:03) function unselect_object redefined
+\t (00:00:03) function turn_on_layer redefined
+\t (00:00:03) function init_loc_text redefined
+\t (00:00:03) function add_loc_text redefined
+\t (00:00:03) function location_text redefined
+\t (00:00:03) function location_prv redefined
+\t (00:00:03) function colorset redefined
+\t (00:00:03) function CreateOblThForm redefined
+\t (00:00:03) function CheckCOTValue redefined
+\t (00:00:03) function make_struOblTh redefined
+\t (00:00:03) function copy_struOblTh redefined
+\t (00:00:03) function CreateOblongThermal redefined
+\t (00:00:03) function OblThCallback redefined
+\t (00:00:03) function andylu redefined
+\t (00:00:03) function CreateForm redefined
+\t (00:00:03) function check_subclass_flag redefined
+\t (00:00:03) function check_flag redefined
+\t (00:00:03) function function_init redefined
+\t (00:00:03) function Form_Action redefined
+\t (00:00:03) function subdist_check_bianma_on redefined
+\t (00:00:03) function subdist_check_standard_list_on redefined
+\t (00:00:03) function subdist_check_mark_function redefined
+\t (00:00:03) function subdist_module_check_function redefined
+\t (00:00:03) function subdist_Delete_object redefined
+\t (00:00:03) function testing_unselect_object redefined
+\t (00:00:03) function check_testing_PCB_output redefined
+\t (00:00:03) function main_check_show redefined
+\t (00:00:03) function testing_bianma_check redefined
+\t (00:00:03) function select_layer_flag_check redefined
+\t (00:00:03) function testing_text_check redefined
+\t (00:00:03) function testing_justice_list redefined
+\t (00:00:03) function testing_Mech_check redefined
+\t (00:00:03) function testingfind_getmax_min redefined
+\t (00:00:03) function check_board_height_extract redefined
+\t (00:00:03) function check_height_extract redefined
+\t (00:00:03) function check_print_height redefined
+\t (00:00:03) function testing_Creat_layer redefined
+\t (00:00:03) function testing_Allcolor_set redefined
+\t (00:00:03) function testing_turn_on_layer redefined
+\t (00:00:03) function testing_Delline redefined
+\t (00:00:03) function testing_HilElement redefined
+\t (00:00:03) function testing_Hilight_box redefined
+\t (00:00:03) function testing_calc_lt_symbol_range redefined
+\t (00:00:03) function testing_line_symbolslist_calc redefined
+\t (00:00:03) function calc_lt_symbol_selct_all redefined
+\t (00:00:03) function testing_HilElement_line redefined
+\t (00:00:03) function testing_line_symbolslist redefined
+\t (00:00:03) function testing_line_symbols_high redefined
+\t (00:00:03) function testing_text_lt_symbolsall redefined
+\t (00:00:03) function testing_LostRef redefined
+\t (00:00:03) function testing_LostPinName redefined
+\t (00:00:03) function testing_Refdes_Direction redefined
+\t (00:00:03) function testing_DeHLSymNetsPins redefined
+\t (00:00:03) function testing_Refdes_same redefined
+\t (00:00:03) function check_text_over_item redefined
+\t (00:00:03) function testing_text_on_pad redefined
+\t (00:00:03) function testing_text_on_testpoints redefined
+\t (00:00:03) function testing_text_on_shape redefined
+\t (00:00:03) function testing_text_overlap_text redefined
+\t (00:00:03) function testing_text_on_text redefined
+\t (00:00:03) function testing_text_overlap_line redefined
+\t (00:00:03) function testing_text_on_Via redefined
+\t (00:00:03) function testing_check_line_on_pad redefined
+\t (00:00:03) function testing_check_text_inside_comp redefined
+\t (00:00:03) function testing_check_text_in_comp redefined
+\t (00:00:03) function testing_getbox redefined
+\t (00:00:03) function subdist_checkitem_to_symbols redefined
+\t (00:00:03) function subdist_check_mount_hole redefined
+\t (00:00:03) function subdist_check_distance_on_mount redefined
+\t (00:00:03) function subdist_check_distance_on_pin redefined
+\t (00:00:03) function subdist_get_airgapbox redefined
+\t (00:00:03) function subdist_get_clearance redefined
+\t (00:00:03) function subdist_get_clearancesmall redefined
+\t (00:00:03) function subdist_justice_components redefined
+\t (00:00:03) function subdist_send_getbox_ver redefined
+\t (00:00:03) function subdist_send_getbox_hor redefined
+\t (00:00:03) function subdist_justice_send_border redefined
+\t (00:00:03) function subdist_check_send_border redefined
+\t (00:00:03) function drawing_outline_5mm_3r5mm redefined
+\t (00:00:03) function yihan_length_width redefined
+\t (00:00:03) function yihan_getbox_xy redefined
+\t (00:00:03) function yihan_dispayer_num redefined
+\t (00:00:03) function subdist_justice_cap redefined
+\t (00:00:03) function subdist_send15mm_getbox_ver redefined
+\t (00:00:03) function subdist_send15mm_getbox_hor redefined
+\t (00:00:03) function subdist_getbox_xy redefined
+\t (00:00:03) function subdist_check_pressfit redefined
+\t (00:00:03) function subdist_check_BGA_range redefined
+\t (00:00:03) function testing_check_pin_range redefined
+\t (00:00:03) function subdist_check_via_on_pad redefined
+\t (00:00:03) function subdist_check_thermal_on_pad redefined
+\t (00:00:03) function subdist_BGAgetbox redefined
+\t (00:00:03) function subdist_getbox redefined
+\t (00:00:03) function subdist_pin12_getbox redefined
+\t (00:00:03) function select_layer_flag_fill_list redefined
+\t (00:00:03) function testing_single_fill redefined
+\t (00:00:03) function creat_line_dem redefined
+\t (00:00:03) function testing_diff_fill redefined
+\t (00:00:03) function testing_getbox_diff redefined
+\t (00:00:03) function testing_oil_fill redefined
+\t (00:00:03) function testing_output_DXF_layer redefined
+\t (00:00:03) function testing_search_vias_hilight redefined
+\t (00:00:03) function testing_search_vias_list redefined
+\t (00:00:03) function testing_move_function redefined
+\t (00:00:03) function subrot_move_center redefined
+\t (00:00:03) function subrot_AlignText_cancel redefined
+\t (00:00:03) function subrot_AlignText_done redefined
+\t (00:00:03) function subrot_AlignText_move redefined
+\t (00:00:03) function sub_rotateref redefined
+\t (00:00:03) function sub_GetRefIDComDir redefined
+\t (00:00:03) function sub_RotateTopRef redefined
+\t (00:00:03) function sub_RotateBtmRef redefined
+\t (00:00:03) function generate_techfile redefined
+\t (00:00:03) function shape_offset_drawing redefined
+\t (00:00:03) function andylu_BuildShapePath redefined
+\t (00:00:03) function andylu_AddShape redefined
+\t (00:00:03) function testing_check_testpoints_ruler redefined
+\t (00:00:03) function testing_check_status_ruler redefined
+\t (00:00:03) function uc_shape redefined
+\t (00:00:03) function x_get_sym_bbox redefined
+\t (00:00:03) function _saveSelSet redefined
+\t (00:00:03) function _restoreSelSet redefined
+\t (00:00:03) function findAllOfType redefined
+\t (00:00:03) function ashFindAllClines redefined
+\t (00:00:03) function ashFindAllClinesegs redefined
+\t (00:00:03) function x_CmpPg redefined
+\t (00:00:03) function x_CmpPgUseLimitTimes redefined
+\t (00:00:03) function x_FormInitialization redefined
+\t (00:00:03) function x_GreateFormCmpPg redefined
+\t (00:00:03) function x_CmpPgFormAction redefined
+\t (00:00:03) function x_CmpPgSet redefined
+\t (00:00:03) function x_SetCmpPgDispaly redefined
+\t (00:00:03) function x_ACmpPgInfo redefined
+\t (00:00:03) function x_AutoPlmCmp redefined
+\t (00:00:03) function x_AllPlm1 redefined
+\t (00:00:03) function x_AllPlm2 redefined
+\t (00:00:03) function x_AllPlm3 redefined
+\t (00:00:03) function x_AllPlm12 redefined
+\t (00:00:03) function x_CmpPgPlmCmp redefined
+\t (00:00:03) function x_SglPlm redefined
+\t (00:00:03) function x_SglPlmCmp redefined
+\t (00:00:03) function x_SymToCursor redefined
+\t (00:00:03) function x_Stoppage redefined
+\t (00:00:03) function x_CmpPgLstDHilt redefined
+\t (00:00:03) function x_CmpPgLstHilt redefined
+\t (00:00:03) function x_CmpPgLstDehilt redefined
+\t (00:00:03) function x_CmpPgLstDlt redefined
+\t (00:00:03) function x_CmpPgLstDltAll redefined
+\t (00:00:03) function x_CmpPgLstDltAGrp redefined
+\t (00:00:03) function x_CmpPgLstDltAllGrp redefined
+\t (00:00:03) function x_MvOldCmp redefined
+\t (00:00:03) function x_MvFixCmp redefined
+\t (00:00:03) function x_GrtGrp redefined
+\t (00:00:03) function x_DelOldGrpName redefined
+\t (00:00:03) function x_ExitSkill redefined
+\t (00:00:03) function x_CmpPgInfo redefined
+\t (00:00:03) function conv redefined
+\t (00:00:03) function convertform redefined
+\t (00:00:03) function createconvform redefined
+\t (00:00:03) function Conv_Action redefined
+\t (00:00:03) function hl_null_pin redefined
+\t (00:00:03) function hlvia redefined
+\t (00:00:03) function mark redefined
+\t (00:00:03) function delmark redefined
+\t (00:00:03) function Check_Refdes_Direction redefined
+\t (00:00:03) function Check_No_Refdes redefined
+\t (00:00:03) function _saveSelSet redefined
+\t (00:00:03) function _restoreSelSet redefined
+\t (00:00:03) function Form_Action redefined
+\t (00:00:03) function _saveSelSet redefined
+\t (00:00:03) function _restoreSelSet redefined
+\t (00:00:03) function findAllOfType redefined
+\t (00:00:03) function skillFindAll redefined
+\t (00:00:03) function ashFindAllPins redefined
+\t (00:00:03) function ashFindAllVias redefined
+\t (00:00:03) function ashFindAllClines redefined
+\t (00:00:03) function ashFindAllClinesegs redefined
+\t (00:00:03) function ashFindAllLines redefined
+\t (00:00:03) function ashFindAllLinesegs redefined
+\t (00:00:03) function ashFindAllDrcs redefined
+\t (00:00:03) function ashFindAllText redefined
+\t (00:00:03) function ashFindAllShapes redefined
+\t (00:00:03) function ashFindAllShapesegs redefined
+\t (00:00:03) function ashFindAllVoids redefined
+\t (00:00:03) function ashFindAllVoidsegs redefined
+\t (00:00:03) function ashFindAllSymbols redefined
+\t (00:00:03) function ashFindAllComponents redefined
+\t (00:00:03) function ashFindAllNets redefined
+\t (00:00:03) function ashFindAllFigures redefined
+\t (00:00:03) function CreateForm redefined
+\t (00:00:03) function x_get_sym_bbox redefined
+\t (00:00:03) function tbat redefined
+\t (00:00:03) function wr_cds2f redefined
+\t (00:00:03) function mycds2f redefined
+\t (00:00:03) function checkWidth redefined
+\t (00:00:03) function lcb_changewidth redefined
+\t (00:00:03) function changewidth_Form_Action redefined
+\t (00:00:03) function LCB_changeWidth redefined
+\t (00:00:03) function LCB_getwidth redefined
+\t (00:00:03) function LCB_formupdate redefined
+\t (00:00:03) function LCB_getlayers redefined
+\t (00:00:03) function _createForm_changewidth redefined
+\t (00:00:03) function cwidth_info_createInfo redefined
+\t (00:00:03) function _saveSelSet redefined
+\t (00:00:03) function _restoreSelSet redefined
+\t (00:00:03) function findAllOfType redefined
+\t (00:00:03) function skillFindAll redefined
+\t (00:00:03) function ashFindAllPins redefined
+\t (00:00:03) function ashFindAllVias redefined
+\t (00:00:03) function ashFindAllClines redefined
+\t (00:00:03) function ashFindAllClinesegs redefined
+\t (00:00:03) function ashFindAllLines redefined
+\t (00:00:03) function ashFindAllLinesegs redefined
+\t (00:00:03) function ashFindAllDrcs redefined
+\t (00:00:03) function ashFindAllText redefined
+\t (00:00:03) function ashFindAllShapes redefined
+\t (00:00:03) function ashFindAllShapesegs redefined
+\t (00:00:03) function ashFindAllVoids redefined
+\t (00:00:03) function ashFindAllVoidsegs redefined
+\t (00:00:03) function ashFindAllSymbols redefined
+\t (00:00:03) function ashFindAllComponents redefined
+\t (00:00:03) function ashFindAllNets redefined
+\t (00:00:03) function ashFindAllFigures redefined
+\t (00:00:03) function rbg_dp_report redefined
+\t (00:00:03) function LCB_list_ratt redefined
+\t (00:00:03) function _INEStart redefined
+\t (00:00:03) function _INEStartForm redefined
+\t (00:00:03) function _INEStartCallBk redefined
+\t (00:00:03) function _INEPackCallBack redefined
+\t (00:00:03) function _INEPopUpAddNet redefined
+\t (00:00:03) function _INEPopUpDelNet redefined
+\t (00:00:03) function _INEPopUpDelPin redefined
+\t (00:00:03) function _INEPopUpAddPin redefined
+\t (00:00:03) function _INEPopUpAddPinNet redefined
+\t (00:00:03) function _INEPopUpChgPin redefined
+\t (00:00:03) function _INEPopUpDelPkg redefined
+\t (00:00:03) function _INEInitVar redefined
+\t (00:00:03) function _INECancel redefined
+\t (00:00:03) function _INEOops redefined
+\t (00:00:03) function _INEDelOops redefined
+\t (00:00:03) function _INEPinOops redefined
+\t (00:00:03) function _INEPkgOops redefined
+\t (00:00:03) function _INEAddNetnameIN redefined
+\t (00:00:03) function _INEAddNetPinCompl redefined
+\t (00:00:03) function _INENew_Net_Commands redefined
+\t (00:00:03) function _INEAddNetPick redefined
+\t (00:00:03) function _INEGetPinName redefined
+\t (00:00:03) function _INEBldNetFile redefined
+\t (00:00:03) function _INENetIn redefined
+\t (00:00:03) function _INEDel_Net_Commands redefined
+\t (00:00:03) function _INEDelNetPick redefined
+\t (00:00:03) function _INEDelNetname redefined
+\t (00:00:03) function _INEDelNetIn redefined
+\t (00:00:03) function _INEDel_Pin_Commands redefined
+\t (00:00:03) function _INEDelPinName redefined
+\t (00:00:03) function _INEAdd_Pin_Commands redefined
+\t (00:00:03) function _INEAdd_Pin_Name redefined
+\t (00:00:03) function _INEAddPinNetName redefined
+\t (00:00:03) function _INEChg_Pin_Commands redefined
+\t (00:00:03) function _INEChg_Pin_Name redefined
+\t (00:00:03) function _INEDel_Pkg_Commands redefined
+\t (00:00:03) function _INEDel_Pkg_Name redefined
+\t (00:00:03) function _INEAdd_Pkg_Commands redefined
+\t (00:00:03) function _INEInitPackForm redefined
+\t (00:00:03) function _INEMk_Add_Pack_File redefined
+\t (00:00:03) function _INEMk_Add_Pack_Done redefined
+\t (00:00:03) function _INEACancel redefined
+\t (00:00:03) function _INEMakeFormFile redefined
+\t (00:00:03) function _INEMakePackFormFile redefined
+\t (00:00:03) function place_sym redefined
+\t (00:00:03) function show_height redefined
+\t (00:00:03) function AK_upd_height redefined
+\t (00:00:03) function AK_CreateForm redefined
+\t (00:00:03) function Height_Form_Routine redefined
+\t (00:00:03) function Height_Form_Action redefined
+\t (00:00:03) function AK_tree_all_children_off redefined
+\t (00:00:03) function AK_get_tree_items redefined
+\t (00:00:03) function Zoom redefined
+\t (00:00:03) function AK_upd_height_main redefined
+\e (00:00:03) *Error* load: can't access file - "colors.il"
+\t (00:00:03) function xFormBegin redefined
+\t (00:00:03) function xFormEnd redefined
+\t (00:00:03) function xCheckList redefined
+\t (00:00:03) function xGroup redefined
+\t (00:00:03) function xText redefined
+\t (00:00:03) function xButton redefined
+\t (00:00:03) function xList redefined
+\t (00:00:03) function xEdit redefined
+\t (00:00:03) function xInfoText redefined
+\t (00:00:03) function _super_cut redefined
+\t (00:00:03) function cut_Callback redefined
+\t (00:00:03) function CutCline_run redefined
+\t (00:00:03) function CutCancel redefined
+\t (00:00:03) function CutDone redefined
+\t (00:00:03) function CutOops redefined
+\t (00:00:03) function ReplaceWithOldSeg redefined
+\t (00:00:03) function _makeCline redefined
+\t (00:00:03) function ResetBox redefined
+\t (00:00:03) function FindPointsInBox redefined
+\t (00:00:03) function IsPointInBox redefined
+\t (00:00:03) function Distance redefined
+\t (00:00:03) function CloseEndPoint redefined
+\t (00:00:03) function Is45DegreeLine redefined
+\t (00:00:03) function IsSameLine redefined
+\t (00:00:03) function ChangeAcc redefined
+\t (00:00:03) function Greeting redefined
+\t (00:00:03) function Cutline_run redefined
+\t (00:00:03) function CutCancel redefined
+\t (00:00:03) function CutDone redefined
+\t (00:00:03) function CutOops redefined
+\t (00:00:03) function ReplaceWithOldSeg redefined
+\t (00:00:03) function _makeline redefined
+\t (00:00:03) function ResetBox redefined
+\t (00:00:03) function FindPointsInBox redefined
+\t (00:00:03) function IsPointInBox redefined
+\t (00:00:03) function Distance redefined
+\t (00:00:03) function CloseEndPoint redefined
+\t (00:00:03) function Is45DegreeLine redefined
+\t (00:00:03) function IsSameLine redefined
+\t (00:00:03) function ChangeAcc redefined
+\t (00:00:03) function Greeting redefined
+\t (00:00:03) function cutshape_run redefined
+\t (00:00:03) function WG_getUserInput redefined
+\t (00:00:03) function x_align_text redefined
+\t (00:00:03) function x_text_align_left redefined
+\t (00:00:03) function x_text_align_right redefined
+\t (00:00:03) function x_text_align_up redefined
+\t (00:00:03) function x_text_align_down redefined
+\t (00:00:03) function x_text_align_hcenter redefined
+\t (00:00:03) function x_text_align_vcenter redefined
+\t (00:00:03) function x_text_align_undo redefined
+\t (00:00:03) function x_get_text_bbox redefined
+\t (00:00:03) function Auto_Balance redefined
+\t (00:00:03) function Balancing_Form_Action redefined
+\t (00:00:03) function Balancing_Adder redefined
+\t (00:00:03) function component_height redefined
+\t (00:00:03) function createheightform redefined
+\t (00:00:03) function heightform redefined
+\t (00:00:03) function Height_Action redefined
+\t (00:00:03) function do_height_extract redefined
+\t (00:00:03) function do_height_print redefined
+\t (00:00:03) function _saveSelSet redefined
+\t (00:00:03) function _restoreSelSet redefined
+\t (00:00:03) function _drcZap redefined
+\t (00:00:03) function _drcFormBuild redefined
+\t (00:00:03) function _drcHelp redefined
+\t (00:00:03) function lfsSingleLayer redefined
+\t (00:00:03) function lfsLayers redefined
+\t (00:00:03) function lfsWindowExpand redefined
+\t (00:00:03) function lfsDRCFilterList redefined
+\t (00:00:03) function lfsDRCInitialize redefined
+\t (00:00:03) function lfsMarkPoint redefined
+\t (00:00:03) function _drcEnd redefined
+\t (00:00:03) function _drcShow redefined
+\t (00:00:03) function _drcUpdateDisp redefined
+\t (00:00:03) function _drcUpdateAll redefined
+\t (00:00:03) function _drcCallBack redefined
+\t (00:00:03) function drc_main redefined
+\t (00:00:03) function skillFindDang redefined
+\t (00:00:03) function Form_Action redefined
+\t (00:00:03) function _setup redefined
+\t (00:00:03) function _findSize redefined
+\t (00:00:03) function recheck redefined
+\t (00:00:03) function _deleteXY redefined
+\t (00:00:03) function _zoomin2 redefined
+\t (00:00:03) function _clearForm redefined
+\t (00:00:03) function _find_Clines redefined
+\t (00:00:03) function _find_Lines redefined
+\t (00:00:03) function _deleteAllClines redefined
+\t (00:00:03) function _deleteAllLines redefined
+\t (00:00:03) function _saveSelSet redefined
+\t (00:00:03) function _restoreSelSet redefined
+\t (00:00:03) function findAllOfType redefined
+\t (00:00:03) function skillFindAll redefined
+\t (00:00:03) function ashFindAllPins redefined
+\t (00:00:03) function ashFindAllVias redefined
+\t (00:00:03) function ashFindAllClines redefined
+\t (00:00:03) function ashFindAllClinesegs redefined
+\t (00:00:03) function ashFindAllLines redefined
+\t (00:00:03) function ashFindAllLinesegs redefined
+\t (00:00:03) function ashFindAllDrcs redefined
+\t (00:00:03) function ashFindAllText redefined
+\t (00:00:03) function ashFindAllShapes redefined
+\t (00:00:03) function ashFindAllShapesegs redefined
+\t (00:00:03) function ashFindAllVoids redefined
+\t (00:00:03) function ashFindAllVoidsegs redefined
+\t (00:00:03) function ashFindAllSymbols redefined
+\t (00:00:03) function ashFindAllComponents redefined
+\t (00:00:03) function ashFindAllNets redefined
+\t (00:00:03) function ashFindAllFigures redefined
+\t (00:00:03) function skillMakeDangList redefined
+\t (00:00:03) function skillDeleteOneDrc redefined
+\t (00:00:03) function skillDeleteDrcs redefined
+\t (00:00:03) function skillDehighlightAll redefined
+\t (00:00:03) function lcbMakeLineList redefined
+\t (00:00:03) function lcbMakeDrc redefined
+\t (00:00:03) function _createForm redefined
+\t (00:00:03) function _helpButton redefined
+\t (00:00:03) function jfhGetRefIDComDir redefined
+\t (00:00:03) function jfhRotateTopRef redefined
+\t (00:00:03) function jfhRotateBtmRef redefined
+\t (00:00:03) function jfhRotateTopRefIr redefined
+\t (00:00:03) function jfhRotateBtmRefIr redefined
+\t (00:00:03) function jfhrotateref redefined
+\t (00:00:03) function jfhrotaterefIr redefined
+\t (00:00:03) function check_text_overlap redefined
+\t (00:00:03) function biuld_form redefined
+\t (00:00:03) function pform_Action redefined
+\t (00:00:03) function refdes_on_pad redefined
+\t (00:00:03) function barcode_overlap_atom redefined
+\t (00:00:03) function refdes_overlap_component redefined
+\t (00:00:03) function text_overlap_text redefined
+\t (00:00:03) function text_on_pad redefined
+\t (00:00:03) function text_on_testpoints redefined
+\t (00:00:03) function get_bar_code_box redefined
+\t (00:00:03) function getbox redefined
+\t (00:00:03) function text_on_text redefined
+\t (00:00:03) function unselect_object redefined
+\t (00:00:03) function turn_on_layer redefined
+\t (00:00:03) function init_loc_text redefined
+\t (00:00:03) function add_loc_text redefined
+\t (00:00:03) function location_text redefined
+\t (00:00:03) function location_prv redefined
+\t (00:00:03) function Find_Component_Routine redefined
+\t (00:00:03) function lgstech redefined
+\t (00:00:03) function lgs_techrepfileCallback redefined
+\t (00:00:03) function lgs_techrepflowCallback redefined
+\t (00:00:03) function _lgs_moreinfo_callback redefined
+\t (00:00:03) function lgs_call_techfile redefined
+\t (00:00:03) function _lgs_setup_flow redefined
+\t (00:00:03) function _lgs_setup_area_information redefined
+\t (00:00:03) function _lgs_setup_information redefined
+\t (00:00:03) function _lgs_setup_area redefined
+\t (00:00:03) function _lgs_setup_area_unsel redefined
+\t (00:00:03) function _lgs_setup_area_sel redefined
+\t (00:00:03) function lgs_techrepCallback redefined
+\t (00:00:03) function _lgs_del_mum_list redefined
+\t (00:00:03) function _lgs_load_callback redefined
+\t (00:00:03) function _lgs_write_area_drc_scr redefined
+\t (00:00:03) function _lgs_line_processor redefined
+\t (00:00:03) function _lgs_write_flow_drc_scr redefined
+\t (00:00:03) function _lgs_default_area_drcmode_set redefined
+\t (00:00:03) function _lgs_Build_Technics_Manager_Form redefined
+\t (00:00:03) function _LJJ_camclear redefined
+\t (00:00:03) function FindStubs redefined
+\t (00:00:03) function LookUp redefined
+\t (00:00:03) function AddToStubList redefined
+\t (00:00:03) function CreateForm redefined
+\t (00:00:03) function Stub_Find_Form_Routine redefined
+\t (00:00:03) function Stub_Find_Form_Action redefined
+\t (00:00:03) function find_stubs redefined
+\t (00:00:03) function Form_Action redefined
+\t (00:00:03) function place_sym redefined
+\e (00:00:03) *Error* load: can't access file - "solder_paste.il"
+\t (00:00:03) function jfhGetAllCompsDBid redefined
+\t (00:00:03) function jfhChgAllRefdesTxtBlock redefined
+\t (00:00:03) function jfhGetRefdesDBid redefined
+\t (00:00:03) function jfhGetCompShadow redefined
+\t (00:00:03) function jfhSplitComps redefined
+\t (00:00:03) function jfhDBCreateRefdes redefined
+\t (00:00:03) function jfhPlaceTopRefdes redefined
+\t (00:00:03) function jfhPlaceBtmRefdes redefined
+\t (00:00:03) function jfhCreateMacroFile redefined
+\t (00:00:03) function jfhRefdesLocate redefined
+\t (00:00:03) function valor_film_info redefined
+\t (00:00:03) function check_text_overlap redefined
+\t (00:00:03) function biuld_form redefined
+\t (00:00:03) function pform_Action redefined
+\t (00:00:03) function refdes_on_pad redefined
+\t (00:00:03) function barcode_overlap_atom redefined
+\t (00:00:03) function refdes_overlap_component redefined
+\t (00:00:03) function text_overlap_text redefined
+\t (00:00:03) function text_on_pad redefined
+\t (00:00:03) function text_on_testpoints redefined
+\t (00:00:03) function get_bar_code_box redefined
+\t (00:00:03) function getbox redefined
+\t (00:00:03) function text_on_text redefined
+\t (00:00:03) function unselect_object redefined
+\t (00:00:03) function turn_on_layer redefined
+\t (00:00:03) function init_loc_text redefined
+\t (00:00:03) function add_loc_text redefined
+\t (00:00:03) function location_text redefined
+\t (00:00:03) function location_prv redefined
+\t (00:00:03) function _lgs_hilight_smd_main redefined
+\e (00:00:03) *Error* load: can't access file - "ConvertMenuToCn"
+\e (00:00:03) *Error* load: can't access file - "./Auto_Create_Match_Group.il"
+\e (00:00:03) *Error* load: can't access file - "gtd12-08"
+\e (00:00:03) *Error* load: can't access file - "AllCheck1"
+\e (00:00:03) *Error* load: can't access file - "quick_artwork.il"
+\t (00:00:03) function quicktext redefined
+\t (00:00:03) function setTextSize redefined
+\t (00:00:03) function quicktext redefined
+\t (00:00:03) function setTextSize redefined
+\e (00:00:03) 
+\e (00:00:03) //load("Quick_display.il")
+\e (00:00:03) ^
+\e (00:00:03) SYNTAX ERROR found at line 198 column 1 of file allegro.ilinit
+\e (00:00:03) *Error* lineread/read: syntax error encountered in input
+\t (00:00:03) function Quick_ColorSet redefined
+\t (00:00:03) function Quick_ColorSet1 redefined
+\t (00:00:03) function Quick_ColorSet2 redefined
+\t (00:00:03) function Quick_ColorSetTr redefined
+\t (00:00:03) function Quick_Grids redefined
+\t (00:00:03) function gridsetform redefined
+\t (00:00:03) function Grid_act redefined
+\t (00:00:03) function SetCurGrid redefined
+\t (00:00:06) Opening existing design...
+\i (00:00:07) QtSignal SPBFoldDockArea FoldAreaTabWidget currentChanged EPF800R48S070NPDI
+\d (00:00:07) Design opened: C:/myFile/AllegroLibrary/A_Library/EPF800R48S070NPDI.dra
+\t (00:00:07) Grids are drawn 2.0000, 2.0000 apart for enhanced viewing.
+\i (00:00:07) trapsize 13098
+\i (00:00:08) trapsize 13653
+\i (00:00:08) trapsize 13098
+\i (00:00:08) trapsize 13099
+\t (00:00:08) Grids are drawn 2.0000, 2.0000 apart for enhanced viewing.
+\i (00:00:08) trapsize 13283
+\i (00:00:09) quick_display 
+\t (00:00:09) [12:20:09.339712] Periodic Lic check successful
+[12:20:09.864000] Feature usage summary:
+
+\i (00:00:09) trapsize 8532
+\i (00:00:09) generaledit 
+\i (00:03:43) zoom in 1 
+\i (00:03:43) setwindow pcb
+\i (00:03:43) zoom in -50.7718 -20.4970
+\i (00:03:43) trapsize 4266
+\i (00:03:44) zoom in 1 
+\i (00:03:44) setwindow pcb
+\i (00:03:44) zoom in -50.7717 -20.5823
+\i (00:03:44) trapsize 2133
+\i (00:03:46) show element 
+\i (00:03:46) pick grid -53.3741 -20.5822
+\t (00:03:46) last pick:  -53.0000 -21.0000
+\i (00:03:50) setwindow text
+\i (00:03:50) close
+\i (00:03:51) setwindow pcb
+\i (00:03:51) zoom out 1 
+\i (00:03:51) setwindow pcb
+\i (00:03:51) zoom out -37.1628 -20.4543
+\i (00:03:51) trapsize 4266
+\i (00:03:52) zoom out 1 
+\i (00:03:52) setwindow pcb
+\i (00:03:52) zoom out -38.0161 -20.4542
+\i (00:03:52) trapsize 8532
+\i (00:03:52) roam start
+\i (00:03:52) roam x 16
+\i (00:03:52) roam x 32
+\i (00:03:52) roam x 32
+\i (00:03:52) roam x 32
+\i (00:03:52) roam x 16
+\i (00:03:53) roam end
+\i (00:03:53) zoom in 1 
+\i (00:03:53) setwindow pcb
+\i (00:03:53) zoom in 71.3187 0.3644
+\i (00:03:53) trapsize 4266
+\i (00:03:53) zoom in 1 
+\i (00:03:53) setwindow pcb
+\i (00:03:53) zoom in 59.4589 0.7910
+\i (00:03:53) trapsize 2133
+\i (00:03:54) zoom in 1 
+\i (00:03:54) setwindow pcb
+\i (00:03:54) zoom in 59.4589 0.7910
+\i (00:03:54) trapsize 1067
+\i (00:03:54) pick grid 53.9129 2.3481
+\t (00:03:54) last pick:  54.0000 2.0000
+\i (00:03:57) setwindow text
+\i (00:03:57) close
+\i (00:03:59) setwindow pcb
+\i (00:03:59) zoom out 1 
+\i (00:03:59) setwindow pcb
+\i (00:03:59) zoom out 54.9795 0.2577
+\i (00:03:59) trapsize 2133
+\i (00:03:59) zoom out 1 
+\i (00:03:59) setwindow pcb
+\i (00:03:59) zoom out 54.9795 0.2578
+\i (00:03:59) trapsize 4266
+\i (00:03:59) zoom out 1 
+\i (00:03:59) setwindow pcb
+\i (00:03:59) zoom out 54.8941 0.2578
+\i (00:03:59) trapsize 8532
+\i (00:03:59) zoom out 1 
+\i (00:03:59) setwindow pcb
+\i (00:03:59) zoom out 54.8941 0.2577
+\i (00:03:59) trapsize 17064
+\i (00:04:00) zoom in 1 
+\i (00:04:00) setwindow pcb
+\i (00:04:00) zoom in -46.8101 -5.5441
+\i (00:04:00) trapsize 8532
+\i (02:19:32) roam start
+\i (02:19:32) roam x 16
+\i (02:19:32) roam y 16
+\i (02:19:32) roam x 16
+\i (02:19:32) roam y 48
+\i (02:19:33) roam y 32
+\i (02:19:33) roam end
+\i (02:19:36) pick grid 53.4010 -43.3545
+\t (02:19:36) last pick:  53.0000 -43.0000
+\i (02:19:43) bn 
+\t (02:19:43) [14:39:44.049712] Periodic Lic check successful
+[14:39:44.574000] Feature usage summary:
+
+\i (02:19:43) generaledit 
+\i (02:19:46) setwindow form.mini
+\i (02:19:46) FORM mini class 'BOARD GEOMETRY' 
+\i (02:19:48) FORM mini subclass MYCAD 
+\i (02:19:48) setwindow pcb
+\i (02:19:48) updateport CVPane
+\i (02:19:49) pick grid 76.0968 -13.8330
+\t (02:19:49) last pick:  76.0000 -14.0000
+\i (02:19:49) zoom out 1 
+\i (02:19:49) setwindow pcb
+\i (02:19:49) zoom out 76.0968 -13.8330
+\i (02:19:49) trapsize 17064
+\i (02:19:50) roam start
+\i (02:19:50) roam x 16
+\i (02:19:50) roam y -16
+\i (02:19:50) roam x 48
+\i (02:19:50) roam y -16
+\i (02:19:50) roam end
+\i (02:19:51) delete 
+\i (02:19:56) setwindow form.find
+\i (02:19:56) FORM find all_on  
+\i (02:19:56) setwindow pcb
+\i (02:19:56) drag_start grid 93.8438 -43.6959
+\i (02:19:56) drag_stop -155.2976 76.0967
+\i (02:19:57) delete 
+\i (02:19:57) prepopup -50.1804 -5.1302
+\i (02:19:58) done 
+\i (02:19:58) generaledit 
+\i (02:19:58) pick grid -50.1804 -4.7889
+\t (02:19:58) last pick:  -50.0000 -5.0000
+\i (02:20:01) dxf in 
+\i (02:20:02) setwindow form.dxfInMain
+\i (02:20:02) FORM dxfInMain incremental YES 
+\t (02:20:02) Loading mfg.cxt 
+\i (02:20:03) FORM dxfInMain browsedxf  
+\t (02:20:07) Performing autosave...
+\t (02:20:08) Autosave successful
+\i (02:20:08) fillin "C:/myFile/AllegroLibrary/cad/CAD_Standard.dxf"
+\i (02:20:10) FORM dxfInMain editcnvprofile  
+\i (02:20:11) setwindow form.dxfInMapping
+\i (02:20:11) FORM dxfInMapping mappinggrid cell 5,1 
+\i (02:20:12) FORM dxfInMapping mappinggrid change 5,1 yes 
+\i (02:20:14) FORM dxfInMapping mappinggrid cell 5,3 
+\i (02:20:16) FORM dxfInMapping mappinggrid change 5,3 'BOARD GEOMETRY' 
+\i (02:20:19) FORM dxfInMapping mappinggrid change 5,4 MYCAD 
+\i (02:20:20) FORM dxfInMapping done  
+\i (02:20:22) fillin yes 
+\i (02:20:22) setwindow form.dxfInMain
+\i (02:20:22) FORM dxfInMain import  
+\t (02:20:22) Starting dxf2a...
+\t (02:20:24) SpawnProcessExit background process completed status = 0
+
+\t (02:20:24) Opening existing design...
+\t (02:20:25) Grids are drawn 2.0000, 2.0000 apart for enhanced viewing.
+\i (02:20:25) setwindow pcb
+\i (02:20:25) trapsize 17064
+\i (02:20:26) trapsize 17521
+\i (02:20:26) trapsize 17064
+\t (02:20:27) Grids are drawn 512.0000, 512.0000 apart for enhanced viewing.
+\t (02:20:28) Grids are drawn 2.0000, 2.0000 apart for enhanced viewing.
+\i (02:20:28) trapsize 17064
+\i (02:20:31) setwindow form.dxfInMain
+\i (02:20:31) FORM dxfInMain cancel  
+\i (02:20:31) setwindow pcb
+\i (02:20:31) generaledit 
+\i (02:20:31) zoom out 1 
+\i (02:20:31) setwindow pcb
+\i (02:20:31) zoom out -24.9249 -47.7914
+\t (02:20:31) Grids are drawn 4.0000, 4.0000 apart for enhanced viewing.
+\i (02:20:31) trapsize 34129
+\i (02:20:31) zoom out 1 
+\i (02:20:31) setwindow pcb
+\i (02:20:31) zoom out 41.2853 -53.9346
+\t (02:20:31) Grids are drawn 8.0000, 8.0000 apart for enhanced viewing.
+\i (02:20:31) trapsize 68258
+\i (02:20:33) zoom in 1 
+\i (02:20:33) setwindow pcb
+\i (02:20:33) zoom in 368.2407 -175.7534
+\t (02:20:33) Grids are drawn 4.0000, 4.0000 apart for enhanced viewing.
+\i (02:20:33) trapsize 34129
+\i (02:20:34) delete 
+\i (02:20:34) drag_start grid 337.5462 -156.6411
+\i (02:20:34) drag_stop 274.0663 -61.0801
+\t (02:20:34) Line "Board Geometry/Mycad"
+\i (02:20:35) delete 
+\i (02:20:36) zoom in 1 
+\i (02:20:37) setwindow pcb
+\i (02:20:37) zoom in 9.2256 -13.9821
+\t (02:20:37) Grids are drawn 2.0000, 2.0000 apart for enhanced viewing.
+\i (02:20:37) trapsize 17064
+\i (02:20:37) zoom in 1 
+\i (02:20:37) setwindow pcb
+\i (02:20:37) zoom in 7.5192 -9.8866
+\i (02:20:37) trapsize 8532
+\i (02:20:37) zoom in 1 
+\i (02:20:37) setwindow pcb
+\i (02:20:37) zoom in 7.5192 -9.8866
+\i (02:20:37) trapsize 4266
+\i (02:20:37) zoom out 1 
+\i (02:20:38) setwindow pcb
+\i (02:20:38) zoom out 8.9697 -13.6408
+\i (02:20:38) trapsize 8532
+\i (02:20:38) roam start
+\i (02:20:38) roam x -16
+\i (02:20:38) roam x -16
+\i (02:20:38) roam y -32
+\i (02:20:38) roam y -16
+\i (02:20:38) roam y -16
+\i (02:20:38) roam y -16
+\i (02:20:38) roam y -16
+\i (02:20:38) roam y -16
+\i (02:20:39) roam end
+\i (02:20:40) zoom in 1 
+\i (02:20:40) setwindow pcb
+\i (02:20:40) zoom in -47.6207 12.9582
+\i (02:20:40) trapsize 4266
+\i (02:20:41) zoom out 1 
+\i (02:20:41) setwindow pcb
+\i (02:20:41) zoom out -47.6207 12.9582
+\i (02:20:41) trapsize 8532
+\i (02:20:44) ba 
+\i (02:20:44) generaledit 
+\i (02:20:46) zoom in 1 
+\i (02:20:46) setwindow pcb
+\i (02:20:46) zoom in 61.7626 35.4834
+\i (02:20:46) trapsize 4266
+\i (02:20:46) zoom in 1 
+\i (02:20:46) setwindow pcb
+\i (02:20:46) zoom in 58.4350 29.5961
+\i (02:20:46) trapsize 2133
+\i (02:20:47) zoom out 1 
+\i (02:20:47) setwindow pcb
+\i (02:20:47) zoom out 50.9266 29.5535
+\i (02:20:47) trapsize 4266
+\i (02:20:47) zoom out 1 
+\i (02:20:47) setwindow pcb
+\i (02:20:47) zoom out 50.9266 29.5534
+\i (02:20:47) trapsize 8532
+\i (02:20:48) roam start
+\i (02:20:48) roam x -16
+\i (02:20:48) roam x -32
+\i (02:20:48) roam y 16
+\i (02:20:48) roam end
+\i (02:20:48) zoom in 1 
+\i (02:20:48) setwindow pcb
+\i (02:20:48) zoom in 54.0836 27.8043
+\i (02:20:49) trapsize 4266
+\i (02:20:49) zoom in 1 
+\i (02:20:49) setwindow pcb
+\i (02:20:49) zoom in 54.0836 27.8044
+\i (02:20:49) trapsize 2133
+\i (02:20:49) zoom in 1 
+\i (02:20:49) setwindow pcb
+\i (02:20:49) zoom in 54.2116 24.9035
+\i (02:20:49) trapsize 1067
+\i (02:20:49) zoom in 1 
+\i (02:20:49) setwindow pcb
+\i (02:20:49) zoom in 54.2116 24.9035
+\i (02:20:49) trapsize 533
+\i (02:20:51) zoom out 1 
+\i (02:20:51) setwindow pcb
+\i (02:20:51) zoom out 54.4249 25.0208
+\i (02:20:51) trapsize 1067
+\i (02:20:53) zoom out 1 
+\i (02:20:53) setwindow pcb
+\i (02:20:53) zoom out 53.6144 23.6983
+\i (02:20:53) trapsize 2133
+\i (02:20:54) zoom out 1 
+\i (02:20:54) setwindow pcb
+\i (02:20:54) zoom out 62.5732 24.5089
+\i (02:20:54) trapsize 4266
+\i (02:20:54) zoom out 1 
+\i (02:20:54) setwindow pcb
+\i (02:20:54) zoom out 62.5733 24.5089
+\i (02:20:54) trapsize 8532
+\i (02:20:54) roam start
+\i (02:20:54) roam x -16
+\i (02:20:54) roam y 16
+\i (02:20:54) roam x -16
+\i (02:20:54) roam y 32
+\i (02:20:55) roam end
+\i (02:20:55) zoom in 1 
+\i (02:20:55) setwindow pcb
+\i (02:20:55) zoom in -57.3474 -29.5323
+\i (02:20:55) trapsize 4266
+\i (02:20:55) zoom in 1 
+\i (02:20:55) setwindow pcb
+\i (02:20:55) zoom in -57.4327 -29.3616
+\i (02:20:55) trapsize 2133
+\i (02:20:56) zoom in 1 
+\i (02:20:56) setwindow pcb
+\i (02:20:56) zoom in -57.4327 -29.3616
+\i (02:20:56) trapsize 1067
+\i (02:20:58) move 
+\t (02:20:58) Select element(s) to move.
+\i (02:20:59) zoom out 1 
+\i (02:20:59) setwindow pcb
+\i (02:20:59) zoom out -47.0874 -24.4555
+\i (02:20:59) trapsize 2133
+\i (02:20:59) zoom out 1 
+\i (02:20:59) setwindow pcb
+\i (02:20:59) zoom out -47.0873 -24.4555
+\i (02:20:59) trapsize 4266
+\i (02:21:00) cancel 
+\i (02:21:00) generaledit 
+\i (02:21:00) cancel 
+\i (02:21:00) generaledit 
+\i (02:21:00) cancel 
+\i (02:21:00) generaledit 
+\i (02:21:00) pick grid -68.8446 -42.4585
+\t (02:21:00) last pick:  -69.0000 -42.0000
+\i (02:21:05) setwindow form.mini
+\i (02:21:05) FORM mini subcolor color 112 
+\i (02:21:05) setwindow pcb
+\i (02:21:05) updateport CVPane
+\i (02:21:05) pick grid -33.8624 -42.9704
+\t (02:21:05) last pick:  -34.0000 -43.0000
+\i (02:21:06) roam start
+\i (02:21:06) roam y -16
+\i (02:21:06) roam end
+\i (02:21:07) roam start
+\i (02:21:07) roam x 16
+\i (02:21:07) roam x 32
+\i (02:21:07) roam end
+\i (02:21:08) roam start
+\i (02:21:08) roam x 32
+\i (02:21:08) roam x 32
+\i (02:21:08) roam x 32
+\i (02:21:08) roam x 16
+\i (02:21:08) roam x 16
+\i (02:21:08) roam x 16
+\i (02:21:08) roam x 16
+\i (02:21:08) roam x 16
+\i (02:21:08) roam x 32
+\i (02:21:08) roam x 32
+\i (02:21:08) roam x 16
+\i (02:21:08) roam y -16
+\i (02:21:08) roam x 32
+\i (02:21:08) roam x 32
+\i (02:21:08) roam x 16
+\i (02:21:08) roam y -16
+\i (02:21:08) roam x 16
+\i (02:21:08) roam x 16
+\i (02:21:08) roam y -16
+\i (02:21:08) roam x 16
+\i (02:21:08) roam x 16
+\i (02:21:08) roam x 16
+\i (02:21:08) roam x 32
+\i (02:21:08) roam x 16
+\i (02:21:08) roam y -16
+\i (02:21:08) roam x 32
+\i (02:21:08) roam x 32
+\i (02:21:08) roam x 16
+\i (02:21:09) roam end
+\i (02:21:09) zoom out 1 
+\i (02:21:09) setwindow pcb
+\i (02:21:09) zoom out -6.0688 -22.3654
+\i (02:21:09) trapsize 8532
+\i (02:21:09) roam start
+\i (02:21:09) roam x 32
+\i (02:21:09) roam x 32
+\i (02:21:09) roam x 32
+\i (02:21:09) roam end
+\i (02:21:10) zoom in 1 
+\i (02:21:10) setwindow pcb
+\i (02:21:10) zoom in 49.4762 -32.0922
+\i (02:21:10) trapsize 4266
+\i (02:21:10) zoom in 1 
+\i (02:21:10) setwindow pcb
+\i (02:21:10) zoom in 56.3020 -25.3517
+\i (02:21:10) trapsize 2133
+\i (02:21:10) zoom in 1 
+\i (02:21:10) setwindow pcb
+\i (02:21:10) zoom in 56.2594 -25.2664
+\i (02:21:10) trapsize 1067
+\i (02:21:10) zoom in 1 
+\i (02:21:10) setwindow pcb
+\i (02:21:10) zoom in 56.2594 -25.2664
+\i (02:21:11) trapsize 533
+\i (02:21:11) roam start
+\i (02:21:11) roam y 16
+\i (02:21:11) roam x -16
+\i (02:21:11) roam y 32
+\i (02:21:11) roam end
+\i (02:21:13) move 
+\t (02:21:13) Select element(s) to move.
+\i (02:21:15) setwindow form.find
+\i (02:21:15) FORM find shapes YES 
+\i (02:21:17) setwindow pcb
+\i (02:21:17) pick grid 54.9889 -26.1205
+\t (02:21:17) last pick:  55.0000 -26.0000
+\t (02:21:17) last pick:  0.0000 0.0000
+\t (02:21:17) Pick new location for the element(s).
+\i (02:21:18) zoom out 1 
+\i (02:21:18) setwindow pcb
+\i (02:21:18) zoom out 54.4556 -25.8432
+\i (02:21:18) trapsize 1067
+\i (02:21:18) zoom out 1 
+\i (02:21:18) setwindow pcb
+\i (02:21:18) zoom out 54.4557 -25.8431
+\i (02:21:18) trapsize 2133
+\i (02:21:18) zoom out 1 
+\i (02:21:18) setwindow pcb
+\i (02:21:18) zoom out 53.1759 -28.1042
+\i (02:21:18) trapsize 4266
+\i (02:21:20) cancel 
+\i (02:21:20) generaledit 
+\i (02:21:22) prepopup 87.1342 -1.3130
+\i (02:21:22) pick grid 83.8919 -0.0331
+\t (02:21:22) last pick:  84.0000 0.0000
+\i (02:21:27) setwindow form.mini
+\i (02:21:27) FORM mini class MANUFACTURING 
+\i (02:21:29) FORM mini class 'PACKAGE GEOMETRY' 
+\i (02:21:31) FORM mini subcolor 0 
+\i (02:21:31) setwindow pcb
+\i (02:21:31) updateport CVPane
+\i (02:21:33) setwindow form.mini
+\i (02:21:33) FORM mini subclass PLACE_BOUND_TOP 
+\i (02:21:33) setwindow pcb
+\i (02:21:33) updateport CVPane
+\i (02:21:34) setwindow form.mini
+\i (02:21:34) FORM mini subcolor 0 
+\i (02:21:34) setwindow pcb
+\i (02:21:34) updateport CVPane
+\i (02:21:35) pick grid 75.7863 -20.5105
+\t (02:21:35) last pick:  76.0000 -21.0000
+\i (02:21:36) zoom in 1 
+\i (02:21:36) setwindow pcb
+\i (02:21:36) zoom in 50.1043 -34.2474
+\i (02:21:36) trapsize 2133
+\i (02:21:36) zoom in 1 
+\i (02:21:36) setwindow pcb
+\i (02:21:36) zoom in 50.1043 -34.2474
+\i (02:21:36) trapsize 1067
+\i (02:21:36) roam start
+\i (02:21:36) roam y -16
+\i (02:21:36) roam x 16
+\i (02:21:36) roam y -48
+\i (02:21:36) roam y -16
+\i (02:21:36) roam x 16
+\i (02:21:36) roam y -16
+\i (02:21:36) roam y -16
+\i (02:21:37) roam y -16
+\i (02:21:37) roam x 16
+\i (02:21:37) roam y -16
+\i (02:21:37) roam y -16
+\i (02:21:37) roam x 16
+\i (02:21:37) roam y -16
+\i (02:21:37) roam end
+\i (02:21:38) move 
+\t (02:21:38) Select element(s) to move.
+\i (02:21:41) pick grid 55.0423 -26.0565
+\t (02:21:41) last pick:  55.0000 -26.0000
+\i (02:21:41) move 
+\t (02:21:41) Select element(s) to move.
+\i (02:21:43) pick grid 55.1063 -25.5659
+\t (02:21:43) last pick:  55.0000 -26.0000
+\i (02:21:46) setwindow form.find
+\i (02:21:46) FORM find all_on  
+\i (02:21:48) setwindow pcb
+\i (02:21:48) pick grid 55.1276 -25.5659
+\t (02:21:48) last pick:  55.0000 -26.0000
+\t (02:21:48) last pick:  53.3500 -25.4000
+\t (02:21:48) Pick new location for the element(s).
+\i (02:21:50) prepopup 54.6370 -26.2485
+\i (02:21:55) pop dyn_option_select 'Snap pick to@:@Arc/Circle Center' 
+\t (02:21:55) last pick:  53.3400 -25.4000
+\i (02:21:55) zoom out 1 
+\i (02:21:55) setwindow pcb
+\i (02:21:55) zoom out 52.0987 -24.0728
+\i (02:21:55) trapsize 2133
+\i (02:21:55) zoom out 1 
+\i (02:21:55) setwindow pcb
+\i (02:21:55) zoom out 52.0134 -24.0300
+\i (02:21:55) trapsize 4266
+\i (02:21:55) roam start
+\i (02:21:55) roam x -16
+\i (02:21:55) roam y -16
+\i (02:21:56) roam y -80
+\i (02:21:56) roam y -32
+\i (02:21:56) roam y -64
+\i (02:21:56) roam y -48
+\i (02:21:56) roam y -48
+\i (02:21:56) roam y -16
+\i (02:21:56) roam y -16
+\i (02:21:56) roam y -32
+\i (02:21:56) roam y -16
+\i (02:21:56) roam y -16
+\i (02:21:56) roam y -16
+\i (02:21:56) roam y -16
+\i (02:21:56) roam y -16
+\i (02:21:56) roam y -16
+\i (02:21:56) roam y -16
+\i (02:21:56) roam y -16
+\i (02:21:56) roam x 16
+\i (02:21:56) roam y -16
+\i (02:21:56) roam y -16
+\i (02:21:56) roam y -16
+\i (02:21:56) roam y -16
+\i (02:21:56) roam end
+\i (02:21:57) zoom in 1 
+\i (02:21:57) setwindow pcb
+\i (02:21:57) zoom in 55.3632 27.5481
+\i (02:21:57) trapsize 2133
+\i (02:21:57) zoom in 1 
+\i (02:21:57) setwindow pcb
+\i (02:21:57) zoom in 55.3632 27.5481
+\i (02:21:57) trapsize 1067
+\i (02:21:57) zoom in 1 
+\i (02:21:57) setwindow pcb
+\i (02:21:57) zoom in 55.3632 27.5481
+\i (02:21:57) trapsize 533
+\i (02:21:58) pick grid 54.9580 26.1830
+\t (02:21:58) last pick:  55.0000 26.0000
+\t (02:21:58) last pick:  53.3500 25.4000
+\t (02:21:58) Pick new location for the element(s).
+\i (02:21:59) prepopup 54.8940 25.7991
+\i (02:22:01) pop dyn_option_select 'Snap pick to@:@Arc/Circle Center' 
+\t (02:22:01) last pick:  53.3400 25.4000
+\i (02:22:01) zoom out 1 
+\i (02:22:01) setwindow pcb
+\i (02:22:01) zoom out 54.0408 26.0550
+\i (02:22:01) trapsize 1067
+\i (02:22:02) zoom out 1 
+\i (02:22:02) setwindow pcb
+\i (02:22:02) zoom out 54.0407 26.0551
+\i (02:22:02) trapsize 2133
+\i (02:22:02) zoom out 1 
+\i (02:22:02) setwindow pcb
+\i (02:22:02) zoom out 54.0409 26.0550
+\i (02:22:02) trapsize 4266
+\i (02:22:02) roam start
+\i (02:22:02) roam x -16
+\i (02:22:02) roam x -80
+\i (02:22:02) roam y 16
+\i (02:22:02) roam x -48
+\i (02:22:02) roam y 16
+\i (02:22:02) roam x -80
+\i (02:22:02) roam x -144
+\i (02:22:02) roam x -160
+\i (02:22:02) roam x -144
+\i (02:22:02) roam x -192
+\i (02:22:02) roam x -96
+\i (02:22:02) roam x -144
+\i (02:22:02) roam x -272
+\i (02:22:02) roam x -176
+\i (02:22:02) roam x -128
+\i (02:22:02) roam x -112
+\i (02:22:02) roam x -80
+\i (02:22:02) roam end
+\i (02:22:03) roam start
+\i (02:22:03) roam x 16
+\i (02:22:03) roam x 176
+\i (02:22:03) roam x 64
+\i (02:22:03) roam x 16
+\i (02:22:03) roam x 16
+\i (02:22:03) roam x 16
+\i (02:22:03) roam x 16
+\i (02:22:03) roam end
+\i (02:22:03) zoom in 1 
+\i (02:22:04) setwindow pcb
+\i (02:22:04) zoom in -54.7880 24.9884
+\i (02:22:04) trapsize 2133
+\i (02:22:04) zoom in 1 
+\i (02:22:04) setwindow pcb
+\i (02:22:04) zoom in -54.7880 24.9885
+\i (02:22:04) trapsize 1067
+\i (02:22:04) zoom in 1 
+\i (02:22:04) setwindow pcb
+\i (02:22:04) zoom in -52.1217 24.9031
+\i (02:22:04) trapsize 533
+\i (02:22:06) pick grid -51.6951 24.7965
+\t (02:22:06) last pick:  -52.0000 25.0000
+\t (02:22:06) last pick:  -53.3500 25.4000
+\t (02:22:06) Pick new location for the element(s).
+\i (02:22:06) prepopup -51.9510 24.6792
+\i (02:22:09) pop dyn_option_select 'Snap pick to@:@Arc/Circle Center' 
+\t (02:22:09) last pick:  -53.3400 25.4000
+\i (02:22:10) zoom out 1 
+\i (02:22:10) setwindow pcb
+\i (02:22:10) zoom out -52.0897 24.1139
+\i (02:22:10) trapsize 1067
+\i (02:22:10) roam start
+\i (02:22:10) roam y 16
+\i (02:22:10) roam x 48
+\i (02:22:10) roam y 192
+\i (02:22:10) roam x 16
+\i (02:22:10) roam y 48
+\i (02:22:10) roam x 64
+\i (02:22:10) roam y 224
+\i (02:22:11) roam x 32
+\i (02:22:11) roam y 144
+\i (02:22:11) roam x 16
+\i (02:22:11) roam y 64
+\i (02:22:11) roam y 16
+\i (02:22:11) roam end
+\i (02:22:11) zoom out 1 
+\i (02:22:11) setwindow pcb
+\i (02:22:11) zoom out -49.6907 8.7763
+\i (02:22:11) trapsize 2133
+\i (02:22:11) roam start
+\i (02:22:11) roam y 16
+\i (02:22:11) roam x -16
+\i (02:22:11) roam y 64
+\i (02:22:11) roam y 32
+\i (02:22:11) roam y 16
+\i (02:22:11) roam y 32
+\i (02:22:11) roam y 32
+\i (02:22:11) roam y 16
+\i (02:22:11) roam y 32
+\i (02:22:12) roam y 48
+\i (02:22:12) roam y 64
+\i (02:22:12) roam y 16
+\i (02:22:12) roam y 16
+\i (02:22:12) roam y 16
+\i (02:22:12) roam end
+\i (02:22:12) zoom out 1 
+\i (02:22:12) setwindow pcb
+\i (02:22:12) zoom out -49.9672 -6.4528
+\i (02:22:12) trapsize 4266
+\i (02:22:12) zoom out 1 
+\i (02:22:12) setwindow pcb
+\i (02:22:12) zoom out -49.9672 -6.7088
+\i (02:22:12) trapsize 8532
+\i (02:22:13) roam start
+\i (02:22:13) roam x 16
+\i (02:22:13) roam y -16
+\i (02:22:13) roam x 32
+\i (02:22:13) roam y -16
+\i (02:22:13) roam x 16
+\i (02:22:13) roam y -16
+\i (02:22:13) roam x 16
+\i (02:22:13) roam x 16
+\i (02:22:13) roam x 16
+\i (02:22:13) roam end
+\i (02:22:14) zoom in 1 
+\i (02:22:14) setwindow pcb
+\i (02:22:14) zoom in -43.3545 28.3162
+\i (02:22:14) trapsize 4266
+\i (02:22:14) zoom in 1 
+\i (02:22:14) setwindow pcb
+\i (02:22:14) zoom in -43.3546 28.3162
+\i (02:22:14) trapsize 2133
+\i (02:22:15) zoom out 1 
+\i (02:22:15) setwindow pcb
+\i (02:22:15) zoom out -43.3546 28.3162
+\i (02:22:15) trapsize 4266
+\i (02:22:15) zoom out 1 
+\i (02:22:15) setwindow pcb
+\i (02:22:15) zoom out -43.3546 28.3163
+\i (02:22:15) trapsize 8532
+\i (02:22:15) roam start
+\i (02:22:15) roam y 48
+\i (02:22:15) roam x 16
+\i (02:22:15) roam y 112
+\i (02:22:15) roam end
+\i (02:22:16) zoom in 1 
+\i (02:22:16) setwindow pcb
+\i (02:22:16) zoom in -53.4226 -31.9213
+\i (02:22:16) trapsize 4266
+\i (02:22:16) zoom in 1 
+\i (02:22:16) setwindow pcb
+\i (02:22:16) zoom in -53.4226 -31.9213
+\i (02:22:16) trapsize 2133
+\i (02:22:16) roam start
+\i (02:22:16) roam y -16
+\i (02:22:16) roam x 16
+\i (02:22:16) roam y -48
+\i (02:22:16) roam x 16
+\i (02:22:16) roam y -16
+\i (02:22:16) roam end
+\i (02:22:17) zoom in 1 
+\i (02:22:17) setwindow pcb
+\i (02:22:17) zoom in -51.6311 -25.4371
+\i (02:22:17) trapsize 1067
+\i (02:22:17) zoom in 1 
+\i (02:22:17) setwindow pcb
+\i (02:22:17) zoom in -51.6311 -25.4371
+\i (02:22:17) trapsize 533
+\i (02:22:19) pick grid -51.5564 -25.5330
+\t (02:22:19) last pick:  -52.0000 -26.0000
+\t (02:22:19) last pick:  -53.3500 -25.4000
+\t (02:22:19) Pick new location for the element(s).
+\i (02:22:20) prepopup -51.8124 -25.8423
+\i (02:22:22) pop dyn_option_select 'Snap pick to@:@Arc/Circle Center' 
+\t (02:22:22) last pick:  -53.3400 -25.4000
+\i (02:22:23) prepopup -50.8418 -25.2877
+\i (02:22:23) done 
+\i (02:22:23) generaledit 
+\i (02:22:47) zoom out 1 
+\i (02:22:47) setwindow pcb
+\i (02:22:47) zoom out -51.1191 -26.6422
+\i (02:22:47) trapsize 1067
+\i (02:22:47) zoom out 1 
+\i (02:22:47) setwindow pcb
+\i (02:22:47) zoom out -51.1191 -26.6422
+\i (02:22:47) trapsize 2133
+\i (02:22:47) zoom out 1 
+\i (02:22:47) setwindow pcb
+\i (02:22:47) zoom out -51.1191 -26.6423
+\i (02:22:47) trapsize 4266
+\i (02:22:48) pick grid -77.8250 -28.5193
+\t (02:22:48) last pick:  -78.0000 -29.0000
+\i (02:22:48) roam start
+\i (02:22:48) roam x 16
+\i (02:22:48) roam x 16
+\i (02:22:48) roam y -16
+\i (02:22:48) roam x 32
+\i (02:22:48) roam y -16
+\i (02:22:48) roam x 32
+\i (02:22:48) roam y -32
+\i (02:22:48) roam x 16
+\i (02:22:48) roam y -16
+\i (02:22:48) roam x 16
+\i (02:22:48) roam y -16
+\i (02:22:48) roam y -16
+\i (02:22:48) roam x 16
+\i (02:22:48) roam y -16
+\i (02:22:48) roam y -16
+\i (02:22:48) roam x 16
+\i (02:22:48) roam y -16
+\i (02:22:48) roam y -32
+\i (02:22:48) roam x 16
+\i (02:22:48) roam y -16
+\i (02:22:48) roam x 16
+\i (02:22:48) roam y -32
+\i (02:22:48) roam y -16
+\i (02:22:48) roam x 16
+\i (02:22:48) roam y -16
+\i (02:22:48) roam x 16
+\i (02:22:48) roam y -16
+\i (02:22:48) roam y -16
+\i (02:22:49) roam x 16
+\i (02:22:49) roam end
+\i (02:22:49) roam start
+\i (02:22:49) roam x 16
+\i (02:22:49) roam y -16
+\i (02:22:49) roam x 16
+\i (02:22:49) roam y -16
+\i (02:22:49) roam x 16
+\i (02:22:50) roam x 16
+\i (02:22:50) roam y -16
+\i (02:22:50) roam x 16
+\i (02:22:50) roam x 32
+\i (02:22:50) roam y -16
+\i (02:22:50) roam x 16
+\i (02:22:50) roam x 16
+\i (02:22:50) roam x 16
+\i (02:22:50) roam y -16
+\i (02:22:50) roam x 16
+\i (02:22:50) roam x 16
+\i (02:22:50) roam x 16
+\i (02:22:50) roam y -16
+\i (02:22:50) roam x 16
+\i (02:22:50) roam x 16
+\i (02:22:50) roam x 16
+\i (02:22:50) roam x 16
+\i (02:22:50) roam x 16
+\i (02:22:50) roam x 16
+\i (02:22:50) roam x 16
+\i (02:22:50) roam x 16
+\i (02:22:50) roam x 16
+\i (02:22:50) roam x 16
+\i (02:22:50) roam y 16
+\i (02:22:50) roam x 16
+\i (02:22:50) roam x 32
+\i (02:22:50) roam x 32
+\i (02:22:50) roam x 48
+\i (02:22:50) roam x 64
+\i (02:22:50) roam x 64
+\i (02:22:51) roam x 64
+\i (02:22:51) roam x 48
+\i (02:22:51) roam x 80
+\i (02:22:51) roam x 80
+\i (02:22:51) roam y 16
+\i (02:22:51) roam x 16
+\i (02:22:51) roam x 16
+\i (02:22:51) roam x 16
+\i (02:22:51) roam x 16
+\i (02:22:51) roam x 32
+\i (02:22:51) roam x 16
+\i (02:22:51) roam x 16
+\i (02:22:51) roam x 16
+\i (02:22:51) roam end
+\i (02:22:52) zoom in 1 
+\i (02:22:52) setwindow pcb
+\i (02:22:52) zoom in 52.5475 13.6406
+\i (02:22:52) trapsize 2133
+\i (02:22:54) zoom out 1 
+\i (02:22:54) setwindow pcb
+\i (02:22:54) zoom out 53.4861 8.4787
+\i (02:22:54) trapsize 4266
+\i (02:22:54) zoom in 1 
+\i (02:22:54) setwindow pcb
+\i (02:22:54) zoom in 53.9127 5.7483
+\i (02:22:54) trapsize 2133
+\i (02:22:55) zoom out 1 
+\i (02:22:55) setwindow pcb
+\i (02:22:55) zoom out 53.9554 5.7056
+\i (02:22:55) trapsize 4266
+\i (02:22:55) roam start
+\i (02:22:55) roam y 16
+\i (02:22:55) roam y 16
+\i (02:22:55) roam end
+\i (02:22:56) move 
+\t (02:22:56) Select element(s) to move.
+\i (02:22:56) pick grid 54.3820 11.7635
+\t (02:22:56) last pick:  54.0000 12.0000
+\t (02:22:56) last pick:  53.3500 12.7000
+\t (02:22:56) Pick new location for the element(s).
+\i (02:22:57) pick grid 47.0443 6.5588
+\t (02:22:57) last pick:  47.0000 7.0000
+\i (02:22:57) pick grid 52.5902 2.2927
+\t (02:22:57) last pick:  53.0000 2.0000
+\t (02:22:57) last pick:  53.3500 2.5000
+\t (02:22:57) Pick new location for the element(s).
+\i (02:22:57) pick grid 46.4470 -0.0963
+\t (02:22:57) last pick:  46.0000 0.0000
+\i (02:22:58) roam start
+\i (02:22:58) roam y 16
+\i (02:22:58) roam y 16
+\i (02:22:58) roam y 16
+\i (02:22:58) roam end
+\i (02:22:59) zoom in 1 
+\i (02:22:59) setwindow pcb
+\i (02:22:59) zoom in 54.4673 -12.9800
+\i (02:22:59) trapsize 2133
+\i (02:22:59) zoom in 1 
+\i (02:22:59) setwindow pcb
+\i (02:22:59) zoom in 54.4673 -12.9800
+\i (02:22:59) trapsize 1067
+\i (02:22:59) delete 
+\i (02:22:59) drag_start grid 54.6806 -12.7667
+\i (02:23:00) drag_stop 51.8437 -5.6209
+\i (02:23:00) delete 
+\i (02:23:00) zoom out 1 
+\i (02:23:00) setwindow pcb
+\i (02:23:00) zoom out 51.8437 -5.5783
+\i (02:23:00) trapsize 2133
+\i (02:23:00) zoom out 1 
+\i (02:23:00) setwindow pcb
+\i (02:23:00) zoom out 51.8437 -5.5782
+\i (02:23:00) trapsize 4266
+\i (02:23:00) zoom out 1 
+\i (02:23:00) setwindow pcb
+\i (02:23:00) zoom out 51.8437 -5.5783
+\i (02:23:00) trapsize 8532
+\i (02:23:01) roam start
+\i (02:23:01) roam x -32
+\i (02:23:01) roam x -64
+\i (02:23:01) roam end
+\i (02:23:01) roam start
+\i (02:23:01) roam y -16
+\i (02:23:01) roam y -32
+\i (02:23:01) roam x 16
+\i (02:23:01) roam y -16
+\i (02:23:02) roam y -16
+\i (02:23:02) roam end
+\i (02:23:03) prepopup 23.3675 7.3270
+\i (02:23:03) done 
+\i (02:23:03) generaledit 
+\i (02:23:03) pick grid 23.3675 7.3270
+\t (02:23:03) last pick:  23.0000 7.0000
+\i (02:23:04) roam start
+\i (02:23:04) roam x -16
+\i (02:23:04) roam x -16
+\i (02:23:04) roam y -48
+\i (02:23:04) roam end
+\i (02:23:17) zoom in 1 
+\i (02:23:17) setwindow pcb
+\i (02:23:17) zoom in 53.0597 -1.5466
+\i (02:23:17) trapsize 4266
+\i (02:23:17) zoom in 1 
+\i (02:23:17) setwindow pcb
+\i (02:23:17) zoom in 53.0597 -1.5466
+\i (02:23:17) trapsize 2133
+\i (02:23:18) roam start
+\i (02:23:18) roam x 16
+\i (02:23:18) roam x 16
+\i (02:23:18) roam y -16
+\i (02:23:18) roam y -16
+\i (02:23:19) roam end
+\i (02:23:20) add pin 
+\t (02:23:20) Using 'PC1_05D0_70.pad'.
+\i (02:23:23) setwindow form.mini
+\i (02:23:23) FORM mini pad_browse  
+\i (02:23:38) fillin "Pc2_70D2_00"
+\t (02:23:38) Using 'PC2_70D2_00.pad'.
+\i (02:23:49) FORM mini next_pin_number 2 
+\i (02:23:52) setwindow pcb
+\i (02:23:52) prepopup 54.0834 3.0606
+\i (02:23:55) pop dyn_option_select 'Snap pick to@:@Arc/Circle Center' 
+\t (02:23:55) last pick:  53.3400 2.5400
+\t (02:23:55) Using 'PC2_70D2_00.pad'.
+\i (02:23:56) roam start
+\i (02:23:56) roam y -16
+\i (02:23:56) roam y -32
+\i (02:23:56) roam y -16
+\i (02:23:56) roam y -16
+\i (02:23:56) roam y -16
+\i (02:23:56) roam y -16
+\i (02:23:56) roam y -16
+\i (02:23:56) roam end
+\i (02:23:58) prepopup 54.1260 13.2993
+\i (02:24:01) pop dyn_option_select 'Snap pick to@:@Arc/Circle Center' 
+\t (02:24:01) last pick:  53.3400 12.7000
+\t (02:24:01) Using 'PC2_70D2_00.pad'.
+\i (02:24:02) prepopup 45.5938 12.9153
+\i (02:24:03) done 
+\t (02:24:03) Exiting from Add Pin.
+\i (02:24:03) generaledit 
+\i (02:24:03) pick grid 45.6791 12.9153
+\t (02:24:03) last pick:  46.0000 13.0000
+\i (02:24:04) delete 
+\i (02:24:05) pick grid 47.6415 6.9001
+\t (02:24:05) last pick:  48.0000 7.0000
+\t (02:24:05) Pin "Pc3_65D2_2, 4"
+\i (02:24:05) delete 
+\i (02:24:05) pick grid 46.7883 1.9088
+\t (02:24:05) last pick:  47.0000 2.0000
+\t (02:24:05) Pin "Pc3_65D2_2, 3"
+\i (02:24:05) delete 
+\i (02:24:06) prepopup 46.2764 4.0418
+\i (02:24:11) done 
+\i (02:24:11) done 
+\e (02:24:11) No command active
+\i (02:24:11) done 
+\e (02:24:11) No command active
+\i (02:24:11) done 
+\e (02:24:11) No command active
+\i (02:24:11) generaledit 
+\i (02:24:13) zoom out 1 
+\i (02:24:13) setwindow pcb
+\i (02:24:13) zoom out 53.4861 13.5979
+\i (02:24:13) trapsize 4266
+\i (02:24:13) zoom out 1 
+\i (02:24:13) setwindow pcb
+\i (02:24:13) zoom out 53.3155 11.6355
+\i (02:24:13) trapsize 8532
+\i (02:24:13) roam start
+\i (02:24:13) roam x -16
+\i (02:24:14) roam x -48
+\i (02:24:14) roam end
+\i (02:24:18) zoom in 1 
+\i (02:24:18) setwindow pcb
+\i (02:24:18) zoom in -52.3987 -19.0805
+\i (02:24:18) trapsize 4266
+\i (02:24:18) zoom in 1 
+\i (02:24:18) setwindow pcb
+\i (02:24:18) zoom in -52.3987 -19.0805
+\i (02:24:18) trapsize 2133
+\i (02:24:19) delete 
+\i (02:24:19) pick grid -52.4413 -20.1897
+\t (02:24:19) last pick:  -52.0000 -20.0000
+\t (02:24:19) Pin "Pc3_65D2_2, 9"
+\i (02:24:19) delete 
+\i (02:24:20) pick grid -52.1000 -15.5823
+\t (02:24:20) last pick:  -52.0000 -16.0000
+\t (02:24:20) Pin "Pc3_65D2_2, 8"
+\i (02:24:20) delete 
+\i (02:24:20) zoom out 1 
+\i (02:24:20) setwindow pcb
+\i (02:24:20) zoom out -52.0147 -15.4970
+\i (02:24:20) trapsize 4266
+\i (02:24:20) zoom out 1 
+\i (02:24:20) setwindow pcb
+\i (02:24:20) zoom out -52.0147 -15.4969
+\i (02:24:20) trapsize 8532
+\i (02:24:20) roam start
+\i (02:24:20) roam y -16
+\i (02:24:20) roam y -32
+\i (02:24:20) roam y -16
+\i (02:24:20) roam end
+\i (02:24:21) zoom in 1 
+\i (02:24:21) setwindow pcb
+\i (02:24:21) zoom in -52.0148 -2.9117
+\i (02:24:21) trapsize 4266
+\i (02:24:21) pick grid -52.9534 2.5489
+\t (02:24:21) last pick:  -53.0000 3.0000
+\t (02:24:21) Pin "Pc3_65D2_2, 6"
+\i (02:24:21) delete 
+\i (02:24:22) pick grid -52.1855 8.6922
+\t (02:24:22) last pick:  -52.0000 9.0000
+\t (02:24:22) Pin "Pc3_65D2_2, 5"
+\i (02:24:22) delete 
+\i (02:24:22) roam start
+\i (02:24:22) roam y -16
+\i (02:24:22) roam y -16
+\i (02:24:22) roam y -16
+\i (02:24:23) roam y -16
+\i (02:24:23) roam y -16
+\i (02:24:23) roam y -16
+\i (02:24:23) roam y -16
+\i (02:24:23) roam y -16
+\i (02:24:23) roam y -16
+\i (02:24:23) roam y -16
+\i (02:24:23) roam y -16
+\i (02:24:23) roam y -16
+\i (02:24:23) roam x -16
+\i (02:24:23) roam y -16
+\i (02:24:23) roam y -32
+\i (02:24:23) roam end
+\i (02:24:23) zoom in 1 
+\i (02:24:23) setwindow pcb
+\i (02:24:23) zoom in -52.7402 15.3470
+\i (02:24:23) trapsize 2133
+\i (02:24:24) delete 
+\i (02:24:26) setwindow form.find
+\i (02:24:26) FORM find all_on  
+\i (02:24:28) setwindow pcb
+\i (02:24:28) zoom in 1 
+\i (02:24:28) setwindow pcb
+\i (02:24:28) zoom in -53.6361 12.5314
+\i (02:24:28) trapsize 1067
+\i (02:24:28) zoom in 1 
+\i (02:24:28) setwindow pcb
+\i (02:24:28) zoom in -53.6361 12.5315
+\i (02:24:28) trapsize 533
+\i (02:24:28) pick grid -53.3161 12.4781
+\t (02:24:28) last pick:  -53.0000 12.0000
+\t (02:24:28) Pin "Pc1_05D0_70, A5"
+\i (02:24:29) delete 
+\i (02:24:29) pick grid -55.0652 12.0729
+\t (02:24:29) last pick:  -55.0000 12.0000
+\t (02:24:29) Pin "Pc1_05D0_70, A6"
+\i (02:24:30) delete 
+\i (02:24:30) zoom out 1 
+\i (02:24:30) setwindow pcb
+\i (02:24:30) zoom out -54.7239 12.3395
+\i (02:24:30) trapsize 1067
+\i (02:24:30) drag_start grid -52.1855 14.0886
+\i (02:24:31) drag_stop -56.1744 16.1150
+\i (02:24:31) delete 
+\i (02:24:32) pick grid -53.6787 18.0134
+\t (02:24:32) last pick:  -54.0000 18.0000
+\t (02:24:32) Pin "Pc1_05D0_70, A2"
+\i (02:24:32) delete 
+\i (02:24:32) roam start
+\i (02:24:32) roam y -16
+\i (02:24:32) roam y -16
+\i (02:24:32) roam x -16
+\i (02:24:32) roam y -48
+\i (02:24:32) roam x -16
+\i (02:24:32) roam y -32
+\i (02:24:32) roam y -32
+\i (02:24:32) roam y -16
+\i (02:24:33) roam y -16
+\i (02:24:33) roam end
+\i (02:24:33) pick grid -55.4286 18.0125
+\t (02:24:33) last pick:  -55.0000 18.0000
+\t (02:24:33) Pin "Pc1_05D0_70, A9"
+\i (02:24:33) delete 
+\t (02:24:33) [14:44:34.511000] Periodic Lic check successful
+[14:44:34.511000] Feature usage summary:
+
+\i (02:24:33) pick grid -55.2580 19.9535
+\t (02:24:33) last pick:  -55.0000 20.0000
+\t (02:24:33) Pin "Pc1_05D0_70, A10"
+\i (02:24:34) delete 
+\i (02:24:34) pick grid -53.6582 20.0602
+\t (02:24:34) last pick:  -54.0000 20.0000
+\t (02:24:34) Pin "Pc1_05D0_70, A1"
+\i (02:24:34) delete 
+\i (02:24:34) zoom out 1 
+\i (02:24:34) setwindow pcb
+\i (02:24:34) zoom out -51.9944 19.7829
+\i (02:24:34) trapsize 2133
+\i (02:24:34) zoom out 1 
+\i (02:24:34) setwindow pcb
+\i (02:24:34) zoom out -51.8664 19.3990
+\i (02:24:34) trapsize 4266
+\i (02:24:35) roam start
+\i (02:24:35) roam y 16
+\i (02:24:35) roam x 16
+\i (02:24:35) roam y 48
+\i (02:24:35) roam y 32
+\i (02:24:35) roam y 16
+\i (02:24:35) roam x 16
+\i (02:24:35) roam y 16
+\i (02:24:35) roam y 16
+\i (02:24:35) roam y 16
+\i (02:24:35) roam x 16
+\i (02:24:35) roam y 16
+\i (02:24:35) roam end
+\i (02:24:35) prepopup -41.1364 0.5009
+\i (02:24:36) done 
+\i (02:24:36) generaledit 
+\i (02:24:36) pick grid -41.1364 0.5009
+\t (02:24:36) last pick:  -41.0000 1.0000
+\i (02:24:38) add pin 
+\t (02:24:38) Using 'PC2_70D2_00.pad'.
+\i (02:24:40) setwindow form.mini
+\i (02:24:40) FORM mini pad_browse  
+\i (02:25:01) fillin "menu_cancel"
+\i (02:25:01) setwindow pcb
+\i (02:25:01) pick grid -29.2766 -16.8195
+\t (02:25:01) last pick:  -29.0000 -17.0000
+\t (02:25:01) Using 'PC2_70D2_00.pad'.
+\i (02:25:03) cancel 
+\t (02:25:03) Exiting from Add Pin.
+\i (02:25:03) generaledit 
+\i (02:25:03) cancel 
+\i (02:25:03) generaledit 
+\i (02:25:07) add pin 
+\t (02:25:07) Using 'PC2_70D2_00.pad'.
+\i (02:25:10) setwindow form.mini
+\i (02:25:10) FORM mini pad_browse  
+\w (02:30:25) Save pending
+\i (03:03:19) fillin "menu_cancel"
+\i (03:03:20) setwindow pcb
+\i (03:03:20) prepopup -31.7509 -14.5158
+\i (03:03:21) oops 
+\t (03:03:21) Using 'PC2_70D2_00.pad'.
+\i (03:03:21) prepopup -31.7509 -14.5158
+\i (03:03:22) cancel 
+\t (03:03:22) Exiting from Add Pin.
+\t (03:03:22) Performing autosave...
+\t (03:03:22) Autosave successful
+\i (03:03:22) generaledit 
+\t (03:03:22) [15:23:23.303712] Periodic Lic check successful
+[15:23:23.828000] Feature usage summary:
+
+\i (03:03:23) pick grid -31.7509 -14.4305
+\t (03:03:23) last pick:  -32.0000 -14.0000
+\i (03:03:23) cancel 
+\i (03:03:23) generaledit 
+\i (03:03:23) zoom in 1 
+\i (03:03:23) setwindow pcb
+\i (03:03:23) zoom in -33.5427 -18.1847
+\i (03:03:23) trapsize 2133
+\i (03:03:23) zoom out 1 
+\i (03:03:24) setwindow pcb
+\i (03:03:24) zoom out -33.5427 -18.1847
+\i (03:03:24) trapsize 4266
+\i (03:03:24) undo 
+\i (03:03:24) trapsize 4266
+\i (03:03:24) generaledit 
+\i (03:03:24) undo 
+\i (03:03:24) trapsize 4266
+\i (03:03:24) generaledit 
+\i (03:03:25) undo 
+\i (03:03:25) trapsize 1067
+\i (03:03:25) generaledit 
+\i (03:03:25) undo 
+\i (03:03:25) trapsize 1067
+\i (03:03:25) generaledit 
+\i (03:03:26) undo 
+\i (03:03:26) trapsize 1067
+\i (03:03:26) generaledit 
+\i (03:03:27) undo 
+\i (03:03:27) trapsize 1067
+\i (03:03:27) generaledit 
+\i (03:03:27) undo 
+\i (03:03:27) trapsize 1067
+\i (03:03:27) generaledit 
+\i (03:03:27) undo 
+\i (03:03:27) trapsize 533
+\i (03:03:27) generaledit 
+\i (03:03:28) undo 
+\i (03:03:28) trapsize 533
+\i (03:03:28) generaledit 
+\i (03:03:28) undo 
+\i (03:03:28) trapsize 2133
+\i (03:03:28) generaledit 
+\i (03:03:28) undo 
+\i (03:03:28) generaledit 
+\i (03:03:29) undo 
+\i (03:03:29) generaledit 
+\i (03:03:29) undo 
+\i (03:03:29) generaledit 
+\i (03:03:30) undo 
+\i (03:03:30) generaledit 
+\i (03:03:30) undo 
+\i (03:03:30) generaledit 
+\i (03:03:31) undo 
+\i (03:03:31) generaledit 
+\i (03:03:31) undo 
+\i (03:03:31) generaledit 
+\i (03:03:31) zoom out 1 
+\i (03:03:31) setwindow pcb
+\i (03:03:31) zoom out -46.0851 8.3080
+\i (03:03:31) trapsize 4266
+\i (03:03:31) zoom out 1 
+\i (03:03:31) setwindow pcb
+\i (03:03:31) zoom out -46.0850 8.3079
+\i (03:03:31) trapsize 8532
+\i (03:03:32) zoom in 1 
+\i (03:03:32) setwindow pcb
+\i (03:03:32) zoom in -53.0816 12.9154
+\i (03:03:32) trapsize 4266
+\e (03:03:34) Command not found: e
+\i (03:03:35) delete 
+\i (03:03:37) setwindow form.find
+\i (03:03:37) FORM find all_off  
+\i (03:03:39) FORM find pins YES 
+\i (03:03:39) setwindow pcb
+\i (03:03:39) drag_start grid -28.4234 11.4650
+\i (03:03:40) drag_stop -60.4193 22.3862
+\i (03:03:41) delete 
+\i (03:03:41) prepopup -50.2659 16.8403
+\i (03:03:41) done 
+\i (03:03:41) generaledit 
+\i (03:03:41) pick grid -50.2659 16.8403
+\t (03:03:41) last pick:  -50.0000 17.0000
+\i (03:03:42) zoom out 1 
+\i (03:03:42) setwindow pcb
+\i (03:03:42) zoom out -45.8292 17.4375
+\i (03:03:42) trapsize 8532
+\i (03:03:42) roam start
+\i (03:03:42) roam y 16
+\i (03:03:42) roam y 16
+\i (03:03:42) roam y 32
+\i (03:03:42) roam y 48
+\i (03:03:42) roam end
+\i (03:03:42) zoom in 1 
+\i (03:03:42) setwindow pcb
+\i (03:03:42) zoom in -50.9485 -22.8772
+\i (03:03:42) trapsize 4266
+\i (03:03:43) zoom in 1 
+\i (03:03:43) setwindow pcb
+\i (03:03:43) zoom in -50.9485 -22.8771
+\i (03:03:43) trapsize 2133
+\i (03:03:49) zoom out 1 
+\i (03:03:49) setwindow pcb
+\i (03:03:49) zoom out -30.8551 -23.8583
+\i (03:03:49) trapsize 4266
+\i (03:03:49) zoom out 1 
+\i (03:03:49) setwindow pcb
+\i (03:03:49) zoom out -35.2919 -23.9437
+\i (03:03:49) trapsize 8532
+\i (03:03:49) zoom out 1 
+\i (03:03:49) setwindow pcb
+\i (03:03:49) zoom out -49.7967 -23.9436
+\i (03:03:49) trapsize 17064
+\i (03:03:49) zoom out 1 
+\i (03:03:49) setwindow pcb
+\i (03:03:49) zoom out -99.9662 -20.8721
+\t (03:03:49) Grids are drawn 4.0000, 4.0000 apart for enhanced viewing.
+\i (03:03:49) trapsize 34129
+\i (03:03:49) zoom out 1 
+\i (03:03:49) setwindow pcb
+\i (03:03:49) zoom out -13.3211 -1.0773
+\t (03:03:49) Grids are drawn 8.0000, 8.0000 apart for enhanced viewing.
+\i (03:03:49) trapsize 68258
+\i (03:03:50) zoom in 1 
+\i (03:03:50) setwindow pcb
+\i (03:03:50) zoom in 544.3461 -89.7484
+\t (03:03:50) Grids are drawn 4.0000, 4.0000 apart for enhanced viewing.
+\i (03:03:50) trapsize 34129
+\i (03:03:51) zoom in 1 
+\i (03:03:51) setwindow pcb
+\i (03:03:51) zoom in -70.6362 10.5908
+\t (03:03:51) Grids are drawn 2.0000, 2.0000 apart for enhanced viewing.
+\i (03:03:51) trapsize 17064
+\i (03:03:51) zoom in 1 
+\i (03:03:51) setwindow pcb
+\i (03:03:51) zoom in -70.6362 10.5908
+\i (03:03:51) trapsize 8532
+\i (03:03:51) zoom in 1 
+\i (03:03:51) setwindow pcb
+\i (03:03:51) zoom in -43.8449 -18.5894
+\i (03:03:51) trapsize 4266
+\i (03:03:52) roam start
+\i (03:03:52) roam y 16
+\i (03:03:52) roam x 16
+\i (03:03:52) roam y 16
+\i (03:03:52) roam x 16
+\i (03:03:52) roam y 32
+\i (03:03:52) roam end
+\i (03:07:55) roam start
+\i (03:07:55) roam x 16
+\i (03:07:55) roam y -16
+\i (03:07:55) roam x 16
+\i (03:07:55) roam end
+\i (03:07:58) add pin 
+\t (03:07:58) Using 'PC2_70D2_00.pad'.
+\i (03:08:00) setwindow form.mini
+\i (03:08:00) FORM mini pad_browse  
+\i (03:08:51) fillin "Pc3_50D2_50"
+\t (03:08:52) Using 'PC3_50D2_50.pad'.
+\i (03:08:52) setwindow pcb
+\i (03:08:52) zoom in 1 
+\t (03:08:53) [15:28:53.316712] Periodic Lic check successful
+[15:28:53.841000] Feature usage summary:
+
+\i (03:08:53) setwindow pcb
+\i (03:08:53) zoom in -52.1430 -18.0140
+\i (03:08:53) trapsize 2133
+\i (03:08:55) prepopup -52.4416 -17.5874
+\i (03:08:57) pop dyn_option_select 'Snap pick to@:@Arc/Circle Center' 
+\t (03:08:57) last pick:  -53.3400 -17.7800
+\t (03:08:57) Using 'PC3_50D2_50.pad'.
+\i (03:08:58) prepopup -52.6123 -10.6336
+\i (03:09:00) pop dyn_option_select 'Snap pick to@:@Arc/Circle Center' 
+\t (03:09:00) last pick:  -53.3400 -11.4300
+\t (03:09:00) Using 'PC3_50D2_50.pad'.
+\i (03:09:00) roam start
+\i (03:09:00) roam y -32
+\i (03:09:01) roam y -64
+\i (03:09:01) roam y -160
+\i (03:09:01) roam x 16
+\i (03:09:01) roam y -96
+\i (03:09:01) roam y -96
+\i (03:09:01) roam y -128
+\i (03:09:01) roam y -64
+\i (03:09:01) roam y -16
+\i (03:09:01) roam x 16
+\i (03:09:01) roam y -48
+\i (03:09:01) roam y -48
+\i (03:09:01) roam end
+\i (03:09:02) prepopup -52.5269 11.1236
+\i (03:09:05) pop dyn_option_select 'Snap pick to@:@Arc/Circle Center' 
+\t (03:09:05) last pick:  -53.3400 11.4300
+\t (03:09:05) Using 'PC3_50D2_50.pad'.
+\i (03:09:07) prepopup -52.4843 18.3760
+\i (03:09:09) pop dyn_option_select 'Snap pick to@:@Arc/Circle Center' 
+\t (03:09:09) last pick:  -53.3400 17.7800
+\t (03:09:09) Using 'PC3_50D2_50.pad'.
+\i (03:09:09) prepopup -47.3649 18.3333
+\i (03:09:10) done 
+\t (03:09:10) Exiting from Add Pin.
+\i (03:09:10) generaledit 
+\i (03:09:10) pick grid -44.3787 19.9971
+\t (03:09:10) last pick:  -44.0000 20.0000
+\i (03:09:19) roam start
+\i (03:09:19) roam y -16
+\i (03:09:19) roam x 16
+\i (03:09:19) roam y -64
+\i (03:09:20) roam y -16
+\i (03:09:20) roam x 16
+\i (03:09:20) roam y -16
+\i (03:09:20) roam x 16
+\i (03:09:20) roam y -16
+\i (03:09:20) roam y -16
+\i (03:09:20) roam y -16
+\i (03:09:20) roam end
+\i (03:09:26) add pin 
+\t (03:09:26) Using 'PC3_50D2_50.pad'.
+\i (03:09:29) setwindow form.mini
+\i (03:09:29) FORM mini x_count 8 
+\i (03:09:31) FORM mini x_spacing 2.0000 
+\i (03:09:33) FORM mini increment 2 
+\i (03:09:36) FORM mini x_count 7 
+\i (03:09:39) FORM mini pad_browse  
+\i (03:10:27) fillin "Pc1_4D0_9"
+\t (03:10:27) Using 'PC1_4D0_9.pad'.
+\i (03:10:29) setwindow pcb
+\i (03:10:29) prepopup -46.3837 25.1591
+\i (03:10:35) pop dyn_option_select 'Snap pick to@:@Arc/Circle Center' 
+\t (03:10:35) last pick:  -46.6400 25.4000
+\t (03:10:35) Using 'PC1_4D0_9.pad'.
+\i (03:10:39) setwindow form.mini
+\i (03:10:39) FORM mini next_pin_number 9 
+\i (03:10:42) setwindow pcb
+\i (03:10:42) prepopup -46.2130 27.8468
+\i (03:10:44) pop dyn_option_select 'Snap pick to@:@Arc/Circle Center' 
+\t (03:10:44) last pick:  -46.6400 27.4000
+\t (03:10:44) Using 'PC1_4D0_9.pad'.
+\i (03:10:45) prepopup -45.7864 29.3399
+\i (03:10:45) done 
+\t (03:10:45) Exiting from Add Pin.
+\i (03:10:45) generaledit 
+\i (03:10:46) pick grid -45.7011 29.5532
+\t (03:10:46) last pick:  -46.0000 30.0000
+\i (03:10:46) zoom out 1 
+\i (03:10:46) setwindow pcb
+\i (03:10:46) zoom out -45.0185 30.0225
+\i (03:10:46) trapsize 4266
+\i (03:10:46) zoom out 1 
+\i (03:10:46) setwindow pcb
+\i (03:10:46) zoom out -44.7625 30.3637
+\i (03:10:46) trapsize 8532
+\i (03:10:47) roam start
+\i (03:10:47) roam x 80
+\i (03:10:47) roam y 32
+\i (03:10:47) roam x 128
+\i (03:10:47) roam y 32
+\i (03:10:47) roam x 16
+\i (03:10:47) roam end
+\i (03:10:48) save 
+\i (03:10:49) fillin yes 
+\t (03:10:52) Symbol 'epf800r48s070npdi.psm' created.
+\i (03:10:52) generaledit 
+\i (03:10:59) 3d 
+\i (03:11:07) generaledit 
+\i (03:11:09) QtSignal pcb3d_MapperTab RotationX editingFinished "90.000"
+\i (03:11:09) QtSignal pcb3d_MapperTab Delete_STEP clicked
+\i (03:11:12) QtSignal pcb3dViewer pcb3dViewer closed
+\i (03:11:14) pick grid 78.3152 -32.9452
+\t (03:11:14) last pick:  78.0000 -33.0000
+\i (03:11:14) save 
+\i (03:11:15) fillin yes 
+\t (03:11:18) Symbol 'epf800r48s070npdi.psm' created.
+\i (03:11:18) generaledit 
+\i (03:11:20) roam start
+\i (03:11:20) roam y 16
+\i (03:11:20) roam y 16
+\i (03:11:20) roam y -16
+\i (03:11:21) roam y -16
+\i (03:11:21) roam y -16
+\i (03:11:21) roam end
+\i (03:11:28) zoom in 1 
+\i (03:11:28) setwindow pcb
+\i (03:11:28) zoom in -31.9214 26.2685
+\i (03:11:28) trapsize 4266
+\i (03:11:28) zoom in 1 
+\i (03:11:28) setwindow pcb
+\i (03:11:28) zoom in -37.9792 26.0125
+\i (03:11:28) trapsize 2133
+\i (03:11:29) zoom in 1 
+\i (03:11:29) setwindow pcb
+\i (03:11:29) zoom in -40.4962 26.3965
+\i (03:11:29) trapsize 1067
+\i (03:11:29) roam start
+\i (03:11:29) roam x -32
+\i (03:11:29) roam x -272
+\i (03:11:29) roam y -32
+\i (03:11:30) roam x -32
+\i (03:11:30) roam y -16
+\i (03:11:30) roam x -16
+\i (03:11:30) roam x -16
+\i (03:11:30) roam y -16
+\i (03:11:30) roam end
+\i (03:11:30) zoom in 1 
+\i (03:11:30) setwindow pcb
+\i (03:11:30) zoom in -46.8537 25.7555
+\i (03:11:30) trapsize 533
+\i (03:11:33) zoom out 1 
+\i (03:11:33) setwindow pcb
+\i (03:11:33) zoom out -44.9126 26.1608
+\i (03:11:33) trapsize 1067
+\i (03:11:34) roam start
+\i (03:11:34) roam x 16
+\i (03:11:34) roam x 368
+\i (03:11:34) roam y 16
+\i (03:11:34) roam end
+\i (03:11:40) zoom out 1 
+\i (03:11:40) setwindow pcb
+\i (03:11:40) zoom out -33.5862 26.9926
+\i (03:11:40) trapsize 2133
+\i (03:11:40) zoom out 1 
+\i (03:11:40) setwindow pcb
+\i (03:11:40) zoom out -33.5861 26.9927
+\i (03:11:40) trapsize 4266
+\i (03:11:49) roam start
+\i (03:11:49) roam x 16
+\i (03:11:49) roam x 160
+\i (03:11:49) roam y 32
+\i (03:11:49) roam x 32
+\i (03:11:49) roam x 16
+\i (03:11:49) roam x 32
+\i (03:11:49) roam x 16
+\i (03:11:49) roam x 16
+\i (03:11:49) roam x 80
+\i (03:11:49) roam y 16
+\i (03:11:49) roam x 64
+\i (03:11:49) roam x 16
+\i (03:11:49) roam x 16
+\i (03:11:49) roam x 16
+\i (03:11:49) roam x 16
+\i (03:11:49) roam x 32
+\i (03:11:49) roam y 16
+\i (03:11:49) roam x 64
+\i (03:11:49) roam y 16
+\i (03:11:50) roam end
+\i (03:11:50) zoom in 1 
+\i (03:11:50) setwindow pcb
+\i (03:11:50) zoom in 68.9295 2.1221
+\i (03:11:50) trapsize 2133
+\i (03:11:51) zoom in 1 
+\i (03:11:51) setwindow pcb
+\i (03:11:51) zoom in 56.4298 2.1221
+\i (03:11:51) trapsize 1067
+\i (03:11:51) zoom out 1 
+\i (03:11:51) setwindow pcb
+\i (03:11:51) zoom out 55.7899 2.4635
+\i (03:11:51) trapsize 2133
+\i (03:11:51) zoom out 1 
+\i (03:11:51) setwindow pcb
+\i (03:11:51) zoom out 55.7899 2.4634
+\i (03:11:51) trapsize 4266
+\i (03:11:52) zoom in 1 
+\i (03:11:52) setwindow pcb
+\i (03:11:52) zoom in 55.5340 19.1866
+\i (03:11:52) trapsize 2133
+\i (03:11:52) zoom in 1 
+\i (03:11:52) setwindow pcb
+\i (03:11:52) zoom in 54.5102 11.3796
+\i (03:11:52) trapsize 1067
+\i (03:11:53) zoom out 1 
+\i (03:11:53) setwindow pcb
+\i (03:11:53) zoom out 53.4223 13.1927
+\i (03:11:53) trapsize 2133
+\i (03:11:53) zoom out 1 
+\i (03:11:53) setwindow pcb
+\i (03:11:53) zoom out 53.4224 13.1928
+\i (03:11:53) trapsize 4266
+\i (03:11:53) zoom out 1 
+\i (03:11:53) setwindow pcb
+\i (03:11:53) zoom out 53.4223 13.1928
+\i (03:11:53) trapsize 8532
+\i (03:11:55) zoom in 1 
+\i (03:11:55) setwindow pcb
+\i (03:11:55) zoom in -50.6710 -16.4993
+\i (03:11:55) trapsize 4266
+\i (03:11:55) zoom in 1 
+\i (03:11:55) setwindow pcb
+\i (03:11:55) zoom in -50.6710 -16.4992
+\i (03:11:55) trapsize 2133
+\i (03:11:56) zoom out 1 
+\i (03:11:56) setwindow pcb
+\i (03:11:56) zoom out -51.6522 -11.5932
+\i (03:11:56) trapsize 4266
+\i (03:11:56) roam start
+\i (03:11:56) roam y -16
+\i (03:11:56) roam y -32
+\i (03:11:57) roam end
+\i (03:11:57) zoom in 1 
+\i (03:11:57) setwindow pcb
+\i (03:11:57) zoom in -52.5053 12.8727
+\i (03:11:57) trapsize 2133
+\i (03:11:58) roam start
+\i (03:11:58) roam y -16
+\i (03:11:58) roam y -32
+\i (03:11:58) roam y -16
+\i (03:11:58) roam y -16
+\i (03:11:58) roam y -16
+\i (03:11:58) roam y -16
+\i (03:11:58) roam end
+\i (03:12:03) zoom out 1 
+\i (03:12:03) setwindow pcb
+\i (03:12:03) zoom out -37.1899 6.3882
+\i (03:12:03) trapsize 4266
+\i (03:12:03) zoom out 1 
+\i (03:12:03) setwindow pcb
+\i (03:12:03) zoom out -37.1899 6.3882
+\i (03:12:03) trapsize 8532
+\i (03:12:04) roam start
+\i (03:12:04) roam x 16
+\i (03:12:04) roam x 160
+\i (03:12:04) roam y 32
+\i (03:12:04) roam x 32
+\i (03:12:04) roam y 16
+\i (03:12:04) roam y 16
+\i (03:12:04) roam x 32
+\i (03:12:04) roam x 16
+\i (03:12:04) roam y 16
+\i (03:12:04) roam end
+\i (03:12:04) save 
+\i (03:12:05) fillin yes 
+\t (03:12:08) Symbol 'epf800r48s070npdi.psm' created.
+\i (03:12:08) generaledit 
+\i (03:12:12) exit 
+\t (03:12:12) Lic Summary:
+[15:32:13.122000] Cdslmd servers:
+[15:32:13.122000] Feature usage summary:
+
+\t (03:12:12)     Journal end - Tue Dec 16 15:32:13 2025

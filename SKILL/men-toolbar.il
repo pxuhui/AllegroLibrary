@@ -1,8 +1,8 @@
 defun(toolmenucreat (arg)
 judge = axlGetVariable("autosave_dbcheck")
 case(judge 
-(nil
-
+(t
+;此处t，原为nil，nil使用中文，t使用英文
 SKILLToolsMenu = '(
      (popup "HuiHui")
 /*	------------------------- 单独菜单栏usually--------------------------	*/
@@ -71,7 +71,7 @@ SKILLToolsMenu = '(
 	 (end)
 
 	 
-/*	------------------------ 后处理工具------------------------	*/	 
+/*	------------------------ 光绘工具------------------------	*/	 
 	 (popup "\271\342\273\346\271\244\276\337")
 	 ("\267\305\326\303\262\343\265\376\320\305\317\242" "xs")	 
 	 ("\327\324\266\257\311\350\326\303\271\342\273\346\262\343" "quickart")
@@ -122,6 +122,7 @@ SKILLToolsMenu = '(
 	 
  
 	 (popup "SilkScreen Tools")
+	 ("Input Chinese","acn")
 	 ("Text Rotate","ro_text") 
 	 ("Text Center","mc_ref")\
 	 ("Text Out & in","text_out_in")

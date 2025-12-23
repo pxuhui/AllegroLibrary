@@ -8,7 +8,7 @@
     (CompileFileAddedOrDeleted "x")
     (NoModify)
     (DOCKED "TRUE")
-    (DOCKING_POSITION "59420")
+    (DOCKING_POSITION "61215")
     (Board_sim_option "VHDL_flow"))
   (Folder "Layout")
   (Folder "Outputs")
@@ -17,12 +17,12 @@
     (FileView
       (Path "Design Resources")
       (Path "Design Resources" ".\micr_ic.olb")
-      (Select "Design Resources" ".\micr_ic.olb"))
+      (Select "Design Resources" ".\micr_ic.olb" "STM32F401RET6"))
     (HierarchyView)
     (Doc
       (Type "COrCapturePMDoc")
       (Frame
-        (Placement "44 0 1 -1 -1 -1 -1 0 200 0 637"))
+        (Placement "44 0 1 -1 -1 -1 -1 0 1590 0 703"))
       (Tab 0)))
   (ISPCBBASICLICENSE "false")
   (Folder "PSpice Resources"
@@ -34,4 +34,4 @@
     (Folder "Include Files"
       (Sort User)))
   (Folder "Logs")
-  (MPSSessionName "X"))
+  (MPSSessionName "pxuhu"))

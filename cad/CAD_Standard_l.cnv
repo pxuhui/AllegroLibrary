@@ -3,8 +3,10 @@
 
 #CLASS!            SUBCLASS!                 DXF_LAYER!
 
+BOARD GEOMETRY!
+                   MYCAD!                    Design_Outline!
+
 PACKAGE GEOMETRY!
                    ASSEMBLY_TOP!             Connector!
-                   ASSEMBLY_TOP!             Design_Outline!
 
 #END

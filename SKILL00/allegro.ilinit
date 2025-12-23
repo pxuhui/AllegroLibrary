@@ -1,6 +1,6 @@
-load("d:/OneDrive/C_Library/SKILL00/view.il") 
+load("C:/myFile/AllegroLibrary/SKILL00/view.il") 
 
-setSkillPath(buildString(append1(getSkillPath() "D:/SKILL"))) 
+setSkillPath(buildString(append1(getSkillPath() "C:/myFile/AllegroLibrary/SKILL"))) 
 set(loadi(strcat(axlOSSlash(getShellEnvVar("EDA365_SKILL")),"EDA365//_Skill_Load.il"),"eda365.com"))
 
 
