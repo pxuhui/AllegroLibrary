@@ -1,7 +1,7 @@
 \t (00:00:02) allegro 24.1 P001 (4234998) [9/4/2024] Windows SPB 64-bit Edition
-\t (00:00:02)     Journal start - Tue Dec 16 12:20:03 2025
-\t (00:00:02)         Host=X User=pxuhu Pid=6896 CPUs=12
-\t (00:00:02) CmdLine= c:\cadence\spb_24.1\tools\bin\allegro.exe C:\myFile\AllegroLibrary\A_Library\EPF800R48S070NPDI.dra
+\t (00:00:02)     Journal start - Mon Dec 29 17:54:48 2025
+\t (00:00:02)         Host=X User=pxuhu Pid=23800 CPUs=12
+\t (00:00:02) CmdLine= c:\cadence\spb_24.1\tools\bin\allegro.exe C:\myFile\AllegroLibrary\A_Library\QR8.dra
 \t (00:00:02) 
 \t (00:00:02) Loading axlcore.cxt 
 \e (00:00:02) *Error* axlOSSlash: argument #1 should be a string (type template = "t") - nil
@@ -21,7 +21,7 @@
 \t (00:00:02) function place_sym redefined
 \e (00:00:02) *Error* procedure: illegal formal list - kkkkl
 \e (00:00:02) *Error* load: error while loading file - "pad_connect_modifier.il" at line 69
-\w (00:00:03) *WARNING* defstruct: Redefining Structure struOblTh.
+\w (00:00:02) *WARNING* defstruct: Redefining Structure struOblTh.
 \t (00:00:03) function quick_danglings redefined
 \t (00:00:03) function ps_DanglingForm_action redefined
 \t (00:00:03) function ps_ddoCheck redefined
@@ -548,1556 +548,443 @@
 \t (00:00:03) function gridsetform redefined
 \t (00:00:03) function Grid_act redefined
 \t (00:00:03) function SetCurGrid redefined
-\t (00:00:06) Opening existing design...
-\i (00:00:07) QtSignal SPBFoldDockArea FoldAreaTabWidget currentChanged EPF800R48S070NPDI
-\d (00:00:07) Design opened: C:/myFile/AllegroLibrary/A_Library/EPF800R48S070NPDI.dra
-\t (00:00:07) Grids are drawn 2.0000, 2.0000 apart for enhanced viewing.
-\i (00:00:07) trapsize 13098
-\i (00:00:08) trapsize 13653
-\i (00:00:08) trapsize 13098
-\i (00:00:08) trapsize 13099
-\t (00:00:08) Grids are drawn 2.0000, 2.0000 apart for enhanced viewing.
-\i (00:00:08) trapsize 13283
-\i (00:00:09) quick_display 
-\t (00:00:09) [12:20:09.339712] Periodic Lic check successful
-[12:20:09.864000] Feature usage summary:
+\t (00:00:03) Opening existing design...
+\i (00:00:03) QtSignal SPBFoldDockArea FoldAreaTabWidget currentChanged QR8
+\d (00:00:03) Design opened: C:/myFile/AllegroLibrary/A_Library/QR8.dra
+\t (00:00:03) Grids are drawn 0.1000, 0.1000 apart for enhanced viewing.
+\i (00:00:03) trapsize 938
+\i (00:00:03) trapsize 978
+\i (00:00:04) trapsize 938
+\t (00:00:04) Grids are drawn 0.1000, 0.1000 apart for enhanced viewing.
+\i (00:00:04) trapsize 952
+\i (00:00:04) quick_display 
+\t (00:00:04) [17:54:50.015712] Periodic Lic check successful
+[17:54:50.540000] Feature usage summary:
 
-\i (00:00:09) trapsize 8532
-\i (00:00:09) generaledit 
-\i (00:03:43) zoom in 1 
-\i (00:03:43) setwindow pcb
-\i (00:03:43) zoom in -50.7718 -20.4970
-\i (00:03:43) trapsize 4266
-\i (00:03:44) zoom in 1 
-\i (00:03:44) setwindow pcb
-\i (00:03:44) zoom in -50.7717 -20.5823
-\i (00:03:44) trapsize 2133
-\i (00:03:46) show element 
-\i (00:03:46) pick grid -53.3741 -20.5822
-\t (00:03:46) last pick:  -53.0000 -21.0000
-\i (00:03:50) setwindow text
-\i (00:03:50) close
+\t (00:00:04) Grids are drawn 0.0500, 0.0500 apart for enhanced viewing.
+\i (00:00:04) trapsize 611
+\i (00:00:04) generaledit 
+\i (00:00:04) pick grid 3.9117 0.4930
+\t (00:00:04) last pick:  3.9000 0.5000
+\i (00:00:05) roam start
+\i (00:00:06) roam end
+\i (00:00:06) zoom in 1 
+\i (00:00:06) setwindow pcb
+\i (00:00:06) zoom in 3.3127 -0.1794
+\i (00:00:06) trapsize 306
+\i (00:00:06) zoom in 1 
+\i (00:00:06) setwindow pcb
+\i (00:00:06) zoom in 3.3127 -0.1794
+\i (00:00:06) trapsize 153
+\i (00:00:07) zoom out 1 
+\i (00:00:07) setwindow pcb
+\i (00:00:07) zoom out 3.3127 -0.1794
+\i (00:00:07) trapsize 306
+\i (00:00:07) zoom out 1 
+\i (00:00:07) setwindow pcb
+\i (00:00:07) zoom out 3.3127 -0.1794
+\i (00:00:07) trapsize 611
+\i (00:00:08) delete 
+\i (00:00:08) drag_start grid 5.4278 -0.8763
+\i (00:00:08) drag_stop -6.5047 1.2144
+\i (00:00:09) delete 
+\i (00:00:10) drag_start grid 5.2811 -1.4264
+\i (00:00:10) drag_stop -6.8838 2.1069
+\i (00:00:11) delete 
+\i (00:00:11) prepopup -5.9790 2.0213
+\i (00:00:11) done 
+\i (00:00:11) generaledit 
+\i (00:00:11) pick grid -6.0891 2.0946
+\t (00:00:11) last pick:  -6.1000 2.1000
+\i (00:00:11) pick grid -6.2113 2.1069
+\t (00:00:11) last pick:  -6.2000 2.1000
+\i (00:00:17) import logo 
+\i (00:00:17) generaledit 
+\i (00:00:19) setwindow form.logo_import
+\i (00:00:19) FORM logo_import browse  
+\i (00:00:27) fillin "C:/Users/pxuhu/Desktop/ÎÄ¼þÁ´½Ó.bmp"
+\i (00:00:34) FORM logo_import ok  
+\i (00:00:36) setwindow pcb
+\i (00:00:36) pick grid -2.8859 -1.0107
+\t (00:00:36) last pick:  -2.8750 -1.0000
+\i (00:00:38) drag_start grid -1.7244 -0.3139
+\i (00:00:39) drag_stop 1.0020 -2.1722
+\i (00:00:39) pick grid 0.3907 -1.0719
+\t (00:00:39) last pick:  0.4000 -1.0750
+\i (00:00:40) prepopup -0.6363 0.2485
+\i (00:00:41) pick grid -1.5043 0.5542
+\t (00:00:41) last pick:  -1.5000 0.5500
+\i (00:00:45) shape add rect 
+\i (00:00:51) setwindow form.mini
+\i (00:00:51) FORM mini one_click YES 
+\i (00:00:53) FORM mini rec_width 8.0000 
+\i (00:00:54) FORM mini rec_height 8.0000 
+\i (00:01:00) setwindow pcb
+\i (00:01:00) zoom out 1 
+\i (00:01:00) setwindow pcb
+\i (00:01:00) zoom out -4.4997 3.0116
+\t (00:01:00) Grids are drawn 0.1000, 0.1000 apart for enhanced viewing.
+\i (00:01:00) trapsize 1189
+\i (00:01:06) pick -4 4 
+\t (00:01:06) last pick:  -4.0000 4.0000
+\i (00:01:07) zoom in 1 
+\i (00:01:07) setwindow pcb
+\i (00:01:07) zoom in 1.9596 3.0771
+\t (00:01:07) Grids are drawn 0.0500, 0.0500 apart for enhanced viewing.
+\i (00:01:07) trapsize 594
+\i (00:01:08) prepopup -3.7702 3.0771
+\i (00:01:08) done 
+\i (00:01:08) generaledit 
+\i (00:01:09) define grid 
+\t (00:01:09) Spacing fields allow simple equations to aid calculations; prefix with =
+\i (00:01:10) setwindow form.grid
+\i (00:01:10) FORM grid display NO 
+\i (00:01:11) FORM grid display YES 
+\i (00:01:12) FORM grid display NO 
+\i (00:01:12) FORM grid done  
+\i (00:01:13) setwindow pcb
+\i (00:01:13) roam start
+\i (00:01:13) roam y 16
+\i (00:01:13) roam y 16
+\i (00:01:13) roam y 16
+\i (00:01:13) roam y 16
+\i (00:01:13) roam y 32
+\i (00:01:13) roam end
+\i (00:01:13) zoom out 1 
+\i (00:01:13) setwindow pcb
+\i (00:01:13) zoom out -3.7821 -1.5948
+\i (00:01:13) trapsize 1189
+\i (00:01:14) roam start
+\i (00:01:14) roam end
+\i (00:01:19) import logo 
+\i (00:01:19) generaledit 
+\i (00:01:24) setwindow form.logo_import
+\i (00:01:24) FORM logo_import browse  
+\i (00:01:33) fillin "menu_cancel"
+\i (00:01:44) FORM logo_import browse  
+\i (00:01:48) fillin "C:/Users/pxuhu/Desktop/QR.bmp"
+\i (00:01:57) FORM logo_import import  
+\i (00:02:02) setwindow pcb
+\i (00:02:02) zoom in 1 
+\i (00:02:02) setwindow pcb
+\i (00:02:02) zoom in -5.3632 -5.4583
+\i (00:02:02) trapsize 594
+\i (00:02:03) zoom in 1 
+\i (00:02:03) setwindow pcb
+\i (00:02:03) zoom in -6.5163 -3.4136
+\i (00:02:03) trapsize 297
+\i (00:02:04) zoom in 1 
+\i (00:02:04) setwindow pcb
+\i (00:02:04) zoom in -6.7719 -3.0629
+\i (00:02:04) trapsize 149
+\i (00:02:07) zoom out 1 
+\i (00:02:07) setwindow pcb
+\i (00:02:07) zoom out -6.6767 -3.0629
+\i (00:02:07) trapsize 297
+\i (00:02:08) zoom out 1 
+\i (00:02:08) setwindow pcb
+\i (00:02:08) zoom out -6.8967 -2.9261
+\i (00:02:08) trapsize 594
+\i (00:02:10) roam start
+\i (00:02:10) roam y 16
+\i (00:02:10) roam y 16
+\i (00:02:10) roam y 32
+\i (00:02:10) roam y 16
+\i (00:02:10) roam y 16
+\i (00:02:10) roam y 16
+\i (00:02:10) roam end
+\i (00:02:11) zoom in 1 
+\i (00:02:11) setwindow pcb
+\i (00:02:11) zoom in -6.1834 -8.1687
+\i (00:02:11) trapsize 297
+\i (00:02:11) delete 
+\i (00:02:11) pick grid -6.3676 -7.8952
+\t (00:02:11) last pick:  -6.3750 -7.9000
+\t (00:02:11) Text "Logo"
+\i (00:02:12) delete 
+\i (00:02:12) zoom out 1 
+\i (00:02:12) setwindow pcb
+\i (00:02:12) zoom out -6.2369 -7.7288
+\i (00:02:12) trapsize 594
+\i (00:02:13) roam start
+\i (00:02:13) roam y -16
+\i (00:02:14) roam y -16
+\i (00:02:14) roam end
+\i (00:02:16) roam start
+\i (00:02:16) roam y -16
+\i (00:02:16) roam end
+\i (00:02:20) zoom in 1 
+\i (00:02:20) setwindow pcb
+\i (00:02:20) zoom in -5.3870 -6.9561
+\i (00:02:20) trapsize 297
+\i (00:02:20) zoom in 1 
+\i (00:02:20) setwindow pcb
+\i (00:02:20) zoom in -5.4167 -6.9561
+\i (00:02:20) trapsize 149
+\i (00:02:20) zoom in 1 
+\i (00:02:20) setwindow pcb
+\i (00:02:20) zoom in -5.4286 -6.7867
+\i (00:02:20) trapsize 74
+\i (00:02:26) prepopup -5.1625 -6.6469
+\i (00:02:27) cancel 
+\i (00:02:27) generaledit 
+\i (00:02:28) zoom out 1 
+\i (00:02:28) setwindow pcb
+\i (00:02:28) zoom out -5.1298 -6.6514
+\i (00:02:28) trapsize 149
+\i (00:02:29) setwindow form.logo_import
+\i (00:02:29) FORM logo_import cancel  
+\i (00:02:29) setwindow pcb
+\i (00:02:29) zoom out 1 
+\i (00:02:29) setwindow pcb
+\i (00:02:29) zoom out -4.6781 -7.0229
+\i (00:02:29) trapsize 297
+\i (00:02:29) zoom out 1 
+\i (00:02:29) setwindow pcb
+\i (00:02:29) zoom out -4.6782 -7.0229
+\i (00:02:29) trapsize 594
+\i (00:02:29) zoom out 1 
+\i (00:02:29) setwindow pcb
+\i (00:02:29) zoom out -1.2974 -7.0229
+\i (00:02:29) trapsize 1189
+\i (00:02:40) param in 
+\i (00:02:42) setwindow form.parm_in
+\i (00:02:42) FORM parm_in cancel  
+\i (00:02:42) setwindow pcb
+\i (00:02:42) generaledit 
+\i (00:03:00) import logo 
+\i (00:03:00) generaledit 
+\i (00:03:35) setwindow form.logo_import
+\i (00:03:35) FORM logo_import browse  
+\i (00:03:39) fillin "C:/Users/pxuhu/Desktop/QR.bmp"
+\i (00:03:45) FORM logo_import logo_location_x -4 
+\i (00:03:49) FORM logo_import logo_location_y -4 
+\i (00:03:49) FORM logo_import import  
 \i (00:03:51) setwindow pcb
-\i (00:03:51) zoom out 1 
+\i (00:03:51) zoom in 1 
 \i (00:03:51) setwindow pcb
-\i (00:03:51) zoom out -37.1628 -20.4543
-\i (00:03:51) trapsize 4266
-\i (00:03:52) zoom out 1 
-\i (00:03:52) setwindow pcb
-\i (00:03:52) zoom out -38.0161 -20.4542
-\i (00:03:52) trapsize 8532
+\i (00:03:51) zoom in -2.4151 -3.4612
+\i (00:03:51) trapsize 594
 \i (00:03:52) roam start
-\i (00:03:52) roam x 16
-\i (00:03:52) roam x 32
-\i (00:03:52) roam x 32
-\i (00:03:52) roam x 32
-\i (00:03:52) roam x 16
+\i (00:03:52) roam y -16
+\i (00:03:53) roam y -16
+\i (00:03:53) roam y -16
+\i (00:03:53) roam y -16
+\i (00:03:53) roam y -16
+\i (00:03:53) roam y -16
+\i (00:03:53) roam y -16
+\i (00:03:53) roam y -16
+\i (00:03:53) roam y -16
+\i (00:03:53) zoom in 1 
+\i (00:03:53) setwindow pcb
+\i (00:03:53) zoom in -5.7555 -1.5710
+\i (00:03:53) trapsize 297
+\i (00:03:53) roam x 16
+\i (00:03:53) roam x 16
 \i (00:03:53) roam end
-\i (00:03:53) zoom in 1 
-\i (00:03:53) setwindow pcb
-\i (00:03:53) zoom in 71.3187 0.3644
-\i (00:03:53) trapsize 4266
-\i (00:03:53) zoom in 1 
-\i (00:03:53) setwindow pcb
-\i (00:03:53) zoom in 59.4589 0.7910
-\i (00:03:53) trapsize 2133
-\i (00:03:54) zoom in 1 
-\i (00:03:54) setwindow pcb
-\i (00:03:54) zoom in 59.4589 0.7910
-\i (00:03:54) trapsize 1067
-\i (00:03:54) pick grid 53.9129 2.3481
-\t (00:03:54) last pick:  54.0000 2.0000
-\i (00:03:57) setwindow text
-\i (00:03:57) close
-\i (00:03:59) setwindow pcb
-\i (00:03:59) zoom out 1 
-\i (00:03:59) setwindow pcb
-\i (00:03:59) zoom out 54.9795 0.2577
-\i (00:03:59) trapsize 2133
-\i (00:03:59) zoom out 1 
-\i (00:03:59) setwindow pcb
-\i (00:03:59) zoom out 54.9795 0.2578
-\i (00:03:59) trapsize 4266
-\i (00:03:59) zoom out 1 
-\i (00:03:59) setwindow pcb
-\i (00:03:59) zoom out 54.8941 0.2578
-\i (00:03:59) trapsize 8532
-\i (00:03:59) zoom out 1 
-\i (00:03:59) setwindow pcb
-\i (00:03:59) zoom out 54.8941 0.2577
-\i (00:03:59) trapsize 17064
-\i (00:04:00) zoom in 1 
-\i (00:04:00) setwindow pcb
-\i (00:04:00) zoom in -46.8101 -5.5441
-\i (00:04:00) trapsize 8532
-\i (02:19:32) roam start
-\i (02:19:32) roam x 16
-\i (02:19:32) roam y 16
-\i (02:19:32) roam x 16
-\i (02:19:32) roam y 48
-\i (02:19:33) roam y 32
-\i (02:19:33) roam end
-\i (02:19:36) pick grid 53.4010 -43.3545
-\t (02:19:36) last pick:  53.0000 -43.0000
-\i (02:19:43) bn 
-\t (02:19:43) [14:39:44.049712] Periodic Lic check successful
-[14:39:44.574000] Feature usage summary:
+\i (00:03:54) roam start
+\i (00:03:54) roam x 16
+\i (00:03:54) roam x 32
+\i (00:03:54) roam x 32
+\i (00:03:54) roam x 16
+\i (00:03:54) roam x 16
+\i (00:03:54) roam x 16
+\i (00:03:54) roam x 16
+\i (00:03:54) roam x 16
+\i (00:03:55) roam x 32
+\i (00:03:55) roam x 16
+\i (00:03:55) roam x 16
+\i (00:03:55) roam x 16
+\i (00:03:55) roam x 16
+\i (00:03:55) roam x 16
+\i (00:03:55) roam x 32
+\i (00:03:55) roam x 16
+\i (00:03:55) roam x 16
+\i (00:03:55) roam x 16
+\i (00:03:55) roam x 16
+\i (00:03:55) roam x 16
+\i (00:03:55) roam x 32
+\i (00:03:55) roam x 32
+\i (00:03:55) roam x 16
+\i (00:03:55) roam x 16
+\i (00:03:55) roam x 16
+\i (00:03:55) roam end
+\i (00:03:55) zoom out 1 
+\i (00:03:55) setwindow pcb
+\i (00:03:55) zoom out -2.1119 -1.6364
+\i (00:03:55) trapsize 594
+\i (00:03:56) roam start
+\i (00:03:57) roam end
+\i (00:04:03) setwindow form.logo_import
+\i (00:04:03) FORM logo_import scale_factor 2 
+\i (00:04:03) FORM logo_import modify  
+\e (00:04:04) ERROR(SPMHDB-278): Module does not fit in design.
+\i (00:04:05) setwindow pcb
+\i (00:04:05) zoom in 1 
+\i (00:04:05) setwindow pcb
+\i (00:04:05) zoom in -4.6261 -2.1000
+\i (00:04:05) trapsize 297
+\i (00:04:06) zoom out 1 
+\i (00:04:06) setwindow pcb
+\i (00:04:06) zoom out -4.6261 -2.1000
+\i (00:04:06) trapsize 594
+\i (00:04:06) zoom out 1 
+\i (00:04:06) setwindow pcb
+\i (00:04:06) zoom out -4.6261 -2.1000
+\i (00:04:06) trapsize 1189
+\i (00:04:08) setwindow form.logo_import
+\i (00:04:08) FORM logo_import modify  
+\e (00:04:08) ERROR(SPMHDB-278): Module does not fit in design.
+\i (00:04:10) setwindow pcb
+\i (00:04:10) prepopup -6.2429 -5.1730
+\i (00:04:11) pick grid -5.8862 -3.1521
+\t (00:04:11) last pick:  -5.8750 -3.1500
+\i (00:04:12) undo 
+\i (00:04:12) generaledit 
+\i (00:04:12) undo 
+\i (00:04:12) generaledit 
+\i (00:04:13) pick grid -0.6081 -5.5772
+\t (00:04:13) last pick:  -0.6000 -5.5750
+\i (00:04:14) setwindow form.logo_import
+\i (00:04:14) FORM logo_import cancel  
+\i (00:04:23) setwindow pcb
+\i (00:04:23) load plot 
+\i (00:05:05) fillin "menu_cancel"
+\i (00:05:05) generaledit 
+\t (00:05:05) [17:59:51.313712] Periodic Lic check successful
+[17:59:51.838000] Feature usage summary:
 
-\i (02:19:43) generaledit 
-\i (02:19:46) setwindow form.mini
-\i (02:19:46) FORM mini class 'BOARD GEOMETRY' 
-\i (02:19:48) FORM mini subclass MYCAD 
-\i (02:19:48) setwindow pcb
-\i (02:19:48) updateport CVPane
-\i (02:19:49) pick grid 76.0968 -13.8330
-\t (02:19:49) last pick:  76.0000 -14.0000
-\i (02:19:49) zoom out 1 
-\i (02:19:49) setwindow pcb
-\i (02:19:49) zoom out 76.0968 -13.8330
-\i (02:19:49) trapsize 17064
-\i (02:19:50) roam start
-\i (02:19:50) roam x 16
-\i (02:19:50) roam y -16
-\i (02:19:50) roam x 48
-\i (02:19:50) roam y -16
-\i (02:19:50) roam end
-\i (02:19:51) delete 
-\i (02:19:56) setwindow form.find
-\i (02:19:56) FORM find all_on  
-\i (02:19:56) setwindow pcb
-\i (02:19:56) drag_start grid 93.8438 -43.6959
-\i (02:19:56) drag_stop -155.2976 76.0967
-\i (02:19:57) delete 
-\i (02:19:57) prepopup -50.1804 -5.1302
-\i (02:19:58) done 
-\i (02:19:58) generaledit 
-\i (02:19:58) pick grid -50.1804 -4.7889
-\t (02:19:58) last pick:  -50.0000 -5.0000
-\i (02:20:01) dxf in 
-\i (02:20:02) setwindow form.dxfInMain
-\i (02:20:02) FORM dxfInMain incremental YES 
-\t (02:20:02) Loading mfg.cxt 
-\i (02:20:03) FORM dxfInMain browsedxf  
-\t (02:20:07) Performing autosave...
-\t (02:20:08) Autosave successful
-\i (02:20:08) fillin "C:/myFile/AllegroLibrary/cad/CAD_Standard.dxf"
-\i (02:20:10) FORM dxfInMain editcnvprofile  
-\i (02:20:11) setwindow form.dxfInMapping
-\i (02:20:11) FORM dxfInMapping mappinggrid cell 5,1 
-\i (02:20:12) FORM dxfInMapping mappinggrid change 5,1 yes 
-\i (02:20:14) FORM dxfInMapping mappinggrid cell 5,3 
-\i (02:20:16) FORM dxfInMapping mappinggrid change 5,3 'BOARD GEOMETRY' 
-\i (02:20:19) FORM dxfInMapping mappinggrid change 5,4 MYCAD 
-\i (02:20:20) FORM dxfInMapping done  
-\i (02:20:22) fillin yes 
-\i (02:20:22) setwindow form.dxfInMain
-\i (02:20:22) FORM dxfInMain import  
-\t (02:20:22) Starting dxf2a...
-\t (02:20:24) SpawnProcessExit background process completed status = 0
+\i (00:06:36) import logo 
+\i (00:06:36) generaledit 
+\i (00:06:37) setwindow form.logo_import
+\i (00:06:37) FORM logo_import browse  
+\i (00:06:41) fillin "C:/Users/pxuhu/Desktop/QR.bmp"
+\i (00:06:44) FORM logo_import logo_location_x -10 
+\i (00:06:46) FORM logo_import logo_location_y -10 
+\i (00:06:46) FORM logo_import import  
+\e (00:06:46) ERROR(SPMHDB-278): Module does not fit in design.
+\i (00:06:51) setwindow pcb
+\i (00:06:51) prmed 
+\i (00:06:52) setwindow form.prmedit
+\i (00:06:52) FORM prmedit design  
+\i (00:06:55) FORM prmedit width 100.0000 
+\i (00:06:55) FORM prmedit height 100.0000 
+\i (00:06:57) FORM prmedit y -50.0000 
+\i (00:07:00) FORM prmedit x -50.0000 
+\i (00:07:00) FORM prmedit done  
+\i (00:07:00) setwindow pcb
+\i (00:07:00) trapsize 1189
+\i (00:07:00) trapsize 1221
+\i (00:07:00) trapsize 1189
+\i (00:07:01) generaledit 
+\i (00:07:01) setwindow form.logo_import
+\i (00:07:01) FORM logo_import import  
+\i (00:07:02) setwindow pcb
+\i (00:07:02) zoom out 1 
+\i (00:07:02) setwindow pcb
+\i (00:07:02) zoom out 4.4086 -2.5339
+\i (00:07:02) trapsize 2378
+\i (00:07:04) zoom out 1 
+\i (00:07:04) setwindow pcb
+\i (00:07:04) zoom out 1.8408 -2.6765
+\i (00:07:04) trapsize 4755
+\i (00:07:04) zoom out 1 
+\i (00:07:04) setwindow pcb
+\i (00:07:04) zoom out 0.4992 -2.6765
+\i (00:07:04) trapsize 7800
+\i (00:07:04) zoom in 1 
+\i (00:07:04) setwindow pcb
+\i (00:07:04) zoom in 5.6942 -1.7941
+\i (00:07:04) trapsize 3900
+\i (00:07:06) roam start
+\i (00:07:06) roam y -16
+\i (00:07:06) roam y -16
+\i (00:07:06) roam y -16
+\i (00:07:06) roam y -16
+\i (00:07:06) roam y -16
+\i (00:07:07) roam y -16
+\i (00:07:07) roam y -16
+\i (00:07:08) roam end
+\i (00:07:12) setwindow form.logo_import
+\i (00:07:12) FORM logo_import ok  
+\i (00:07:14) setwindow pcb
+\i (00:07:14) roam start
+\i (00:07:14) roam y -32
+\i (00:07:14) roam y -128
+\i (00:07:14) roam y -16
+\i (00:07:14) roam y -16
+\i (00:07:14) roam y -16
+\i (00:07:14) roam y 16
+\i (00:07:15) roam y 16
+\i (00:07:15) roam y 16
+\i (00:07:15) roam y 16
+\i (00:07:15) roam y 16
+\i (00:07:15) roam y 16
+\i (00:07:16) roam y 16
+\i (00:07:16) roam y 16
+\i (00:07:16) roam y 16
+\i (00:07:16) roam end
+\i (00:07:17) zoom in 1 
+\i (00:07:17) setwindow pcb
+\i (00:07:17) zoom in 18.0187 9.5944
+\i (00:07:17) trapsize 1950
+\i (00:07:17) zoom in 1 
+\i (00:07:17) setwindow pcb
+\i (00:07:17) zoom in 18.0188 9.5944
+\i (00:07:17) trapsize 975
+\i (00:07:18) zoom out 1 
+\i (00:07:18) setwindow pcb
+\i (00:07:18) zoom out 15.0936 13.0850
+\i (00:07:18) trapsize 1950
+\i (00:07:18) zoom out 1 
+\i (00:07:18) setwindow pcb
+\i (00:07:18) zoom out 15.0937 13.0851
+\i (00:07:18) trapsize 3900
+\i (00:07:19) roam start
+\i (00:07:19) roam y -32
+\i (00:07:19) roam y -16
+\i (00:07:19) roam y -16
+\i (00:07:19) roam y -16
+\i (00:07:19) roam y -16
+\i (00:07:22) roam end
+\i (00:07:31) compose shape 
+\t (00:07:31) Loading apt.cxt 
+\t (00:07:31) Loading apt_utils.cxt 
+\i (00:07:36) setwindow form.mini
+\i (00:07:36) FORM mini class 'BOARD GEOMETRY' 
+\i (00:07:38) FORM mini subclass SILKSCREEN_TOP 
+\i (00:07:39) setwindow pcb
+\i (00:07:39) drag_start 36.3495 -10.7644
+\i (00:07:40) drag_stop -22.6209 31.9813
+\e (00:07:41) ERROR(SPMHA1-273): Shape intersects with itself.
+\e (00:07:41) ERROR(SPMHA1-273): Shape intersects with itself.
+\e (00:07:41) ERROR(SPMHA1-273): Shape intersects with itself.
+\e (00:07:41) ERROR(SPMHA1-273): Shape intersects with itself.
+\e (00:07:41) ERROR(SPMHA1-273): Shape intersects with itself.
+\e (00:07:41) ERROR(SPMHA1-273): Shape intersects with itself.
+\e (00:07:41) ERROR(SPMHA1-273): Shape intersects with itself.
+\e (00:07:41) ERROR(SPMHA1-273): Shape intersects with itself.
+\e (00:07:41) ERROR(SPMHA1-273): Shape intersects with itself.
+\e (00:07:41) ERROR(SPMHA1-273): Shape intersects with itself.
+\e (00:07:41) ERROR(SPMHA1-273): Shape intersects with itself.
+\e (00:07:41) ERROR(SPMHA1-273): Shape intersects with itself.
+\e (00:07:41) ERROR(SPMHA1-273): Shape intersects with itself.
+\e (00:07:41) ERROR(SPMHA1-273): Shape intersects with itself.
+\e (00:07:41) ERROR(SPMHA1-273): Shape intersects with itself.
+\e (00:07:41) ERROR(SPMHA1-273): Shape intersects with itself.
+\e (00:07:41) ERROR(SPMHA1-273): Shape intersects with itself.
+\e (00:07:41) ERROR(SPMHA1-273): Shape intersects with itself.
+\e (00:07:41) ERROR(SPMHA1-273): Shape intersects with itself.
+\e (00:07:41) ERROR(SPMHA1-273): Shape intersects with itself.
+\e (00:07:41) ERROR(SPMHA1-273): Shape intersects with itself.
+\e (00:07:41) ERROR(SPMHA1-273): Shape intersects with itself.
+\e (00:07:41) ERROR(SPMHA1-273): Shape intersects with itself.
+\e (00:07:41) ERROR(SPMHA1-273): Shape intersects with itself.
+\i (00:08:38) exit 
+\e (00:08:38) Do you want to save the changes you made to QR8.dra?
+\i (00:08:39) fillin no 
+\t (00:08:39) Lic Summary:
+[18:03:25.461712] Cdslmd servers:
+[18:03:25.986000] Feature usage summary:
 
-\t (02:20:24) Opening existing design...
-\t (02:20:25) Grids are drawn 2.0000, 2.0000 apart for enhanced viewing.
-\i (02:20:25) setwindow pcb
-\i (02:20:25) trapsize 17064
-\i (02:20:26) trapsize 17521
-\i (02:20:26) trapsize 17064
-\t (02:20:27) Grids are drawn 512.0000, 512.0000 apart for enhanced viewing.
-\t (02:20:28) Grids are drawn 2.0000, 2.0000 apart for enhanced viewing.
-\i (02:20:28) trapsize 17064
-\i (02:20:31) setwindow form.dxfInMain
-\i (02:20:31) FORM dxfInMain cancel  
-\i (02:20:31) setwindow pcb
-\i (02:20:31) generaledit 
-\i (02:20:31) zoom out 1 
-\i (02:20:31) setwindow pcb
-\i (02:20:31) zoom out -24.9249 -47.7914
-\t (02:20:31) Grids are drawn 4.0000, 4.0000 apart for enhanced viewing.
-\i (02:20:31) trapsize 34129
-\i (02:20:31) zoom out 1 
-\i (02:20:31) setwindow pcb
-\i (02:20:31) zoom out 41.2853 -53.9346
-\t (02:20:31) Grids are drawn 8.0000, 8.0000 apart for enhanced viewing.
-\i (02:20:31) trapsize 68258
-\i (02:20:33) zoom in 1 
-\i (02:20:33) setwindow pcb
-\i (02:20:33) zoom in 368.2407 -175.7534
-\t (02:20:33) Grids are drawn 4.0000, 4.0000 apart for enhanced viewing.
-\i (02:20:33) trapsize 34129
-\i (02:20:34) delete 
-\i (02:20:34) drag_start grid 337.5462 -156.6411
-\i (02:20:34) drag_stop 274.0663 -61.0801
-\t (02:20:34) Line "Board Geometry/Mycad"
-\i (02:20:35) delete 
-\i (02:20:36) zoom in 1 
-\i (02:20:37) setwindow pcb
-\i (02:20:37) zoom in 9.2256 -13.9821
-\t (02:20:37) Grids are drawn 2.0000, 2.0000 apart for enhanced viewing.
-\i (02:20:37) trapsize 17064
-\i (02:20:37) zoom in 1 
-\i (02:20:37) setwindow pcb
-\i (02:20:37) zoom in 7.5192 -9.8866
-\i (02:20:37) trapsize 8532
-\i (02:20:37) zoom in 1 
-\i (02:20:37) setwindow pcb
-\i (02:20:37) zoom in 7.5192 -9.8866
-\i (02:20:37) trapsize 4266
-\i (02:20:37) zoom out 1 
-\i (02:20:38) setwindow pcb
-\i (02:20:38) zoom out 8.9697 -13.6408
-\i (02:20:38) trapsize 8532
-\i (02:20:38) roam start
-\i (02:20:38) roam x -16
-\i (02:20:38) roam x -16
-\i (02:20:38) roam y -32
-\i (02:20:38) roam y -16
-\i (02:20:38) roam y -16
-\i (02:20:38) roam y -16
-\i (02:20:38) roam y -16
-\i (02:20:38) roam y -16
-\i (02:20:39) roam end
-\i (02:20:40) zoom in 1 
-\i (02:20:40) setwindow pcb
-\i (02:20:40) zoom in -47.6207 12.9582
-\i (02:20:40) trapsize 4266
-\i (02:20:41) zoom out 1 
-\i (02:20:41) setwindow pcb
-\i (02:20:41) zoom out -47.6207 12.9582
-\i (02:20:41) trapsize 8532
-\i (02:20:44) ba 
-\i (02:20:44) generaledit 
-\i (02:20:46) zoom in 1 
-\i (02:20:46) setwindow pcb
-\i (02:20:46) zoom in 61.7626 35.4834
-\i (02:20:46) trapsize 4266
-\i (02:20:46) zoom in 1 
-\i (02:20:46) setwindow pcb
-\i (02:20:46) zoom in 58.4350 29.5961
-\i (02:20:46) trapsize 2133
-\i (02:20:47) zoom out 1 
-\i (02:20:47) setwindow pcb
-\i (02:20:47) zoom out 50.9266 29.5535
-\i (02:20:47) trapsize 4266
-\i (02:20:47) zoom out 1 
-\i (02:20:47) setwindow pcb
-\i (02:20:47) zoom out 50.9266 29.5534
-\i (02:20:47) trapsize 8532
-\i (02:20:48) roam start
-\i (02:20:48) roam x -16
-\i (02:20:48) roam x -32
-\i (02:20:48) roam y 16
-\i (02:20:48) roam end
-\i (02:20:48) zoom in 1 
-\i (02:20:48) setwindow pcb
-\i (02:20:48) zoom in 54.0836 27.8043
-\i (02:20:49) trapsize 4266
-\i (02:20:49) zoom in 1 
-\i (02:20:49) setwindow pcb
-\i (02:20:49) zoom in 54.0836 27.8044
-\i (02:20:49) trapsize 2133
-\i (02:20:49) zoom in 1 
-\i (02:20:49) setwindow pcb
-\i (02:20:49) zoom in 54.2116 24.9035
-\i (02:20:49) trapsize 1067
-\i (02:20:49) zoom in 1 
-\i (02:20:49) setwindow pcb
-\i (02:20:49) zoom in 54.2116 24.9035
-\i (02:20:49) trapsize 533
-\i (02:20:51) zoom out 1 
-\i (02:20:51) setwindow pcb
-\i (02:20:51) zoom out 54.4249 25.0208
-\i (02:20:51) trapsize 1067
-\i (02:20:53) zoom out 1 
-\i (02:20:53) setwindow pcb
-\i (02:20:53) zoom out 53.6144 23.6983
-\i (02:20:53) trapsize 2133
-\i (02:20:54) zoom out 1 
-\i (02:20:54) setwindow pcb
-\i (02:20:54) zoom out 62.5732 24.5089
-\i (02:20:54) trapsize 4266
-\i (02:20:54) zoom out 1 
-\i (02:20:54) setwindow pcb
-\i (02:20:54) zoom out 62.5733 24.5089
-\i (02:20:54) trapsize 8532
-\i (02:20:54) roam start
-\i (02:20:54) roam x -16
-\i (02:20:54) roam y 16
-\i (02:20:54) roam x -16
-\i (02:20:54) roam y 32
-\i (02:20:55) roam end
-\i (02:20:55) zoom in 1 
-\i (02:20:55) setwindow pcb
-\i (02:20:55) zoom in -57.3474 -29.5323
-\i (02:20:55) trapsize 4266
-\i (02:20:55) zoom in 1 
-\i (02:20:55) setwindow pcb
-\i (02:20:55) zoom in -57.4327 -29.3616
-\i (02:20:55) trapsize 2133
-\i (02:20:56) zoom in 1 
-\i (02:20:56) setwindow pcb
-\i (02:20:56) zoom in -57.4327 -29.3616
-\i (02:20:56) trapsize 1067
-\i (02:20:58) move 
-\t (02:20:58) Select element(s) to move.
-\i (02:20:59) zoom out 1 
-\i (02:20:59) setwindow pcb
-\i (02:20:59) zoom out -47.0874 -24.4555
-\i (02:20:59) trapsize 2133
-\i (02:20:59) zoom out 1 
-\i (02:20:59) setwindow pcb
-\i (02:20:59) zoom out -47.0873 -24.4555
-\i (02:20:59) trapsize 4266
-\i (02:21:00) cancel 
-\i (02:21:00) generaledit 
-\i (02:21:00) cancel 
-\i (02:21:00) generaledit 
-\i (02:21:00) cancel 
-\i (02:21:00) generaledit 
-\i (02:21:00) pick grid -68.8446 -42.4585
-\t (02:21:00) last pick:  -69.0000 -42.0000
-\i (02:21:05) setwindow form.mini
-\i (02:21:05) FORM mini subcolor color 112 
-\i (02:21:05) setwindow pcb
-\i (02:21:05) updateport CVPane
-\i (02:21:05) pick grid -33.8624 -42.9704
-\t (02:21:05) last pick:  -34.0000 -43.0000
-\i (02:21:06) roam start
-\i (02:21:06) roam y -16
-\i (02:21:06) roam end
-\i (02:21:07) roam start
-\i (02:21:07) roam x 16
-\i (02:21:07) roam x 32
-\i (02:21:07) roam end
-\i (02:21:08) roam start
-\i (02:21:08) roam x 32
-\i (02:21:08) roam x 32
-\i (02:21:08) roam x 32
-\i (02:21:08) roam x 16
-\i (02:21:08) roam x 16
-\i (02:21:08) roam x 16
-\i (02:21:08) roam x 16
-\i (02:21:08) roam x 16
-\i (02:21:08) roam x 32
-\i (02:21:08) roam x 32
-\i (02:21:08) roam x 16
-\i (02:21:08) roam y -16
-\i (02:21:08) roam x 32
-\i (02:21:08) roam x 32
-\i (02:21:08) roam x 16
-\i (02:21:08) roam y -16
-\i (02:21:08) roam x 16
-\i (02:21:08) roam x 16
-\i (02:21:08) roam y -16
-\i (02:21:08) roam x 16
-\i (02:21:08) roam x 16
-\i (02:21:08) roam x 16
-\i (02:21:08) roam x 32
-\i (02:21:08) roam x 16
-\i (02:21:08) roam y -16
-\i (02:21:08) roam x 32
-\i (02:21:08) roam x 32
-\i (02:21:08) roam x 16
-\i (02:21:09) roam end
-\i (02:21:09) zoom out 1 
-\i (02:21:09) setwindow pcb
-\i (02:21:09) zoom out -6.0688 -22.3654
-\i (02:21:09) trapsize 8532
-\i (02:21:09) roam start
-\i (02:21:09) roam x 32
-\i (02:21:09) roam x 32
-\i (02:21:09) roam x 32
-\i (02:21:09) roam end
-\i (02:21:10) zoom in 1 
-\i (02:21:10) setwindow pcb
-\i (02:21:10) zoom in 49.4762 -32.0922
-\i (02:21:10) trapsize 4266
-\i (02:21:10) zoom in 1 
-\i (02:21:10) setwindow pcb
-\i (02:21:10) zoom in 56.3020 -25.3517
-\i (02:21:10) trapsize 2133
-\i (02:21:10) zoom in 1 
-\i (02:21:10) setwindow pcb
-\i (02:21:10) zoom in 56.2594 -25.2664
-\i (02:21:10) trapsize 1067
-\i (02:21:10) zoom in 1 
-\i (02:21:10) setwindow pcb
-\i (02:21:10) zoom in 56.2594 -25.2664
-\i (02:21:11) trapsize 533
-\i (02:21:11) roam start
-\i (02:21:11) roam y 16
-\i (02:21:11) roam x -16
-\i (02:21:11) roam y 32
-\i (02:21:11) roam end
-\i (02:21:13) move 
-\t (02:21:13) Select element(s) to move.
-\i (02:21:15) setwindow form.find
-\i (02:21:15) FORM find shapes YES 
-\i (02:21:17) setwindow pcb
-\i (02:21:17) pick grid 54.9889 -26.1205
-\t (02:21:17) last pick:  55.0000 -26.0000
-\t (02:21:17) last pick:  0.0000 0.0000
-\t (02:21:17) Pick new location for the element(s).
-\i (02:21:18) zoom out 1 
-\i (02:21:18) setwindow pcb
-\i (02:21:18) zoom out 54.4556 -25.8432
-\i (02:21:18) trapsize 1067
-\i (02:21:18) zoom out 1 
-\i (02:21:18) setwindow pcb
-\i (02:21:18) zoom out 54.4557 -25.8431
-\i (02:21:18) trapsize 2133
-\i (02:21:18) zoom out 1 
-\i (02:21:18) setwindow pcb
-\i (02:21:18) zoom out 53.1759 -28.1042
-\i (02:21:18) trapsize 4266
-\i (02:21:20) cancel 
-\i (02:21:20) generaledit 
-\i (02:21:22) prepopup 87.1342 -1.3130
-\i (02:21:22) pick grid 83.8919 -0.0331
-\t (02:21:22) last pick:  84.0000 0.0000
-\i (02:21:27) setwindow form.mini
-\i (02:21:27) FORM mini class MANUFACTURING 
-\i (02:21:29) FORM mini class 'PACKAGE GEOMETRY' 
-\i (02:21:31) FORM mini subcolor 0 
-\i (02:21:31) setwindow pcb
-\i (02:21:31) updateport CVPane
-\i (02:21:33) setwindow form.mini
-\i (02:21:33) FORM mini subclass PLACE_BOUND_TOP 
-\i (02:21:33) setwindow pcb
-\i (02:21:33) updateport CVPane
-\i (02:21:34) setwindow form.mini
-\i (02:21:34) FORM mini subcolor 0 
-\i (02:21:34) setwindow pcb
-\i (02:21:34) updateport CVPane
-\i (02:21:35) pick grid 75.7863 -20.5105
-\t (02:21:35) last pick:  76.0000 -21.0000
-\i (02:21:36) zoom in 1 
-\i (02:21:36) setwindow pcb
-\i (02:21:36) zoom in 50.1043 -34.2474
-\i (02:21:36) trapsize 2133
-\i (02:21:36) zoom in 1 
-\i (02:21:36) setwindow pcb
-\i (02:21:36) zoom in 50.1043 -34.2474
-\i (02:21:36) trapsize 1067
-\i (02:21:36) roam start
-\i (02:21:36) roam y -16
-\i (02:21:36) roam x 16
-\i (02:21:36) roam y -48
-\i (02:21:36) roam y -16
-\i (02:21:36) roam x 16
-\i (02:21:36) roam y -16
-\i (02:21:36) roam y -16
-\i (02:21:37) roam y -16
-\i (02:21:37) roam x 16
-\i (02:21:37) roam y -16
-\i (02:21:37) roam y -16
-\i (02:21:37) roam x 16
-\i (02:21:37) roam y -16
-\i (02:21:37) roam end
-\i (02:21:38) move 
-\t (02:21:38) Select element(s) to move.
-\i (02:21:41) pick grid 55.0423 -26.0565
-\t (02:21:41) last pick:  55.0000 -26.0000
-\i (02:21:41) move 
-\t (02:21:41) Select element(s) to move.
-\i (02:21:43) pick grid 55.1063 -25.5659
-\t (02:21:43) last pick:  55.0000 -26.0000
-\i (02:21:46) setwindow form.find
-\i (02:21:46) FORM find all_on  
-\i (02:21:48) setwindow pcb
-\i (02:21:48) pick grid 55.1276 -25.5659
-\t (02:21:48) last pick:  55.0000 -26.0000
-\t (02:21:48) last pick:  53.3500 -25.4000
-\t (02:21:48) Pick new location for the element(s).
-\i (02:21:50) prepopup 54.6370 -26.2485
-\i (02:21:55) pop dyn_option_select 'Snap pick to@:@Arc/Circle Center' 
-\t (02:21:55) last pick:  53.3400 -25.4000
-\i (02:21:55) zoom out 1 
-\i (02:21:55) setwindow pcb
-\i (02:21:55) zoom out 52.0987 -24.0728
-\i (02:21:55) trapsize 2133
-\i (02:21:55) zoom out 1 
-\i (02:21:55) setwindow pcb
-\i (02:21:55) zoom out 52.0134 -24.0300
-\i (02:21:55) trapsize 4266
-\i (02:21:55) roam start
-\i (02:21:55) roam x -16
-\i (02:21:55) roam y -16
-\i (02:21:56) roam y -80
-\i (02:21:56) roam y -32
-\i (02:21:56) roam y -64
-\i (02:21:56) roam y -48
-\i (02:21:56) roam y -48
-\i (02:21:56) roam y -16
-\i (02:21:56) roam y -16
-\i (02:21:56) roam y -32
-\i (02:21:56) roam y -16
-\i (02:21:56) roam y -16
-\i (02:21:56) roam y -16
-\i (02:21:56) roam y -16
-\i (02:21:56) roam y -16
-\i (02:21:56) roam y -16
-\i (02:21:56) roam y -16
-\i (02:21:56) roam y -16
-\i (02:21:56) roam x 16
-\i (02:21:56) roam y -16
-\i (02:21:56) roam y -16
-\i (02:21:56) roam y -16
-\i (02:21:56) roam y -16
-\i (02:21:56) roam end
-\i (02:21:57) zoom in 1 
-\i (02:21:57) setwindow pcb
-\i (02:21:57) zoom in 55.3632 27.5481
-\i (02:21:57) trapsize 2133
-\i (02:21:57) zoom in 1 
-\i (02:21:57) setwindow pcb
-\i (02:21:57) zoom in 55.3632 27.5481
-\i (02:21:57) trapsize 1067
-\i (02:21:57) zoom in 1 
-\i (02:21:57) setwindow pcb
-\i (02:21:57) zoom in 55.3632 27.5481
-\i (02:21:57) trapsize 533
-\i (02:21:58) pick grid 54.9580 26.1830
-\t (02:21:58) last pick:  55.0000 26.0000
-\t (02:21:58) last pick:  53.3500 25.4000
-\t (02:21:58) Pick new location for the element(s).
-\i (02:21:59) prepopup 54.8940 25.7991
-\i (02:22:01) pop dyn_option_select 'Snap pick to@:@Arc/Circle Center' 
-\t (02:22:01) last pick:  53.3400 25.4000
-\i (02:22:01) zoom out 1 
-\i (02:22:01) setwindow pcb
-\i (02:22:01) zoom out 54.0408 26.0550
-\i (02:22:01) trapsize 1067
-\i (02:22:02) zoom out 1 
-\i (02:22:02) setwindow pcb
-\i (02:22:02) zoom out 54.0407 26.0551
-\i (02:22:02) trapsize 2133
-\i (02:22:02) zoom out 1 
-\i (02:22:02) setwindow pcb
-\i (02:22:02) zoom out 54.0409 26.0550
-\i (02:22:02) trapsize 4266
-\i (02:22:02) roam start
-\i (02:22:02) roam x -16
-\i (02:22:02) roam x -80
-\i (02:22:02) roam y 16
-\i (02:22:02) roam x -48
-\i (02:22:02) roam y 16
-\i (02:22:02) roam x -80
-\i (02:22:02) roam x -144
-\i (02:22:02) roam x -160
-\i (02:22:02) roam x -144
-\i (02:22:02) roam x -192
-\i (02:22:02) roam x -96
-\i (02:22:02) roam x -144
-\i (02:22:02) roam x -272
-\i (02:22:02) roam x -176
-\i (02:22:02) roam x -128
-\i (02:22:02) roam x -112
-\i (02:22:02) roam x -80
-\i (02:22:02) roam end
-\i (02:22:03) roam start
-\i (02:22:03) roam x 16
-\i (02:22:03) roam x 176
-\i (02:22:03) roam x 64
-\i (02:22:03) roam x 16
-\i (02:22:03) roam x 16
-\i (02:22:03) roam x 16
-\i (02:22:03) roam x 16
-\i (02:22:03) roam end
-\i (02:22:03) zoom in 1 
-\i (02:22:04) setwindow pcb
-\i (02:22:04) zoom in -54.7880 24.9884
-\i (02:22:04) trapsize 2133
-\i (02:22:04) zoom in 1 
-\i (02:22:04) setwindow pcb
-\i (02:22:04) zoom in -54.7880 24.9885
-\i (02:22:04) trapsize 1067
-\i (02:22:04) zoom in 1 
-\i (02:22:04) setwindow pcb
-\i (02:22:04) zoom in -52.1217 24.9031
-\i (02:22:04) trapsize 533
-\i (02:22:06) pick grid -51.6951 24.7965
-\t (02:22:06) last pick:  -52.0000 25.0000
-\t (02:22:06) last pick:  -53.3500 25.4000
-\t (02:22:06) Pick new location for the element(s).
-\i (02:22:06) prepopup -51.9510 24.6792
-\i (02:22:09) pop dyn_option_select 'Snap pick to@:@Arc/Circle Center' 
-\t (02:22:09) last pick:  -53.3400 25.4000
-\i (02:22:10) zoom out 1 
-\i (02:22:10) setwindow pcb
-\i (02:22:10) zoom out -52.0897 24.1139
-\i (02:22:10) trapsize 1067
-\i (02:22:10) roam start
-\i (02:22:10) roam y 16
-\i (02:22:10) roam x 48
-\i (02:22:10) roam y 192
-\i (02:22:10) roam x 16
-\i (02:22:10) roam y 48
-\i (02:22:10) roam x 64
-\i (02:22:10) roam y 224
-\i (02:22:11) roam x 32
-\i (02:22:11) roam y 144
-\i (02:22:11) roam x 16
-\i (02:22:11) roam y 64
-\i (02:22:11) roam y 16
-\i (02:22:11) roam end
-\i (02:22:11) zoom out 1 
-\i (02:22:11) setwindow pcb
-\i (02:22:11) zoom out -49.6907 8.7763
-\i (02:22:11) trapsize 2133
-\i (02:22:11) roam start
-\i (02:22:11) roam y 16
-\i (02:22:11) roam x -16
-\i (02:22:11) roam y 64
-\i (02:22:11) roam y 32
-\i (02:22:11) roam y 16
-\i (02:22:11) roam y 32
-\i (02:22:11) roam y 32
-\i (02:22:11) roam y 16
-\i (02:22:11) roam y 32
-\i (02:22:12) roam y 48
-\i (02:22:12) roam y 64
-\i (02:22:12) roam y 16
-\i (02:22:12) roam y 16
-\i (02:22:12) roam y 16
-\i (02:22:12) roam end
-\i (02:22:12) zoom out 1 
-\i (02:22:12) setwindow pcb
-\i (02:22:12) zoom out -49.9672 -6.4528
-\i (02:22:12) trapsize 4266
-\i (02:22:12) zoom out 1 
-\i (02:22:12) setwindow pcb
-\i (02:22:12) zoom out -49.9672 -6.7088
-\i (02:22:12) trapsize 8532
-\i (02:22:13) roam start
-\i (02:22:13) roam x 16
-\i (02:22:13) roam y -16
-\i (02:22:13) roam x 32
-\i (02:22:13) roam y -16
-\i (02:22:13) roam x 16
-\i (02:22:13) roam y -16
-\i (02:22:13) roam x 16
-\i (02:22:13) roam x 16
-\i (02:22:13) roam x 16
-\i (02:22:13) roam end
-\i (02:22:14) zoom in 1 
-\i (02:22:14) setwindow pcb
-\i (02:22:14) zoom in -43.3545 28.3162
-\i (02:22:14) trapsize 4266
-\i (02:22:14) zoom in 1 
-\i (02:22:14) setwindow pcb
-\i (02:22:14) zoom in -43.3546 28.3162
-\i (02:22:14) trapsize 2133
-\i (02:22:15) zoom out 1 
-\i (02:22:15) setwindow pcb
-\i (02:22:15) zoom out -43.3546 28.3162
-\i (02:22:15) trapsize 4266
-\i (02:22:15) zoom out 1 
-\i (02:22:15) setwindow pcb
-\i (02:22:15) zoom out -43.3546 28.3163
-\i (02:22:15) trapsize 8532
-\i (02:22:15) roam start
-\i (02:22:15) roam y 48
-\i (02:22:15) roam x 16
-\i (02:22:15) roam y 112
-\i (02:22:15) roam end
-\i (02:22:16) zoom in 1 
-\i (02:22:16) setwindow pcb
-\i (02:22:16) zoom in -53.4226 -31.9213
-\i (02:22:16) trapsize 4266
-\i (02:22:16) zoom in 1 
-\i (02:22:16) setwindow pcb
-\i (02:22:16) zoom in -53.4226 -31.9213
-\i (02:22:16) trapsize 2133
-\i (02:22:16) roam start
-\i (02:22:16) roam y -16
-\i (02:22:16) roam x 16
-\i (02:22:16) roam y -48
-\i (02:22:16) roam x 16
-\i (02:22:16) roam y -16
-\i (02:22:16) roam end
-\i (02:22:17) zoom in 1 
-\i (02:22:17) setwindow pcb
-\i (02:22:17) zoom in -51.6311 -25.4371
-\i (02:22:17) trapsize 1067
-\i (02:22:17) zoom in 1 
-\i (02:22:17) setwindow pcb
-\i (02:22:17) zoom in -51.6311 -25.4371
-\i (02:22:17) trapsize 533
-\i (02:22:19) pick grid -51.5564 -25.5330
-\t (02:22:19) last pick:  -52.0000 -26.0000
-\t (02:22:19) last pick:  -53.3500 -25.4000
-\t (02:22:19) Pick new location for the element(s).
-\i (02:22:20) prepopup -51.8124 -25.8423
-\i (02:22:22) pop dyn_option_select 'Snap pick to@:@Arc/Circle Center' 
-\t (02:22:22) last pick:  -53.3400 -25.4000
-\i (02:22:23) prepopup -50.8418 -25.2877
-\i (02:22:23) done 
-\i (02:22:23) generaledit 
-\i (02:22:47) zoom out 1 
-\i (02:22:47) setwindow pcb
-\i (02:22:47) zoom out -51.1191 -26.6422
-\i (02:22:47) trapsize 1067
-\i (02:22:47) zoom out 1 
-\i (02:22:47) setwindow pcb
-\i (02:22:47) zoom out -51.1191 -26.6422
-\i (02:22:47) trapsize 2133
-\i (02:22:47) zoom out 1 
-\i (02:22:47) setwindow pcb
-\i (02:22:47) zoom out -51.1191 -26.6423
-\i (02:22:47) trapsize 4266
-\i (02:22:48) pick grid -77.8250 -28.5193
-\t (02:22:48) last pick:  -78.0000 -29.0000
-\i (02:22:48) roam start
-\i (02:22:48) roam x 16
-\i (02:22:48) roam x 16
-\i (02:22:48) roam y -16
-\i (02:22:48) roam x 32
-\i (02:22:48) roam y -16
-\i (02:22:48) roam x 32
-\i (02:22:48) roam y -32
-\i (02:22:48) roam x 16
-\i (02:22:48) roam y -16
-\i (02:22:48) roam x 16
-\i (02:22:48) roam y -16
-\i (02:22:48) roam y -16
-\i (02:22:48) roam x 16
-\i (02:22:48) roam y -16
-\i (02:22:48) roam y -16
-\i (02:22:48) roam x 16
-\i (02:22:48) roam y -16
-\i (02:22:48) roam y -32
-\i (02:22:48) roam x 16
-\i (02:22:48) roam y -16
-\i (02:22:48) roam x 16
-\i (02:22:48) roam y -32
-\i (02:22:48) roam y -16
-\i (02:22:48) roam x 16
-\i (02:22:48) roam y -16
-\i (02:22:48) roam x 16
-\i (02:22:48) roam y -16
-\i (02:22:48) roam y -16
-\i (02:22:49) roam x 16
-\i (02:22:49) roam end
-\i (02:22:49) roam start
-\i (02:22:49) roam x 16
-\i (02:22:49) roam y -16
-\i (02:22:49) roam x 16
-\i (02:22:49) roam y -16
-\i (02:22:49) roam x 16
-\i (02:22:50) roam x 16
-\i (02:22:50) roam y -16
-\i (02:22:50) roam x 16
-\i (02:22:50) roam x 32
-\i (02:22:50) roam y -16
-\i (02:22:50) roam x 16
-\i (02:22:50) roam x 16
-\i (02:22:50) roam x 16
-\i (02:22:50) roam y -16
-\i (02:22:50) roam x 16
-\i (02:22:50) roam x 16
-\i (02:22:50) roam x 16
-\i (02:22:50) roam y -16
-\i (02:22:50) roam x 16
-\i (02:22:50) roam x 16
-\i (02:22:50) roam x 16
-\i (02:22:50) roam x 16
-\i (02:22:50) roam x 16
-\i (02:22:50) roam x 16
-\i (02:22:50) roam x 16
-\i (02:22:50) roam x 16
-\i (02:22:50) roam x 16
-\i (02:22:50) roam x 16
-\i (02:22:50) roam y 16
-\i (02:22:50) roam x 16
-\i (02:22:50) roam x 32
-\i (02:22:50) roam x 32
-\i (02:22:50) roam x 48
-\i (02:22:50) roam x 64
-\i (02:22:50) roam x 64
-\i (02:22:51) roam x 64
-\i (02:22:51) roam x 48
-\i (02:22:51) roam x 80
-\i (02:22:51) roam x 80
-\i (02:22:51) roam y 16
-\i (02:22:51) roam x 16
-\i (02:22:51) roam x 16
-\i (02:22:51) roam x 16
-\i (02:22:51) roam x 16
-\i (02:22:51) roam x 32
-\i (02:22:51) roam x 16
-\i (02:22:51) roam x 16
-\i (02:22:51) roam x 16
-\i (02:22:51) roam end
-\i (02:22:52) zoom in 1 
-\i (02:22:52) setwindow pcb
-\i (02:22:52) zoom in 52.5475 13.6406
-\i (02:22:52) trapsize 2133
-\i (02:22:54) zoom out 1 
-\i (02:22:54) setwindow pcb
-\i (02:22:54) zoom out 53.4861 8.4787
-\i (02:22:54) trapsize 4266
-\i (02:22:54) zoom in 1 
-\i (02:22:54) setwindow pcb
-\i (02:22:54) zoom in 53.9127 5.7483
-\i (02:22:54) trapsize 2133
-\i (02:22:55) zoom out 1 
-\i (02:22:55) setwindow pcb
-\i (02:22:55) zoom out 53.9554 5.7056
-\i (02:22:55) trapsize 4266
-\i (02:22:55) roam start
-\i (02:22:55) roam y 16
-\i (02:22:55) roam y 16
-\i (02:22:55) roam end
-\i (02:22:56) move 
-\t (02:22:56) Select element(s) to move.
-\i (02:22:56) pick grid 54.3820 11.7635
-\t (02:22:56) last pick:  54.0000 12.0000
-\t (02:22:56) last pick:  53.3500 12.7000
-\t (02:22:56) Pick new location for the element(s).
-\i (02:22:57) pick grid 47.0443 6.5588
-\t (02:22:57) last pick:  47.0000 7.0000
-\i (02:22:57) pick grid 52.5902 2.2927
-\t (02:22:57) last pick:  53.0000 2.0000
-\t (02:22:57) last pick:  53.3500 2.5000
-\t (02:22:57) Pick new location for the element(s).
-\i (02:22:57) pick grid 46.4470 -0.0963
-\t (02:22:57) last pick:  46.0000 0.0000
-\i (02:22:58) roam start
-\i (02:22:58) roam y 16
-\i (02:22:58) roam y 16
-\i (02:22:58) roam y 16
-\i (02:22:58) roam end
-\i (02:22:59) zoom in 1 
-\i (02:22:59) setwindow pcb
-\i (02:22:59) zoom in 54.4673 -12.9800
-\i (02:22:59) trapsize 2133
-\i (02:22:59) zoom in 1 
-\i (02:22:59) setwindow pcb
-\i (02:22:59) zoom in 54.4673 -12.9800
-\i (02:22:59) trapsize 1067
-\i (02:22:59) delete 
-\i (02:22:59) drag_start grid 54.6806 -12.7667
-\i (02:23:00) drag_stop 51.8437 -5.6209
-\i (02:23:00) delete 
-\i (02:23:00) zoom out 1 
-\i (02:23:00) setwindow pcb
-\i (02:23:00) zoom out 51.8437 -5.5783
-\i (02:23:00) trapsize 2133
-\i (02:23:00) zoom out 1 
-\i (02:23:00) setwindow pcb
-\i (02:23:00) zoom out 51.8437 -5.5782
-\i (02:23:00) trapsize 4266
-\i (02:23:00) zoom out 1 
-\i (02:23:00) setwindow pcb
-\i (02:23:00) zoom out 51.8437 -5.5783
-\i (02:23:00) trapsize 8532
-\i (02:23:01) roam start
-\i (02:23:01) roam x -32
-\i (02:23:01) roam x -64
-\i (02:23:01) roam end
-\i (02:23:01) roam start
-\i (02:23:01) roam y -16
-\i (02:23:01) roam y -32
-\i (02:23:01) roam x 16
-\i (02:23:01) roam y -16
-\i (02:23:02) roam y -16
-\i (02:23:02) roam end
-\i (02:23:03) prepopup 23.3675 7.3270
-\i (02:23:03) done 
-\i (02:23:03) generaledit 
-\i (02:23:03) pick grid 23.3675 7.3270
-\t (02:23:03) last pick:  23.0000 7.0000
-\i (02:23:04) roam start
-\i (02:23:04) roam x -16
-\i (02:23:04) roam x -16
-\i (02:23:04) roam y -48
-\i (02:23:04) roam end
-\i (02:23:17) zoom in 1 
-\i (02:23:17) setwindow pcb
-\i (02:23:17) zoom in 53.0597 -1.5466
-\i (02:23:17) trapsize 4266
-\i (02:23:17) zoom in 1 
-\i (02:23:17) setwindow pcb
-\i (02:23:17) zoom in 53.0597 -1.5466
-\i (02:23:17) trapsize 2133
-\i (02:23:18) roam start
-\i (02:23:18) roam x 16
-\i (02:23:18) roam x 16
-\i (02:23:18) roam y -16
-\i (02:23:18) roam y -16
-\i (02:23:19) roam end
-\i (02:23:20) add pin 
-\t (02:23:20) Using 'PC1_05D0_70.pad'.
-\i (02:23:23) setwindow form.mini
-\i (02:23:23) FORM mini pad_browse  
-\i (02:23:38) fillin "Pc2_70D2_00"
-\t (02:23:38) Using 'PC2_70D2_00.pad'.
-\i (02:23:49) FORM mini next_pin_number 2 
-\i (02:23:52) setwindow pcb
-\i (02:23:52) prepopup 54.0834 3.0606
-\i (02:23:55) pop dyn_option_select 'Snap pick to@:@Arc/Circle Center' 
-\t (02:23:55) last pick:  53.3400 2.5400
-\t (02:23:55) Using 'PC2_70D2_00.pad'.
-\i (02:23:56) roam start
-\i (02:23:56) roam y -16
-\i (02:23:56) roam y -32
-\i (02:23:56) roam y -16
-\i (02:23:56) roam y -16
-\i (02:23:56) roam y -16
-\i (02:23:56) roam y -16
-\i (02:23:56) roam y -16
-\i (02:23:56) roam end
-\i (02:23:58) prepopup 54.1260 13.2993
-\i (02:24:01) pop dyn_option_select 'Snap pick to@:@Arc/Circle Center' 
-\t (02:24:01) last pick:  53.3400 12.7000
-\t (02:24:01) Using 'PC2_70D2_00.pad'.
-\i (02:24:02) prepopup 45.5938 12.9153
-\i (02:24:03) done 
-\t (02:24:03) Exiting from Add Pin.
-\i (02:24:03) generaledit 
-\i (02:24:03) pick grid 45.6791 12.9153
-\t (02:24:03) last pick:  46.0000 13.0000
-\i (02:24:04) delete 
-\i (02:24:05) pick grid 47.6415 6.9001
-\t (02:24:05) last pick:  48.0000 7.0000
-\t (02:24:05) Pin "Pc3_65D2_2, 4"
-\i (02:24:05) delete 
-\i (02:24:05) pick grid 46.7883 1.9088
-\t (02:24:05) last pick:  47.0000 2.0000
-\t (02:24:05) Pin "Pc3_65D2_2, 3"
-\i (02:24:05) delete 
-\i (02:24:06) prepopup 46.2764 4.0418
-\i (02:24:11) done 
-\i (02:24:11) done 
-\e (02:24:11) No command active
-\i (02:24:11) done 
-\e (02:24:11) No command active
-\i (02:24:11) done 
-\e (02:24:11) No command active
-\i (02:24:11) generaledit 
-\i (02:24:13) zoom out 1 
-\i (02:24:13) setwindow pcb
-\i (02:24:13) zoom out 53.4861 13.5979
-\i (02:24:13) trapsize 4266
-\i (02:24:13) zoom out 1 
-\i (02:24:13) setwindow pcb
-\i (02:24:13) zoom out 53.3155 11.6355
-\i (02:24:13) trapsize 8532
-\i (02:24:13) roam start
-\i (02:24:13) roam x -16
-\i (02:24:14) roam x -48
-\i (02:24:14) roam end
-\i (02:24:18) zoom in 1 
-\i (02:24:18) setwindow pcb
-\i (02:24:18) zoom in -52.3987 -19.0805
-\i (02:24:18) trapsize 4266
-\i (02:24:18) zoom in 1 
-\i (02:24:18) setwindow pcb
-\i (02:24:18) zoom in -52.3987 -19.0805
-\i (02:24:18) trapsize 2133
-\i (02:24:19) delete 
-\i (02:24:19) pick grid -52.4413 -20.1897
-\t (02:24:19) last pick:  -52.0000 -20.0000
-\t (02:24:19) Pin "Pc3_65D2_2, 9"
-\i (02:24:19) delete 
-\i (02:24:20) pick grid -52.1000 -15.5823
-\t (02:24:20) last pick:  -52.0000 -16.0000
-\t (02:24:20) Pin "Pc3_65D2_2, 8"
-\i (02:24:20) delete 
-\i (02:24:20) zoom out 1 
-\i (02:24:20) setwindow pcb
-\i (02:24:20) zoom out -52.0147 -15.4970
-\i (02:24:20) trapsize 4266
-\i (02:24:20) zoom out 1 
-\i (02:24:20) setwindow pcb
-\i (02:24:20) zoom out -52.0147 -15.4969
-\i (02:24:20) trapsize 8532
-\i (02:24:20) roam start
-\i (02:24:20) roam y -16
-\i (02:24:20) roam y -32
-\i (02:24:20) roam y -16
-\i (02:24:20) roam end
-\i (02:24:21) zoom in 1 
-\i (02:24:21) setwindow pcb
-\i (02:24:21) zoom in -52.0148 -2.9117
-\i (02:24:21) trapsize 4266
-\i (02:24:21) pick grid -52.9534 2.5489
-\t (02:24:21) last pick:  -53.0000 3.0000
-\t (02:24:21) Pin "Pc3_65D2_2, 6"
-\i (02:24:21) delete 
-\i (02:24:22) pick grid -52.1855 8.6922
-\t (02:24:22) last pick:  -52.0000 9.0000
-\t (02:24:22) Pin "Pc3_65D2_2, 5"
-\i (02:24:22) delete 
-\i (02:24:22) roam start
-\i (02:24:22) roam y -16
-\i (02:24:22) roam y -16
-\i (02:24:22) roam y -16
-\i (02:24:23) roam y -16
-\i (02:24:23) roam y -16
-\i (02:24:23) roam y -16
-\i (02:24:23) roam y -16
-\i (02:24:23) roam y -16
-\i (02:24:23) roam y -16
-\i (02:24:23) roam y -16
-\i (02:24:23) roam y -16
-\i (02:24:23) roam y -16
-\i (02:24:23) roam x -16
-\i (02:24:23) roam y -16
-\i (02:24:23) roam y -32
-\i (02:24:23) roam end
-\i (02:24:23) zoom in 1 
-\i (02:24:23) setwindow pcb
-\i (02:24:23) zoom in -52.7402 15.3470
-\i (02:24:23) trapsize 2133
-\i (02:24:24) delete 
-\i (02:24:26) setwindow form.find
-\i (02:24:26) FORM find all_on  
-\i (02:24:28) setwindow pcb
-\i (02:24:28) zoom in 1 
-\i (02:24:28) setwindow pcb
-\i (02:24:28) zoom in -53.6361 12.5314
-\i (02:24:28) trapsize 1067
-\i (02:24:28) zoom in 1 
-\i (02:24:28) setwindow pcb
-\i (02:24:28) zoom in -53.6361 12.5315
-\i (02:24:28) trapsize 533
-\i (02:24:28) pick grid -53.3161 12.4781
-\t (02:24:28) last pick:  -53.0000 12.0000
-\t (02:24:28) Pin "Pc1_05D0_70, A5"
-\i (02:24:29) delete 
-\i (02:24:29) pick grid -55.0652 12.0729
-\t (02:24:29) last pick:  -55.0000 12.0000
-\t (02:24:29) Pin "Pc1_05D0_70, A6"
-\i (02:24:30) delete 
-\i (02:24:30) zoom out 1 
-\i (02:24:30) setwindow pcb
-\i (02:24:30) zoom out -54.7239 12.3395
-\i (02:24:30) trapsize 1067
-\i (02:24:30) drag_start grid -52.1855 14.0886
-\i (02:24:31) drag_stop -56.1744 16.1150
-\i (02:24:31) delete 
-\i (02:24:32) pick grid -53.6787 18.0134
-\t (02:24:32) last pick:  -54.0000 18.0000
-\t (02:24:32) Pin "Pc1_05D0_70, A2"
-\i (02:24:32) delete 
-\i (02:24:32) roam start
-\i (02:24:32) roam y -16
-\i (02:24:32) roam y -16
-\i (02:24:32) roam x -16
-\i (02:24:32) roam y -48
-\i (02:24:32) roam x -16
-\i (02:24:32) roam y -32
-\i (02:24:32) roam y -32
-\i (02:24:32) roam y -16
-\i (02:24:33) roam y -16
-\i (02:24:33) roam end
-\i (02:24:33) pick grid -55.4286 18.0125
-\t (02:24:33) last pick:  -55.0000 18.0000
-\t (02:24:33) Pin "Pc1_05D0_70, A9"
-\i (02:24:33) delete 
-\t (02:24:33) [14:44:34.511000] Periodic Lic check successful
-[14:44:34.511000] Feature usage summary:
-
-\i (02:24:33) pick grid -55.2580 19.9535
-\t (02:24:33) last pick:  -55.0000 20.0000
-\t (02:24:33) Pin "Pc1_05D0_70, A10"
-\i (02:24:34) delete 
-\i (02:24:34) pick grid -53.6582 20.0602
-\t (02:24:34) last pick:  -54.0000 20.0000
-\t (02:24:34) Pin "Pc1_05D0_70, A1"
-\i (02:24:34) delete 
-\i (02:24:34) zoom out 1 
-\i (02:24:34) setwindow pcb
-\i (02:24:34) zoom out -51.9944 19.7829
-\i (02:24:34) trapsize 2133
-\i (02:24:34) zoom out 1 
-\i (02:24:34) setwindow pcb
-\i (02:24:34) zoom out -51.8664 19.3990
-\i (02:24:34) trapsize 4266
-\i (02:24:35) roam start
-\i (02:24:35) roam y 16
-\i (02:24:35) roam x 16
-\i (02:24:35) roam y 48
-\i (02:24:35) roam y 32
-\i (02:24:35) roam y 16
-\i (02:24:35) roam x 16
-\i (02:24:35) roam y 16
-\i (02:24:35) roam y 16
-\i (02:24:35) roam y 16
-\i (02:24:35) roam x 16
-\i (02:24:35) roam y 16
-\i (02:24:35) roam end
-\i (02:24:35) prepopup -41.1364 0.5009
-\i (02:24:36) done 
-\i (02:24:36) generaledit 
-\i (02:24:36) pick grid -41.1364 0.5009
-\t (02:24:36) last pick:  -41.0000 1.0000
-\i (02:24:38) add pin 
-\t (02:24:38) Using 'PC2_70D2_00.pad'.
-\i (02:24:40) setwindow form.mini
-\i (02:24:40) FORM mini pad_browse  
-\i (02:25:01) fillin "menu_cancel"
-\i (02:25:01) setwindow pcb
-\i (02:25:01) pick grid -29.2766 -16.8195
-\t (02:25:01) last pick:  -29.0000 -17.0000
-\t (02:25:01) Using 'PC2_70D2_00.pad'.
-\i (02:25:03) cancel 
-\t (02:25:03) Exiting from Add Pin.
-\i (02:25:03) generaledit 
-\i (02:25:03) cancel 
-\i (02:25:03) generaledit 
-\i (02:25:07) add pin 
-\t (02:25:07) Using 'PC2_70D2_00.pad'.
-\i (02:25:10) setwindow form.mini
-\i (02:25:10) FORM mini pad_browse  
-\w (02:30:25) Save pending
-\i (03:03:19) fillin "menu_cancel"
-\i (03:03:20) setwindow pcb
-\i (03:03:20) prepopup -31.7509 -14.5158
-\i (03:03:21) oops 
-\t (03:03:21) Using 'PC2_70D2_00.pad'.
-\i (03:03:21) prepopup -31.7509 -14.5158
-\i (03:03:22) cancel 
-\t (03:03:22) Exiting from Add Pin.
-\t (03:03:22) Performing autosave...
-\t (03:03:22) Autosave successful
-\i (03:03:22) generaledit 
-\t (03:03:22) [15:23:23.303712] Periodic Lic check successful
-[15:23:23.828000] Feature usage summary:
-
-\i (03:03:23) pick grid -31.7509 -14.4305
-\t (03:03:23) last pick:  -32.0000 -14.0000
-\i (03:03:23) cancel 
-\i (03:03:23) generaledit 
-\i (03:03:23) zoom in 1 
-\i (03:03:23) setwindow pcb
-\i (03:03:23) zoom in -33.5427 -18.1847
-\i (03:03:23) trapsize 2133
-\i (03:03:23) zoom out 1 
-\i (03:03:24) setwindow pcb
-\i (03:03:24) zoom out -33.5427 -18.1847
-\i (03:03:24) trapsize 4266
-\i (03:03:24) undo 
-\i (03:03:24) trapsize 4266
-\i (03:03:24) generaledit 
-\i (03:03:24) undo 
-\i (03:03:24) trapsize 4266
-\i (03:03:24) generaledit 
-\i (03:03:25) undo 
-\i (03:03:25) trapsize 1067
-\i (03:03:25) generaledit 
-\i (03:03:25) undo 
-\i (03:03:25) trapsize 1067
-\i (03:03:25) generaledit 
-\i (03:03:26) undo 
-\i (03:03:26) trapsize 1067
-\i (03:03:26) generaledit 
-\i (03:03:27) undo 
-\i (03:03:27) trapsize 1067
-\i (03:03:27) generaledit 
-\i (03:03:27) undo 
-\i (03:03:27) trapsize 1067
-\i (03:03:27) generaledit 
-\i (03:03:27) undo 
-\i (03:03:27) trapsize 533
-\i (03:03:27) generaledit 
-\i (03:03:28) undo 
-\i (03:03:28) trapsize 533
-\i (03:03:28) generaledit 
-\i (03:03:28) undo 
-\i (03:03:28) trapsize 2133
-\i (03:03:28) generaledit 
-\i (03:03:28) undo 
-\i (03:03:28) generaledit 
-\i (03:03:29) undo 
-\i (03:03:29) generaledit 
-\i (03:03:29) undo 
-\i (03:03:29) generaledit 
-\i (03:03:30) undo 
-\i (03:03:30) generaledit 
-\i (03:03:30) undo 
-\i (03:03:30) generaledit 
-\i (03:03:31) undo 
-\i (03:03:31) generaledit 
-\i (03:03:31) undo 
-\i (03:03:31) generaledit 
-\i (03:03:31) zoom out 1 
-\i (03:03:31) setwindow pcb
-\i (03:03:31) zoom out -46.0851 8.3080
-\i (03:03:31) trapsize 4266
-\i (03:03:31) zoom out 1 
-\i (03:03:31) setwindow pcb
-\i (03:03:31) zoom out -46.0850 8.3079
-\i (03:03:31) trapsize 8532
-\i (03:03:32) zoom in 1 
-\i (03:03:32) setwindow pcb
-\i (03:03:32) zoom in -53.0816 12.9154
-\i (03:03:32) trapsize 4266
-\e (03:03:34) Command not found: e
-\i (03:03:35) delete 
-\i (03:03:37) setwindow form.find
-\i (03:03:37) FORM find all_off  
-\i (03:03:39) FORM find pins YES 
-\i (03:03:39) setwindow pcb
-\i (03:03:39) drag_start grid -28.4234 11.4650
-\i (03:03:40) drag_stop -60.4193 22.3862
-\i (03:03:41) delete 
-\i (03:03:41) prepopup -50.2659 16.8403
-\i (03:03:41) done 
-\i (03:03:41) generaledit 
-\i (03:03:41) pick grid -50.2659 16.8403
-\t (03:03:41) last pick:  -50.0000 17.0000
-\i (03:03:42) zoom out 1 
-\i (03:03:42) setwindow pcb
-\i (03:03:42) zoom out -45.8292 17.4375
-\i (03:03:42) trapsize 8532
-\i (03:03:42) roam start
-\i (03:03:42) roam y 16
-\i (03:03:42) roam y 16
-\i (03:03:42) roam y 32
-\i (03:03:42) roam y 48
-\i (03:03:42) roam end
-\i (03:03:42) zoom in 1 
-\i (03:03:42) setwindow pcb
-\i (03:03:42) zoom in -50.9485 -22.8772
-\i (03:03:42) trapsize 4266
-\i (03:03:43) zoom in 1 
-\i (03:03:43) setwindow pcb
-\i (03:03:43) zoom in -50.9485 -22.8771
-\i (03:03:43) trapsize 2133
-\i (03:03:49) zoom out 1 
-\i (03:03:49) setwindow pcb
-\i (03:03:49) zoom out -30.8551 -23.8583
-\i (03:03:49) trapsize 4266
-\i (03:03:49) zoom out 1 
-\i (03:03:49) setwindow pcb
-\i (03:03:49) zoom out -35.2919 -23.9437
-\i (03:03:49) trapsize 8532
-\i (03:03:49) zoom out 1 
-\i (03:03:49) setwindow pcb
-\i (03:03:49) zoom out -49.7967 -23.9436
-\i (03:03:49) trapsize 17064
-\i (03:03:49) zoom out 1 
-\i (03:03:49) setwindow pcb
-\i (03:03:49) zoom out -99.9662 -20.8721
-\t (03:03:49) Grids are drawn 4.0000, 4.0000 apart for enhanced viewing.
-\i (03:03:49) trapsize 34129
-\i (03:03:49) zoom out 1 
-\i (03:03:49) setwindow pcb
-\i (03:03:49) zoom out -13.3211 -1.0773
-\t (03:03:49) Grids are drawn 8.0000, 8.0000 apart for enhanced viewing.
-\i (03:03:49) trapsize 68258
-\i (03:03:50) zoom in 1 
-\i (03:03:50) setwindow pcb
-\i (03:03:50) zoom in 544.3461 -89.7484
-\t (03:03:50) Grids are drawn 4.0000, 4.0000 apart for enhanced viewing.
-\i (03:03:50) trapsize 34129
-\i (03:03:51) zoom in 1 
-\i (03:03:51) setwindow pcb
-\i (03:03:51) zoom in -70.6362 10.5908
-\t (03:03:51) Grids are drawn 2.0000, 2.0000 apart for enhanced viewing.
-\i (03:03:51) trapsize 17064
-\i (03:03:51) zoom in 1 
-\i (03:03:51) setwindow pcb
-\i (03:03:51) zoom in -70.6362 10.5908
-\i (03:03:51) trapsize 8532
-\i (03:03:51) zoom in 1 
-\i (03:03:51) setwindow pcb
-\i (03:03:51) zoom in -43.8449 -18.5894
-\i (03:03:51) trapsize 4266
-\i (03:03:52) roam start
-\i (03:03:52) roam y 16
-\i (03:03:52) roam x 16
-\i (03:03:52) roam y 16
-\i (03:03:52) roam x 16
-\i (03:03:52) roam y 32
-\i (03:03:52) roam end
-\i (03:07:55) roam start
-\i (03:07:55) roam x 16
-\i (03:07:55) roam y -16
-\i (03:07:55) roam x 16
-\i (03:07:55) roam end
-\i (03:07:58) add pin 
-\t (03:07:58) Using 'PC2_70D2_00.pad'.
-\i (03:08:00) setwindow form.mini
-\i (03:08:00) FORM mini pad_browse  
-\i (03:08:51) fillin "Pc3_50D2_50"
-\t (03:08:52) Using 'PC3_50D2_50.pad'.
-\i (03:08:52) setwindow pcb
-\i (03:08:52) zoom in 1 
-\t (03:08:53) [15:28:53.316712] Periodic Lic check successful
-[15:28:53.841000] Feature usage summary:
-
-\i (03:08:53) setwindow pcb
-\i (03:08:53) zoom in -52.1430 -18.0140
-\i (03:08:53) trapsize 2133
-\i (03:08:55) prepopup -52.4416 -17.5874
-\i (03:08:57) pop dyn_option_select 'Snap pick to@:@Arc/Circle Center' 
-\t (03:08:57) last pick:  -53.3400 -17.7800
-\t (03:08:57) Using 'PC3_50D2_50.pad'.
-\i (03:08:58) prepopup -52.6123 -10.6336
-\i (03:09:00) pop dyn_option_select 'Snap pick to@:@Arc/Circle Center' 
-\t (03:09:00) last pick:  -53.3400 -11.4300
-\t (03:09:00) Using 'PC3_50D2_50.pad'.
-\i (03:09:00) roam start
-\i (03:09:00) roam y -32
-\i (03:09:01) roam y -64
-\i (03:09:01) roam y -160
-\i (03:09:01) roam x 16
-\i (03:09:01) roam y -96
-\i (03:09:01) roam y -96
-\i (03:09:01) roam y -128
-\i (03:09:01) roam y -64
-\i (03:09:01) roam y -16
-\i (03:09:01) roam x 16
-\i (03:09:01) roam y -48
-\i (03:09:01) roam y -48
-\i (03:09:01) roam end
-\i (03:09:02) prepopup -52.5269 11.1236
-\i (03:09:05) pop dyn_option_select 'Snap pick to@:@Arc/Circle Center' 
-\t (03:09:05) last pick:  -53.3400 11.4300
-\t (03:09:05) Using 'PC3_50D2_50.pad'.
-\i (03:09:07) prepopup -52.4843 18.3760
-\i (03:09:09) pop dyn_option_select 'Snap pick to@:@Arc/Circle Center' 
-\t (03:09:09) last pick:  -53.3400 17.7800
-\t (03:09:09) Using 'PC3_50D2_50.pad'.
-\i (03:09:09) prepopup -47.3649 18.3333
-\i (03:09:10) done 
-\t (03:09:10) Exiting from Add Pin.
-\i (03:09:10) generaledit 
-\i (03:09:10) pick grid -44.3787 19.9971
-\t (03:09:10) last pick:  -44.0000 20.0000
-\i (03:09:19) roam start
-\i (03:09:19) roam y -16
-\i (03:09:19) roam x 16
-\i (03:09:19) roam y -64
-\i (03:09:20) roam y -16
-\i (03:09:20) roam x 16
-\i (03:09:20) roam y -16
-\i (03:09:20) roam x 16
-\i (03:09:20) roam y -16
-\i (03:09:20) roam y -16
-\i (03:09:20) roam y -16
-\i (03:09:20) roam end
-\i (03:09:26) add pin 
-\t (03:09:26) Using 'PC3_50D2_50.pad'.
-\i (03:09:29) setwindow form.mini
-\i (03:09:29) FORM mini x_count 8 
-\i (03:09:31) FORM mini x_spacing 2.0000 
-\i (03:09:33) FORM mini increment 2 
-\i (03:09:36) FORM mini x_count 7 
-\i (03:09:39) FORM mini pad_browse  
-\i (03:10:27) fillin "Pc1_4D0_9"
-\t (03:10:27) Using 'PC1_4D0_9.pad'.
-\i (03:10:29) setwindow pcb
-\i (03:10:29) prepopup -46.3837 25.1591
-\i (03:10:35) pop dyn_option_select 'Snap pick to@:@Arc/Circle Center' 
-\t (03:10:35) last pick:  -46.6400 25.4000
-\t (03:10:35) Using 'PC1_4D0_9.pad'.
-\i (03:10:39) setwindow form.mini
-\i (03:10:39) FORM mini next_pin_number 9 
-\i (03:10:42) setwindow pcb
-\i (03:10:42) prepopup -46.2130 27.8468
-\i (03:10:44) pop dyn_option_select 'Snap pick to@:@Arc/Circle Center' 
-\t (03:10:44) last pick:  -46.6400 27.4000
-\t (03:10:44) Using 'PC1_4D0_9.pad'.
-\i (03:10:45) prepopup -45.7864 29.3399
-\i (03:10:45) done 
-\t (03:10:45) Exiting from Add Pin.
-\i (03:10:45) generaledit 
-\i (03:10:46) pick grid -45.7011 29.5532
-\t (03:10:46) last pick:  -46.0000 30.0000
-\i (03:10:46) zoom out 1 
-\i (03:10:46) setwindow pcb
-\i (03:10:46) zoom out -45.0185 30.0225
-\i (03:10:46) trapsize 4266
-\i (03:10:46) zoom out 1 
-\i (03:10:46) setwindow pcb
-\i (03:10:46) zoom out -44.7625 30.3637
-\i (03:10:46) trapsize 8532
-\i (03:10:47) roam start
-\i (03:10:47) roam x 80
-\i (03:10:47) roam y 32
-\i (03:10:47) roam x 128
-\i (03:10:47) roam y 32
-\i (03:10:47) roam x 16
-\i (03:10:47) roam end
-\i (03:10:48) save 
-\i (03:10:49) fillin yes 
-\t (03:10:52) Symbol 'epf800r48s070npdi.psm' created.
-\i (03:10:52) generaledit 
-\i (03:10:59) 3d 
-\i (03:11:07) generaledit 
-\i (03:11:09) QtSignal pcb3d_MapperTab RotationX editingFinished "90.000"
-\i (03:11:09) QtSignal pcb3d_MapperTab Delete_STEP clicked
-\i (03:11:12) QtSignal pcb3dViewer pcb3dViewer closed
-\i (03:11:14) pick grid 78.3152 -32.9452
-\t (03:11:14) last pick:  78.0000 -33.0000
-\i (03:11:14) save 
-\i (03:11:15) fillin yes 
-\t (03:11:18) Symbol 'epf800r48s070npdi.psm' created.
-\i (03:11:18) generaledit 
-\i (03:11:20) roam start
-\i (03:11:20) roam y 16
-\i (03:11:20) roam y 16
-\i (03:11:20) roam y -16
-\i (03:11:21) roam y -16
-\i (03:11:21) roam y -16
-\i (03:11:21) roam end
-\i (03:11:28) zoom in 1 
-\i (03:11:28) setwindow pcb
-\i (03:11:28) zoom in -31.9214 26.2685
-\i (03:11:28) trapsize 4266
-\i (03:11:28) zoom in 1 
-\i (03:11:28) setwindow pcb
-\i (03:11:28) zoom in -37.9792 26.0125
-\i (03:11:28) trapsize 2133
-\i (03:11:29) zoom in 1 
-\i (03:11:29) setwindow pcb
-\i (03:11:29) zoom in -40.4962 26.3965
-\i (03:11:29) trapsize 1067
-\i (03:11:29) roam start
-\i (03:11:29) roam x -32
-\i (03:11:29) roam x -272
-\i (03:11:29) roam y -32
-\i (03:11:30) roam x -32
-\i (03:11:30) roam y -16
-\i (03:11:30) roam x -16
-\i (03:11:30) roam x -16
-\i (03:11:30) roam y -16
-\i (03:11:30) roam end
-\i (03:11:30) zoom in 1 
-\i (03:11:30) setwindow pcb
-\i (03:11:30) zoom in -46.8537 25.7555
-\i (03:11:30) trapsize 533
-\i (03:11:33) zoom out 1 
-\i (03:11:33) setwindow pcb
-\i (03:11:33) zoom out -44.9126 26.1608
-\i (03:11:33) trapsize 1067
-\i (03:11:34) roam start
-\i (03:11:34) roam x 16
-\i (03:11:34) roam x 368
-\i (03:11:34) roam y 16
-\i (03:11:34) roam end
-\i (03:11:40) zoom out 1 
-\i (03:11:40) setwindow pcb
-\i (03:11:40) zoom out -33.5862 26.9926
-\i (03:11:40) trapsize 2133
-\i (03:11:40) zoom out 1 
-\i (03:11:40) setwindow pcb
-\i (03:11:40) zoom out -33.5861 26.9927
-\i (03:11:40) trapsize 4266
-\i (03:11:49) roam start
-\i (03:11:49) roam x 16
-\i (03:11:49) roam x 160
-\i (03:11:49) roam y 32
-\i (03:11:49) roam x 32
-\i (03:11:49) roam x 16
-\i (03:11:49) roam x 32
-\i (03:11:49) roam x 16
-\i (03:11:49) roam x 16
-\i (03:11:49) roam x 80
-\i (03:11:49) roam y 16
-\i (03:11:49) roam x 64
-\i (03:11:49) roam x 16
-\i (03:11:49) roam x 16
-\i (03:11:49) roam x 16
-\i (03:11:49) roam x 16
-\i (03:11:49) roam x 32
-\i (03:11:49) roam y 16
-\i (03:11:49) roam x 64
-\i (03:11:49) roam y 16
-\i (03:11:50) roam end
-\i (03:11:50) zoom in 1 
-\i (03:11:50) setwindow pcb
-\i (03:11:50) zoom in 68.9295 2.1221
-\i (03:11:50) trapsize 2133
-\i (03:11:51) zoom in 1 
-\i (03:11:51) setwindow pcb
-\i (03:11:51) zoom in 56.4298 2.1221
-\i (03:11:51) trapsize 1067
-\i (03:11:51) zoom out 1 
-\i (03:11:51) setwindow pcb
-\i (03:11:51) zoom out 55.7899 2.4635
-\i (03:11:51) trapsize 2133
-\i (03:11:51) zoom out 1 
-\i (03:11:51) setwindow pcb
-\i (03:11:51) zoom out 55.7899 2.4634
-\i (03:11:51) trapsize 4266
-\i (03:11:52) zoom in 1 
-\i (03:11:52) setwindow pcb
-\i (03:11:52) zoom in 55.5340 19.1866
-\i (03:11:52) trapsize 2133
-\i (03:11:52) zoom in 1 
-\i (03:11:52) setwindow pcb
-\i (03:11:52) zoom in 54.5102 11.3796
-\i (03:11:52) trapsize 1067
-\i (03:11:53) zoom out 1 
-\i (03:11:53) setwindow pcb
-\i (03:11:53) zoom out 53.4223 13.1927
-\i (03:11:53) trapsize 2133
-\i (03:11:53) zoom out 1 
-\i (03:11:53) setwindow pcb
-\i (03:11:53) zoom out 53.4224 13.1928
-\i (03:11:53) trapsize 4266
-\i (03:11:53) zoom out 1 
-\i (03:11:53) setwindow pcb
-\i (03:11:53) zoom out 53.4223 13.1928
-\i (03:11:53) trapsize 8532
-\i (03:11:55) zoom in 1 
-\i (03:11:55) setwindow pcb
-\i (03:11:55) zoom in -50.6710 -16.4993
-\i (03:11:55) trapsize 4266
-\i (03:11:55) zoom in 1 
-\i (03:11:55) setwindow pcb
-\i (03:11:55) zoom in -50.6710 -16.4992
-\i (03:11:55) trapsize 2133
-\i (03:11:56) zoom out 1 
-\i (03:11:56) setwindow pcb
-\i (03:11:56) zoom out -51.6522 -11.5932
-\i (03:11:56) trapsize 4266
-\i (03:11:56) roam start
-\i (03:11:56) roam y -16
-\i (03:11:56) roam y -32
-\i (03:11:57) roam end
-\i (03:11:57) zoom in 1 
-\i (03:11:57) setwindow pcb
-\i (03:11:57) zoom in -52.5053 12.8727
-\i (03:11:57) trapsize 2133
-\i (03:11:58) roam start
-\i (03:11:58) roam y -16
-\i (03:11:58) roam y -32
-\i (03:11:58) roam y -16
-\i (03:11:58) roam y -16
-\i (03:11:58) roam y -16
-\i (03:11:58) roam y -16
-\i (03:11:58) roam end
-\i (03:12:03) zoom out 1 
-\i (03:12:03) setwindow pcb
-\i (03:12:03) zoom out -37.1899 6.3882
-\i (03:12:03) trapsize 4266
-\i (03:12:03) zoom out 1 
-\i (03:12:03) setwindow pcb
-\i (03:12:03) zoom out -37.1899 6.3882
-\i (03:12:03) trapsize 8532
-\i (03:12:04) roam start
-\i (03:12:04) roam x 16
-\i (03:12:04) roam x 160
-\i (03:12:04) roam y 32
-\i (03:12:04) roam x 32
-\i (03:12:04) roam y 16
-\i (03:12:04) roam y 16
-\i (03:12:04) roam x 32
-\i (03:12:04) roam x 16
-\i (03:12:04) roam y 16
-\i (03:12:04) roam end
-\i (03:12:04) save 
-\i (03:12:05) fillin yes 
-\t (03:12:08) Symbol 'epf800r48s070npdi.psm' created.
-\i (03:12:08) generaledit 
-\i (03:12:12) exit 
-\t (03:12:12) Lic Summary:
-[15:32:13.122000] Cdslmd servers:
-[15:32:13.122000] Feature usage summary:
-
-\t (03:12:12)     Journal end - Tue Dec 16 15:32:13 2025
+\t (00:08:39)     Journal end - Mon Dec 29 18:03:25 2025

@@ -50,46 +50,47 @@ NOTE: Replacing illegal character $ with X in A$Cefbfcc89.
 NOTE: Replacing illegal character $ with X in A$Cc1a6b484.
 NOTE: Replacing illegal character $ with X in A$Cdac433b9.
 NOTE: Replacing illegal character $ with X in A$Cb6e87de0.
+NOTE: Replacing illegal character $ with X in A$C51f49635.
 done.
-NOTE: Ignoring unsupported element MTEXT on line 30146.
-NOTE: Ignoring unsupported element MTEXT on line 30710.
-NOTE: Ignoring unsupported element MTEXT on line 30890.
-NOTE: Ignoring unsupported element MTEXT on line 30974.
-NOTE: Ignoring unsupported element MTEXT on line 31058.
-NOTE: Ignoring unsupported element MTEXT on line 31142.
-NOTE: Ignoring unsupported element MTEXT on line 31226.
-NOTE: Ignoring unsupported element MTEXT on line 31310.
-NOTE: Ignoring unsupported element MTEXT on line 31514.
-NOTE: Ignoring unsupported element MTEXT on line 31598.
-NOTE: Ignoring unsupported element MTEXT on line 31682.
-NOTE: Ignoring unsupported element MTEXT on line 31766.
-NOTE: Ignoring unsupported element MTEXT on line 31850.
-NOTE: Ignoring unsupported element MTEXT on line 32558.
-NOTE: Ignoring unsupported element HATCH on line 40774.
-NOTE: Ignoring unsupported element MTEXT on line 41900.
-NOTE: Ignoring unsupported element MTEXT on line 41952.
-NOTE: Ignoring unsupported element MTEXT on line 42004.
-NOTE: Ignoring unsupported element MTEXT on line 42056.
-NOTE: Ignoring unsupported element HATCH on line 42342.
-NOTE: Ignoring unsupported element HATCH on line 42884.
-NOTE: Ignoring unsupported element MTEXT on line 44128.
-NOTE: Ignoring unsupported element MTEXT on line 44180.
-NOTE: Ignoring unsupported element MTEXT on line 44232.
-NOTE: Ignoring unsupported element MTEXT on line 44284.
-NOTE: Ignoring unsupported element HATCH on line 44362.
-NOTE: Ignoring unsupported element HATCH on line 45120.
-NOTE: Ignoring unsupported element HATCH on line 46504.
-NOTE: Ignoring unsupported element HATCH on line 49312.
-NOTE: Ignoring unsupported element HATCH on line 49462.
-NOTE: Ignoring unsupported element HATCH on line 49612.
-NOTE: Ignoring unsupported element HATCH on line 49762.
-NOTE: Ignoring unsupported element MTEXT on line 61332.
-NOTE: Ignoring unsupported element MTEXT on line 61986.
-NOTE: Ignoring unsupported element VIEWPORT on line 68620.
-NOTE: Ignoring unsupported element VIEWPORT on line 68728.
+NOTE: Ignoring unsupported element MTEXT on line 30288.
+NOTE: Ignoring unsupported element MTEXT on line 30852.
+NOTE: Ignoring unsupported element MTEXT on line 31032.
+NOTE: Ignoring unsupported element MTEXT on line 31116.
+NOTE: Ignoring unsupported element MTEXT on line 31200.
+NOTE: Ignoring unsupported element MTEXT on line 31284.
+NOTE: Ignoring unsupported element MTEXT on line 31368.
+NOTE: Ignoring unsupported element MTEXT on line 31452.
+NOTE: Ignoring unsupported element MTEXT on line 31656.
+NOTE: Ignoring unsupported element MTEXT on line 31740.
+NOTE: Ignoring unsupported element MTEXT on line 31824.
+NOTE: Ignoring unsupported element MTEXT on line 31908.
+NOTE: Ignoring unsupported element MTEXT on line 31992.
+NOTE: Ignoring unsupported element MTEXT on line 32700.
+NOTE: Ignoring unsupported element HATCH on line 40916.
+NOTE: Ignoring unsupported element MTEXT on line 42042.
+NOTE: Ignoring unsupported element MTEXT on line 42094.
+NOTE: Ignoring unsupported element MTEXT on line 42146.
+NOTE: Ignoring unsupported element MTEXT on line 42198.
+NOTE: Ignoring unsupported element HATCH on line 42484.
+NOTE: Ignoring unsupported element HATCH on line 43026.
+NOTE: Ignoring unsupported element MTEXT on line 44270.
+NOTE: Ignoring unsupported element MTEXT on line 44322.
+NOTE: Ignoring unsupported element MTEXT on line 44374.
+NOTE: Ignoring unsupported element MTEXT on line 44426.
+NOTE: Ignoring unsupported element HATCH on line 44504.
+NOTE: Ignoring unsupported element HATCH on line 45262.
+NOTE: Ignoring unsupported element HATCH on line 46646.
+NOTE: Ignoring unsupported element HATCH on line 49454.
+NOTE: Ignoring unsupported element HATCH on line 49604.
+NOTE: Ignoring unsupported element HATCH on line 49754.
+NOTE: Ignoring unsupported element HATCH on line 49904.
+NOTE: Ignoring unsupported element MTEXT on line 61474.
+NOTE: Ignoring unsupported element MTEXT on line 62128.
+NOTE: Ignoring unsupported element VIEWPORT on line 68922.
+NOTE: Ignoring unsupported element VIEWPORT on line 69030.
 Layer conversion file: C:/myFile/AllegroLibrary/cad/CAD_Standard_l.cnv
 DXF file: C:/myFile/AllegroLibrary/cad/CAD_Standard.dxf
-BRD file: C:/myFile/AllegroLibrary/A_Library/#Taaaaaf12148.dra
+BRD file: C:/myFile/AllegroLibrary/A_Library/#Taaaaah20896.dra
 Update existing design?: YES
 Use default text?: NO
 DXF units: MILLIMETERS
