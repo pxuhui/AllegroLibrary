@@ -17,7 +17,8 @@
     (FileView
       (Path "Design Resources")
       (Path "Design Resources" ".\power.olb")
-      (Path "PSpice Resources"))
+      (Path "PSpice Resources")
+      (Select "Design Resources" ".\power.olb" "SPX3819M5-L-3-3/TR"))
     (HierarchyView)
     (Doc
       (Type "COrCapturePMDoc")

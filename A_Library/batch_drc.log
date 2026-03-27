@@ -2,9 +2,9 @@
 (                                                                     )
 (    DRC Update                                                       )
 (                                                                     )
-(    Drawing          : MTG400-600.dra                                )
+(    Drawing          : TYPE-C-24P-QCHT.dra                           )
 (    Software Version : 24.1P001                                      )
-(    Date/Time        : Thu Dec 11 16:52:38 2025                      )
+(    Date/Time        : Fri Jan 23 17:15:31 2026                      )
 (                                                                     )
 (---------------------------------------------------------------------)
 
@@ -20,7 +20,7 @@
  ========= check standalone text              0:00:00
  ========= check standalone rectangles        0:00:00
 
- ..... Total number of DRC errors  0
+ ..... Total number of DRC errors  4
 
  ..... DRC update completed, total CPU time   0:00:00
  *************************************************************************

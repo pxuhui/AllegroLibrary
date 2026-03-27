@@ -2,19 +2,19 @@
 (                                                                     )
 (    Refresh Padstack                                                 )
 (                                                                     )
-(    Drawing          : TF-01A.dra                                    )
+(    Drawing          : DO-214AC.dra                                  )
 (    Software Version : 24.1P001                                      )
-(    Date/Time        : Wed Jul 23 14:33:59 2025                      )
+(    Date/Time        : Tue Mar 24 14:15:14 2026                      )
 (                                                                     )
 (---------------------------------------------------------------------)
 
 
-Wed Jul 23 14:33:59 2025				Page     1
+Tue Mar 24 14:15:14 2026				Page     1
 
 
 ------ Pad Stack Refresh Options ------
 
-Input design  = 'C:/myFile/AllegroLibrary/A_Library/TF-01A.dra'
+Input design  = 'C:/myFile/AllegroLibrary/A_Library/DO-214AC.dra'
 Output design = ''
 Reset symbol text and size locations   = 'NO'
 
@@ -27,28 +27,10 @@ PADPATH =  C:/myFile/AllegroLibrary/A_Library
 
 ------ Pad Stack Refresh Messages ------
 
-'MC1_00'  pad stack refresh starting.
+'REW2_17H1_60'  pad stack refresh starting.
 
-     'MC1_00'  pad stack refreshed successfully.
+     'REW2_17H1_60'  pad stack refreshed successfully.
      
-'REW1_2H2_0'  pad stack refresh starting.
+WARNING(SPMHNI-253): Unable to find pad stack, 'RX2_17Y1_60T', in directory search path.
 
-     'REW1_2H2_0'  pad stack refreshed successfully.
-     
-'REW1_2H1_4'  pad stack refresh starting.
-
-     'REW1_2H1_4'  pad stack refreshed successfully.
-     
-'REW0_7H1_3'  pad stack refresh starting.
-
-     'REW0_7H1_3'  pad stack refreshed successfully.
-     
-'REW5_30H6_45'  pad stack refresh starting.
-
-     'REW5_30H6_45'  pad stack refreshed successfully.
-     
-'MC1_60'  pad stack refresh starting.
-
-     'MC1_60'  pad stack refreshed successfully.
-     
-Completed refreshing all pad stacks successfully.
+WARNING(SPMHNI-286): Completed refreshing all pad stacks successfully. Warnings detected.

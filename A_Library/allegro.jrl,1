@@ -1,990 +1,588 @@
-\t (00:00:02) allegro 24.1 P001 (4234998) [9/4/2024] Windows SPB 64-bit Edition
-\t (00:00:02)     Journal start - Mon Dec 29 17:54:48 2025
-\t (00:00:02)         Host=X User=pxuhu Pid=23800 CPUs=12
-\t (00:00:02) CmdLine= c:\cadence\spb_24.1\tools\bin\allegro.exe C:\myFile\AllegroLibrary\A_Library\QR8.dra
-\t (00:00:02) 
-\t (00:00:02) Loading axlcore.cxt 
-\e (00:00:02) *Error* axlOSSlash: argument #1 should be a string (type template = "t") - nil
-\t (00:00:02) function CutCancel redefined
-\t (00:00:02) function CutDone redefined
-\t (00:00:02) function CutOops redefined
-\t (00:00:02) function ReplaceWithOldSeg redefined
-\t (00:00:02) function ResetBox redefined
-\t (00:00:02) function FindPointsInBox redefined
-\t (00:00:02) function IsPointInBox redefined
-\t (00:00:02) function Distance redefined
-\t (00:00:02) function CloseEndPoint redefined
-\t (00:00:02) function Is45DegreeLine redefined
-\t (00:00:02) function IsSameLine redefined
-\t (00:00:02) function ChangeAcc redefined
-\t (00:00:02) function Greeting redefined
-\t (00:00:02) function place_sym redefined
-\e (00:00:02) *Error* procedure: illegal formal list - kkkkl
-\e (00:00:02) *Error* load: error while loading file - "pad_connect_modifier.il" at line 69
-\w (00:00:02) *WARNING* defstruct: Redefining Structure struOblTh.
-\t (00:00:03) function quick_danglings redefined
-\t (00:00:03) function ps_DanglingForm_action redefined
-\t (00:00:03) function ps_ddoCheck redefined
-\t (00:00:03) function _INEStartCallBk redefined
-\t (00:00:03) function Auto_Balance redefined
-\t (00:00:03) function Balancing_Form_Action redefined
-\t (00:00:03) function Balancing_Adder redefined
-\t (00:00:03) function Balancing_Del redefined
-\t (00:00:03) function check_text_overlap redefined
-\t (00:00:03) function biuld_form redefined
-\t (00:00:03) function pform_Action redefined
-\t (00:00:03) function refdes_on_pad redefined
-\t (00:00:03) function barcode_overlap_atom redefined
-\t (00:00:03) function refdes_overlap_component redefined
-\t (00:00:03) function text_overlap_text redefined
-\t (00:00:03) function text_on_pad redefined
-\t (00:00:03) function text_on_testpoints redefined
-\t (00:00:03) function get_bar_code_box redefined
-\t (00:00:03) function getbox redefined
-\t (00:00:03) function text_on_text redefined
-\t (00:00:03) function unselect_object redefined
-\t (00:00:03) function turn_on_layer redefined
-\t (00:00:03) function init_loc_text redefined
-\t (00:00:03) function add_loc_text redefined
-\t (00:00:03) function location_text redefined
-\t (00:00:03) function location_prv redefined
-\t (00:00:03) function colorset redefined
-\t (00:00:03) function CreateOblThForm redefined
-\t (00:00:03) function CheckCOTValue redefined
-\t (00:00:03) function make_struOblTh redefined
-\t (00:00:03) function copy_struOblTh redefined
-\t (00:00:03) function CreateOblongThermal redefined
-\t (00:00:03) function OblThCallback redefined
-\t (00:00:03) function andylu redefined
-\t (00:00:03) function CreateForm redefined
-\t (00:00:03) function check_subclass_flag redefined
-\t (00:00:03) function check_flag redefined
-\t (00:00:03) function function_init redefined
-\t (00:00:03) function Form_Action redefined
-\t (00:00:03) function subdist_check_bianma_on redefined
-\t (00:00:03) function subdist_check_standard_list_on redefined
-\t (00:00:03) function subdist_check_mark_function redefined
-\t (00:00:03) function subdist_module_check_function redefined
-\t (00:00:03) function subdist_Delete_object redefined
-\t (00:00:03) function testing_unselect_object redefined
-\t (00:00:03) function check_testing_PCB_output redefined
-\t (00:00:03) function main_check_show redefined
-\t (00:00:03) function testing_bianma_check redefined
-\t (00:00:03) function select_layer_flag_check redefined
-\t (00:00:03) function testing_text_check redefined
-\t (00:00:03) function testing_justice_list redefined
-\t (00:00:03) function testing_Mech_check redefined
-\t (00:00:03) function testingfind_getmax_min redefined
-\t (00:00:03) function check_board_height_extract redefined
-\t (00:00:03) function check_height_extract redefined
-\t (00:00:03) function check_print_height redefined
-\t (00:00:03) function testing_Creat_layer redefined
-\t (00:00:03) function testing_Allcolor_set redefined
-\t (00:00:03) function testing_turn_on_layer redefined
-\t (00:00:03) function testing_Delline redefined
-\t (00:00:03) function testing_HilElement redefined
-\t (00:00:03) function testing_Hilight_box redefined
-\t (00:00:03) function testing_calc_lt_symbol_range redefined
-\t (00:00:03) function testing_line_symbolslist_calc redefined
-\t (00:00:03) function calc_lt_symbol_selct_all redefined
-\t (00:00:03) function testing_HilElement_line redefined
-\t (00:00:03) function testing_line_symbolslist redefined
-\t (00:00:03) function testing_line_symbols_high redefined
-\t (00:00:03) function testing_text_lt_symbolsall redefined
-\t (00:00:03) function testing_LostRef redefined
-\t (00:00:03) function testing_LostPinName redefined
-\t (00:00:03) function testing_Refdes_Direction redefined
-\t (00:00:03) function testing_DeHLSymNetsPins redefined
-\t (00:00:03) function testing_Refdes_same redefined
-\t (00:00:03) function check_text_over_item redefined
-\t (00:00:03) function testing_text_on_pad redefined
-\t (00:00:03) function testing_text_on_testpoints redefined
-\t (00:00:03) function testing_text_on_shape redefined
-\t (00:00:03) function testing_text_overlap_text redefined
-\t (00:00:03) function testing_text_on_text redefined
-\t (00:00:03) function testing_text_overlap_line redefined
-\t (00:00:03) function testing_text_on_Via redefined
-\t (00:00:03) function testing_check_line_on_pad redefined
-\t (00:00:03) function testing_check_text_inside_comp redefined
-\t (00:00:03) function testing_check_text_in_comp redefined
-\t (00:00:03) function testing_getbox redefined
-\t (00:00:03) function subdist_checkitem_to_symbols redefined
-\t (00:00:03) function subdist_check_mount_hole redefined
-\t (00:00:03) function subdist_check_distance_on_mount redefined
-\t (00:00:03) function subdist_check_distance_on_pin redefined
-\t (00:00:03) function subdist_get_airgapbox redefined
-\t (00:00:03) function subdist_get_clearance redefined
-\t (00:00:03) function subdist_get_clearancesmall redefined
-\t (00:00:03) function subdist_justice_components redefined
-\t (00:00:03) function subdist_send_getbox_ver redefined
-\t (00:00:03) function subdist_send_getbox_hor redefined
-\t (00:00:03) function subdist_justice_send_border redefined
-\t (00:00:03) function subdist_check_send_border redefined
-\t (00:00:03) function drawing_outline_5mm_3r5mm redefined
-\t (00:00:03) function yihan_length_width redefined
-\t (00:00:03) function yihan_getbox_xy redefined
-\t (00:00:03) function yihan_dispayer_num redefined
-\t (00:00:03) function subdist_justice_cap redefined
-\t (00:00:03) function subdist_send15mm_getbox_ver redefined
-\t (00:00:03) function subdist_send15mm_getbox_hor redefined
-\t (00:00:03) function subdist_getbox_xy redefined
-\t (00:00:03) function subdist_check_pressfit redefined
-\t (00:00:03) function subdist_check_BGA_range redefined
-\t (00:00:03) function testing_check_pin_range redefined
-\t (00:00:03) function subdist_check_via_on_pad redefined
-\t (00:00:03) function subdist_check_thermal_on_pad redefined
-\t (00:00:03) function subdist_BGAgetbox redefined
-\t (00:00:03) function subdist_getbox redefined
-\t (00:00:03) function subdist_pin12_getbox redefined
-\t (00:00:03) function select_layer_flag_fill_list redefined
-\t (00:00:03) function testing_single_fill redefined
-\t (00:00:03) function creat_line_dem redefined
-\t (00:00:03) function testing_diff_fill redefined
-\t (00:00:03) function testing_getbox_diff redefined
-\t (00:00:03) function testing_oil_fill redefined
-\t (00:00:03) function testing_output_DXF_layer redefined
-\t (00:00:03) function testing_search_vias_hilight redefined
-\t (00:00:03) function testing_search_vias_list redefined
-\t (00:00:03) function testing_move_function redefined
-\t (00:00:03) function subrot_move_center redefined
-\t (00:00:03) function subrot_AlignText_cancel redefined
-\t (00:00:03) function subrot_AlignText_done redefined
-\t (00:00:03) function subrot_AlignText_move redefined
-\t (00:00:03) function sub_rotateref redefined
-\t (00:00:03) function sub_GetRefIDComDir redefined
-\t (00:00:03) function sub_RotateTopRef redefined
-\t (00:00:03) function sub_RotateBtmRef redefined
-\t (00:00:03) function generate_techfile redefined
-\t (00:00:03) function shape_offset_drawing redefined
-\t (00:00:03) function andylu_BuildShapePath redefined
-\t (00:00:03) function andylu_AddShape redefined
-\t (00:00:03) function testing_check_testpoints_ruler redefined
-\t (00:00:03) function testing_check_status_ruler redefined
-\t (00:00:03) function uc_shape redefined
-\t (00:00:03) function x_get_sym_bbox redefined
-\t (00:00:03) function _saveSelSet redefined
-\t (00:00:03) function _restoreSelSet redefined
-\t (00:00:03) function findAllOfType redefined
-\t (00:00:03) function ashFindAllClines redefined
-\t (00:00:03) function ashFindAllClinesegs redefined
-\t (00:00:03) function x_CmpPg redefined
-\t (00:00:03) function x_CmpPgUseLimitTimes redefined
-\t (00:00:03) function x_FormInitialization redefined
-\t (00:00:03) function x_GreateFormCmpPg redefined
-\t (00:00:03) function x_CmpPgFormAction redefined
-\t (00:00:03) function x_CmpPgSet redefined
-\t (00:00:03) function x_SetCmpPgDispaly redefined
-\t (00:00:03) function x_ACmpPgInfo redefined
-\t (00:00:03) function x_AutoPlmCmp redefined
-\t (00:00:03) function x_AllPlm1 redefined
-\t (00:00:03) function x_AllPlm2 redefined
-\t (00:00:03) function x_AllPlm3 redefined
-\t (00:00:03) function x_AllPlm12 redefined
-\t (00:00:03) function x_CmpPgPlmCmp redefined
-\t (00:00:03) function x_SglPlm redefined
-\t (00:00:03) function x_SglPlmCmp redefined
-\t (00:00:03) function x_SymToCursor redefined
-\t (00:00:03) function x_Stoppage redefined
-\t (00:00:03) function x_CmpPgLstDHilt redefined
-\t (00:00:03) function x_CmpPgLstHilt redefined
-\t (00:00:03) function x_CmpPgLstDehilt redefined
-\t (00:00:03) function x_CmpPgLstDlt redefined
-\t (00:00:03) function x_CmpPgLstDltAll redefined
-\t (00:00:03) function x_CmpPgLstDltAGrp redefined
-\t (00:00:03) function x_CmpPgLstDltAllGrp redefined
-\t (00:00:03) function x_MvOldCmp redefined
-\t (00:00:03) function x_MvFixCmp redefined
-\t (00:00:03) function x_GrtGrp redefined
-\t (00:00:03) function x_DelOldGrpName redefined
-\t (00:00:03) function x_ExitSkill redefined
-\t (00:00:03) function x_CmpPgInfo redefined
-\t (00:00:03) function conv redefined
-\t (00:00:03) function convertform redefined
-\t (00:00:03) function createconvform redefined
-\t (00:00:03) function Conv_Action redefined
-\t (00:00:03) function hl_null_pin redefined
-\t (00:00:03) function hlvia redefined
-\t (00:00:03) function mark redefined
-\t (00:00:03) function delmark redefined
-\t (00:00:03) function Check_Refdes_Direction redefined
-\t (00:00:03) function Check_No_Refdes redefined
-\t (00:00:03) function _saveSelSet redefined
-\t (00:00:03) function _restoreSelSet redefined
-\t (00:00:03) function Form_Action redefined
-\t (00:00:03) function _saveSelSet redefined
-\t (00:00:03) function _restoreSelSet redefined
-\t (00:00:03) function findAllOfType redefined
-\t (00:00:03) function skillFindAll redefined
-\t (00:00:03) function ashFindAllPins redefined
-\t (00:00:03) function ashFindAllVias redefined
-\t (00:00:03) function ashFindAllClines redefined
-\t (00:00:03) function ashFindAllClinesegs redefined
-\t (00:00:03) function ashFindAllLines redefined
-\t (00:00:03) function ashFindAllLinesegs redefined
-\t (00:00:03) function ashFindAllDrcs redefined
-\t (00:00:03) function ashFindAllText redefined
-\t (00:00:03) function ashFindAllShapes redefined
-\t (00:00:03) function ashFindAllShapesegs redefined
-\t (00:00:03) function ashFindAllVoids redefined
-\t (00:00:03) function ashFindAllVoidsegs redefined
-\t (00:00:03) function ashFindAllSymbols redefined
-\t (00:00:03) function ashFindAllComponents redefined
-\t (00:00:03) function ashFindAllNets redefined
-\t (00:00:03) function ashFindAllFigures redefined
-\t (00:00:03) function CreateForm redefined
-\t (00:00:03) function x_get_sym_bbox redefined
-\t (00:00:03) function tbat redefined
-\t (00:00:03) function wr_cds2f redefined
-\t (00:00:03) function mycds2f redefined
-\t (00:00:03) function checkWidth redefined
-\t (00:00:03) function lcb_changewidth redefined
-\t (00:00:03) function changewidth_Form_Action redefined
-\t (00:00:03) function LCB_changeWidth redefined
-\t (00:00:03) function LCB_getwidth redefined
-\t (00:00:03) function LCB_formupdate redefined
-\t (00:00:03) function LCB_getlayers redefined
-\t (00:00:03) function _createForm_changewidth redefined
-\t (00:00:03) function cwidth_info_createInfo redefined
-\t (00:00:03) function _saveSelSet redefined
-\t (00:00:03) function _restoreSelSet redefined
-\t (00:00:03) function findAllOfType redefined
-\t (00:00:03) function skillFindAll redefined
-\t (00:00:03) function ashFindAllPins redefined
-\t (00:00:03) function ashFindAllVias redefined
-\t (00:00:03) function ashFindAllClines redefined
-\t (00:00:03) function ashFindAllClinesegs redefined
-\t (00:00:03) function ashFindAllLines redefined
-\t (00:00:03) function ashFindAllLinesegs redefined
-\t (00:00:03) function ashFindAllDrcs redefined
-\t (00:00:03) function ashFindAllText redefined
-\t (00:00:03) function ashFindAllShapes redefined
-\t (00:00:03) function ashFindAllShapesegs redefined
-\t (00:00:03) function ashFindAllVoids redefined
-\t (00:00:03) function ashFindAllVoidsegs redefined
-\t (00:00:03) function ashFindAllSymbols redefined
-\t (00:00:03) function ashFindAllComponents redefined
-\t (00:00:03) function ashFindAllNets redefined
-\t (00:00:03) function ashFindAllFigures redefined
-\t (00:00:03) function rbg_dp_report redefined
-\t (00:00:03) function LCB_list_ratt redefined
-\t (00:00:03) function _INEStart redefined
-\t (00:00:03) function _INEStartForm redefined
-\t (00:00:03) function _INEStartCallBk redefined
-\t (00:00:03) function _INEPackCallBack redefined
-\t (00:00:03) function _INEPopUpAddNet redefined
-\t (00:00:03) function _INEPopUpDelNet redefined
-\t (00:00:03) function _INEPopUpDelPin redefined
-\t (00:00:03) function _INEPopUpAddPin redefined
-\t (00:00:03) function _INEPopUpAddPinNet redefined
-\t (00:00:03) function _INEPopUpChgPin redefined
-\t (00:00:03) function _INEPopUpDelPkg redefined
-\t (00:00:03) function _INEInitVar redefined
-\t (00:00:03) function _INECancel redefined
-\t (00:00:03) function _INEOops redefined
-\t (00:00:03) function _INEDelOops redefined
-\t (00:00:03) function _INEPinOops redefined
-\t (00:00:03) function _INEPkgOops redefined
-\t (00:00:03) function _INEAddNetnameIN redefined
-\t (00:00:03) function _INEAddNetPinCompl redefined
-\t (00:00:03) function _INENew_Net_Commands redefined
-\t (00:00:03) function _INEAddNetPick redefined
-\t (00:00:03) function _INEGetPinName redefined
-\t (00:00:03) function _INEBldNetFile redefined
-\t (00:00:03) function _INENetIn redefined
-\t (00:00:03) function _INEDel_Net_Commands redefined
-\t (00:00:03) function _INEDelNetPick redefined
-\t (00:00:03) function _INEDelNetname redefined
-\t (00:00:03) function _INEDelNetIn redefined
-\t (00:00:03) function _INEDel_Pin_Commands redefined
-\t (00:00:03) function _INEDelPinName redefined
-\t (00:00:03) function _INEAdd_Pin_Commands redefined
-\t (00:00:03) function _INEAdd_Pin_Name redefined
-\t (00:00:03) function _INEAddPinNetName redefined
-\t (00:00:03) function _INEChg_Pin_Commands redefined
-\t (00:00:03) function _INEChg_Pin_Name redefined
-\t (00:00:03) function _INEDel_Pkg_Commands redefined
-\t (00:00:03) function _INEDel_Pkg_Name redefined
-\t (00:00:03) function _INEAdd_Pkg_Commands redefined
-\t (00:00:03) function _INEInitPackForm redefined
-\t (00:00:03) function _INEMk_Add_Pack_File redefined
-\t (00:00:03) function _INEMk_Add_Pack_Done redefined
-\t (00:00:03) function _INEACancel redefined
-\t (00:00:03) function _INEMakeFormFile redefined
-\t (00:00:03) function _INEMakePackFormFile redefined
-\t (00:00:03) function place_sym redefined
-\t (00:00:03) function show_height redefined
-\t (00:00:03) function AK_upd_height redefined
-\t (00:00:03) function AK_CreateForm redefined
-\t (00:00:03) function Height_Form_Routine redefined
-\t (00:00:03) function Height_Form_Action redefined
-\t (00:00:03) function AK_tree_all_children_off redefined
-\t (00:00:03) function AK_get_tree_items redefined
-\t (00:00:03) function Zoom redefined
-\t (00:00:03) function AK_upd_height_main redefined
-\e (00:00:03) *Error* load: can't access file - "colors.il"
-\t (00:00:03) function xFormBegin redefined
-\t (00:00:03) function xFormEnd redefined
-\t (00:00:03) function xCheckList redefined
-\t (00:00:03) function xGroup redefined
-\t (00:00:03) function xText redefined
-\t (00:00:03) function xButton redefined
-\t (00:00:03) function xList redefined
-\t (00:00:03) function xEdit redefined
-\t (00:00:03) function xInfoText redefined
-\t (00:00:03) function _super_cut redefined
-\t (00:00:03) function cut_Callback redefined
-\t (00:00:03) function CutCline_run redefined
-\t (00:00:03) function CutCancel redefined
-\t (00:00:03) function CutDone redefined
-\t (00:00:03) function CutOops redefined
-\t (00:00:03) function ReplaceWithOldSeg redefined
-\t (00:00:03) function _makeCline redefined
-\t (00:00:03) function ResetBox redefined
-\t (00:00:03) function FindPointsInBox redefined
-\t (00:00:03) function IsPointInBox redefined
-\t (00:00:03) function Distance redefined
-\t (00:00:03) function CloseEndPoint redefined
-\t (00:00:03) function Is45DegreeLine redefined
-\t (00:00:03) function IsSameLine redefined
-\t (00:00:03) function ChangeAcc redefined
-\t (00:00:03) function Greeting redefined
-\t (00:00:03) function Cutline_run redefined
-\t (00:00:03) function CutCancel redefined
-\t (00:00:03) function CutDone redefined
-\t (00:00:03) function CutOops redefined
-\t (00:00:03) function ReplaceWithOldSeg redefined
-\t (00:00:03) function _makeline redefined
-\t (00:00:03) function ResetBox redefined
-\t (00:00:03) function FindPointsInBox redefined
-\t (00:00:03) function IsPointInBox redefined
-\t (00:00:03) function Distance redefined
-\t (00:00:03) function CloseEndPoint redefined
-\t (00:00:03) function Is45DegreeLine redefined
-\t (00:00:03) function IsSameLine redefined
-\t (00:00:03) function ChangeAcc redefined
-\t (00:00:03) function Greeting redefined
-\t (00:00:03) function cutshape_run redefined
-\t (00:00:03) function WG_getUserInput redefined
-\t (00:00:03) function x_align_text redefined
-\t (00:00:03) function x_text_align_left redefined
-\t (00:00:03) function x_text_align_right redefined
-\t (00:00:03) function x_text_align_up redefined
-\t (00:00:03) function x_text_align_down redefined
-\t (00:00:03) function x_text_align_hcenter redefined
-\t (00:00:03) function x_text_align_vcenter redefined
-\t (00:00:03) function x_text_align_undo redefined
-\t (00:00:03) function x_get_text_bbox redefined
-\t (00:00:03) function Auto_Balance redefined
-\t (00:00:03) function Balancing_Form_Action redefined
-\t (00:00:03) function Balancing_Adder redefined
-\t (00:00:03) function component_height redefined
-\t (00:00:03) function createheightform redefined
-\t (00:00:03) function heightform redefined
-\t (00:00:03) function Height_Action redefined
-\t (00:00:03) function do_height_extract redefined
-\t (00:00:03) function do_height_print redefined
-\t (00:00:03) function _saveSelSet redefined
-\t (00:00:03) function _restoreSelSet redefined
-\t (00:00:03) function _drcZap redefined
-\t (00:00:03) function _drcFormBuild redefined
-\t (00:00:03) function _drcHelp redefined
-\t (00:00:03) function lfsSingleLayer redefined
-\t (00:00:03) function lfsLayers redefined
-\t (00:00:03) function lfsWindowExpand redefined
-\t (00:00:03) function lfsDRCFilterList redefined
-\t (00:00:03) function lfsDRCInitialize redefined
-\t (00:00:03) function lfsMarkPoint redefined
-\t (00:00:03) function _drcEnd redefined
-\t (00:00:03) function _drcShow redefined
-\t (00:00:03) function _drcUpdateDisp redefined
-\t (00:00:03) function _drcUpdateAll redefined
-\t (00:00:03) function _drcCallBack redefined
-\t (00:00:03) function drc_main redefined
-\t (00:00:03) function skillFindDang redefined
-\t (00:00:03) function Form_Action redefined
-\t (00:00:03) function _setup redefined
-\t (00:00:03) function _findSize redefined
-\t (00:00:03) function recheck redefined
-\t (00:00:03) function _deleteXY redefined
-\t (00:00:03) function _zoomin2 redefined
-\t (00:00:03) function _clearForm redefined
-\t (00:00:03) function _find_Clines redefined
-\t (00:00:03) function _find_Lines redefined
-\t (00:00:03) function _deleteAllClines redefined
-\t (00:00:03) function _deleteAllLines redefined
-\t (00:00:03) function _saveSelSet redefined
-\t (00:00:03) function _restoreSelSet redefined
-\t (00:00:03) function findAllOfType redefined
-\t (00:00:03) function skillFindAll redefined
-\t (00:00:03) function ashFindAllPins redefined
-\t (00:00:03) function ashFindAllVias redefined
-\t (00:00:03) function ashFindAllClines redefined
-\t (00:00:03) function ashFindAllClinesegs redefined
-\t (00:00:03) function ashFindAllLines redefined
-\t (00:00:03) function ashFindAllLinesegs redefined
-\t (00:00:03) function ashFindAllDrcs redefined
-\t (00:00:03) function ashFindAllText redefined
-\t (00:00:03) function ashFindAllShapes redefined
-\t (00:00:03) function ashFindAllShapesegs redefined
-\t (00:00:03) function ashFindAllVoids redefined
-\t (00:00:03) function ashFindAllVoidsegs redefined
-\t (00:00:03) function ashFindAllSymbols redefined
-\t (00:00:03) function ashFindAllComponents redefined
-\t (00:00:03) function ashFindAllNets redefined
-\t (00:00:03) function ashFindAllFigures redefined
-\t (00:00:03) function skillMakeDangList redefined
-\t (00:00:03) function skillDeleteOneDrc redefined
-\t (00:00:03) function skillDeleteDrcs redefined
-\t (00:00:03) function skillDehighlightAll redefined
-\t (00:00:03) function lcbMakeLineList redefined
-\t (00:00:03) function lcbMakeDrc redefined
-\t (00:00:03) function _createForm redefined
-\t (00:00:03) function _helpButton redefined
-\t (00:00:03) function jfhGetRefIDComDir redefined
-\t (00:00:03) function jfhRotateTopRef redefined
-\t (00:00:03) function jfhRotateBtmRef redefined
-\t (00:00:03) function jfhRotateTopRefIr redefined
-\t (00:00:03) function jfhRotateBtmRefIr redefined
-\t (00:00:03) function jfhrotateref redefined
-\t (00:00:03) function jfhrotaterefIr redefined
-\t (00:00:03) function check_text_overlap redefined
-\t (00:00:03) function biuld_form redefined
-\t (00:00:03) function pform_Action redefined
-\t (00:00:03) function refdes_on_pad redefined
-\t (00:00:03) function barcode_overlap_atom redefined
-\t (00:00:03) function refdes_overlap_component redefined
-\t (00:00:03) function text_overlap_text redefined
-\t (00:00:03) function text_on_pad redefined
-\t (00:00:03) function text_on_testpoints redefined
-\t (00:00:03) function get_bar_code_box redefined
-\t (00:00:03) function getbox redefined
-\t (00:00:03) function text_on_text redefined
-\t (00:00:03) function unselect_object redefined
-\t (00:00:03) function turn_on_layer redefined
-\t (00:00:03) function init_loc_text redefined
-\t (00:00:03) function add_loc_text redefined
-\t (00:00:03) function location_text redefined
-\t (00:00:03) function location_prv redefined
-\t (00:00:03) function Find_Component_Routine redefined
-\t (00:00:03) function lgstech redefined
-\t (00:00:03) function lgs_techrepfileCallback redefined
-\t (00:00:03) function lgs_techrepflowCallback redefined
-\t (00:00:03) function _lgs_moreinfo_callback redefined
-\t (00:00:03) function lgs_call_techfile redefined
-\t (00:00:03) function _lgs_setup_flow redefined
-\t (00:00:03) function _lgs_setup_area_information redefined
-\t (00:00:03) function _lgs_setup_information redefined
-\t (00:00:03) function _lgs_setup_area redefined
-\t (00:00:03) function _lgs_setup_area_unsel redefined
-\t (00:00:03) function _lgs_setup_area_sel redefined
-\t (00:00:03) function lgs_techrepCallback redefined
-\t (00:00:03) function _lgs_del_mum_list redefined
-\t (00:00:03) function _lgs_load_callback redefined
-\t (00:00:03) function _lgs_write_area_drc_scr redefined
-\t (00:00:03) function _lgs_line_processor redefined
-\t (00:00:03) function _lgs_write_flow_drc_scr redefined
-\t (00:00:03) function _lgs_default_area_drcmode_set redefined
-\t (00:00:03) function _lgs_Build_Technics_Manager_Form redefined
-\t (00:00:03) function _LJJ_camclear redefined
-\t (00:00:03) function FindStubs redefined
-\t (00:00:03) function LookUp redefined
-\t (00:00:03) function AddToStubList redefined
-\t (00:00:03) function CreateForm redefined
-\t (00:00:03) function Stub_Find_Form_Routine redefined
-\t (00:00:03) function Stub_Find_Form_Action redefined
-\t (00:00:03) function find_stubs redefined
-\t (00:00:03) function Form_Action redefined
-\t (00:00:03) function place_sym redefined
-\e (00:00:03) *Error* load: can't access file - "solder_paste.il"
-\t (00:00:03) function jfhGetAllCompsDBid redefined
-\t (00:00:03) function jfhChgAllRefdesTxtBlock redefined
-\t (00:00:03) function jfhGetRefdesDBid redefined
-\t (00:00:03) function jfhGetCompShadow redefined
-\t (00:00:03) function jfhSplitComps redefined
-\t (00:00:03) function jfhDBCreateRefdes redefined
-\t (00:00:03) function jfhPlaceTopRefdes redefined
-\t (00:00:03) function jfhPlaceBtmRefdes redefined
-\t (00:00:03) function jfhCreateMacroFile redefined
-\t (00:00:03) function jfhRefdesLocate redefined
-\t (00:00:03) function valor_film_info redefined
-\t (00:00:03) function check_text_overlap redefined
-\t (00:00:03) function biuld_form redefined
-\t (00:00:03) function pform_Action redefined
-\t (00:00:03) function refdes_on_pad redefined
-\t (00:00:03) function barcode_overlap_atom redefined
-\t (00:00:03) function refdes_overlap_component redefined
-\t (00:00:03) function text_overlap_text redefined
-\t (00:00:03) function text_on_pad redefined
-\t (00:00:03) function text_on_testpoints redefined
-\t (00:00:03) function get_bar_code_box redefined
-\t (00:00:03) function getbox redefined
-\t (00:00:03) function text_on_text redefined
-\t (00:00:03) function unselect_object redefined
-\t (00:00:03) function turn_on_layer redefined
-\t (00:00:03) function init_loc_text redefined
-\t (00:00:03) function add_loc_text redefined
-\t (00:00:03) function location_text redefined
-\t (00:00:03) function location_prv redefined
-\t (00:00:03) function _lgs_hilight_smd_main redefined
-\e (00:00:03) *Error* load: can't access file - "ConvertMenuToCn"
-\e (00:00:03) *Error* load: can't access file - "./Auto_Create_Match_Group.il"
-\e (00:00:03) *Error* load: can't access file - "gtd12-08"
-\e (00:00:03) *Error* load: can't access file - "AllCheck1"
-\e (00:00:03) *Error* load: can't access file - "quick_artwork.il"
-\t (00:00:03) function quicktext redefined
-\t (00:00:03) function setTextSize redefined
-\t (00:00:03) function quicktext redefined
-\t (00:00:03) function setTextSize redefined
-\e (00:00:03) 
-\e (00:00:03) //load("Quick_display.il")
-\e (00:00:03) ^
-\e (00:00:03) SYNTAX ERROR found at line 198 column 1 of file allegro.ilinit
-\e (00:00:03) *Error* lineread/read: syntax error encountered in input
-\t (00:00:03) function Quick_ColorSet redefined
-\t (00:00:03) function Quick_ColorSet1 redefined
-\t (00:00:03) function Quick_ColorSet2 redefined
-\t (00:00:03) function Quick_ColorSetTr redefined
-\t (00:00:03) function Quick_Grids redefined
-\t (00:00:03) function gridsetform redefined
-\t (00:00:03) function Grid_act redefined
-\t (00:00:03) function SetCurGrid redefined
-\t (00:00:03) Opening existing design...
-\i (00:00:03) QtSignal SPBFoldDockArea FoldAreaTabWidget currentChanged QR8
-\d (00:00:03) Design opened: C:/myFile/AllegroLibrary/A_Library/QR8.dra
-\t (00:00:03) Grids are drawn 0.1000, 0.1000 apart for enhanced viewing.
-\i (00:00:03) trapsize 938
-\i (00:00:03) trapsize 978
-\i (00:00:04) trapsize 938
-\t (00:00:04) Grids are drawn 0.1000, 0.1000 apart for enhanced viewing.
-\i (00:00:04) trapsize 952
-\i (00:00:04) quick_display 
-\t (00:00:04) [17:54:50.015712] Periodic Lic check successful
-[17:54:50.540000] Feature usage summary:
+\t (00:00:05) allegro 24.1 P001 (4234998) [9/4/2024] Windows SPB 64-bit Edition
+\t (00:00:05)     Journal start - Wed Mar 18 10:16:29 2026
+\t (00:00:05)         Host=X User=pxuhu Pid=8516 CPUs=12
+\t (00:00:05) CmdLine= c:\cadence\spb_24.1\tools\bin\allegro.exe C:\myFile\AllegroLibrary\A_Library\f450_490_40.dra
+\t (00:00:05) 
+\t (00:00:05) Loading axlcore.cxt 
+\e (00:00:06) 
+\e (00:00:06) //skill load("C:/myFile/AllegroLibrary/SKILL/autoref.il") 
+\e (00:00:06) ^
+\e (00:00:06) SYNTAX ERROR found at line 2 column 1 of file allegro.ilinit
+\e (00:00:06) *Error* lineread/read: syntax error encountered in input
+\e (00:00:06) *Error* axlOSSlash: argument #1 should be a string (type template = "t") - nil
+\e (00:00:06) 
+\e (00:00:06) //load("autoref.il")
+\e (00:00:06) ^
+\e (00:00:06) SYNTAX ERROR found at line 8 column 1 of file allegro.ilinit
+\e (00:00:06) *Error* lineread/read: syntax error encountered in input
+\t (00:00:06) function CutCancel redefined
+\t (00:00:06) function CutDone redefined
+\t (00:00:06) function CutOops redefined
+\t (00:00:06) function ReplaceWithOldSeg redefined
+\t (00:00:06) function ResetBox redefined
+\t (00:00:06) function FindPointsInBox redefined
+\t (00:00:06) function IsPointInBox redefined
+\t (00:00:06) function Distance redefined
+\t (00:00:06) function CloseEndPoint redefined
+\t (00:00:06) function Is45DegreeLine redefined
+\t (00:00:06) function IsSameLine redefined
+\t (00:00:06) function ChangeAcc redefined
+\t (00:00:06) function Greeting redefined
+\t (00:00:06) function place_sym redefined
+\e (00:00:06) *Error* procedure: illegal formal list - kkkkl
+\e (00:00:06) *Error* load: error while loading file - "pad_connect_modifier.il" at line 69
+\w (00:00:06) *WARNING* defstruct: Redefining Structure struOblTh.
+\t (00:00:07) function quick_danglings redefined
+\t (00:00:07) function ps_DanglingForm_action redefined
+\t (00:00:07) function ps_ddoCheck redefined
+\t (00:00:07) function _INEStartCallBk redefined
+\t (00:00:07) function Auto_Balance redefined
+\t (00:00:07) function Balancing_Form_Action redefined
+\t (00:00:07) function Balancing_Adder redefined
+\t (00:00:07) function Balancing_Del redefined
+\t (00:00:07) function check_text_overlap redefined
+\t (00:00:07) function biuld_form redefined
+\t (00:00:07) function pform_Action redefined
+\t (00:00:07) function refdes_on_pad redefined
+\t (00:00:07) function barcode_overlap_atom redefined
+\t (00:00:07) function refdes_overlap_component redefined
+\t (00:00:07) function text_overlap_text redefined
+\t (00:00:07) function text_on_pad redefined
+\t (00:00:07) function text_on_testpoints redefined
+\t (00:00:07) function get_bar_code_box redefined
+\t (00:00:07) function getbox redefined
+\t (00:00:07) function text_on_text redefined
+\t (00:00:07) function unselect_object redefined
+\t (00:00:07) function turn_on_layer redefined
+\t (00:00:07) function init_loc_text redefined
+\t (00:00:07) function add_loc_text redefined
+\t (00:00:07) function location_text redefined
+\t (00:00:07) function location_prv redefined
+\t (00:00:07) function colorset redefined
+\t (00:00:07) function CreateOblThForm redefined
+\t (00:00:07) function CheckCOTValue redefined
+\t (00:00:07) function make_struOblTh redefined
+\t (00:00:07) function copy_struOblTh redefined
+\t (00:00:07) function CreateOblongThermal redefined
+\t (00:00:07) function OblThCallback redefined
+\t (00:00:07) function andylu redefined
+\t (00:00:07) function CreateForm redefined
+\t (00:00:07) function check_subclass_flag redefined
+\t (00:00:07) function check_flag redefined
+\t (00:00:07) function function_init redefined
+\t (00:00:07) function Form_Action redefined
+\t (00:00:07) function subdist_check_bianma_on redefined
+\t (00:00:07) function subdist_check_standard_list_on redefined
+\t (00:00:07) function subdist_check_mark_function redefined
+\t (00:00:07) function subdist_module_check_function redefined
+\t (00:00:07) function subdist_Delete_object redefined
+\t (00:00:07) function testing_unselect_object redefined
+\t (00:00:07) function check_testing_PCB_output redefined
+\t (00:00:07) function main_check_show redefined
+\t (00:00:07) function testing_bianma_check redefined
+\t (00:00:07) function select_layer_flag_check redefined
+\t (00:00:07) function testing_text_check redefined
+\t (00:00:07) function testing_justice_list redefined
+\t (00:00:07) function testing_Mech_check redefined
+\t (00:00:07) function testingfind_getmax_min redefined
+\t (00:00:07) function check_board_height_extract redefined
+\t (00:00:07) function check_height_extract redefined
+\t (00:00:07) function check_print_height redefined
+\t (00:00:07) function testing_Creat_layer redefined
+\t (00:00:07) function testing_Allcolor_set redefined
+\t (00:00:07) function testing_turn_on_layer redefined
+\t (00:00:07) function testing_Delline redefined
+\t (00:00:07) function testing_HilElement redefined
+\t (00:00:07) function testing_Hilight_box redefined
+\t (00:00:07) function testing_calc_lt_symbol_range redefined
+\t (00:00:07) function testing_line_symbolslist_calc redefined
+\t (00:00:07) function calc_lt_symbol_selct_all redefined
+\t (00:00:07) function testing_HilElement_line redefined
+\t (00:00:07) function testing_line_symbolslist redefined
+\t (00:00:07) function testing_line_symbols_high redefined
+\t (00:00:07) function testing_text_lt_symbolsall redefined
+\t (00:00:07) function testing_LostRef redefined
+\t (00:00:07) function testing_LostPinName redefined
+\t (00:00:07) function testing_Refdes_Direction redefined
+\t (00:00:07) function testing_DeHLSymNetsPins redefined
+\t (00:00:07) function testing_Refdes_same redefined
+\t (00:00:07) function check_text_over_item redefined
+\t (00:00:07) function testing_text_on_pad redefined
+\t (00:00:07) function testing_text_on_testpoints redefined
+\t (00:00:07) function testing_text_on_shape redefined
+\t (00:00:07) function testing_text_overlap_text redefined
+\t (00:00:07) function testing_text_on_text redefined
+\t (00:00:07) function testing_text_overlap_line redefined
+\t (00:00:07) function testing_text_on_Via redefined
+\t (00:00:07) function testing_check_line_on_pad redefined
+\t (00:00:07) function testing_check_text_inside_comp redefined
+\t (00:00:07) function testing_check_text_in_comp redefined
+\t (00:00:07) function testing_getbox redefined
+\t (00:00:07) function subdist_checkitem_to_symbols redefined
+\t (00:00:07) function subdist_check_mount_hole redefined
+\t (00:00:07) function subdist_check_distance_on_mount redefined
+\t (00:00:07) function subdist_check_distance_on_pin redefined
+\t (00:00:07) function subdist_get_airgapbox redefined
+\t (00:00:07) function subdist_get_clearance redefined
+\t (00:00:07) function subdist_get_clearancesmall redefined
+\t (00:00:07) function subdist_justice_components redefined
+\t (00:00:07) function subdist_send_getbox_ver redefined
+\t (00:00:07) function subdist_send_getbox_hor redefined
+\t (00:00:07) function subdist_justice_send_border redefined
+\t (00:00:07) function subdist_check_send_border redefined
+\t (00:00:07) function drawing_outline_5mm_3r5mm redefined
+\t (00:00:07) function yihan_length_width redefined
+\t (00:00:07) function yihan_getbox_xy redefined
+\t (00:00:07) function yihan_dispayer_num redefined
+\t (00:00:07) function subdist_justice_cap redefined
+\t (00:00:07) function subdist_send15mm_getbox_ver redefined
+\t (00:00:07) function subdist_send15mm_getbox_hor redefined
+\t (00:00:07) function subdist_getbox_xy redefined
+\t (00:00:07) function subdist_check_pressfit redefined
+\t (00:00:07) function subdist_check_BGA_range redefined
+\t (00:00:07) function testing_check_pin_range redefined
+\t (00:00:07) function subdist_check_via_on_pad redefined
+\t (00:00:07) function subdist_check_thermal_on_pad redefined
+\t (00:00:07) function subdist_BGAgetbox redefined
+\t (00:00:07) function subdist_getbox redefined
+\t (00:00:07) function subdist_pin12_getbox redefined
+\t (00:00:07) function select_layer_flag_fill_list redefined
+\t (00:00:07) function testing_single_fill redefined
+\t (00:00:07) function creat_line_dem redefined
+\t (00:00:07) function testing_diff_fill redefined
+\t (00:00:07) function testing_getbox_diff redefined
+\t (00:00:07) function testing_oil_fill redefined
+\t (00:00:07) function testing_output_DXF_layer redefined
+\t (00:00:07) function testing_search_vias_hilight redefined
+\t (00:00:07) function testing_search_vias_list redefined
+\t (00:00:07) function testing_move_function redefined
+\t (00:00:07) function subrot_move_center redefined
+\t (00:00:07) function subrot_AlignText_cancel redefined
+\t (00:00:07) function subrot_AlignText_done redefined
+\t (00:00:07) function subrot_AlignText_move redefined
+\t (00:00:07) function sub_rotateref redefined
+\t (00:00:07) function sub_GetRefIDComDir redefined
+\t (00:00:07) function sub_RotateTopRef redefined
+\t (00:00:07) function sub_RotateBtmRef redefined
+\t (00:00:07) function generate_techfile redefined
+\t (00:00:07) function shape_offset_drawing redefined
+\t (00:00:07) function andylu_BuildShapePath redefined
+\t (00:00:07) function andylu_AddShape redefined
+\t (00:00:07) function testing_check_testpoints_ruler redefined
+\t (00:00:07) function testing_check_status_ruler redefined
+\t (00:00:07) function uc_shape redefined
+\t (00:00:07) function x_get_sym_bbox redefined
+\t (00:00:07) function _saveSelSet redefined
+\t (00:00:07) function _restoreSelSet redefined
+\t (00:00:07) function findAllOfType redefined
+\t (00:00:07) function ashFindAllClines redefined
+\t (00:00:07) function ashFindAllClinesegs redefined
+\t (00:00:07) function x_CmpPg redefined
+\t (00:00:07) function x_CmpPgUseLimitTimes redefined
+\t (00:00:07) function x_FormInitialization redefined
+\t (00:00:07) function x_GreateFormCmpPg redefined
+\t (00:00:07) function x_CmpPgFormAction redefined
+\t (00:00:07) function x_CmpPgSet redefined
+\t (00:00:07) function x_SetCmpPgDispaly redefined
+\t (00:00:07) function x_ACmpPgInfo redefined
+\t (00:00:07) function x_AutoPlmCmp redefined
+\t (00:00:07) function x_AllPlm1 redefined
+\t (00:00:07) function x_AllPlm2 redefined
+\t (00:00:07) function x_AllPlm3 redefined
+\t (00:00:07) function x_AllPlm12 redefined
+\t (00:00:07) function x_CmpPgPlmCmp redefined
+\t (00:00:07) function x_SglPlm redefined
+\t (00:00:07) function x_SglPlmCmp redefined
+\t (00:00:07) function x_SymToCursor redefined
+\t (00:00:07) function x_Stoppage redefined
+\t (00:00:07) function x_CmpPgLstDHilt redefined
+\t (00:00:07) function x_CmpPgLstHilt redefined
+\t (00:00:07) function x_CmpPgLstDehilt redefined
+\t (00:00:07) function x_CmpPgLstDlt redefined
+\t (00:00:07) function x_CmpPgLstDltAll redefined
+\t (00:00:07) function x_CmpPgLstDltAGrp redefined
+\t (00:00:07) function x_CmpPgLstDltAllGrp redefined
+\t (00:00:07) function x_MvOldCmp redefined
+\t (00:00:07) function x_MvFixCmp redefined
+\t (00:00:07) function x_GrtGrp redefined
+\t (00:00:07) function x_DelOldGrpName redefined
+\t (00:00:07) function x_ExitSkill redefined
+\t (00:00:07) function x_CmpPgInfo redefined
+\t (00:00:07) function conv redefined
+\t (00:00:07) function convertform redefined
+\t (00:00:07) function createconvform redefined
+\t (00:00:07) function Conv_Action redefined
+\t (00:00:07) function hl_null_pin redefined
+\t (00:00:07) function hlvia redefined
+\t (00:00:07) function mark redefined
+\t (00:00:07) function delmark redefined
+\t (00:00:07) function Check_Refdes_Direction redefined
+\t (00:00:07) function Check_No_Refdes redefined
+\t (00:00:07) function _saveSelSet redefined
+\t (00:00:07) function _restoreSelSet redefined
+\t (00:00:07) function Form_Action redefined
+\t (00:00:07) function _saveSelSet redefined
+\t (00:00:07) function _restoreSelSet redefined
+\t (00:00:07) function findAllOfType redefined
+\t (00:00:07) function skillFindAll redefined
+\t (00:00:07) function ashFindAllPins redefined
+\t (00:00:07) function ashFindAllVias redefined
+\t (00:00:07) function ashFindAllClines redefined
+\t (00:00:07) function ashFindAllClinesegs redefined
+\t (00:00:07) function ashFindAllLines redefined
+\t (00:00:07) function ashFindAllLinesegs redefined
+\t (00:00:07) function ashFindAllDrcs redefined
+\t (00:00:07) function ashFindAllText redefined
+\t (00:00:07) function ashFindAllShapes redefined
+\t (00:00:07) function ashFindAllShapesegs redefined
+\t (00:00:07) function ashFindAllVoids redefined
+\t (00:00:07) function ashFindAllVoidsegs redefined
+\t (00:00:07) function ashFindAllSymbols redefined
+\t (00:00:07) function ashFindAllComponents redefined
+\t (00:00:07) function ashFindAllNets redefined
+\t (00:00:07) function ashFindAllFigures redefined
+\t (00:00:07) function CreateForm redefined
+\t (00:00:07) function x_get_sym_bbox redefined
+\t (00:00:07) function tbat redefined
+\t (00:00:07) function wr_cds2f redefined
+\t (00:00:07) function mycds2f redefined
+\t (00:00:07) function checkWidth redefined
+\t (00:00:07) function lcb_changewidth redefined
+\t (00:00:07) function changewidth_Form_Action redefined
+\t (00:00:07) function LCB_changeWidth redefined
+\t (00:00:07) function LCB_getwidth redefined
+\t (00:00:07) function LCB_formupdate redefined
+\t (00:00:07) function LCB_getlayers redefined
+\t (00:00:07) function _createForm_changewidth redefined
+\t (00:00:07) function cwidth_info_createInfo redefined
+\t (00:00:07) function _saveSelSet redefined
+\t (00:00:07) function _restoreSelSet redefined
+\t (00:00:07) function findAllOfType redefined
+\t (00:00:07) function skillFindAll redefined
+\t (00:00:07) function ashFindAllPins redefined
+\t (00:00:07) function ashFindAllVias redefined
+\t (00:00:07) function ashFindAllClines redefined
+\t (00:00:07) function ashFindAllClinesegs redefined
+\t (00:00:07) function ashFindAllLines redefined
+\t (00:00:07) function ashFindAllLinesegs redefined
+\t (00:00:07) function ashFindAllDrcs redefined
+\t (00:00:07) function ashFindAllText redefined
+\t (00:00:07) function ashFindAllShapes redefined
+\t (00:00:07) function ashFindAllShapesegs redefined
+\t (00:00:07) function ashFindAllVoids redefined
+\t (00:00:07) function ashFindAllVoidsegs redefined
+\t (00:00:07) function ashFindAllSymbols redefined
+\t (00:00:07) function ashFindAllComponents redefined
+\t (00:00:07) function ashFindAllNets redefined
+\t (00:00:07) function ashFindAllFigures redefined
+\t (00:00:07) function rbg_dp_report redefined
+\t (00:00:07) function LCB_list_ratt redefined
+\t (00:00:07) function _INEStart redefined
+\t (00:00:07) function _INEStartForm redefined
+\t (00:00:07) function _INEStartCallBk redefined
+\t (00:00:07) function _INEPackCallBack redefined
+\t (00:00:07) function _INEPopUpAddNet redefined
+\t (00:00:07) function _INEPopUpDelNet redefined
+\t (00:00:07) function _INEPopUpDelPin redefined
+\t (00:00:07) function _INEPopUpAddPin redefined
+\t (00:00:07) function _INEPopUpAddPinNet redefined
+\t (00:00:07) function _INEPopUpChgPin redefined
+\t (00:00:07) function _INEPopUpDelPkg redefined
+\t (00:00:07) function _INEInitVar redefined
+\t (00:00:07) function _INECancel redefined
+\t (00:00:07) function _INEOops redefined
+\t (00:00:07) function _INEDelOops redefined
+\t (00:00:07) function _INEPinOops redefined
+\t (00:00:07) function _INEPkgOops redefined
+\t (00:00:07) function _INEAddNetnameIN redefined
+\t (00:00:07) function _INEAddNetPinCompl redefined
+\t (00:00:07) function _INENew_Net_Commands redefined
+\t (00:00:07) function _INEAddNetPick redefined
+\t (00:00:07) function _INEGetPinName redefined
+\t (00:00:07) function _INEBldNetFile redefined
+\t (00:00:07) function _INENetIn redefined
+\t (00:00:07) function _INEDel_Net_Commands redefined
+\t (00:00:07) function _INEDelNetPick redefined
+\t (00:00:07) function _INEDelNetname redefined
+\t (00:00:07) function _INEDelNetIn redefined
+\t (00:00:07) function _INEDel_Pin_Commands redefined
+\t (00:00:07) function _INEDelPinName redefined
+\t (00:00:07) function _INEAdd_Pin_Commands redefined
+\t (00:00:07) function _INEAdd_Pin_Name redefined
+\t (00:00:07) function _INEAddPinNetName redefined
+\t (00:00:07) function _INEChg_Pin_Commands redefined
+\t (00:00:07) function _INEChg_Pin_Name redefined
+\t (00:00:07) function _INEDel_Pkg_Commands redefined
+\t (00:00:07) function _INEDel_Pkg_Name redefined
+\t (00:00:07) function _INEAdd_Pkg_Commands redefined
+\t (00:00:07) function _INEInitPackForm redefined
+\t (00:00:07) function _INEMk_Add_Pack_File redefined
+\t (00:00:07) function _INEMk_Add_Pack_Done redefined
+\t (00:00:07) function _INEACancel redefined
+\t (00:00:07) function _INEMakeFormFile redefined
+\t (00:00:07) function _INEMakePackFormFile redefined
+\t (00:00:07) function place_sym redefined
+\t (00:00:07) function show_height redefined
+\t (00:00:07) function AK_upd_height redefined
+\t (00:00:07) function AK_CreateForm redefined
+\t (00:00:07) function Height_Form_Routine redefined
+\t (00:00:07) function Height_Form_Action redefined
+\t (00:00:07) function AK_tree_all_children_off redefined
+\t (00:00:07) function AK_get_tree_items redefined
+\t (00:00:07) function Zoom redefined
+\t (00:00:07) function AK_upd_height_main redefined
+\e (00:00:07) *Error* load: can't access file - "colors.il"
+\t (00:00:07) function xFormBegin redefined
+\t (00:00:07) function xFormEnd redefined
+\t (00:00:07) function xCheckList redefined
+\t (00:00:07) function xGroup redefined
+\t (00:00:07) function xText redefined
+\t (00:00:07) function xButton redefined
+\t (00:00:07) function xList redefined
+\t (00:00:07) function xEdit redefined
+\t (00:00:07) function xInfoText redefined
+\t (00:00:07) function _super_cut redefined
+\t (00:00:07) function cut_Callback redefined
+\t (00:00:07) function CutCline_run redefined
+\t (00:00:07) function CutCancel redefined
+\t (00:00:07) function CutDone redefined
+\t (00:00:07) function CutOops redefined
+\t (00:00:07) function ReplaceWithOldSeg redefined
+\t (00:00:07) function _makeCline redefined
+\t (00:00:07) function ResetBox redefined
+\t (00:00:07) function FindPointsInBox redefined
+\t (00:00:07) function IsPointInBox redefined
+\t (00:00:07) function Distance redefined
+\t (00:00:07) function CloseEndPoint redefined
+\t (00:00:07) function Is45DegreeLine redefined
+\t (00:00:07) function IsSameLine redefined
+\t (00:00:07) function ChangeAcc redefined
+\t (00:00:07) function Greeting redefined
+\t (00:00:07) function Cutline_run redefined
+\t (00:00:07) function CutCancel redefined
+\t (00:00:07) function CutDone redefined
+\t (00:00:07) function CutOops redefined
+\t (00:00:07) function ReplaceWithOldSeg redefined
+\t (00:00:07) function _makeline redefined
+\t (00:00:07) function ResetBox redefined
+\t (00:00:07) function FindPointsInBox redefined
+\t (00:00:07) function IsPointInBox redefined
+\t (00:00:07) function Distance redefined
+\t (00:00:07) function CloseEndPoint redefined
+\t (00:00:07) function Is45DegreeLine redefined
+\t (00:00:07) function IsSameLine redefined
+\t (00:00:07) function ChangeAcc redefined
+\t (00:00:07) function Greeting redefined
+\t (00:00:07) function cutshape_run redefined
+\t (00:00:07) function WG_getUserInput redefined
+\t (00:00:07) function x_align_text redefined
+\t (00:00:07) function x_text_align_left redefined
+\t (00:00:07) function x_text_align_right redefined
+\t (00:00:07) function x_text_align_up redefined
+\t (00:00:07) function x_text_align_down redefined
+\t (00:00:07) function x_text_align_hcenter redefined
+\t (00:00:07) function x_text_align_vcenter redefined
+\t (00:00:07) function x_text_align_undo redefined
+\t (00:00:07) function x_get_text_bbox redefined
+\t (00:00:07) function Auto_Balance redefined
+\t (00:00:07) function Balancing_Form_Action redefined
+\t (00:00:07) function Balancing_Adder redefined
+\t (00:00:07) function component_height redefined
+\t (00:00:07) function createheightform redefined
+\t (00:00:07) function heightform redefined
+\t (00:00:07) function Height_Action redefined
+\t (00:00:07) function do_height_extract redefined
+\t (00:00:07) function do_height_print redefined
+\t (00:00:07) function _saveSelSet redefined
+\t (00:00:07) function _restoreSelSet redefined
+\t (00:00:07) function _drcZap redefined
+\t (00:00:07) function _drcFormBuild redefined
+\t (00:00:07) function _drcHelp redefined
+\t (00:00:07) function lfsSingleLayer redefined
+\t (00:00:07) function lfsLayers redefined
+\t (00:00:07) function lfsWindowExpand redefined
+\t (00:00:07) function lfsDRCFilterList redefined
+\t (00:00:07) function lfsDRCInitialize redefined
+\t (00:00:07) function lfsMarkPoint redefined
+\t (00:00:07) function _drcEnd redefined
+\t (00:00:07) function _drcShow redefined
+\t (00:00:07) function _drcUpdateDisp redefined
+\t (00:00:07) function _drcUpdateAll redefined
+\t (00:00:07) function _drcCallBack redefined
+\t (00:00:07) function drc_main redefined
+\t (00:00:07) function skillFindDang redefined
+\t (00:00:07) function Form_Action redefined
+\t (00:00:07) function _setup redefined
+\t (00:00:07) function _findSize redefined
+\t (00:00:07) function recheck redefined
+\t (00:00:07) function _deleteXY redefined
+\t (00:00:07) function _zoomin2 redefined
+\t (00:00:07) function _clearForm redefined
+\t (00:00:07) function _find_Clines redefined
+\t (00:00:07) function _find_Lines redefined
+\t (00:00:07) function _deleteAllClines redefined
+\t (00:00:07) function _deleteAllLines redefined
+\t (00:00:07) function _saveSelSet redefined
+\t (00:00:07) function _restoreSelSet redefined
+\t (00:00:07) function findAllOfType redefined
+\t (00:00:07) function skillFindAll redefined
+\t (00:00:07) function ashFindAllPins redefined
+\t (00:00:07) function ashFindAllVias redefined
+\t (00:00:07) function ashFindAllClines redefined
+\t (00:00:07) function ashFindAllClinesegs redefined
+\t (00:00:07) function ashFindAllLines redefined
+\t (00:00:07) function ashFindAllLinesegs redefined
+\t (00:00:07) function ashFindAllDrcs redefined
+\t (00:00:07) function ashFindAllText redefined
+\t (00:00:07) function ashFindAllShapes redefined
+\t (00:00:07) function ashFindAllShapesegs redefined
+\t (00:00:07) function ashFindAllVoids redefined
+\t (00:00:07) function ashFindAllVoidsegs redefined
+\t (00:00:07) function ashFindAllSymbols redefined
+\t (00:00:07) function ashFindAllComponents redefined
+\t (00:00:07) function ashFindAllNets redefined
+\t (00:00:07) function ashFindAllFigures redefined
+\t (00:00:07) function skillMakeDangList redefined
+\t (00:00:07) function skillDeleteOneDrc redefined
+\t (00:00:07) function skillDeleteDrcs redefined
+\t (00:00:07) function skillDehighlightAll redefined
+\t (00:00:07) function lcbMakeLineList redefined
+\t (00:00:07) function lcbMakeDrc redefined
+\t (00:00:07) function _createForm redefined
+\t (00:00:07) function _helpButton redefined
+\t (00:00:07) function jfhGetRefIDComDir redefined
+\t (00:00:07) function jfhRotateTopRef redefined
+\t (00:00:07) function jfhRotateBtmRef redefined
+\t (00:00:07) function jfhRotateTopRefIr redefined
+\t (00:00:07) function jfhRotateBtmRefIr redefined
+\t (00:00:07) function jfhrotateref redefined
+\t (00:00:07) function jfhrotaterefIr redefined
+\t (00:00:07) function check_text_overlap redefined
+\t (00:00:07) function biuld_form redefined
+\t (00:00:07) function pform_Action redefined
+\t (00:00:07) function refdes_on_pad redefined
+\t (00:00:07) function barcode_overlap_atom redefined
+\t (00:00:07) function refdes_overlap_component redefined
+\t (00:00:07) function text_overlap_text redefined
+\t (00:00:07) function text_on_pad redefined
+\t (00:00:07) function text_on_testpoints redefined
+\t (00:00:07) function get_bar_code_box redefined
+\t (00:00:07) function getbox redefined
+\t (00:00:07) function text_on_text redefined
+\t (00:00:07) function unselect_object redefined
+\t (00:00:07) function turn_on_layer redefined
+\t (00:00:07) function init_loc_text redefined
+\t (00:00:07) function add_loc_text redefined
+\t (00:00:07) function location_text redefined
+\t (00:00:07) function location_prv redefined
+\t (00:00:07) function Find_Component_Routine redefined
+\t (00:00:07) function lgstech redefined
+\t (00:00:07) function lgs_techrepfileCallback redefined
+\t (00:00:07) function lgs_techrepflowCallback redefined
+\t (00:00:07) function _lgs_moreinfo_callback redefined
+\t (00:00:07) function lgs_call_techfile redefined
+\t (00:00:07) function _lgs_setup_flow redefined
+\t (00:00:07) function _lgs_setup_area_information redefined
+\t (00:00:07) function _lgs_setup_information redefined
+\t (00:00:07) function _lgs_setup_area redefined
+\t (00:00:07) function _lgs_setup_area_unsel redefined
+\t (00:00:07) function _lgs_setup_area_sel redefined
+\t (00:00:07) function lgs_techrepCallback redefined
+\t (00:00:07) function _lgs_del_mum_list redefined
+\t (00:00:07) function _lgs_load_callback redefined
+\t (00:00:07) function _lgs_write_area_drc_scr redefined
+\t (00:00:07) function _lgs_line_processor redefined
+\t (00:00:07) function _lgs_write_flow_drc_scr redefined
+\t (00:00:07) function _lgs_default_area_drcmode_set redefined
+\t (00:00:07) function _lgs_Build_Technics_Manager_Form redefined
+\t (00:00:07) function _LJJ_camclear redefined
+\t (00:00:07) function FindStubs redefined
+\t (00:00:07) function LookUp redefined
+\t (00:00:07) function AddToStubList redefined
+\t (00:00:07) function CreateForm redefined
+\t (00:00:07) function Stub_Find_Form_Routine redefined
+\t (00:00:07) function Stub_Find_Form_Action redefined
+\t (00:00:07) function find_stubs redefined
+\t (00:00:07) function Form_Action redefined
+\t (00:00:07) function place_sym redefined
+\e (00:00:07) *Error* load: can't access file - "solder_paste.il"
+\t (00:00:07) function jfhGetAllCompsDBid redefined
+\t (00:00:07) function jfhChgAllRefdesTxtBlock redefined
+\t (00:00:07) function jfhGetRefdesDBid redefined
+\t (00:00:07) function jfhGetCompShadow redefined
+\t (00:00:07) function jfhSplitComps redefined
+\t (00:00:07) function jfhDBCreateRefdes redefined
+\t (00:00:07) function jfhPlaceTopRefdes redefined
+\t (00:00:07) function jfhPlaceBtmRefdes redefined
+\t (00:00:07) function jfhCreateMacroFile redefined
+\t (00:00:07) function jfhRefdesLocate redefined
+\t (00:00:07) function valor_film_info redefined
+\t (00:00:07) function check_text_overlap redefined
+\t (00:00:07) function biuld_form redefined
+\t (00:00:07) function pform_Action redefined
+\t (00:00:07) function refdes_on_pad redefined
+\t (00:00:07) function barcode_overlap_atom redefined
+\t (00:00:07) function refdes_overlap_component redefined
+\t (00:00:07) function text_overlap_text redefined
+\t (00:00:07) function text_on_pad redefined
+\t (00:00:07) function text_on_testpoints redefined
+\t (00:00:07) function get_bar_code_box redefined
+\t (00:00:07) function getbox redefined
+\t (00:00:07) function text_on_text redefined
+\t (00:00:07) function unselect_object redefined
+\t (00:00:07) function turn_on_layer redefined
+\t (00:00:07) function init_loc_text redefined
+\t (00:00:07) function add_loc_text redefined
+\t (00:00:07) function location_text redefined
+\t (00:00:07) function location_prv redefined
+\t (00:00:07) function _lgs_hilight_smd_main redefined
+\e (00:00:07) *Error* load: can't access file - "ConvertMenuToCn"
+\e (00:00:07) *Error* load: can't access file - "./Auto_Create_Match_Group.il"
+\e (00:00:07) *Error* load: can't access file - "gtd12-08"
+\e (00:00:07) *Error* load: can't access file - "AllCheck1"
+\e (00:00:07) *Error* load: can't access file - "quick_artwork.il"
+\t (00:00:07) function quicktext redefined
+\t (00:00:07) function setTextSize redefined
+\t (00:00:07) function quicktext redefined
+\t (00:00:07) function setTextSize redefined
+\e (00:00:07) 
+\e (00:00:07) //load("Quick_display.il")
+\e (00:00:07) ^
+\e (00:00:07) SYNTAX ERROR found at line 200 column 1 of file allegro.ilinit
+\e (00:00:07) *Error* lineread/read: syntax error encountered in input
+\t (00:00:07) function Quick_ColorSet redefined
+\t (00:00:07) function Quick_ColorSet1 redefined
+\t (00:00:07) function Quick_ColorSet2 redefined
+\t (00:00:07) function Quick_ColorSetTr redefined
+\t (00:00:07) function Quick_Grids redefined
+\t (00:00:07) function gridsetform redefined
+\t (00:00:07) function Grid_act redefined
+\t (00:00:07) function SetCurGrid redefined
+\t (00:00:07) Opening existing design...
+\i (00:00:07) QtSignal SPBFoldDockArea FoldAreaTabWidget currentChanged "f450_490_40"
+\d (00:00:07) Design opened: C:/myFile/AllegroLibrary/A_Library/f450_490_40.dra
+\i (00:00:07) trapsize 926
+\i (00:00:08) trapsize 1009
+\i (00:00:08) trapsize 926
+\i (00:00:08) trapsize 1275
+\i (00:00:08) quick_display 
+\t (00:00:08) [10:16:32.230000] Periodic Lic check successful
+[10:16:32.230000] Feature usage summary:
 
-\t (00:00:04) Grids are drawn 0.0500, 0.0500 apart for enhanced viewing.
-\i (00:00:04) trapsize 611
-\i (00:00:04) generaledit 
-\i (00:00:04) pick grid 3.9117 0.4930
-\t (00:00:04) last pick:  3.9000 0.5000
-\i (00:00:05) roam start
-\i (00:00:06) roam end
-\i (00:00:06) zoom in 1 
-\i (00:00:06) setwindow pcb
-\i (00:00:06) zoom in 3.3127 -0.1794
-\i (00:00:06) trapsize 306
-\i (00:00:06) zoom in 1 
-\i (00:00:06) setwindow pcb
-\i (00:00:06) zoom in 3.3127 -0.1794
-\i (00:00:06) trapsize 153
-\i (00:00:07) zoom out 1 
-\i (00:00:07) setwindow pcb
-\i (00:00:07) zoom out 3.3127 -0.1794
-\i (00:00:07) trapsize 306
-\i (00:00:07) zoom out 1 
-\i (00:00:07) setwindow pcb
-\i (00:00:07) zoom out 3.3127 -0.1794
-\i (00:00:07) trapsize 611
-\i (00:00:08) delete 
-\i (00:00:08) drag_start grid 5.4278 -0.8763
-\i (00:00:08) drag_stop -6.5047 1.2144
-\i (00:00:09) delete 
-\i (00:00:10) drag_start grid 5.2811 -1.4264
-\i (00:00:10) drag_stop -6.8838 2.1069
-\i (00:00:11) delete 
-\i (00:00:11) prepopup -5.9790 2.0213
-\i (00:00:11) done 
-\i (00:00:11) generaledit 
-\i (00:00:11) pick grid -6.0891 2.0946
-\t (00:00:11) last pick:  -6.1000 2.1000
-\i (00:00:11) pick grid -6.2113 2.1069
-\t (00:00:11) last pick:  -6.2000 2.1000
-\i (00:00:17) import logo 
-\i (00:00:17) generaledit 
-\i (00:00:19) setwindow form.logo_import
-\i (00:00:19) FORM logo_import browse  
-\i (00:00:27) fillin "C:/Users/pxuhu/Desktop/ÎÄ¼þÁ´½Ó.bmp"
-\i (00:00:34) FORM logo_import ok  
-\i (00:00:36) setwindow pcb
-\i (00:00:36) pick grid -2.8859 -1.0107
-\t (00:00:36) last pick:  -2.8750 -1.0000
-\i (00:00:38) drag_start grid -1.7244 -0.3139
-\i (00:00:39) drag_stop 1.0020 -2.1722
-\i (00:00:39) pick grid 0.3907 -1.0719
-\t (00:00:39) last pick:  0.4000 -1.0750
-\i (00:00:40) prepopup -0.6363 0.2485
-\i (00:00:41) pick grid -1.5043 0.5542
-\t (00:00:41) last pick:  -1.5000 0.5500
-\i (00:00:45) shape add rect 
-\i (00:00:51) setwindow form.mini
-\i (00:00:51) FORM mini one_click YES 
-\i (00:00:53) FORM mini rec_width 8.0000 
-\i (00:00:54) FORM mini rec_height 8.0000 
-\i (00:01:00) setwindow pcb
-\i (00:01:00) zoom out 1 
-\i (00:01:00) setwindow pcb
-\i (00:01:00) zoom out -4.4997 3.0116
-\t (00:01:00) Grids are drawn 0.1000, 0.1000 apart for enhanced viewing.
-\i (00:01:00) trapsize 1189
-\i (00:01:06) pick -4 4 
-\t (00:01:06) last pick:  -4.0000 4.0000
-\i (00:01:07) zoom in 1 
-\i (00:01:07) setwindow pcb
-\i (00:01:07) zoom in 1.9596 3.0771
-\t (00:01:07) Grids are drawn 0.0500, 0.0500 apart for enhanced viewing.
-\i (00:01:07) trapsize 594
-\i (00:01:08) prepopup -3.7702 3.0771
-\i (00:01:08) done 
-\i (00:01:08) generaledit 
-\i (00:01:09) define grid 
-\t (00:01:09) Spacing fields allow simple equations to aid calculations; prefix with =
-\i (00:01:10) setwindow form.grid
-\i (00:01:10) FORM grid display NO 
-\i (00:01:11) FORM grid display YES 
-\i (00:01:12) FORM grid display NO 
-\i (00:01:12) FORM grid done  
-\i (00:01:13) setwindow pcb
-\i (00:01:13) roam start
-\i (00:01:13) roam y 16
-\i (00:01:13) roam y 16
-\i (00:01:13) roam y 16
-\i (00:01:13) roam y 16
-\i (00:01:13) roam y 32
-\i (00:01:13) roam end
-\i (00:01:13) zoom out 1 
-\i (00:01:13) setwindow pcb
-\i (00:01:13) zoom out -3.7821 -1.5948
-\i (00:01:13) trapsize 1189
-\i (00:01:14) roam start
-\i (00:01:14) roam end
-\i (00:01:19) import logo 
-\i (00:01:19) generaledit 
-\i (00:01:24) setwindow form.logo_import
-\i (00:01:24) FORM logo_import browse  
-\i (00:01:33) fillin "menu_cancel"
-\i (00:01:44) FORM logo_import browse  
-\i (00:01:48) fillin "C:/Users/pxuhu/Desktop/QR.bmp"
-\i (00:01:57) FORM logo_import import  
-\i (00:02:02) setwindow pcb
-\i (00:02:02) zoom in 1 
-\i (00:02:02) setwindow pcb
-\i (00:02:02) zoom in -5.3632 -5.4583
-\i (00:02:02) trapsize 594
-\i (00:02:03) zoom in 1 
-\i (00:02:03) setwindow pcb
-\i (00:02:03) zoom in -6.5163 -3.4136
-\i (00:02:03) trapsize 297
-\i (00:02:04) zoom in 1 
-\i (00:02:04) setwindow pcb
-\i (00:02:04) zoom in -6.7719 -3.0629
-\i (00:02:04) trapsize 149
-\i (00:02:07) zoom out 1 
-\i (00:02:07) setwindow pcb
-\i (00:02:07) zoom out -6.6767 -3.0629
-\i (00:02:07) trapsize 297
-\i (00:02:08) zoom out 1 
-\i (00:02:08) setwindow pcb
-\i (00:02:08) zoom out -6.8967 -2.9261
-\i (00:02:08) trapsize 594
-\i (00:02:10) roam start
-\i (00:02:10) roam y 16
-\i (00:02:10) roam y 16
-\i (00:02:10) roam y 32
-\i (00:02:10) roam y 16
-\i (00:02:10) roam y 16
-\i (00:02:10) roam y 16
-\i (00:02:10) roam end
-\i (00:02:11) zoom in 1 
-\i (00:02:11) setwindow pcb
-\i (00:02:11) zoom in -6.1834 -8.1687
-\i (00:02:11) trapsize 297
-\i (00:02:11) delete 
-\i (00:02:11) pick grid -6.3676 -7.8952
-\t (00:02:11) last pick:  -6.3750 -7.9000
-\t (00:02:11) Text "Logo"
-\i (00:02:12) delete 
-\i (00:02:12) zoom out 1 
-\i (00:02:12) setwindow pcb
-\i (00:02:12) zoom out -6.2369 -7.7288
-\i (00:02:12) trapsize 594
-\i (00:02:13) roam start
-\i (00:02:13) roam y -16
-\i (00:02:14) roam y -16
-\i (00:02:14) roam end
-\i (00:02:16) roam start
-\i (00:02:16) roam y -16
-\i (00:02:16) roam end
-\i (00:02:20) zoom in 1 
-\i (00:02:20) setwindow pcb
-\i (00:02:20) zoom in -5.3870 -6.9561
-\i (00:02:20) trapsize 297
-\i (00:02:20) zoom in 1 
-\i (00:02:20) setwindow pcb
-\i (00:02:20) zoom in -5.4167 -6.9561
-\i (00:02:20) trapsize 149
-\i (00:02:20) zoom in 1 
-\i (00:02:20) setwindow pcb
-\i (00:02:20) zoom in -5.4286 -6.7867
-\i (00:02:20) trapsize 74
-\i (00:02:26) prepopup -5.1625 -6.6469
-\i (00:02:27) cancel 
-\i (00:02:27) generaledit 
-\i (00:02:28) zoom out 1 
-\i (00:02:28) setwindow pcb
-\i (00:02:28) zoom out -5.1298 -6.6514
-\i (00:02:28) trapsize 149
-\i (00:02:29) setwindow form.logo_import
-\i (00:02:29) FORM logo_import cancel  
-\i (00:02:29) setwindow pcb
-\i (00:02:29) zoom out 1 
-\i (00:02:29) setwindow pcb
-\i (00:02:29) zoom out -4.6781 -7.0229
-\i (00:02:29) trapsize 297
-\i (00:02:29) zoom out 1 
-\i (00:02:29) setwindow pcb
-\i (00:02:29) zoom out -4.6782 -7.0229
-\i (00:02:29) trapsize 594
-\i (00:02:29) zoom out 1 
-\i (00:02:29) setwindow pcb
-\i (00:02:29) zoom out -1.2974 -7.0229
-\i (00:02:29) trapsize 1189
-\i (00:02:40) param in 
-\i (00:02:42) setwindow form.parm_in
-\i (00:02:42) FORM parm_in cancel  
-\i (00:02:42) setwindow pcb
-\i (00:02:42) generaledit 
-\i (00:03:00) import logo 
-\i (00:03:00) generaledit 
-\i (00:03:35) setwindow form.logo_import
-\i (00:03:35) FORM logo_import browse  
-\i (00:03:39) fillin "C:/Users/pxuhu/Desktop/QR.bmp"
-\i (00:03:45) FORM logo_import logo_location_x -4 
-\i (00:03:49) FORM logo_import logo_location_y -4 
-\i (00:03:49) FORM logo_import import  
-\i (00:03:51) setwindow pcb
-\i (00:03:51) zoom in 1 
-\i (00:03:51) setwindow pcb
-\i (00:03:51) zoom in -2.4151 -3.4612
-\i (00:03:51) trapsize 594
-\i (00:03:52) roam start
-\i (00:03:52) roam y -16
-\i (00:03:53) roam y -16
-\i (00:03:53) roam y -16
-\i (00:03:53) roam y -16
-\i (00:03:53) roam y -16
-\i (00:03:53) roam y -16
-\i (00:03:53) roam y -16
-\i (00:03:53) roam y -16
-\i (00:03:53) roam y -16
-\i (00:03:53) zoom in 1 
-\i (00:03:53) setwindow pcb
-\i (00:03:53) zoom in -5.7555 -1.5710
-\i (00:03:53) trapsize 297
-\i (00:03:53) roam x 16
-\i (00:03:53) roam x 16
-\i (00:03:53) roam end
-\i (00:03:54) roam start
-\i (00:03:54) roam x 16
-\i (00:03:54) roam x 32
-\i (00:03:54) roam x 32
-\i (00:03:54) roam x 16
-\i (00:03:54) roam x 16
-\i (00:03:54) roam x 16
-\i (00:03:54) roam x 16
-\i (00:03:54) roam x 16
-\i (00:03:55) roam x 32
-\i (00:03:55) roam x 16
-\i (00:03:55) roam x 16
-\i (00:03:55) roam x 16
-\i (00:03:55) roam x 16
-\i (00:03:55) roam x 16
-\i (00:03:55) roam x 32
-\i (00:03:55) roam x 16
-\i (00:03:55) roam x 16
-\i (00:03:55) roam x 16
-\i (00:03:55) roam x 16
-\i (00:03:55) roam x 16
-\i (00:03:55) roam x 32
-\i (00:03:55) roam x 32
-\i (00:03:55) roam x 16
-\i (00:03:55) roam x 16
-\i (00:03:55) roam x 16
-\i (00:03:55) roam end
-\i (00:03:55) zoom out 1 
-\i (00:03:55) setwindow pcb
-\i (00:03:55) zoom out -2.1119 -1.6364
-\i (00:03:55) trapsize 594
-\i (00:03:56) roam start
-\i (00:03:57) roam end
-\i (00:04:03) setwindow form.logo_import
-\i (00:04:03) FORM logo_import scale_factor 2 
-\i (00:04:03) FORM logo_import modify  
-\e (00:04:04) ERROR(SPMHDB-278): Module does not fit in design.
-\i (00:04:05) setwindow pcb
-\i (00:04:05) zoom in 1 
-\i (00:04:05) setwindow pcb
-\i (00:04:05) zoom in -4.6261 -2.1000
-\i (00:04:05) trapsize 297
-\i (00:04:06) zoom out 1 
-\i (00:04:06) setwindow pcb
-\i (00:04:06) zoom out -4.6261 -2.1000
-\i (00:04:06) trapsize 594
-\i (00:04:06) zoom out 1 
-\i (00:04:06) setwindow pcb
-\i (00:04:06) zoom out -4.6261 -2.1000
-\i (00:04:06) trapsize 1189
-\i (00:04:08) setwindow form.logo_import
-\i (00:04:08) FORM logo_import modify  
-\e (00:04:08) ERROR(SPMHDB-278): Module does not fit in design.
-\i (00:04:10) setwindow pcb
-\i (00:04:10) prepopup -6.2429 -5.1730
-\i (00:04:11) pick grid -5.8862 -3.1521
-\t (00:04:11) last pick:  -5.8750 -3.1500
-\i (00:04:12) undo 
-\i (00:04:12) generaledit 
-\i (00:04:12) undo 
-\i (00:04:12) generaledit 
-\i (00:04:13) pick grid -0.6081 -5.5772
-\t (00:04:13) last pick:  -0.6000 -5.5750
-\i (00:04:14) setwindow form.logo_import
-\i (00:04:14) FORM logo_import cancel  
-\i (00:04:23) setwindow pcb
-\i (00:04:23) load plot 
-\i (00:05:05) fillin "menu_cancel"
-\i (00:05:05) generaledit 
-\t (00:05:05) [17:59:51.313712] Periodic Lic check successful
-[17:59:51.838000] Feature usage summary:
+\i (00:00:08) trapsize 407
+\i (00:00:08) generaledit 
+\i (00:00:09) zoom out 1 
+\i (00:00:09) setwindow pcb
+\i (00:00:09) zoom out 0.5239 -0.9236
+\t (00:00:09) Loading skillExt.cxt 
+\i (00:00:09) trapsize 619
+\i (00:00:14) save_as 
+\i (00:00:18) fillin "f450_490_40.dra"
+\t (00:00:18) Symbol 'f450_490_40.fsm' created.
+\i (00:00:18) generaledit 
+\i (00:00:23) exit 
+\t (00:00:23) Lic Summary:
+[10:16:47.387000] Cdslmd servers:
+[10:16:47.387000] Feature usage summary:
 
-\i (00:06:36) import logo 
-\i (00:06:36) generaledit 
-\i (00:06:37) setwindow form.logo_import
-\i (00:06:37) FORM logo_import browse  
-\i (00:06:41) fillin "C:/Users/pxuhu/Desktop/QR.bmp"
-\i (00:06:44) FORM logo_import logo_location_x -10 
-\i (00:06:46) FORM logo_import logo_location_y -10 
-\i (00:06:46) FORM logo_import import  
-\e (00:06:46) ERROR(SPMHDB-278): Module does not fit in design.
-\i (00:06:51) setwindow pcb
-\i (00:06:51) prmed 
-\i (00:06:52) setwindow form.prmedit
-\i (00:06:52) FORM prmedit design  
-\i (00:06:55) FORM prmedit width 100.0000 
-\i (00:06:55) FORM prmedit height 100.0000 
-\i (00:06:57) FORM prmedit y -50.0000 
-\i (00:07:00) FORM prmedit x -50.0000 
-\i (00:07:00) FORM prmedit done  
-\i (00:07:00) setwindow pcb
-\i (00:07:00) trapsize 1189
-\i (00:07:00) trapsize 1221
-\i (00:07:00) trapsize 1189
-\i (00:07:01) generaledit 
-\i (00:07:01) setwindow form.logo_import
-\i (00:07:01) FORM logo_import import  
-\i (00:07:02) setwindow pcb
-\i (00:07:02) zoom out 1 
-\i (00:07:02) setwindow pcb
-\i (00:07:02) zoom out 4.4086 -2.5339
-\i (00:07:02) trapsize 2378
-\i (00:07:04) zoom out 1 
-\i (00:07:04) setwindow pcb
-\i (00:07:04) zoom out 1.8408 -2.6765
-\i (00:07:04) trapsize 4755
-\i (00:07:04) zoom out 1 
-\i (00:07:04) setwindow pcb
-\i (00:07:04) zoom out 0.4992 -2.6765
-\i (00:07:04) trapsize 7800
-\i (00:07:04) zoom in 1 
-\i (00:07:04) setwindow pcb
-\i (00:07:04) zoom in 5.6942 -1.7941
-\i (00:07:04) trapsize 3900
-\i (00:07:06) roam start
-\i (00:07:06) roam y -16
-\i (00:07:06) roam y -16
-\i (00:07:06) roam y -16
-\i (00:07:06) roam y -16
-\i (00:07:06) roam y -16
-\i (00:07:07) roam y -16
-\i (00:07:07) roam y -16
-\i (00:07:08) roam end
-\i (00:07:12) setwindow form.logo_import
-\i (00:07:12) FORM logo_import ok  
-\i (00:07:14) setwindow pcb
-\i (00:07:14) roam start
-\i (00:07:14) roam y -32
-\i (00:07:14) roam y -128
-\i (00:07:14) roam y -16
-\i (00:07:14) roam y -16
-\i (00:07:14) roam y -16
-\i (00:07:14) roam y 16
-\i (00:07:15) roam y 16
-\i (00:07:15) roam y 16
-\i (00:07:15) roam y 16
-\i (00:07:15) roam y 16
-\i (00:07:15) roam y 16
-\i (00:07:16) roam y 16
-\i (00:07:16) roam y 16
-\i (00:07:16) roam y 16
-\i (00:07:16) roam end
-\i (00:07:17) zoom in 1 
-\i (00:07:17) setwindow pcb
-\i (00:07:17) zoom in 18.0187 9.5944
-\i (00:07:17) trapsize 1950
-\i (00:07:17) zoom in 1 
-\i (00:07:17) setwindow pcb
-\i (00:07:17) zoom in 18.0188 9.5944
-\i (00:07:17) trapsize 975
-\i (00:07:18) zoom out 1 
-\i (00:07:18) setwindow pcb
-\i (00:07:18) zoom out 15.0936 13.0850
-\i (00:07:18) trapsize 1950
-\i (00:07:18) zoom out 1 
-\i (00:07:18) setwindow pcb
-\i (00:07:18) zoom out 15.0937 13.0851
-\i (00:07:18) trapsize 3900
-\i (00:07:19) roam start
-\i (00:07:19) roam y -32
-\i (00:07:19) roam y -16
-\i (00:07:19) roam y -16
-\i (00:07:19) roam y -16
-\i (00:07:19) roam y -16
-\i (00:07:22) roam end
-\i (00:07:31) compose shape 
-\t (00:07:31) Loading apt.cxt 
-\t (00:07:31) Loading apt_utils.cxt 
-\i (00:07:36) setwindow form.mini
-\i (00:07:36) FORM mini class 'BOARD GEOMETRY' 
-\i (00:07:38) FORM mini subclass SILKSCREEN_TOP 
-\i (00:07:39) setwindow pcb
-\i (00:07:39) drag_start 36.3495 -10.7644
-\i (00:07:40) drag_stop -22.6209 31.9813
-\e (00:07:41) ERROR(SPMHA1-273): Shape intersects with itself.
-\e (00:07:41) ERROR(SPMHA1-273): Shape intersects with itself.
-\e (00:07:41) ERROR(SPMHA1-273): Shape intersects with itself.
-\e (00:07:41) ERROR(SPMHA1-273): Shape intersects with itself.
-\e (00:07:41) ERROR(SPMHA1-273): Shape intersects with itself.
-\e (00:07:41) ERROR(SPMHA1-273): Shape intersects with itself.
-\e (00:07:41) ERROR(SPMHA1-273): Shape intersects with itself.
-\e (00:07:41) ERROR(SPMHA1-273): Shape intersects with itself.
-\e (00:07:41) ERROR(SPMHA1-273): Shape intersects with itself.
-\e (00:07:41) ERROR(SPMHA1-273): Shape intersects with itself.
-\e (00:07:41) ERROR(SPMHA1-273): Shape intersects with itself.
-\e (00:07:41) ERROR(SPMHA1-273): Shape intersects with itself.
-\e (00:07:41) ERROR(SPMHA1-273): Shape intersects with itself.
-\e (00:07:41) ERROR(SPMHA1-273): Shape intersects with itself.
-\e (00:07:41) ERROR(SPMHA1-273): Shape intersects with itself.
-\e (00:07:41) ERROR(SPMHA1-273): Shape intersects with itself.
-\e (00:07:41) ERROR(SPMHA1-273): Shape intersects with itself.
-\e (00:07:41) ERROR(SPMHA1-273): Shape intersects with itself.
-\e (00:07:41) ERROR(SPMHA1-273): Shape intersects with itself.
-\e (00:07:41) ERROR(SPMHA1-273): Shape intersects with itself.
-\e (00:07:41) ERROR(SPMHA1-273): Shape intersects with itself.
-\e (00:07:41) ERROR(SPMHA1-273): Shape intersects with itself.
-\e (00:07:41) ERROR(SPMHA1-273): Shape intersects with itself.
-\e (00:07:41) ERROR(SPMHA1-273): Shape intersects with itself.
-\i (00:08:38) exit 
-\e (00:08:38) Do you want to save the changes you made to QR8.dra?
-\i (00:08:39) fillin no 
-\t (00:08:39) Lic Summary:
-[18:03:25.461712] Cdslmd servers:
-[18:03:25.986000] Feature usage summary:
-
-\t (00:08:39)     Journal end - Mon Dec 29 18:03:25 2025
+\t (00:00:23)     Journal end - Wed Mar 18 10:16:47 2026
