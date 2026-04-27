@@ -1,0 +1,23 @@
+(---------------------------------------------------------------------)
+(                                                                     )
+(    CREATE SYMBOL                                                    )
+(                                                                     )
+(    Drawing          : PM127-2-05-S-4_3.dra                          )
+(    Software Version : 24.1P001                                      )
+(    Date/Time        : Mon Apr 13 18:25:45 2026                      )
+(                                                                     )
+(---------------------------------------------------------------------)
+
+
+Create Symbol of type: PACKAGE
+    Directory = C:/myFile/AllegroLibrary/A_Library
+    Name      = pm127-2-05-s-4_3.psm
+    User      = pxuhu
+    Machine   = X
+
+
+Create symbol started.
+ 
+
+Create symbol completed.
+

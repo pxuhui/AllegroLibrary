@@ -2,9 +2,9 @@
 (                                                                     )
 (    DRC Update                                                       )
 (                                                                     )
-(    Drawing          : TYPE-C-24P-QCHT.dra                           )
+(    Drawing          : I7A4W060A033V-0C0-R.dra                       )
 (    Software Version : 24.1P001                                      )
-(    Date/Time        : Fri Jan 23 17:15:31 2026                      )
+(    Date/Time        : Tue Apr 21 16:44:41 2026                      )
 (                                                                     )
 (---------------------------------------------------------------------)
 
@@ -20,7 +20,7 @@
  ========= check standalone text              0:00:00
  ========= check standalone rectangles        0:00:00
 
- ..... Total number of DRC errors  4
+ ..... Total number of DRC errors  0
 
  ..... DRC update completed, total CPU time   0:00:00
  *************************************************************************

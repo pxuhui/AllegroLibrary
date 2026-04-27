@@ -1,0 +1,23 @@
+(---------------------------------------------------------------------)
+(                                                                     )
+(    CREATE SYMBOL                                                    )
+(                                                                     )
+(    Drawing          : CAP-TA-C125x420-P50-D6-1.dra                  )
+(    Software Version : 24.1P001                                      )
+(    Date/Time        : Wed Apr  8 14:48:18 2026                      )
+(                                                                     )
+(---------------------------------------------------------------------)
+
+
+Create Symbol of type: PACKAGE
+    Directory = C:/myFile/AllegroLibrary/A_Library
+    Name      = cap-ta-c125x420-p50-d6-1.psm
+    User      = pxuhu
+    Machine   = X
+
+
+Create symbol started.
+ 
+
+Create symbol completed.
+

@@ -28,26 +28,12 @@
     (FileView
       (Path "Design Resources")
       (Path "Design Resources" ".\myolb.olb")
-      (Select "Design Resources" ".\myolb.olb" "CHAF202S540c-NCL1"))
+      (Select "Design Resources" ".\myolb.olb" "ZAQ701S48P-NCLC"))
     (HierarchyView)
     (Doc
       (Type "COrCapturePMDoc")
       (Frame
-        (Placement "44 0 1 -1 -1 -1 -1 0 1472 0 692"))
-      (Tab 0))
-    (Doc
-      (Type "COrPrmBrowserDoc")
-      (Frame
-        (Placement "44 0 1 -1 -1 -1 -1 5 1396 28 650"))
-      (Path "C:\MYFILE\ALLEGROLIBRARY\OLB\MYOLB.OLB")
-      (Package "EPF800R48S070NPDI")
-      (PartType "1"))
-    (Doc
-      (Type "COrPrmBrowserDoc")
-      (Frame
-        (Placement "44 0 1 -1 -1 -1 -1 5 1396 28 650"))
-      (Path "C:\MYFILE\ALLEGROLIBRARY\OLB\MYOLB.OLB")
-      (Package "CHAF202S540Q-CLB")
-      (PartType "1")))
+        (Placement "44 0 1 -1 -1 -1 -1 0 1407 0 618"))
+      (Tab 0)))
   (MPSSessionName "pxuhu")
   (ISPCBBASICLICENSE "false"))

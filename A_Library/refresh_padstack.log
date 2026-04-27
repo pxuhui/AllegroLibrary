@@ -2,19 +2,19 @@
 (                                                                     )
 (    Refresh Padstack                                                 )
 (                                                                     )
-(    Drawing          : DO-214AC.dra                                  )
+(    Drawing          : I7A4W060A033V-0C0-R.dra                       )
 (    Software Version : 24.1P001                                      )
-(    Date/Time        : Tue Mar 24 14:15:14 2026                      )
+(    Date/Time        : Tue Apr 21 16:55:04 2026                      )
 (                                                                     )
 (---------------------------------------------------------------------)
 
 
-Tue Mar 24 14:15:14 2026				Page     1
+Tue Apr 21 16:55:04 2026				Page     1
 
 
 ------ Pad Stack Refresh Options ------
 
-Input design  = 'C:/myFile/AllegroLibrary/A_Library/DO-214AC.dra'
+Input design  = 'C:/myFile/AllegroLibrary/A_Library/I7A4W060A033V-0C0-R.dra'
 Output design = ''
 Reset symbol text and size locations   = 'NO'
 
@@ -27,10 +27,20 @@ PADPATH =  C:/myFile/AllegroLibrary/A_Library
 
 ------ Pad Stack Refresh Messages ------
 
-'REW2_17H1_60'  pad stack refresh starting.
+'PC3_00D2_00'  pad stack refresh starting.
 
-     'REW2_17H1_60'  pad stack refreshed successfully.
+     'PC3_00D2_00'  pad stack refreshed successfully.
      
-WARNING(SPMHNI-253): Unable to find pad stack, 'RX2_17Y1_60T', in directory search path.
+'PC2_30D1_50'  pad stack refresh starting.
 
+     'PC2_30D1_50'  pad stack refreshed successfully.
+     
+'REW0_56H0_70'  pad stack refresh starting.
+
+     WARNING(SPMHGE-126): Cannot load padstack: 'REW0_56H0_70'.
+     
+'REW0_60H1_70'  pad stack refresh starting.
+
+     'REW0_60H1_70'  pad stack refreshed successfully.
+     
 WARNING(SPMHNI-286): Completed refreshing all pad stacks successfully. Warnings detected.

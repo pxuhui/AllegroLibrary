@@ -1,0 +1,23 @@
+(---------------------------------------------------------------------)
+(                                                                     )
+(    CREATE SYMBOL                                                    )
+(                                                                     )
+(    Drawing          : SHB-3PWT.dra                                  )
+(    Software Version : 24.1P001                                      )
+(    Date/Time        : Fri Apr 17 18:50:21 2026                      )
+(                                                                     )
+(---------------------------------------------------------------------)
+
+
+Create Symbol of type: PACKAGE
+    Directory = C:/myFile/AllegroLibrary/A_Library
+    Name      = shb-3pwt.psm
+    User      = pxuhu
+    Machine   = X
+
+
+Create symbol started.
+ 
+
+Create symbol completed.
+
