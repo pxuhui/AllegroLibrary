@@ -1,0 +1,71 @@
+\t (00:00:00) padstack_editor 24.1 P001 (4234998) [9/4/2024] Windows SPB 64-bit Edition
+\t (00:00:00)     Journal start - Fri Jul 31 12:12:57 2026
+\t (00:00:00)         Host=X User=pxuhu Pid=14612 CPUs=12
+\t (00:00:00) CmdLine= c:\cadence\spb_24.1\tools\bin\padstack_editor.exe C:\myFile\AllegroLibrary\A_Library\pc4_50d3_20.pad
+\t (00:00:00) 
+\d (00:00:02) QtSignal GuidedTabsParent GuidedTabs currentChanged Drill
+\d (00:00:06) QtSignal GuidedTabsParent GuidedTabs currentChanged "Secondary Drill"
+\d (00:00:07) QtSignal GuidedTabsParent GuidedTabs currentChanged "Drill Symbol"
+\d (00:00:08) QtSignal GuidedTabsParent GuidedTabs currentChanged "Drill Offset"
+\d (00:00:09) QtSignal GuidedTabsParent GuidedTabs currentChanged "Design Layers"
+\d (00:00:10) QtSignal GuidedDesignLayersTab LayersTable itemSelectionChanged 0 "Regular Pad"
+\d (00:00:10) QtSignal GuidedDesignLayersTab LayersTable cellClicked 0 "Regular Pad" 0 2
+\d (00:00:12) QtSignal GuidedDesignLayersTab PadDiameter editingFinished "4.5000"
+\d (00:00:13) QtSignal GuidedTabsParent GuidedDesignLayersTab keyPressEvent 16777221 536870912 false +
+\d (00:00:13) QtSignal 1 ""
+\d (00:00:13) QtSignal GuidedDesignLayersTab LayersTable itemSelectionChanged
+\d (00:00:14) QtSignal GuidedDesignLayersTab LayersTable itemSelectionChanged 0 "Regular Pad"
+\d (00:00:14) QtSignal GuidedDesignLayersTab LayersTable cellClicked 0 "Regular Pad" 0 2
+\d (00:00:14) QtSignal GuidedDesignLayersTab LayersTable customContextMenuRequest 0 "Regular Pad"
+\d (00:00:15) QtFillin "Insert Layer Below"
+\d (00:00:15) QtSignal GuidedDesignLayersTab LayersTable itemSelectionChanged 1 "Regular Pad"
+\d (00:00:15) QtSignal GuidedDesignLayersTab LayersTable cellClicked 1 "Regular Pad" 1 2
+\d (00:00:16) QtSignal GuidedDesignLayersTab LayersTable itemSelectionChanged
+\d (00:00:17) QtSignal GuidedTabsParent GuidedDesignLayersTab keyPressEvent 16777249 67108864 false +
+\d (00:00:17) QtSignal 1
+\d (00:00:17) QtSignal GuidedTabsParent GuidedDesignLayersTab keyPressEvent 90 67108864 false 1 +
+\d (00:00:17) QtSignal ""
+\d (00:00:20) QtSignal GuidedDesignLayersTab LayersTable itemSelectionChanged 2 "Regular Pad"
+\d (00:00:20) QtSignal GuidedDesignLayersTab LayersTable cellClicked 2 "Regular Pad" 2 2
+\d (00:00:20) QtSignal GuidedDesignLayersTab LayersTable customContextMenuRequest 2 "Regular Pad"
+\d (00:00:21) QtFillin ""
+\d (00:00:21) QtSignal GuidedDesignLayersTab LayersTable itemSelectionChanged 1 "Layer Name"
+\d (00:00:21) QtSignal GuidedDesignLayersTab LayersTable cellClicked 1 "Layer Name" 1 1
+\d (00:00:22) QtSignal GuidedDesignLayersTab LayersTable customContextMenuRequest 1 "Layer Name"
+\d (00:00:23) QtFillin "Delete Layer"
+\d (00:00:24) QtSignal GuidedDesignLayersTab LayersTable itemSelectionChanged 1 "Regular Pad"
+\d (00:00:24) QtSignal GuidedDesignLayersTab LayersTable cellClicked 1 "Regular Pad" 1 2
+\d (00:00:24) QtSignal GuidedDesignLayersTab LayersTable customContextMenuRequest 1 "Regular Pad"
+\d (00:00:26) QtFillin ""
+\d (00:00:26) QtSignal GuidedDesignLayersTab LayersTable itemSelectionChanged 0 "Regular Pad"
+\d (00:00:26) QtSignal GuidedDesignLayersTab LayersTable cellClicked 0 "Regular Pad" 0 2
+\d (00:00:26) QtSignal GuidedDesignLayersTab LayersTable customContextMenuRequest 0 "Regular Pad"
+\d (00:00:27) QtFillin Copy
+\d (00:00:27) QtSignal GuidedDesignLayersTab LayersTable itemSelectionChanged 1 "Regular Pad"
+\d (00:00:28) QtSignal GuidedDesignLayersTab LayersTable cellClicked 1 "Regular Pad" 1 2
+\d (00:00:28) QtSignal GuidedDesignLayersTab LayersTable customContextMenuRequest 1 "Regular Pad"
+\d (00:00:29) QtFillin Paste
+\d (00:00:29) QtSignal GuidedDesignLayersTab LayersTable itemSelectionChanged 2 "Regular Pad"
+\d (00:00:29) QtSignal GuidedDesignLayersTab LayersTable cellClicked 2 "Regular Pad" 2 2
+\d (00:00:29) QtSignal GuidedDesignLayersTab LayersTable customContextMenuRequest 2 "Regular Pad"
+\d (00:00:30) QtFillin Paste
+\d (00:00:30) QtSignal GuidedDesignLayersTab LayersTable itemSelectionChanged
+\d (00:00:32) QtSignal GuidedTabsParent GuidedTabs currentChanged "Mask Layers"
+\d (00:00:33) QtSignal GuidedMaskLayersTab LayersTable cellClicked 0 "Regular Pad" 0 1
+\d (00:00:36) QtSignal GuidedMaskLayersTab PadDiameter editingFinished "4.6000"
+\d (00:00:36) QtSignal GuidedTabsParent GuidedMaskLayersTab keyPressEvent 16777221 536870912 false +
+\d (00:00:36) QtSignal 1 ""
+\d (00:00:36) QtSignal GuidedMaskLayersTab LayersTable itemSelectionChanged
+\d (00:00:37) QtSignal GuidedMaskLayersTab LayersTable itemSelectionChanged 1 "Regular Pad"
+\d (00:00:37) QtSignal GuidedMaskLayersTab LayersTable cellClicked 1 "Regular Pad" 1 1
+\d (00:00:39) QtSignal GuidedMaskLayersTab PadDiameter editingFinished "4.6000"
+\d (00:00:39) QtSignal GuidedTabsParent GuidedMaskLayersTab keyPressEvent 16777221 536870912 false +
+\d (00:00:39) QtSignal 1 ""
+\d (00:00:39) QtSignal GuidedMaskLayersTab LayersTable itemSelectionChanged
+\d (00:00:40) QtSignal GuidedTabsParent GuidedTabs currentChanged Options
+\d (00:00:42) QtSignal GuidedTabsParent GuidedTabs currentChanged Summary
+\d (00:00:44) QtSignal MainWindow SaveAs triggered
+\d (00:00:46) QtFillin "pc4_50d3_20.pad"
+\d (00:00:47) QtFillin Yes
+\d (00:08:04) QtSignal MainWindow Exit triggered
+\t (00:08:04)     Journal end - Fri Jul 31 12:21:01 2026

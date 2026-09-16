@@ -18,13 +18,20 @@
       (Path "Design Resources")
       (Path "Design Resources" ".\power.olb")
       (Path "PSpice Resources")
-      (Select "Design Resources" ".\power.olb" "SPX3819M5-L-3-3/TR"))
+      (Select "Design Resources" ".\power.olb" "AMS1117-3.3"))
     (HierarchyView)
     (Doc
       (Type "COrCapturePMDoc")
       (Frame
         (Placement "44 2 3 -1 -1 0 0 0 200 0 421"))
-      (Tab 0)))
+      (Tab 0))
+    (Doc
+      (Type "COrPrmBrowserDoc")
+      (Frame
+        (Placement "44 0 1 -1 -1 -1 -1 5 1245 28 672"))
+      (Path "C:\MYFILE\ALLEGROLIBRARY\OLB\POWER.OLB")
+      (Package "AMS1117-3.3")
+      (PartType "1")))
   (MPSSessionName "pxuhu")
   (Folder "PSpice Resources"
     (Folder "Simulation Profiles")

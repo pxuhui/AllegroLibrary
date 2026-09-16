@@ -23,29 +23,8 @@
     (Doc
       (Type "COrCapturePMDoc")
       (Frame
-        (Placement "44 0 1 -1 -1 -1 -1 0 230 0 692"))
-      (Tab 0))
-    (Doc
-      (Type "COrPrmBrowserDoc")
-      (Frame
-        (Placement "44 0 1 -1 -1 -1 -1 5 1363 28 738"))
-      (Path "C:\MYFILE\ALLEGROLIBRARY\OLB\TRANSISTOR.OLB")
-      (Package "1N4148")
-      (PartType "1"))
-    (Doc
-      (Type "COrPrmBrowserDoc")
-      (Frame
-        (Placement "44 0 1 -1 -1 -8 -31 5 1363 28 738"))
-      (Path "C:\MYFILE\ALLEGROLIBRARY\OLB\TRANSISTOR.OLB")
-      (Package "DIODES")
-      (PartType "1"))
-    (Doc
-      (Type "COrPrmBrowserDoc")
-      (Frame
-        (Placement "44 0 1 -1 -1 -8 -31 5 1363 28 738"))
-      (Path "C:\MYFILE\ALLEGROLIBRARY\OLB\TRANSISTOR.OLB")
-      (Package "ZENER DIODES")
-      (PartType "1")))
+        (Placement "44 0 1 -1 -1 -1 -1 0 399 0 606"))
+      (Tab 0)))
   (Folder "PSpice Resources"
     (Folder "Simulation Profiles")
     (Folder "Model Libraries"
@@ -55,4 +34,5 @@
     (Folder "Include Files"
       (Sort User)))
   (Folder "Logs")
-  (MPSSessionName "pxuhu"))
+  (MPSSessionName "pxuhu")
+  (ISPCBBASICLICENSE "false"))

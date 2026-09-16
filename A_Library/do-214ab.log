@@ -1,0 +1,23 @@
+(---------------------------------------------------------------------)
+(                                                                     )
+(    CREATE SYMBOL                                                    )
+(                                                                     )
+(    Drawing          : DO-214AB.dra                                  )
+(    Software Version : 24.1P001                                      )
+(    Date/Time        : Mon Aug 31 17:45:49 2026                      )
+(                                                                     )
+(---------------------------------------------------------------------)
+
+
+Create Symbol of type: PACKAGE
+    Directory = C:/myFile/AllegroLibrary/A_Library
+    Name      = do-214ab.psm
+    User      = pxuhu
+    Machine   = X
+
+
+Create symbol started.
+ 
+
+Create symbol completed.
+

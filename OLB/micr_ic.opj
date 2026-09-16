@@ -17,7 +17,7 @@
     (FileView
       (Path "Design Resources")
       (Path "Design Resources" ".\micr_ic.olb")
-      (Select "Design Resources" ".\micr_ic.olb" "STM32F401RET6"))
+      (Select "Design Resources" ".\micr_ic.olb" "LMV321IDBVR"))
     (HierarchyView)
     (Doc
       (Type "COrCapturePMDoc")

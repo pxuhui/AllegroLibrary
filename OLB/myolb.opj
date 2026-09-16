@@ -27,12 +27,13 @@
   (GlobalState
     (FileView
       (Path "Design Resources")
-      (Path "Design Resources" ".\myolb.olb"))
+      (Path "Design Resources" ".\myolb.olb")
+      (Select "Design Resources" ".\myolb.olb" "TVS-U"))
     (HierarchyView)
     (Doc
       (Type "COrCapturePMDoc")
       (Frame
-        (Placement "44 0 1 -1 -1 -1 -1 0 1407 0 640"))
+        (Placement "44 0 1 -1 -1 -1 -1 0 1294 0 596"))
       (Tab 0)))
   (MPSSessionName "pxuhu")
   (ISPCBBASICLICENSE "false"))
